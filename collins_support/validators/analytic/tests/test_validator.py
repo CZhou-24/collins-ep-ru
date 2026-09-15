@@ -152,8 +152,8 @@ class ReportIntegrity(unittest.TestCase):
         p=u.read(u.ROOT/'reference_values.json');contract=u.read(u.ROOT/'contract.json')
         self.assertEqual(len(p['values']),contract['required_comparison_values'])
         for x in p['values'].values():a.decode(x)
-    def test_preserved_validator_manifest(self):
-        self.assertEqual(u.digest(u.RETAINED/'MANIFEST.json'),u.read(u.ROOT/'accepted_v040.json')['validator_manifest_sha256'])
+    def test_current_validator_manifest(self):
+        self.assertEqual(u.release_integrity(),u.digest(u.ROOT/'MANIFEST.json'))
     def test_source_allowlist(self):
         p=u.read(u.ROOT/'sidis_reuse.json');self.assertEqual(len(p['files']),20)
         self.assertEqual(len({f['source'] for f in p['files']}),20)

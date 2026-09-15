@@ -8,7 +8,6 @@ import algebra as a
 import ru_support as u
 import verify_ru as v
 import compare_ru_reports as comparator
-import upgrade as upgrade_tool
 from test_execution import probe_data
 
 FIXTURES=Path(__file__).parent/'fixtures/v050'
@@ -17,13 +16,15 @@ class BlockedComparator(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)
         self.repo=self.root/'repo';self.repo.mkdir();self.paths=[]
+        (self.repo/'run').mkdir();(self.repo/'replay').mkdir()
         for seed in (1729,92741):
-            p=self.root/('ru-'+str(seed)+'.json');shutil.copy2(FIXTURES/p.name,p);self.paths.append(p)
-        self.dest=self.root/'pair.json';self.before={str(p):u.digest(p) for p in self.paths}
+            p=self.root/('ru-'+str(seed)+'.json');u.write(p,{'schema':5,'profile':u.PROFILE,'qualifications':u.QUALIFICATIONS,'verification_scope':u.CHECK_SCOPE,'seed':seed,'run':str(self.repo/'run'),'replay':str(self.repo/'replay'),'status':'BLOCKED','checks':[]});self.paths.append(p)
+        self.dest=self.repo/'collins_support/reports/pair.json';self.before={str(p):u.digest(p) for p in self.paths}
     def tearDown(self):self.tmp.cleanup()
     def invoke(self):
         args=SimpleNamespace(repo=str(self.repo),report=str(self.dest),reports=[str(p) for p in self.paths])
-        with redirect_stdout(io.StringIO()):return comparator.compare(args)
+        with redirect_stdout(io.StringIO()):
+            return comparator.compare(args)
     def alter(self,index,**kwargs):
         r=u.read(self.paths[index]);r.update(kwargs);u.write(self.paths[index],r,replace=True)
     def test_actual_early_blocked_reports_write_pair(self):
@@ -39,6 +40,8 @@ class BlockedComparator(unittest.TestCase):
         self.alter(0,seed=None);self.assertEqual(self.invoke(),1)
     def test_duplicate_seed_rejected(self):
         self.alter(0,seed=92741);self.assertEqual(self.invoke(),1)
+    def test_historical_profile_rejected(self):
+        self.alter(0,profile='reverse_unitarity');self.assertEqual(self.invoke(),1)
     def test_bad_profile_rejected(self):
         self.alter(0,profile='other');self.assertEqual(self.invoke(),1)
     def test_changed_qualifications_rejected(self):
@@ -53,10 +56,6 @@ class BlockedComparator(unittest.TestCase):
         self.assertEqual(u.read(self.dest)['status'],'FAIL')
     def test_refuses_report_overwrite(self):
         self.invoke()
-        with self.assertRaises(ValueError):self.invoke()
-    def test_still_protects_retained_paths(self):
-        self.alter(0,retained={'identity':{'pair':str(self.root/'retained/pair.json')}})
-        self.dest=self.root/'retained/overwrite.json'
         with self.assertRaises(ValueError):self.invoke()
 
 class CompleteReductionResponse(unittest.TestCase):
@@ -117,64 +116,6 @@ class MutationBindings(unittest.TestCase):
                                     'certificate':str(base/rel/'reduction_certificate.wl'),'probe_certificate':str(probe/rel/'reduction_certificate.wl')}])
     def test_empty_jobs_rejected(self):
         with self.assertRaises(ValueError):v.kira_mutation_jobs(Path('/x'),Path('/y'),{'jobs':[]})
-
-class UpgradeFootprint(unittest.TestCase):
-    def setUp(self):
-        self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)
-        self.repo=self.root/'repo';self.prod=self.repo/u.ENGINE;self.prod.mkdir(parents=True)
-        (self.prod/'common').mkdir();shutil.copy2(u.ROOT/'native_io.wl',self.prod/'common/ru_io.wl')
-        (self.prod/'common/r07_assembly.wls').write_text('unfinished production remains byte-identical')
-        self.previous=self.root/'old-state';self.previous.mkdir();(self.previous/'failure.log').write_text('old failure')
-        self.pair=self.root/'accepted/pair.json';self.accepted={'pair':str(self.pair),'source_hash':'accepted'}
-        self.oldvalidator=self.root/'old-validator';self.oldvalidator.mkdir()
-        self.oldrel={'path':str(self.oldvalidator),'manifest_sha256':'oldrelease','files':167}
-        u.write(self.previous/'adoption.json',{'schema':5,'status':'INSTALLED_INTERFACE','repo':str(self.repo),'implementation':str(self.prod),'release':'oldrelease','accepted':self.accepted})
-        self.args=SimpleNamespace(repo=str(self.repo),state=str(self.root/'new-state'),previous_state=str(self.previous),previous_validator=str(self.oldvalidator),accepted_pair=None,dry_run=False)
-    def tearDown(self):self.tmp.cleanup()
-    def invoke(self):
-        with redirect_stdout(io.StringIO()),patch.object(upgrade_tool,'release_integrity',return_value='newrelease'),patch.object(upgrade_tool,'check_previous_release',return_value=self.oldrel),patch.object(upgrade_tool,'accepted_pair',return_value=self.accepted),patch.object(upgrade_tool,'preserve_old',return_value='accepted'),patch.object(upgrade_tool,'check_reuse',return_value={'used':12}),patch.object(upgrade_tool,'runtime',return_value={'fixture':True}),patch.object(upgrade_tool,'upstream_source_state',return_value={'unchanged':True}):
-            return upgrade_tool.upgrade(self.args)
-    def test_upgrade_only_writes_new_state(self):
-        before=u.snapshot(self.repo);old=u.snapshot(self.previous)
-        self.assertEqual(self.invoke(),0);self.assertEqual(before,u.snapshot(self.repo));self.assertEqual(old,u.snapshot(self.previous))
-        state=Path(self.args.state)
-        self.assertEqual(set(u.snapshot(state)),{'adoption.json','initial-engine-snapshot.json','previous-state-snapshot.json'})
-        self.assertEqual(u.read(state/'adoption.json')['status'],'UPGRADE_READY')
-    def test_upgrade_dry_run_writes_nothing(self):
-        self.args.dry_run=True;before=u.snapshot(self.root);self.invoke();self.assertEqual(before,u.snapshot(self.root))
-    def test_upgrade_refuses_existing_state(self):
-        self.invoke()
-        with self.assertRaises(ValueError):self.invoke()
-    def test_upgrade_cannot_overwrite_previous_state(self):
-        self.args.state=str(self.previous/'new')
-        with self.assertRaises(ValueError):self.invoke()
-    def test_upgrade_cannot_write_inside_repo(self):
-        self.args.state=str(self.repo/'state')
-        with self.assertRaises(ValueError):self.invoke()
-    def test_upgrade_wrong_adoption_release(self):
-        p=self.previous/'adoption.json';r=u.read(p);r['release']='changed';u.write(p,r,replace=True)
-        with self.assertRaises(ValueError):self.invoke()
-    def test_upgrade_changed_accepted_pair(self):
-        self.accepted['source_hash']='changed'
-        with self.assertRaises(ValueError):self.invoke()
-    def test_upgrade_never_replaces_helper(self):
-        (self.prod/'common/ru_io.wl').write_text('different helper')
-        with self.assertRaises(ValueError):self.invoke()
-
-class PreviousReleaseIntegrity(unittest.TestCase):
-    def test_checks_actual_old_bytes_and_extra_files(self):
-        with tempfile.TemporaryDirectory() as t:
-            root=Path(t);package=root/'new';previous=root/'old';(package/'history').mkdir(parents=True);previous.mkdir()
-            (previous/'driver.py').write_text('original')
-            m={'schema':1,'version':'0.5.0','files':{'driver.py':u.digest(previous/'driver.py')}}
-            u.write(previous/'MANIFEST.json',m);shutil.copy2(previous/'MANIFEST.json',package/'history/v0.5.0-MANIFEST.json')
-            u.write(package/'previous_v050.json',{'manifest_sha256':u.digest(previous/'MANIFEST.json')})
-            with patch.object(upgrade_tool,'ROOT',package):
-                self.assertEqual(upgrade_tool.check_previous_release(previous)['files'],1)
-                (previous/'extra').write_text('not allowed')
-                with self.assertRaises(ValueError):upgrade_tool.check_previous_release(previous)
-                (previous/'extra').unlink();(previous/'driver.py').write_text('changed')
-                with self.assertRaises(ValueError):upgrade_tool.check_previous_release(previous)
 
 class ArchivedNativeDiagnostic(unittest.TestCase):
     def test_archived_corrected_volume_matches_gamma_expansion(self):

@@ -202,11 +202,13 @@ def check_reuse(prod):
 
 def audit(run,repo):
     run=access(run);repo=access(repo);m=read(run/'run.json')
-    if m.get('schema')!=5 or m.get('profile')!='reverse_unitarity' or m.get('status')!='STAGES_PASS' or m.get('fresh') is not True:raise Blocked('complete fresh RU workflow required')
-    if m['repo']!=str(repo) or not same_release(ROOT,m['release']) or not same_snapshot(repo/ENGINE,m['sources'],snapshot(repo/ENGINE)):raise ValueError('run source/release mismatch')
-    if m['runtime']!=runtime(repo) or m['accepted_source_hash']!=preserve_old(repo) or m['sidis_sources']!=upstream_source_state(repo):raise ValueError('runtime/old engine/SIDIS sources changed')
+    if m.get('schema')!=5 or m.get('profile')!=PROFILE or m.get('status')!='STAGES_PASS' or m.get('fresh') is not True:raise Blocked('complete fresh RU workflow required')
+    if m['repo']!=str(repo) or not same_release(ROOT,m['release']) or m['sources']!=snapshot(repo/ENGINE):raise ValueError('run source/release mismatch')
+    if m['runtime']!=runtime(repo) or m['sidis_sources']!=upstream_source_state(repo):raise ValueError('runtime/SIDIS sources changed')
     if m['reuse']!=check_reuse(repo/ENGINE):raise ValueError('reuse provenance changed')
-    return m,scientific_audit(run,repo)
+    data=scientific_audit(run,repo)
+    if rows_status(data['rows'])!='CHECKS_PASS':raise ValueError('current scientific comparisons failed')
+    return m,data
 
 def run_stages(repo,run,rt,start=0,validation_probe=False,stop=None):
     sources=snapshot(Path(repo)/ENGINE)
@@ -218,12 +220,12 @@ def run_stages(repo,run,rt,start=0,validation_probe=False,stop=None):
 
 def run(a):
     release=release_integrity();repo=Path(a.repo).resolve();prod=repo/ENGINE
-    accepted=preserve_old(repo);rt=runtime(repo);reuse=check_reuse(prod)
+    rt=runtime(repo);reuse=check_reuse(prod)
     stop=[s['id'] for s in stages()].index(a.through)+1
     for st in stages()[:stop]:contained(prod,st['script'])
-    state=output_path(a.state,repo,protected=[ROOT,prod,repo/OLD_ENGINE],area='states');rid=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'-'+uuid.uuid4().hex[:12]
+    state=output_path(a.state,repo,protected=[ROOT,prod],area='states');rid=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'-'+uuid.uuid4().hex[:12]
     dest=state/'runs'/rid;dest.mkdir(parents=True,exist_ok=False)
-    m={'schema':5,'profile':'reverse_unitarity','fresh':True,'through':a.through,'status':'RUNNING','run_id':rid,'repo':str(repo),'release':release,'accepted_source_hash':accepted,'sources':snapshot(prod),'sidis_sources':upstream_source_state(repo),'runtime':rt,'reuse':reuse,'qualifications':QUALIFICATIONS}
+    m={'schema':5,'profile':PROFILE,'fresh':True,'through':a.through,'status':'RUNNING','run_id':rid,'repo':str(repo),'release':release,'verification_scope':CHECK_SCOPE,'sources':snapshot(prod),'sidis_sources':upstream_source_state(repo),'runtime':rt,'reuse':reuse,'qualifications':QUALIFICATIONS}
     write(dest/'run.json',m);print(json.dumps({'run':str(dest)}),flush=True)
     try:
         run_stages(repo,dest,rt,stop=stop);m['status']='STAGES_PASS' if a.through=='r07' else 'DEVELOPMENT_PASS';write(dest/'run.json',m,replace=True)
@@ -232,7 +234,7 @@ def run(a):
     try:
         if m['sources']!=snapshot(prod) or m['runtime']!=runtime(repo):raise ValueError('inputs changed')
         if m['sidis_sources']!=upstream_source_state(repo):raise ValueError('original SIDIS sources changed')
-        preserve_old(repo);release_integrity()
+        release_integrity()
     except Exception as exc:m.update(status='FAIL',preservation_error=str(exc))
     write(dest/'run.json',m,replace=True);print(json.dumps({'status':m['status'],'run':str(dest),'detail':m.get('detail')}))
     return 0 if m['status'] in ('STAGES_PASS','DEVELOPMENT_PASS') else 2 if m['status']=='BLOCKED' else 1
@@ -240,14 +242,14 @@ def run(a):
 def main():
     p=argparse.ArgumentParser(description=__doc__);sub=p.add_subparsers(dest='command',required=True)
     for name in ('doctor','run','status'):
-        q=sub.add_parser(name);q.add_argument('--repo',default='/bigTMD')
+        q=sub.add_parser(name);q.add_argument('--repo',default=str(PROJECT))
         if name=='run':
             q.add_argument('--state',default='collins_support/states/runs');q.add_argument('--through',choices=[s['id'] for s in stages()],default='r07')
         if name=='status':q.add_argument('--run',required=True)
     a=p.parse_args()
     try:
         if a.command=='run':return run(a)
-        release_integrity();preserve_old(a.repo)
+        release_integrity()
         if a.command=='status':m,d=audit(a.run,a.repo);print(json.dumps({'status':m['status'],'reference_status':rows_status(d['rows']),'qualifications':QUALIFICATIONS}));return 0
         prod=Path(a.repo)/ENGINE;missing=[s['script'] for s in stages() if not (prod/s['script']).is_file()]
         configured=(prod/'ru_runtime.json').is_file()

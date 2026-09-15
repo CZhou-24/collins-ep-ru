@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Two fresh routes, native replay, master/reduction probes and retained replay."""
+"""Two fresh routes, native replay, master/reduction probes."""
 import argparse,json,shutil,sys
 from pathlib import Path
 import workflow
@@ -11,18 +11,11 @@ def pair_inputs(repo,run,replay):
     if run==replay:raise ValueError('two distinct fresh runs required')
     ma,da=workflow.audit(run,repo);mb,db=workflow.audit(replay,repo)
     if ma['run_id']==mb['run_id']:raise ValueError('reused run ID')
-    for key in ('sources','sidis_sources','runtime','release','accepted_source_hash','reuse','qualifications'):
+    for key in ('sources','sidis_sources','runtime','release','reuse','qualifications'):
         if ma[key]!=mb[key]:raise ValueError('fresh run inputs differ: '+key)
     if da['packets']!=db['packets']:raise ValueError('native packets differ between fresh runs')
     if set(da['masters'])!=set(db['masters']) or any(not equal(x,db['masters'][k]) for k,x in da['masters'].items()):raise ValueError('evaluated masters differ between fresh runs')
     return ma,da
-
-def retained_replay(repo,pair,work):
-    gate=accepted_pair(repo,pair);work.mkdir(parents=True,exist_ok=False)
-    report=work/'pair.json'
-    ex=execute([sys.executable,RETAINED/'compare_nlo_reports.py','--repo',repo,'--report',report,*[str(access(r['path'])) for r in gate['reports']]],repo,work/'execution.log',86400)
-    if ex['exit_code']!=0 or read(report).get('status')!='CHECKS_PASS':raise Blocked('retained v0.4.0/v0.3.3 evidence replay failed; see '+str(work))
-    return {'identity':gate,'execution':ex,'report_sha256':digest(report)}
 
 def recipes_equal(a,b,scaled=(),factor=None):
     if set(a)!=set(b):raise ValueError('probe changed recipe inventory')
@@ -204,14 +197,13 @@ def replay_rows(repo,run,replay,work,seed):
 
 def verify(a):
     repo=access(a.repo);run=access(a.run);replay=access(a.replay)
-    dest=disjoint(a.report,[repo,ROOT,run,replay,access(a.accepted_pair).parent]);work=dest.with_name(dest.stem+'-evidence')
+    dest=output_path(a.report,repo,protected=[repo,ROOT,run,replay],area='reports');work=dest.with_name(dest.stem+'-evidence')
     if dest.exists() or work.exists():raise ValueError('choose unused report path')
-    work.mkdir(parents=True);result={'schema':5,'profile':'reverse_unitarity','seed':a.seed,'run':str(run),'replay':str(replay),'qualifications':QUALIFICATIONS,'status':'BLOCKED','checks':[]}
+    work.mkdir(parents=True);result={'schema':5,'profile':PROFILE,'seed':a.seed,'run':str(run),'replay':str(replay),'qualifications':QUALIFICATIONS,'verification_scope':CHECK_SCOPE,'status':'BLOCKED','checks':[]}
     try:
         if a.seed not in (1729,92741):raise ValueError('official seeds: 1729 and 92741')
         ma,data=pair_inputs(repo,run,replay)
         result.update(release=release_integrity(),sources=ma['sources'],runtime=ma['runtime'],run_sha256=digest(run/'run.json'),replay_sha256=digest(replay/'run.json'))
-        result['retained']=retained_replay(repo,a.accepted_pair,work/'retained')
         for st in workflow.stages():
             p=work/'native-replay'/st['id'];p.mkdir(parents=True)
             ex=workflow.export_native(run/'common'/(st['id']+'_result')/'packet.wl',p/'packet.json','packet',ma['runtime'],p/'job');write(p/'receipt.json',ex)
@@ -230,7 +222,7 @@ def verify(a):
     return 0 if result['status']=='CHECKS_PASS' else 2 if result['status']=='BLOCKED' else 1
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repo',default='/bigTMD');p.add_argument('--run',required=True);p.add_argument('--replay',required=True);p.add_argument('--seed',type=int,required=True);p.add_argument('--report',required=True);p.add_argument('--accepted-pair',default='collins_support/states/Collins-ep-analytic-state-v0.4.0/literature-revalidation-001/nlo-pair.json')
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repo',default=str(PROJECT));p.add_argument('--run',required=True);p.add_argument('--replay',required=True);p.add_argument('--seed',type=int,required=True);p.add_argument('--report',required=True)
     try:return verify(p.parse_args())
     except Exception as exc:r,c=error_result(exc);print(json.dumps(r));return c
 if __name__=='__main__':raise SystemExit(main())

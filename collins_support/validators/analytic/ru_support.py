@@ -4,12 +4,12 @@ from pathlib import Path
 
 SUPPORT = next(p for p in Path(__file__).resolve().parents if p.name == 'collins_support')
 sys.path.insert(0, str(SUPPORT))
-from paths import access, same_path, historical_path, same_snapshot, same_release, check_file, execution_context, historical_runtime_equal, output_path, verify_release_edits
+from paths import PROJECT, access, same_path, output_path
 
 ROOT = Path(__file__).resolve().parent
-RETAINED = ROOT / 'retained/v0.4.0'
 ENGINE = 'collins_ep_analytic_SIDIS'
-OLD_ENGINE = 'collins_ep_analytic'
+PROFILE = 'reverse_unitarity_current'
+CHECK_SCOPE = 'current engine, 167 reference scalars and native dependency probes; historical acceptance is not replayed'
 QUALIFICATIONS = {
     'scientific_source_review': 'REQUIRED',
     'independence': 'integration route; shared source components must be disclosed',
@@ -81,23 +81,22 @@ def snapshot(root):
     return out
 
 def release_integrity():
+    """Check the current executable package, independent of retired releases."""
     m = read(ROOT/'MANIFEST.json')
     actual = {p.relative_to(ROOT).as_posix():digest(p) for p in ROOT.rglob('*')
-              if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc' and p != ROOT/'MANIFEST.json'}
-    if actual != m['files']: raise ValueError('v0.5.1 release changed')
-    verify_release_edits(ROOT, actual)
-    pin = read(ROOT/'accepted_v040.json')
-    if not same_release(RETAINED, pin['validator_manifest_sha256']): raise ValueError('retained validator changed')
+              if p.is_file() and '__pycache__' not in p.parts
+              and (p.suffix in ('.py','.wl','.wls','.json') or p.name == 'requirements.txt')
+              and p != ROOT/'MANIFEST.json'}
+    if m.get('profile') != PROFILE or actual != m['files']:
+        raise ValueError('current validator contents changed')
+    if m.get('support_files') != {'paths.py':digest(SUPPORT/'paths.py')}:
+        raise ValueError('current path support changed')
     return digest(ROOT/'MANIFEST.json')
 
-def preserve_old(repo):
-    prod = Path(repo).resolve()/OLD_ENGINE
-    expected = read(ROOT/'accepted_v040.json')['sources']
-    for name, item in expected.items():
-        p = contained(prod, name, links=item['kind']=='symlink')
-        if item['kind']=='file' and not check_file(p,item['sha256']): raise ValueError('accepted source changed: ' + name)
-        if item['kind']=='symlink' and (not p.is_symlink() or os.readlink(p)!=item['target']): raise ValueError('accepted symlink changed')
-    return identity(expected)
+def same_release(root, recorded):
+    if access(root).resolve() != ROOT:
+        raise ValueError('only the current validator is supported')
+    return recorded == release_integrity()
 
 def upstream_source_state(repo):
     """Preserve the approved files in the existing SIDIS tree, if present."""
@@ -118,25 +117,6 @@ def rows_status(rows):
     st = {r.get('status') for r in rows}
     if st-{'PASS','FAIL','BLOCKED'} or 'FAIL' in st: return 'FAIL'
     return 'BLOCKED' if 'BLOCKED' in st else 'CHECKS_PASS'
-
-def accepted_pair(repo, path):
-    """Identity gate only; official arithmetic replay is a separate command."""
-    path = access(path); p = read(path); pin = read(ROOT/'accepted_v040.json')
-    if p.get('schema')!=4 or p.get('profile')!='leading_power_nlo_extension' or p.get('status')!='CHECKS_PASS' or p.get('seeds')!=[1729,92741] or p.get('release_sha256')!=pin['validator_manifest_sha256'] or p.get('qualifications')!=pin['qualifications']:
-        raise Blocked('accepted v0.4.0 two-seed pair required')
-    entries = p.get('reports',[])
-    if len(entries)!=2: raise ValueError('incomplete accepted pair')
-    reports=[]; seeds=set()
-    for entry in entries:
-        f = access(entry['path'])
-        if not f.is_relative_to(path.parent) or digest(f)!=entry['sha256']: raise ValueError('accepted report path/hash mismatch')
-        r = read(f); seeds.add(r.get('seed'))
-        if r.get('schema')!=4 or r.get('profile')!='leading_power_nlo_extension' or r.get('status')!='CHECKS_PASS' or rows_status(r.get('checks'))!='CHECKS_PASS' or len(r.get('checks',[]))!=pin['check_count'] or r.get('sources')!=pin['sources'] or r.get('release_sha256')!=pin['validator_manifest_sha256']:
-            raise ValueError('wrong accepted report identity/scope')
-        if r.get('qualifications')!=pin['qualifications']: raise ValueError('changed accepted scientific qualifications')
-        reports.append({'path':entry['path'],'sha256':digest(f)})
-    if seeds!={1729,92741}: raise ValueError('wrong accepted seeds')
-    return {'pair':historical_path(path),'pair_sha256':digest(path),'reports':reports,'source_hash':preserve_old(repo)}
 
 def execute(command, cwd, log, timeout, env=None):
     """No shell; receipts are written by the validator, never by a job."""
@@ -165,6 +145,9 @@ def runtime(repo):
     if set(r)!={'schema','wolfram_kernel','kira','fermat','subtropica_root','feyncalc_root','feynarts_root','polymake','timeout_seconds'} or r['schema']!=1:
         raise ValueError('ru_runtime.json has wrong keys/schema')
     if type(r['timeout_seconds']) is not int or not 1<=r['timeout_seconds']<=86400: raise ValueError('invalid timeout')
+    r=dict(r)
+    for name in ('wolfram_kernel','kira','fermat','polymake','subtropica_root','feyncalc_root','feynarts_root'):
+        r[name]=str(access(r[name]).resolve())
     identities={}
     for name in ('wolfram_kernel','kira','fermat','polymake'):
         f=access(r[name]).resolve()

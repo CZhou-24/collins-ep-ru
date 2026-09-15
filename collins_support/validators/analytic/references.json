@@ -28,6 +28,42 @@
       "arxiv": "1707.00913v2",
       "url": "https://arxiv.org/abs/1707.00913v2",
       "role": "Hadron-in-jet Collins conventions; pp hard scattering must not be used as an ep reference"
+    },
+    {
+      "arxiv": "1012.3419",
+      "title": "QCD evolution of naive-time-reversal-odd fragmentation functions",
+      "url": "https://arxiv.org/abs/1012.3419",
+      "source_url": "https://arxiv.org/src/1012.3419",
+      "retrieved_utc": "2026-09-13",
+      "requested_version": "unversioned; resolved source bytes pinned by hashes",
+      "archive_sha256": "87afcac367add1fbc015c27b9ca210eec790f23ec9ff36a56085773ab64cb50d",
+      "source_filename": "evlff1214.tex",
+      "source_sha256": "74a4ca0a977f094c53faeb733739574e143fc053ed34da691f599a5fd9133494",
+      "role": "Operator definitions, EOM, and Hhat evolution including HF; literal kernel alternative"
+    },
+    {
+      "arxiv": "0903.4680",
+      "title": "Collins fragmentation and the single transverse spin asymmetry",
+      "url": "https://arxiv.org/abs/0903.4680",
+      "source_url": "https://arxiv.org/src/0903.4680",
+      "retrieved_utc": "2026-09-13",
+      "requested_version": "unversioned; resolved source bytes pinned by hashes",
+      "archive_sha256": "94bda8496548b374d931c3d5ea4a2a3e61de6d8725f41280c3e0cea588c318cb",
+      "source_filename": "twist3a.tex",
+      "source_sha256": "272e33d2d8a9a264d926f0ff31d574b780f0c325aa0972971f718faed9940cf6",
+      "role": "Independent transverse-momentum tail and two-fraction fragmentation contribution; literal alternative"
+    },
+    {
+      "arxiv": "1705.08443",
+      "title": "The transverse momentum distribution of hadrons within jets",
+      "url": "https://arxiv.org/abs/1705.08443",
+      "source_url": "https://arxiv.org/src/1705.08443",
+      "retrieved_utc": "2026-09-13",
+      "requested_version": "unversioned; resolved source bytes pinned by hashes",
+      "archive_sha256": "b78f21b91f54b96f8177df427e505386a1075fb3f28df5adc959b560e1cc22be",
+      "source_filename": "jet-TMD.tex",
+      "source_sha256": "d7a1de84f0197cc461b32c717844744dbb86b0d0d600babd1c5d10f99a9f7919",
+      "role": "Unpolarized fragmenting-jet operator matching; inclusive-pp coefficients require a derived ep measurement map"
     }
   ],
   "literal_snippets": {
@@ -92,5 +128,8 @@
       "source_line_1based": 2563
     }
   },
-  "policy": "Literal reference text is preserved. Corrections/conversions are separate derived rows, never edits to the reference. A mismatch between papers is not automatically a production defect."
+  "policy": "Literal reference text is preserved. Corrections/conversions are separate derived rows, never edits to the reference. A mismatch between papers is not automatically a production defect.",
+  "literal_kernel_discrepancy": "The 2011 printed CA numerator contains z_h^2*(z^2+z1^2), whereas minus the 2009 AF density contains z_h*(z^2+z1^2) after aligning denominators. Preserve this discrepancy; overall signs, moments and operator conversions still require native derivation and review.",
+  "jet_application_caution": "1705.08443 treats semi-inclusive pp jets and has an independent jet-energy fraction; do not transplant its out-of-jet H into the small-qT ep formula. Prove the required reduction/overlap subtraction.",
+  "log_accuracy_caution": "NLL-prime terminology is not uniform: KPSY uses it for approximate NLL with homogeneous evolution. Track retained perturbative coefficients explicitly."
 }

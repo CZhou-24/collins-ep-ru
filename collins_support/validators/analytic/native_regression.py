@@ -60,7 +60,7 @@ def make_kira_inputs(out):
 
 def regression(a):
     release=release_integrity();rt=runtime(a.repo);prod=Path(a.repo)/ENGINE
-    sources=snapshot(prod);dest=output_path(a.output,a.repo,protected=[ROOT,Path(a.repo)/ENGINE,Path(a.repo)/OLD_ENGINE],area='states');dest.mkdir(parents=True,exist_ok=False)
+    sources=snapshot(prod);dest=output_path(a.output,a.repo,protected=[ROOT,Path(a.repo)/ENGINE],area='states');dest.mkdir(parents=True,exist_ok=False)
     result={'schema':5,'release':release,'scope':'native repair regression only; no complete RU/Collins acceptance','status':'BLOCKED','runtime':rt}
     try:
         baseline=dest/'baseline';out=baseline/'common/r01_result'
@@ -121,7 +121,7 @@ def regression(a):
     return 0 if result['status']=='NATIVE_REGRESSION_PASS' else 2 if result['status']=='BLOCKED' else 1
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repo',default='/bigTMD');p.add_argument('--output',required=True)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repo',default=str(PROJECT));p.add_argument('--output',required=True)
     try:return regression(p.parse_args())
     except Exception as exc:r,c=error_result(exc);print(json.dumps(r));return c
 if __name__=='__main__':raise SystemExit(main())

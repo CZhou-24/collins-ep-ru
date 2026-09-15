@@ -1,5 +1,5 @@
 {
-  "acceptance": "CHECKS_PASS is automated route/coefficient acceptance with scientific review required",
+  "acceptance": "CHECKS_PASS covers the current RU engine and reference scalars; it does not replay historical acceptance.",
   "conventions": [
     "D_algebra",
     "metric_and_routing",
@@ -22,7 +22,7 @@
     "real_master",
     "virtual_master"
   ],
-  "profile": "reverse_unitarity",
+  "profile": "reverse_unitarity_current",
   "required_comparison_values": 167,
   "schema": 5,
   "scope": {
@@ -141,5 +141,5 @@
       "tool": null
     }
   ],
-  "version": "0.5.1"
+  "implementation_version": "0.5.1"
 }

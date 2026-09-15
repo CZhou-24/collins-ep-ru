@@ -1,5 +1,0 @@
-{
-  "parent_version": "0.2.0",
-  "parent_manifest_sha256": "b58484f2511a0bba950abdcc4374844c45d1cf8c429bb8a5c37247843fadc392",
-  "note": "New release copy; all earlier releases unchanged. Analytical-only profiles retain clean replay and all analytical gates; numerical fitted regressions are separate."
-}

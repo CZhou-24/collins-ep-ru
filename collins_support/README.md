@@ -1,36 +1,36 @@
-# Collins support inside the project
+# Current runner and analytical checks
 
-The active analytical validator is `validators/analytic/`. Its required v0.4.0 and v0.3.3 checkers remain nested under `retained/`; no separate validator release or root compatibility link is required. Engines remain in `../collins_ep_analytic_SIDIS/` and `../collins_ep_analytic/`.
+`validators/analytic/` contains the r00–r07 runner, native-tool interfaces, exact expression checks and dependency probes. There is one current verification profile: `reverse_unitarity_current`. Retired validators, relocation logs, earlier engines and historical acceptance states are not inputs to it.
 
-Use [reports/RELOCATION.md](reports/RELOCATION.md) for exact changed files, origin identities, final replay/run locations, verification outcomes and scientific qualifications. The relocation changes filesystem access and configuration; analytical formulas, coefficients, tolerances and scope qualifications remain unchanged.
+The engine's Wolfram source programs and all 167 reference scalar expressions retain their existing bytes. References are comparison inputs only; the native stages generate their own amplitudes, reductions, masters and assembled outputs. Source snapshots, native receipts, reference comparisons, convention coverage, cut/precision checks and dependency probes remain enforced.
 
-| Location | Role |
-|---|---|
-| `validators/analytic/` | Current RU workflow and official comparator, with retained analytical checks |
-| `validators/numerical/` | Optional numerical validator; currently absent and not reinstalled |
-| `states/Collins-ep-analytic-state-*/` | Moved historical states with original reports and hashes |
-| `states/runs/` | Future workflow output under a chosen run ID |
-| `states/relocation-check/` | The bounded fresh relocation workflow |
-| `baselines/` | Moved SIDIS analytical/numerical baseline evidence |
-| `phenomenology/` | Existing moved Figure 6/physical-review evidence; no new fitted campaign |
-| `reports/` | Current reports and relocation evidence |
+## Run
 
-From `/bigTMD`:
+Run these commands from the root of this checkout. Each command is one shell line. Python 3.10 or newer and the dependencies in `validators/analytic/requirements.txt` are needed.
 
 ```bash
-export PYTHONDONTWRITEBYTECODE=1
-export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
-export COLLINS_PYTHON=/usr/bin/python3.10
-export COLLINS_VALIDATOR=/bigTMD/collins_support/validators/analytic
-"$COLLINS_PYTHON" "$COLLINS_VALIDATOR/workflow.py" doctor --repo /bigTMD
-"$COLLINS_PYTHON" "$COLLINS_VALIDATOR/workflow.py" run --repo /bigTMD \
-  --state collins_support/states/runs/my-run --through r07
+python3 -m pip install -r collins_support/validators/analytic/requirements.txt
+PYTHONDONTWRITEBYTECODE=1 python3 collins_support/validators/analytic/selftest.py
+PYTHONDONTWRITEBYTECODE=1 python3 collins_support/validators/analytic/workflow.py doctor
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 collins_support/validators/analytic/workflow.py run --state collins_support/states/runs/review --through r07
 ```
 
-Choose a new run ID. The workflow prints the actual generated run path. Full two-run/two-seed reproduction is available via `collins_ep_analytic_SIDIS/tools/reproduce_organization.py --state collins_support/states/runs/<unused run ID>` from `/bigTMD` when separately requested. Its seed/pair reports default to `collins_support/reports/organization-<run ID>`; `--reports` selects another unused current-report directory. It is larger than the bounded relocation verification.
+Set the installed native-tool locations in `collins_ep_analytic_SIDIS/ru_runtime.json`: Wolfram, FeynCalc/FeynArts, Kira, Fermat, SubTropica/HyperIntica and polymake. Existing absolute paths may point to tool installations under `/bigTMD/SIDIS`; those tools must exist, but earlier Collins engines and acceptance states are unnecessary. Relative configuration paths are resolved from this checkout. `doctor` checks dependencies; it does not execute a derivation.
 
-Historical JSON, reports, manifests and logs retain their original path strings and hashes. `paths.py` resolves complete prefixes through `relocation-map.json`, preserves suffixes and rejects escapes, ambiguous destinations and missing required inputs. Current runtime configurations use project-relative paths for moved inputs. Historical identities are checked through the exact recorded source/configuration changes; mathematical bytes and coefficient data remain protected.
+Each `run` invocation uses a new output directory and prints its location. Results live under `collins_support/states/runs/`. A complete r07 run checks the native derivation evidence and the 167 reference scalars. A failed comparison fails the run. Software selftests alone do not certify native execution or physics.
 
-Wolfram, FeynCalc/FeynArts, Kira, Fermat, SubTropica/HyperIntica and system installations remain at their existing external/configured locations. MadGraph remains inside `states/Collins-ep-analytic-state-v0.3.0/native-runtime/`. The original SIDIS/partial-fraction sources stay in place.
+## Two-run verification
 
-Completed install/upgrade prompts and archival packaging/preservation commands describe historical operations. Do not reinstall absent retired packages, run the abandoned dependency-migration adapter, or create root-level support directories. Use the installed local workflow and comparator; see the relocation report for the exact replay command.
+For the current native replay and upstream mutation checks, run the workflow twice. Put the printed run paths in `RUN_A` and `RUN_B`, then use:
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 collins_support/validators/analytic/verify_ru.py --run "$RUN_A" --replay "$RUN_B" --seed 1729 --report collins_support/reports/review-1729.json
+PYTHONDONTWRITEBYTECODE=1 python3 collins_support/validators/analytic/verify_ru.py --run "$RUN_A" --replay "$RUN_B" --seed 92741 --report collins_support/reports/review-92741.json
+PYTHONDONTWRITEBYTECODE=1 python3 collins_support/validators/analytic/compare_ru_reports.py --report collins_support/reports/review-pair.json collins_support/reports/review-1729.json collins_support/reports/review-92741.json
+```
+
+Use unused report filenames. `status --run <printed-run-path>` also audits an existing **current-profile** run. Saved historical reports are not accepted as current-profile reports.
+
+The report scope covers the current RU route, scalar references and probes. It does not rerun the retired v0.4.0/v0.3.3 checks or their MadGraph campaigns. Their original acceptance remains attached to the historical Git revision. Scientific limitations in the comparison PDFs remain applicable.
+
+Current executable files and references have a SHA-256 inventory in `validators/analytic/MANIFEST.json`; `paths.py` is included in that identity. Documentation is not a runtime preservation dependency. Runs bind the full engine snapshot and installed-tool identities before and after execution. Historical relocation exceptions are no longer accepted.

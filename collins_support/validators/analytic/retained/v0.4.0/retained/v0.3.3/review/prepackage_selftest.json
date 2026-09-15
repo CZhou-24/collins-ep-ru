@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "tests": 389,
-  "failures": 0,
-  "errors": 0,
-  "skipped": 0,
-  "captured_symlinks_checked": 253,
-  "scope": "Checker arithmetic, coherent spin diagnostics, filesystem/Git preservation, evidence replay and MOCKED orchestration; no production Wolfram/Kira/SubTropica or native MadGraph physics executed"
-}

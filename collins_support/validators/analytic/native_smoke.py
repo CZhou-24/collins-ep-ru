@@ -7,9 +7,9 @@ from workflow import export_native
 from algebra import decode,equal
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repo',default='/bigTMD');p.add_argument('--output',required=True);a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repo',default=str(PROJECT));p.add_argument('--output',required=True);a=p.parse_args()
     try:
-        release_integrity();rt=runtime(a.repo);dest=output_path(a.output,a.repo,protected=[ROOT,Path(a.repo)/ENGINE,Path(a.repo)/OLD_ENGINE],area='states');dest.mkdir(parents=True,exist_ok=False)
+        release_integrity();rt=runtime(a.repo);dest=output_path(a.output,a.repo,protected=[ROOT,Path(a.repo)/ENGINE],area='states');dest.mkdir(parents=True,exist_ok=False)
         src=dest/'synthetic.wl';src.write_text('<|"schema"->5,"value"->RUExact[CF (1-z)/eps + Pi^2/6],"flag"->True|>\n')
         ex=export_native(src,dest/'synthetic.json','packet',rt,dest/'transport')
         got=read(dest/'synthetic.json');expected=decode(['add',['mul','CF',['add',1,['mul',-1,'z']],['pow','eps',-1]],['mul','1/6',['pow','pi',2]]])
