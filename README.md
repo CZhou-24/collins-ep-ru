@@ -2,7 +2,7 @@
 
 Analytical code for unpolarized UU and Collins UT in electron scattering from a transversely polarized proton, with an identified hadron inside the jet. The implementation covers Born plus one loop at leading power and in the narrow-cone approximation, with the documented physical HF endpoint class. Hadronic distributions and fragmentation functions remain symbolic.
 
-| Review task | Start here |
+| Review | TODOs |
 |---|---|
 | Follow the derivation | [Engine stage map](collins_ep_analytic_SIDIS/README.md) and `collins_ep_analytic_SIDIS/common/` |
 | Check conventions and source reuse | [Conventions](collins_ep_analytic_SIDIS/CONVENTIONS.md) and [reuse ledger](collins_ep_analytic_SIDIS/provenance/SIDIS_REUSE_MANIFEST.json) |
@@ -10,6 +10,7 @@ Analytical code for unpolarized UU and Collins UT in electron scattering from a 
 | Inspect supporting numerical comparisons | [Numerical comparison PDF](collins_ep_analytic_SIDIS_review/reverse-unitarity-002/EQUATION_COMPARISON_NUMERICAL_RU.pdf) |
 | Review uncertainties | [Scientific review](collins_ep_analytic_SIDIS_review/reverse-unitarity-002/SCIENTIFIC_REVIEW.md) and [limitations](collins_ep_analytic_SIDIS_review/reverse-unitarity-002/LIMITATIONS.md) |
 | Run the current code | [Runner and checks](collins_support/README.md) |
+| Inspect the latest regression campaign | [Two-run verification report](collins_ep_analytic_SIDIS_review/reverse-unitarity-003/MILESTONE_REPORT.md) |
 
 Real integration uses reverse unitarity, Kira and SubTropica; virtual integration uses ordinary loop families, Kira and SubTropica. FeynArts/FeynCalc supplies the amplitude and operator algebra. Source provenance identifies shared definitions and integration machinery.
 
