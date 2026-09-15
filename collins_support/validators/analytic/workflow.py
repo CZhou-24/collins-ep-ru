@@ -224,7 +224,7 @@ def run(a):
     stop=[s['id'] for s in stages()].index(a.through)+1
     for st in stages()[:stop]:contained(prod,st['script'])
     state=output_path(a.state,repo,protected=[ROOT,prod],area='states');rid=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'-'+uuid.uuid4().hex[:12]
-    dest=state/'runs'/rid;dest.mkdir(parents=True,exist_ok=False)
+    dest=state/rid;dest.mkdir(parents=True,exist_ok=False)
     m={'schema':5,'profile':PROFILE,'fresh':True,'through':a.through,'status':'RUNNING','run_id':rid,'repo':str(repo),'release':release,'verification_scope':CHECK_SCOPE,'sources':snapshot(prod),'sidis_sources':upstream_source_state(repo),'runtime':rt,'reuse':reuse,'qualifications':QUALIFICATIONS}
     write(dest/'run.json',m);print(json.dumps({'run':str(dest)}),flush=True)
     try:

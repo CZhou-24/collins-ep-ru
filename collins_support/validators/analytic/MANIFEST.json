@@ -22,12 +22,12 @@
     "sidis_reuse.json": "de12c9dde06cc534e02d4ed1927a8946590ca9f2246a5b48a81e45d81c3432d1",
     "tests/fixtures/v050/PROVENANCE.json": "94f820f7c80ca2f490d3c80ff8260c4fd9ff2c79dca9b20311444b36dc4ca415",
     "tests/fixtures/v050/volume-masters.json": "c489a04979c9bba9e370eee75432068705af4c541df9333f0faf2e109a6e7bd6",
-    "tests/test_current_package.py": "54cc83eaa29f386b7a6f6f8dd54c2fa3ed327024b13834d9ff6917afe10ccb01",
+    "tests/test_current_package.py": "76dc2d432ac2c6767f12e882d740f981e4dc81f52be0addc369d0372a90866a3",
     "tests/test_execution.py": "fbbb586ffd36511f9a5e6a1eed643985c949aa0871d4468142a9aa0459392920",
     "tests/test_repairs.py": "abc3f0a7f0b6eb11c89a01059bb47f527f28e365c8483fe5cde019e083839db5",
     "tests/test_validator.py": "1a5c82bc09f38938bc2dfcbf8e14e2a3f93c558f8602eb1c00328373d13e46b0",
     "verify_ru.py": "eb6848e685a47f39c1f144a604598414e58121e791cb3c4b8675406184cb5cbf",
-    "workflow.py": "5813fce18c6f9db013af6c987a85d76161bf031b2c1fbd338c2e58be2488df90"
+    "workflow.py": "59e675000e78213102efd1a6e5e4c722d93dd9970092410a5073b48dbefa08f1"
   },
   "implementation_version": "0.5.1",
   "profile": "reverse_unitarity_current",

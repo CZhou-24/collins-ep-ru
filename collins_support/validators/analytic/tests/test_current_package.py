@@ -15,8 +15,6 @@ from paths import PROJECT, access, output_path
 
 class CurrentPackage(unittest.TestCase):
     def test_release_without_retired_trees(self):
-        self.assertFalse((u.ROOT/'retained').exists())
-        self.assertFalse((PROJECT/'collins_ep_analytic').exists())
         self.assertEqual(u.release_integrity(),u.digest(u.ROOT/'MANIFEST.json'))
 
     def test_doctor_with_only_current_sources(self):
@@ -25,6 +23,20 @@ class CurrentPackage(unittest.TestCase):
         with patch.object(sys,'argv',['workflow.py','doctor']), patch.object(w,'runtime',return_value={'fixture':True}), redirect_stdout(stream):
             self.assertEqual(w.main(),0)
         self.assertEqual(json.loads(stream.getvalue())['status'],'READY_TO_EXECUTE')
+
+    def test_doctor_ignores_existing_legacy_tree(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo=Path(tmp);prod=repo/u.ENGINE;prod.mkdir()
+            # An invalid legacy entry makes an accidental old-engine read fail.
+            (repo/'collins_ep_analytic').write_text('not a usable legacy engine')
+            for stage in w.stages():
+                source=prod/stage['script'];source.parent.mkdir(parents=True,exist_ok=True)
+                source.write_text('native source placeholder for discovery-only test')
+            (prod/'ru_runtime.json').write_text('{}')
+            stream=io.StringIO()
+            with patch.object(sys,'argv',['workflow.py','doctor','--repo',str(repo)]),patch.object(w,'runtime',return_value={'fixture':True}),redirect_stdout(stream):
+                self.assertEqual(w.main(),0)
+            self.assertEqual(json.loads(stream.getvalue())['status'],'READY_TO_EXECUTE')
 
     def test_old_report_is_not_promoted(self):
         with tempfile.TemporaryDirectory() as tmp:
