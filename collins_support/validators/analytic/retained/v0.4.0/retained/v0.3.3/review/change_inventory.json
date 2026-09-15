@@ -1,0 +1,28 @@
+{
+  "added_files": [
+    "REVIEW_AND_INSTALL.md",
+    "docs/REVERSE_UNITARITY_CONTINUATION.md",
+    "review/archive_compatibility.json",
+    "review/prepackage_selftest.json",
+    "tests/fixtures/madgraph_370/PROVENANCE.json",
+    "tests/fixtures/madgraph_370/born_eq.matrix.original.f",
+    "tests/fixtures/madgraph_370/check_sa.f",
+    "tests/fixtures/madgraph_370/real_eg.matrix.original.f",
+    "tests/fixtures/madgraph_370/real_eq.matrix.original.f",
+    "tests/test_patch_compatibility.py"
+  ],
+  "changed_existing_files": [
+    "AGENT_PROMPT.md",
+    "CHANGELOG.md",
+    "README.md",
+    "RELEASE_TESTING.md",
+    "derivation_support.py",
+    "docs/MADGRAPH.md",
+    "madgraph_checks.py",
+    "tests/test_madgraph_checks.py",
+    "workflow.py"
+  ],
+  "predecessor_manifest_sha256": "e87f8da47802f37d61e0e9cf7c07f75b66c374bba258d2e4044d93d50cbbed08",
+  "retained_physics_contract": "Equation inventory, stages, reference kernels, conventions and tolerances unchanged; only native source parsing/replay initialization, predecessor compatibility and output-state default changed in production checker code.",
+  "schema": 1
+}

@@ -1,0 +1,20 @@
+{
+  "common/physics_helpers.wl": {
+    "source": "/bigTMD/collins_ep_analytic/common/physics_helpers.wl",
+    "source_sha256": "5480cd674f4e272e00d398f9740b0b39ee08b365f9da04b72ff6abefc58107d1",
+    "destination": "common/ru_physics_helpers.wl",
+    "purpose": "Fresh FeynArts/FeynCalc amplitude or spin/color generation only; no integration or old outputs."
+  },
+  "common/s03_born.wl": {
+    "source": "/bigTMD/collins_ep_analytic/common/s03_born.wl",
+    "source_sha256": "9f118a40524219ea6909b58d4de4d769fa5164d63226ca045e41812552bb7396",
+    "destination": "common/ru_born_generation.wl",
+    "purpose": "Fresh FeynArts/FeynCalc amplitude or spin/color generation only; no integration or old outputs."
+  },
+  "common/assembly_real.wl": {
+    "source": "/bigTMD/collins_ep_analytic/common/assembly_real.wl",
+    "source_sha256": "239bce2f19f4a13fcf5878dc197febcfe184fedfe7494ec4d2b69e064353c322",
+    "destination": "common/ru_real_generation.wl",
+    "purpose": "Fresh FeynArts/FeynCalc amplitude or spin/color generation only; no integration or old outputs."
+  }
+}

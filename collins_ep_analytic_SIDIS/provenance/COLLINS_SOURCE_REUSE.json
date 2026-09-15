@@ -1,0 +1,304 @@
+{
+  "files": {
+    "common/physics_helpers.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/physics_helpers.wl",
+      "source_sha256": "5480cd674f4e272e00d398f9740b0b39ee08b365f9da04b72ff6abefc58107d1",
+      "destination": "common/ru_physics_helpers.wl",
+      "purpose": "Fresh FeynArts/FeynCalc amplitude or spin/color generation only; no integration or old outputs.",
+      "destination_sha256": "adf35a13298da828771bd9bd3338e297f07121b568c04619e34cf193616c90c5",
+      "destinations": {
+        "common/ru_physics_helpers.wl": "adf35a13298da828771bd9bd3338e297f07121b568c04619e34cf193616c90c5",
+        "common/ru_virtual_io.wl": "deef7c8d4b7960abb7930e64ffd829730aecd8d4b240fa324ed7930705eba4d4",
+        "common/ru_hf_operator.wl": "0523538108a161b1acfb103cf49b30c7b9049b8b885456155469944b7e18ec9a"
+      },
+      "additional_virtual_reuse": {
+        "used": true,
+        "source": "/bigTMD/collins_ep_analytic/common/physics_helpers.wl",
+        "source_sha256": "5480cd674f4e272e00d398f9740b0b39ee08b365f9da04b72ff6abefc58107d1",
+        "snapshot": "provenance/virtual/snapshots/collins/common/physics_helpers.wl",
+        "snapshot_sha256": "5480cd674f4e272e00d398f9740b0b39ee08b365f9da04b72ff6abefc58107d1",
+        "destinations": {
+          "common/ru_virtual_io.wl": "deef7c8d4b7960abb7930e64ffd829730aecd8d4b240fa324ed7930705eba4d4"
+        },
+        "functions_reused": "LoadFC native FeynArts/FeynCalc runtime initialization with patching disabled",
+        "consuming_stages": [
+          "r04",
+          "r05",
+          "r06"
+        ],
+        "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+      },
+      "snapshots": {
+        "provenance/hf/snapshots/physics_helpers.wl": "5480cd674f4e272e00d398f9740b0b39ee08b365f9da04b72ff6abefc58107d1"
+      },
+      "v051_adaptations": [
+        "generating/operator source or explicitly identified external operator definition; never evaluated export"
+      ]
+    },
+    "common/s03_born.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/s03_born.wl",
+      "source_sha256": "9f118a40524219ea6909b58d4de4d769fa5164d63226ca045e41812552bb7396",
+      "destination": "common/ru_born_generation.wl",
+      "purpose": "Fresh FeynArts/FeynCalc amplitude or spin/color generation only; no integration or old outputs.",
+      "destination_sha256": "0cdad526634de0358036cbfb31bfc17891a6530c0adf17677ce4d4c7c17c191a",
+      "destinations": {
+        "common/ru_born_generation.wl": "0cdad526634de0358036cbfb31bfc17891a6530c0adf17677ce4d4c7c17c191a"
+      }
+    },
+    "common/assembly_real.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/assembly_real.wl",
+      "source_sha256": "239bce2f19f4a13fcf5878dc197febcfe184fedfe7494ec4d2b69e064353c322",
+      "destination": "common/ru_real_generation.wl",
+      "purpose": "Fresh FeynArts/FeynCalc amplitude or spin/color generation only; no integration or old outputs.",
+      "destination_sha256": "586a4f0a1b0663779fadd10e6f69123bcd65f4acb2bb5848942a8574e75c549e",
+      "destinations": {
+        "common/ru_real_generation.wl": "586a4f0a1b0663779fadd10e6f69123bcd65f4acb2bb5848942a8574e75c549e"
+      }
+    },
+    "common/s04_virtual_integrand.wl": {
+      "used": true,
+      "source": "/bigTMD/collins_ep_analytic/common/s04_virtual_integrand.wl",
+      "source_sha256": "e0fa7fbaeb47dda92fa6d414cda087325e29721d6d7959043354102649e7e02b",
+      "snapshot": "provenance/virtual/snapshots/collins/common/s04_virtual_integrand.wl",
+      "snapshot_sha256": "e0fa7fbaeb47dda92fa6d414cda087325e29721d6d7959043354102649e7e02b",
+      "destinations": {
+        "common/ru_virtual_generate.wl": "800d7d5dd86481d4d6be932bb702ec40824e8b9616891472a3e0bc8df2038382"
+      },
+      "functions_reused": "FeynArts current/self-energy generation, FCFAConvert, open D-dimensional numerator and projected scalarization, unevaluated TID and chord reconstruction",
+      "consuming_stages": [
+        "r04"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "common/s07_hard_matching.wl": {
+      "used": true,
+      "source": "/bigTMD/collins_ep_analytic/common/s07_hard_matching.wl",
+      "source_sha256": "1a484753ab6cb83c8990ef29b832bca9bd2143ab8f8706d625723d2a9db038d6",
+      "snapshot": "provenance/virtual/snapshots/collins/common/s07_hard_matching.wl",
+      "snapshot_sha256": "1a484753ab6cb83c8990ef29b832bca9bd2143ab8f8706d625723d2a9db038d6",
+      "destinations": {
+        "common/r06_virtual_assembly.wls": "f388b2461a2bc6fcc2d6228aeb55d8522f556b24edab016753260f1fc7383077"
+      },
+      "functions_reused": "large-loop angular UV projection, generated self-energy exchange average, conserved-current UV/IR allocation",
+      "consuming_stages": [
+        "r06"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "common/d13_projection_derivation.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d13_projection_derivation.wl",
+      "source_sha256": "561d5463c402215543eca4051217ce98d05baa0823301e7ebc6f3cbc65b6ace8",
+      "destinations": {
+        "common/ru_tmd_generation.wl": "c02b3de797fd547ba9efef952ecfb6effbc0610797842094d8fd52c87c89b309"
+      },
+      "snapshots": {
+        "provenance/measured/d13_projection_derivation.wl": "561d5463c402215543eca4051217ce98d05baa0823301e7ebc6f3cbc65b6ace8"
+      },
+      "v051_adaptations": [
+        [
+          "D13ProjectionDerivation open qq/qg/BMHV transversity trace prefix -> RUTMDProjection; no distribution packet or endpoint import"
+        ]
+      ]
+    },
+    "common/d13_collins_derivation.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d13_collins_derivation.wl",
+      "source_sha256": "ae2904b9919adef319575915eecf92b4c4abfb77d10f788567ba423c16932a58",
+      "destinations": {
+        "common/ru_tmd_generation.wl": "c02b3de797fd547ba9efef952ecfb6effbc0610797842094d8fd52c87c89b309",
+        "common/ru_hf_angular.wl": "0609dd6285b22a4fd733db48f8c8ddcbae0bb05c407f7cc12261fbd98f7da73e"
+      },
+      "snapshots": {
+        "provenance/measured/d13_collins_derivation.wl": "ae2904b9919adef319575915eecf92b4c4abfb77d10f788567ba423c16932a58",
+        "provenance/hf/snapshots/d13_collins_derivation.wl": "ae2904b9919adef319575915eecf92b4c4abfb77d10f788567ba423c16932a58"
+      },
+      "v051_adaptations": [
+        [
+          "D13CollinsDerivation derivative+intrinsic EOM open cuts and normalization -> RUTMDCollinsCut",
+          "One-gluon covariant derivative plus future field-strength contact proof; old radial/Fourier and master backend omitted"
+        ],
+        "Declared common b-independent angular operator continuation only, not an evaluated coefficient or radial answer. Pre-use plan ANGULAR_REUSE_PLAN.json."
+      ]
+    },
+    "common/d13_endpoint_derivation.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d13_endpoint_derivation.wl",
+      "source_sha256": "f768f51f459d8d42b053265aea646e4ae07aba0f9a900359982901fa0ead403f",
+      "destinations": {
+        "common/ru_tmd_generation.wl": "c02b3de797fd547ba9efef952ecfb6effbc0610797842094d8fd52c87c89b309"
+      },
+      "snapshots": {
+        "provenance/measured/d13_endpoint_derivation.wl": "f768f51f459d8d42b053265aea646e4ae07aba0f9a900359982901fa0ead403f"
+      },
+      "v051_adaptations": [
+        [
+          "D13CurrentVertex -> RUTMDCurrentVertex: generated outgoing Compton vertex amputation",
+          "Open Wilson-sail projector and self-energy Clifford/hat pattern -> RUTMDVirtualOperatorProof (fresh source contraction; no old radial evaluation)"
+        ]
+      ]
+    },
+    "common/d16_operator_completion.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_operator_completion.wl",
+      "source_sha256": "4ab6410310c59bb29a9bcd28d95467fd2822d99222ffa6d366bafe14cfed6226",
+      "destinations": {
+        "common/ru_hf_operator.wl": "0523538108a161b1acfb103cf49b30c7b9049b8b885456155469944b7e18ec9a"
+      },
+      "snapshots": {
+        "provenance/hf/snapshots/d16_operator_completion.wl": "4ab6410310c59bb29a9bcd28d95467fd2822d99222ffa6d366bafe14cfed6226"
+      },
+      "v051_adaptations": [
+        "generating/operator source or explicitly identified external operator definition; never evaluated export"
+      ]
+    },
+    "common/d16_operator_library.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_operator_library.wl",
+      "source_sha256": "09b4113e3dae55a7d63af9b52df0ca6d2d78945852f9313fb4b542a2d6d6eb82",
+      "destinations": {
+        "common/ru_hf_operator.wl": "0523538108a161b1acfb103cf49b30c7b9049b8b885456155469944b7e18ec9a"
+      },
+      "snapshots": {
+        "provenance/hf/snapshots/d16_operator_library.wl": "09b4113e3dae55a7d63af9b52df0ca6d2d78945852f9313fb4b542a2d6d6eb82"
+      },
+      "v051_adaptations": [
+        "generating/operator source or explicitly identified external operator definition; never evaluated export"
+      ]
+    },
+    "common/d16_projection_normalization.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_projection_normalization.wl",
+      "source_sha256": "b5e4c743b99ab319d5fd051a24e3ab48cac408443ab883783441c5f4c239fbee",
+      "destinations": {
+        "common/ru_hf_projection.wl": "20656fddf3fe58af2ad956b2ee0b1058310ed4101f630af2a954072c0636e98f"
+      },
+      "snapshots": {
+        "provenance/hf/snapshots/d16_projection_normalization.wl": "b5e4c743b99ab319d5fd051a24e3ab48cac408443ab883783441c5f4c239fbee"
+      },
+      "v051_adaptations": [
+        "generating/operator source or explicitly identified external operator definition; never evaluated export"
+      ]
+    },
+    "common/d16_spectral_support.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_spectral_support.wl",
+      "source_sha256": "4d28725cc139a690a8b824f642d0e61609ded344d7832de77fa6275f7a265a9e",
+      "destinations": {
+        "common/ru_hf_operator.wl": "0523538108a161b1acfb103cf49b30c7b9049b8b885456155469944b7e18ec9a"
+      },
+      "snapshots": {
+        "provenance/hf/snapshots/d16_spectral_support.wl": "4d28725cc139a690a8b824f642d0e61609ded344d7832de77fa6275f7a265a9e"
+      },
+      "v051_adaptations": [
+        "generating/operator source or explicitly identified external operator definition; never evaluated export"
+      ]
+    },
+    "common/d16_wilson_taylor.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_wilson_taylor.wl",
+      "source_sha256": "5ae79ca35ff9ec135456ffb182ea0af1a243126da0d325ad7162bdd7261615f6",
+      "destinations": {
+        "common/ru_hf_wilson.wl": "f17fbaf55f18ffa927436d4f390fec025dbfd5174cf38a6a7886a6c785a0d932"
+      },
+      "snapshots": {
+        "provenance/hf/snapshots/d16_wilson_taylor.wl": "5ae79ca35ff9ec135456ffb182ea0af1a243126da0d325ad7162bdd7261615f6"
+      },
+      "v051_adaptations": [
+        "generating/operator source or explicitly identified external operator definition; never evaluated export"
+      ]
+    },
+    "common/d17_cut_numerators.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_cut_numerators.wl",
+      "source_sha256": "6fbbc5da3cc6f274da8b431055de4d635300b9fc6719d8c32a792b43325a541a",
+      "destinations": {
+        "common/ru_hf_cut.wl": "1a4183be2f509cd9b069b5864b5fdf281480e76384e887e828f54d25539d60c0",
+        "common/ru_hf_generate.wl": "b1a5638779d393ecce821985f0b2744809a97ab95f0d51ddd3d4e32b2d77e1dd",
+        "common/ru_hf_angular.wl": "0609dd6285b22a4fd733db48f8c8ddcbae0bb05c407f7cc12261fbd98f7da73e"
+      },
+      "snapshots": {
+        "provenance/hf/snapshots/d17_cut_numerators.wl": "6fbbc5da3cc6f274da8b431055de4d635300b9fc6719d8c32a792b43325a541a"
+      },
+      "v051_adaptations": [
+        "generating/operator source or explicitly identified external operator definition; never evaluated export"
+      ]
+    },
+    "common/d17_endpoint_completion.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_endpoint_completion.wl",
+      "source_sha256": "b01aea25348b885444c4a59b71d30f539b3590a3ef43c303e50b297bbb08a58e",
+      "destinations": {
+        "common/ru_hf_endpoint.wl": "e750665243dcefece3135eb3a2d02ee771ce5cec0ba0f665946134671fd78b4e"
+      },
+      "snapshots": {
+        "provenance/hf/snapshots/d17_endpoint_completion.wl": "b01aea25348b885444c4a59b71d30f539b3590a3ef43c303e50b297bbb08a58e"
+      },
+      "v051_adaptations": [
+        "generating/operator source or explicitly identified external operator definition; never evaluated export"
+      ]
+    },
+    "common/d17_gauge_completion.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_gauge_completion.wl",
+      "source_sha256": "facfa433d4a00673f6ad160438baea15ef160ec68cf0a42af46cf7a7fabdc89b",
+      "destinations": {
+        "common/ru_hf_gauge.wl": "6c46d9abc4fd9820311f528139e44664052072a738f198994ecb3ca43f13e13f"
+      },
+      "snapshots": {
+        "provenance/hf/snapshots/d17_gauge_completion.wl": "facfa433d4a00673f6ad160438baea15ef160ec68cf0a42af46cf7a7fabdc89b"
+      },
+      "v051_adaptations": [
+        "generating/operator source or explicitly identified external operator definition; never evaluated export"
+      ]
+    },
+    "common/d17_virtual_completion.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_virtual_completion.wl",
+      "source_sha256": "b90001920d2acbff992590d7132d064e84d1d54824ad4483e30fda4066c1810a",
+      "destinations": {
+        "common/ru_hf_virtual.wl": "4417609bde04c1e9db449ee4ae2d011a5974027c721508c2ffd3551349d4e045"
+      },
+      "snapshots": {
+        "provenance/hf/snapshots/d17_virtual_completion.wl": "b90001920d2acbff992590d7132d064e84d1d54824ad4483e30fda4066c1810a"
+      },
+      "v051_adaptations": [
+        "generating/operator source or explicitly identified external operator definition; never evaluated export"
+      ]
+    },
+    "common/soft_reductions.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/soft_reductions.wl",
+      "source_sha256": "e9b5a84bdee2fd52f2c967e370134a43c77b6adc0c15d489a469cb8b2a53d8bd",
+      "destinations": {
+        "common/ru_soft_transforms.wl": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990"
+      },
+      "snapshots": {
+        "provenance/soft/snapshots/soft_reductions.wl": "e9b5a84bdee2fd52f2c967e370134a43c77b6adc0c15d489a469cb8b2a53d8bd"
+      },
+      "v051_adaptations": [
+        [
+          "SoftReductionChain"
+        ]
+      ]
+    },
+    "common/d18_jet_derivation.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d18_jet_derivation.wl",
+      "source_sha256": "b5b3ab20273dd1be04598588984bc46a0b3d82f2677b2e981ffd4483fec7260a",
+      "destinations": {
+        "common/ru_soft_generation.wl": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20"
+      },
+      "snapshots": {
+        "provenance/soft/snapshots/d18_jet_derivation.wl": "b5b3ab20273dd1be04598588984bc46a0b3d82f2677b2e981ffd4483fec7260a"
+      },
+      "v051_adaptations": [
+        [
+          "D18Projectors",
+          "D18CollinearRegions",
+          "D18Measurement"
+        ]
+      ]
+    },
+    "common/d19_assembly_library.wl": {
+      "source": "/bigTMD/collins_ep_analytic/common/d19_assembly_library.wl",
+      "source_sha256": "fb65b76b2e229652964cfe9af2846dd2b7a821fb2e1ced51990c7f55561bdcb8",
+      "destinations": {
+        "common/ru_observable_helpers.wl": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc"
+      },
+      "snapshots": {
+        "provenance/assembly/d19_assembly_library.wl": "fb65b76b2e229652964cfe9af2846dd2b7a821fb2e1ced51990c7f55561bdcb8"
+      },
+      "v051_adaptations": [
+        "Only formal first-order product and distribution convolution algorithms. No loaders, native result tables, coefficient values or final evaluated observable are reused."
+      ]
+    }
+  },
+  "shared_inputs": "Enumerated current/operator/projector source, FeynArts models and declared physical-J0 continuation. Fresh amplitudes, measured cuts, Kira rules, Euler masters and assembly; no accepted coefficient export or reference value is a producing input."
+}

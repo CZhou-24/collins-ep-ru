@@ -1,0 +1,38 @@
+(* Adapted from accepted Collins source; exact original and SHA in provenance/COLLINS_SOURCE_REUSE_PLAN.json. *)
+(* Generated electromagnetic amplitude and its physical spin projections. *)
+
+defs=<|"vectors"->CMVectors[]|>;
+diags=InsertFields[CreateTopologies[0,2->2],{F[2,{1}],F[3,{1}]}->{F[2,{1}],F[3,{1}]},Model->"SMQCD",InsertionLevel->{Particles},Restrictions->QEDOnly];
+fa=CreateFeynAmp[diags];
+StagePut[<|"graphs"->diags,"FeynArtsAmplitude"->fa|>,"generation.wl"];
+amp=FCFAConvert[fa,IncomingMomenta->{l,p},OutgoingMomenta->{lout,pout},UndoChiralSplittings->True,ChangeDimension->4,List->False,SMP->True,Contract->True,DropSumOver->True,FinalSubstitutions->{SMP["m_e"]->0,SMP["m_u"]->0}];
+StagePut[<|"amplitude"->amp,"model"->"SMQCD","charge"->2/3|>,"amplitudes.wl"];
+FCClearScalarProducts[];
+SetMandelstam[s,t,u,l,p,-lout,-pout,0,0,0,0];
+square=FeynAmpDenominatorExplicit[amp ComplexConjugate[amp]];
+traces=FermionSpinSum[square,ExtraFactor->1/(4 SUNN),Head->density];
+StagePut[traces,"spin_sum_uncontracted.wl"];
+uuRaw=SUNSimplify[DiracSimplify[traces/.density->Identity]];
+huu=Factor[uuRaw/((2/3)^2 SMP["e"]^4)];
+(* The Head marks precisely the external density matrices in the generated spin sum. *)
+polarized=traces/.{density[DiracGamma[Momentum[p]]]:>GS[p].GA[5].GS[si],density[DiracGamma[Momentum[pout]]]:>GS[pout].GA[5].GS[so],density[x_]:>x};
+StagePut[polarized,"spin_transfer_uncontracted.wl"];
+vv=defs["vectors"];
+Do[With[{mom=m},SP[si,mom]=0;SP[so,mom]=0],{m,{l,p,lout,pout}}];
+SP[si]=SP[so]=-1;SP[si,so]=-1;
+utRaw=SUNSimplify[DiracSimplify[polarized]];
+hut=Factor[utRaw/((2/3)^2 SMP["e"]^4)];
+Print["BORN_UU ",InputForm[huu]," BORN_UT ",InputForm[hut]];
+Gate["generated scalar Born projections",FreeQ[{huu,hut},_DiracTrace|_Spinor|_SUNFDelta|_density|_SMP|$Failed] && huu=!=0 && hut=!=0];
+(* Independent exact physical Clifford traces also test rotated spin bases. *)
+g=PhysicalGammas[];g5=I g[[1]].g[[2]].g[[3]].g[[4]];metric={1,-1,-1,-1};
+sl[name_]:=PhysicalSlash[vv[name],g];
+lepton=Table[Tr[sl["lout"].g[[i]].sl["l"].g[[j]]]/2,{i,4},{j,4}];
+quark=Table[Tr[sl["pout"].g[[i]].sl["p"].g[[j]]]/2,{i,4},{j,4}];
+spinTensor[a_,b_]:=Table[Tr[sl["pout"].g5.PhysicalSlash[b,g].g[[i]].sl["p"].g5.PhysicalSlash[a,g].g[[j]]]/2,{i,4},{j,4}];
+project[q_]:=Sum[metric[[i]] metric[[j]] lepton[[i,j]] q[[i,j]],{i,4},{j,4}]/(t/.CMInvariants)^2;
+transfer=Table[project[spinTensor[aa,bb]],{aa,{vv["Xi"],vv["N"]}},{bb,{vv["Xo"],vv["N"]}}];
+rotation={{Cos[angle],-Sin[angle]},{Sin[angle],Cos[angle]}};
+StagePut[<|"H_UU"->huu,"H_UT"->hut,"raw_UU"->uuRaw,"raw_UT"->utRaw,"physical_lepton_tensor"->lepton,"physical_quark_tensor"->quark,"physical_transfer"->transfer,"spinAverage"->1/4,"colorAverage"->1/Nc,"QEDCoupling"->(4 Pi alphaEM)^2 eq^2|>,"tensors.wl"];
+qcov=metric (vv["pout"]-vv["p"]);
+StagePut[<|"born.ward_e"->ProofPair[lepton.qcov,ConstantArray[0,4],CMConditions],"born.ward_q"->ProofPair[quark.qcov,ConstantArray[0,4],CMConditions],"born.spin_uu"->ProofPair[project[quark],huu/.CMInvariants,CMConditions],"born.spin_ut"->ProofPair[transfer,(hut/.CMInvariants) IdentityMatrix[2],CMConditions],"born.normalization"->With[{hh=huu},ProofHeld[HoldComplete[hh (Sqrt[4 Pi alphaEM]^2 eq)^2/(16 Pi s^2)],HoldComplete[Pi alphaEM^2 eq^2 hh/s^2],s>0&&alphaEM>0]],"born.rotated_basis"->ProofPair[rotation.transfer.Transpose[rotation],transfer,CMConditions&&Element[angle,Reals]]|>,"proofs.wl"];

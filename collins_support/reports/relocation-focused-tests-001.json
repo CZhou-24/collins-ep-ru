@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "id": "historical_seed_access",
+      "status": "PASS"
+    },
+    {
+      "id": "unmapped_prefix",
+      "status": "PASS"
+    },
+    {
+      "id": "parent_escape",
+      "status": "PASS"
+    },
+    {
+      "id": "ambiguous_destinations",
+      "status": "PASS"
+    },
+    {
+      "id": "symlink_escape",
+      "status": "PASS"
+    },
+    {
+      "id": "source_fixture_unchanged",
+      "status": "PASS"
+    },
+    {
+      "id": "source_fixture_changed",
+      "status": "PASS"
+    },
+    {
+      "id": "release_inventory_unchanged",
+      "status": "PASS"
+    },
+    {
+      "id": "coefficient_reference_changed",
+      "status": "PASS"
+    }
+  ],
+  "schema": 1,
+  "scope": "Focused path/identity fixtures; no native execution or new physics acceptance",
+  "status": "PASS",
+  "validator_files_read": 181
+}

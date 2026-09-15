@@ -1,0 +1,31 @@
+{
+  "RU_runtime_identity": "UNCHANGED",
+  "accepted_source_identity": "6c50f16a19077f023d8aa66fca67673386bd769b066b47712b7f7b171a7390d0",
+  "foundation": {
+    "files": 32,
+    "numerical_files": 57,
+    "source_identity": "92c35aef6d88ea5cdcf7579012e3b834e0e34216bca975182fe396b6e2b29c07"
+  },
+  "installation_lock": "/bigTMD/collins_support/states/Collins-ep-analytic-state-v0.3.0/installation.json",
+  "installation_lock_sha256": "de59cf112c941b3d5b12ed35b667029dbcc3fe7670d8de3b979ea25be36a359e",
+  "installed_numerical_entries": 57,
+  "installed_production_entries": 1337,
+  "legacy_runtime_identity": "UNCHANGED_AFTER_EXPLICIT_PATH_CONFIG_CONVERSION",
+  "madgraph_identity_entries": 462,
+  "madgraph_root": "/bigTMD/collins_support/states/Collins-ep-analytic-state-v0.3.0/native-runtime/MG5_aMC_v3_7_0",
+  "native_executables": {
+    "fermat": "/bigTMD/SIDIS/common/software/fermat/Ferl7/fer64",
+    "feynarts_root": "/factorization-and-loops/Addon/Mathematica_Addon/FeynCalc/FeynArts",
+    "feyncalc_root": "/factorization-and-loops/Addon/Mathematica_Addon/FeynCalc",
+    "kira": "/bigTMD/SIDIS/common/software/kira-3.1",
+    "polymake": "/usr/bin/polymake",
+    "python": "/usr/bin/python3.10",
+    "subtropica_root": "/bigTMD/SIDIS/common/software/SubTropica-1.2.10",
+    "wolfram_kernel": "/opt/Wolfram/WolframEngine/15.0/Executables/WolframKernel"
+  },
+  "optional_numerical_validator_present": false,
+  "schema": 1,
+  "scope": "Required installation/foundation and runtime discovery; no native derivation or compiler execution",
+  "status": "PASS",
+  "validator_manifest_sha256": "caafd1ee5c477f0b159797979f625b75b18299007a87eeac1f6c2a99042a00ff"
+}

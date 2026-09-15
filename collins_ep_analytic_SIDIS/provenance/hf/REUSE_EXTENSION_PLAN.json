@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-14T17:51:47.194180+00:00",
+  "stage": "BEFORE_ADDITIONAL_FRAGMENT_ADAPTATION",
+  "same_previously_hashed_sources": [
+    "d16_spectral_support.wl",
+    "d16_operator_library.wl"
+  ],
+  "fragments": [
+    "positiveStateBoundary and antisymmetric tensorEndpoint from d16_spectral_support.wl",
+    "EOM inverse-fraction delta Jacobian freshly calculated; d16_operator_library.wl consulted for defining external operator identity"
+  ],
+  "note": "No conditional bulk coefficients; no old evaluated outputs.",
+  "source_identities": [
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_spectral_support.wl",
+      "sha256": "4d28725cc139a690a8b824f642d0e61609ded344d7832de77fa6275f7a265a9e"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_operator_library.wl",
+      "sha256": "09b4113e3dae55a7d63af9b52df0ca6d2d78945852f9313fb4b542a2d6d6eb82"
+    }
+  ],
+  "identity_recorded_utc": "2026-09-14T17:52:13.838256+00:00",
+  "timing_qualification": "Source names were enumerated before the additional draft edit. The d16_spectral_support hash was already pinned in COLLINS_REUSE_PLAN; d16_operator_library consulted-definition hash is recorded here after the unexecuted draft edit, before snapshot/use. This supplement is not represented as preceding that draft."
+}

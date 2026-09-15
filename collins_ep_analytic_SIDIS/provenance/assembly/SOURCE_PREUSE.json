@@ -1,0 +1,11 @@
+{
+  "source": "/bigTMD/collins_ep_analytic/common/d19_assembly_library.wl",
+  "source_sha256": "fb65b76b2e229652964cfe9af2846dd2b7a821fb2e1ced51990c7f55561bdcb8",
+  "functions": [
+    "D19Polynomial",
+    "D19UAction",
+    "D19HFAction"
+  ],
+  "destination": "common/ru_observable_helpers.wl",
+  "scope": "Only formal first-order product and distribution convolution algorithms. No loaders, native result tables, coefficient values or final evaluated observable are reused."
+}

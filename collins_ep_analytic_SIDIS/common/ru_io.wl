@@ -1,0 +1,24 @@
+(* Exact transport only. No physics coefficients or integral values. *)
+ClearAll[RUTree, RUEncode, RUExact];
+RUTree[x_Integer] := x;
+RUTree[x_Rational] := ToString[Numerator[x],InputForm]<>"/"<>ToString[Denominator[x],InputForm];
+RUTree[Pi] := "pi";
+RUTree[x_Complex] := {"complex",RUTree[Re[x]],RUTree[Im[x]]};
+RUTree[x_Symbol] := SymbolName[x];
+RUTree[x_Plus] := Prepend[RUTree /@ (List@@x),"add"];
+RUTree[x_Times] := Prepend[RUTree /@ (List@@x),"mul"];
+RUTree[Power[x_,p:(_Rational|_Integer)]] := {"pow",RUTree[x],RUTree[p]};
+RUTree[Log[x_]] := {"log",RUTree[x]};
+RUTree[PolyLog[2,x_]] := {"li2",RUTree[x]};
+RUTree[PolyLog[n_Integer,x_]] := {"polylog",n,RUTree[x]};
+RUTree[Zeta[n_Integer]] := {"zeta",n};
+RUTree[x_] := (Print["Unsupported exact expression: ",InputForm[x]];Exit[1]);
+RUEncode[RUExact[x_]] := RUTree[x];
+RUEncode[a_Association] := Map[RUEncode,a];
+RUEncode[a_List] := RUEncode /@ a;
+RUEncode[x_String] := x;
+RUEncode[x_Integer] := x;
+RUEncode[True] := True;
+RUEncode[False] := False;
+RUEncode[Null] := Null;
+RUEncode[x_] := (Print["Packet math must be wrapped in RUExact: ",InputForm[x]];Exit[1]);

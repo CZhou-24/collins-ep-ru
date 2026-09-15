@@ -1,0 +1,74 @@
+{
+  "archive_manifest_members_verified": 2765,
+  "archive_sha256": "6f507c77e7d0834360ba3a2a13e62990f2f9684497ae061624287c15ef348ba2",
+  "native_runtime_executed": false,
+  "rows": [
+    {
+      "driver_sha256": "8269f403a7746f2b6dcd84e6b90de19065c42cfaaf732ff0403390ad660aa8b4",
+      "instrumentation_matches_archive": true,
+      "matrix_symbol": "MATRIX",
+      "old_parser_blocked": true,
+      "patched_call": "CALL SETPARA('../../Cards/param_card.dat')",
+      "process": "born_eq",
+      "seed": 1729
+    },
+    {
+      "driver_sha256": "8269f403a7746f2b6dcd84e6b90de19065c42cfaaf732ff0403390ad660aa8b4",
+      "instrumentation_matches_archive": true,
+      "matrix_symbol": "MATRIX",
+      "old_parser_blocked": true,
+      "patched_call": "CALL SETPARA('../../Cards/param_card.dat')",
+      "process": "real_eq",
+      "seed": 1729
+    },
+    {
+      "driver_sha256": "8269f403a7746f2b6dcd84e6b90de19065c42cfaaf732ff0403390ad660aa8b4",
+      "instrumentation_matches_archive": true,
+      "matrix_symbol": "MATRIX",
+      "old_parser_blocked": true,
+      "patched_call": "CALL SETPARA('../../Cards/param_card.dat')",
+      "process": "real_eg",
+      "seed": 1729
+    },
+    {
+      "driver_sha256": "8269f403a7746f2b6dcd84e6b90de19065c42cfaaf732ff0403390ad660aa8b4",
+      "instrumentation_matches_archive": true,
+      "matrix_symbol": "MATRIX",
+      "old_parser_blocked": true,
+      "patched_call": "CALL SETPARA('../../Cards/param_card.dat')",
+      "process": "born_eq",
+      "seed": 92741
+    },
+    {
+      "driver_sha256": "8269f403a7746f2b6dcd84e6b90de19065c42cfaaf732ff0403390ad660aa8b4",
+      "instrumentation_matches_archive": true,
+      "matrix_symbol": "MATRIX",
+      "old_parser_blocked": true,
+      "patched_call": "CALL SETPARA('../../Cards/param_card.dat')",
+      "process": "real_eq",
+      "seed": 92741
+    },
+    {
+      "driver_sha256": "8269f403a7746f2b6dcd84e6b90de19065c42cfaaf732ff0403390ad660aa8b4",
+      "instrumentation_matches_archive": true,
+      "matrix_symbol": "MATRIX",
+      "old_parser_blocked": true,
+      "patched_call": "CALL SETPARA('../../Cards/param_card.dat')",
+      "process": "real_eg",
+      "seed": 92741
+    }
+  ],
+  "schema": 1,
+  "science_contract_files_unchanged": [
+    "equation_inventory.json",
+    "stages.json",
+    "sidis_convention_lock.json",
+    "references.json",
+    "derivation_checks.py",
+    "conventions.py",
+    "real_oracle.py",
+    "assembly_reference.py",
+    "scaffold/derivation_runtime.json"
+  ],
+  "scope": "Read-only reproduction of supplied source-format failure; no native compilation or amplitude execution"
+}

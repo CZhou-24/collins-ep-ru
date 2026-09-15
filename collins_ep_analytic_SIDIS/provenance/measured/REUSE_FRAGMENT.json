@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d13_projection_derivation.wl",
+      "sha256": "561d5463c402215543eca4051217ce98d05baa0823301e7ebc6f3cbc65b6ace8",
+      "scope": "Generating trace / projector definitions only; no final coefficient arrays or old integration backend",
+      "status": "used_generating_definitions",
+      "functions_reused": [
+        "D13ProjectionDerivation open qq/qg/BMHV transversity trace prefix -> RUTMDProjection; no distribution packet or endpoint import"
+      ],
+      "snapshot": "/bigTMD/collins_ep_analytic_SIDIS/provenance/measured/d13_projection_derivation.wl",
+      "snapshot_sha256": "561d5463c402215543eca4051217ce98d05baa0823301e7ebc6f3cbc65b6ace8",
+      "destinations": [
+        {
+          "path": "/bigTMD/collins_ep_analytic_SIDIS/common/ru_tmd_generation.wl",
+          "sha256": "c02b3de797fd547ba9efef952ecfb6effbc0610797842094d8fd52c87c89b309"
+        }
+      ],
+      "consuming_stages": [
+        "r00",
+        "r01",
+        "r03"
+      ]
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d13_collins_derivation.wl",
+      "sha256": "ae2904b9919adef319575915eecf92b4c4abfb77d10f788567ba423c16932a58",
+      "scope": "Generating trace / projector definitions only; no final coefficient arrays or old integration backend",
+      "status": "used_generating_definitions",
+      "functions_reused": [
+        "D13CollinsDerivation derivative+intrinsic EOM open cuts and normalization -> RUTMDCollinsCut",
+        "One-gluon covariant derivative plus future field-strength contact proof; old radial/Fourier and master backend omitted"
+      ],
+      "snapshot": "/bigTMD/collins_ep_analytic_SIDIS/provenance/measured/d13_collins_derivation.wl",
+      "snapshot_sha256": "ae2904b9919adef319575915eecf92b4c4abfb77d10f788567ba423c16932a58",
+      "destinations": [
+        {
+          "path": "/bigTMD/collins_ep_analytic_SIDIS/common/ru_tmd_generation.wl",
+          "sha256": "c02b3de797fd547ba9efef952ecfb6effbc0610797842094d8fd52c87c89b309"
+        }
+      ],
+      "consuming_stages": [
+        "r00",
+        "r01",
+        "r03"
+      ]
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d13_endpoint_derivation.wl",
+      "sha256": "f768f51f459d8d42b053265aea646e4ae07aba0f9a900359982901fa0ead403f",
+      "scope": "Generating trace / projector definitions only; no final coefficient arrays or old integration backend",
+      "status": "used_generating_definitions",
+      "functions_reused": [
+        "D13CurrentVertex -> RUTMDCurrentVertex: generated outgoing Compton vertex amputation",
+        "Open Wilson-sail projector and self-energy Clifford/hat pattern -> RUTMDVirtualOperatorProof (fresh source contraction; no old radial evaluation)"
+      ],
+      "snapshot": "/bigTMD/collins_ep_analytic_SIDIS/provenance/measured/d13_endpoint_derivation.wl",
+      "snapshot_sha256": "f768f51f459d8d42b053265aea646e4ae07aba0f9a900359982901fa0ead403f",
+      "destinations": [
+        {
+          "path": "/bigTMD/collins_ep_analytic_SIDIS/common/ru_tmd_generation.wl",
+          "sha256": "c02b3de797fd547ba9efef952ecfb6effbc0610797842094d8fd52c87c89b309"
+        }
+      ],
+      "consuming_stages": [
+        "r00",
+        "r01",
+        "r03"
+      ]
+    }
+  ],
+  "new_and_adapted_files": [
+    {
+      "path": "/bigTMD/collins_ep_analytic_SIDIS/common/ru_measured_helpers.wl",
+      "sha256": "fd302164ed78bdc1eadb466cf35d06a296420a0958b68b8b81e13595dcabe451"
+    },
+    {
+      "path": "/bigTMD/collins_ep_analytic_SIDIS/common/ru_tmd_generation.wl",
+      "sha256": "c02b3de797fd547ba9efef952ecfb6effbc0610797842094d8fd52c87c89b309"
+    },
+    {
+      "path": "/bigTMD/collins_ep_analytic_SIDIS/common/ru_tmd_assembly.wl",
+      "sha256": "95e664872f5a323643dd1f6c3a177af380752b6d39107b4b14ef665006ec4087"
+    }
+  ],
+  "inspection_only": [
+    {
+      "path": "/bigTMD/collins_ep_analytic/common/d13_matching_library.wl",
+      "sha256": "1fd6e5da2cdbb346d4cee3e5ef814e9a36f2512affee9401140437e41d79701a",
+      "scope": "Read-only convention audit for denominator-plus/full-scale, fragmentation Fourier and C11 UV allocation; no coefficient packet/body copied or executed"
+    }
+  ]
+}

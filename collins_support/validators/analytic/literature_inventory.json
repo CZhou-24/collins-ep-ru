@@ -1,0 +1,699 @@
+{
+  "counts": {
+    "EXACT": 14,
+    "EXACT AFTER EXPLICIT CONVERSION": 35,
+    "MISMATCH": 4,
+    "UNVERIFIED": 32
+  },
+  "origin_sha256": "9bf0e3ac642f32146b5bfbfb7ab473a7ec80e0b63d5a9e67c52209b574783f65",
+  "qualification": "Existing literature statuses; a new integration route does not automatically resolve them.",
+  "rows": [
+    {
+      "display_rows": [
+        "B01"
+      ],
+      "id": "B01",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "B02"
+      ],
+      "id": "B02",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "B03"
+      ],
+      "id": "B03",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "B04"
+      ],
+      "id": "B04",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "MISMATCH"
+    },
+    {
+      "display_rows": [
+        "B05"
+      ],
+      "id": "B05",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "MISMATCH"
+    },
+    {
+      "display_rows": [
+        "B06"
+      ],
+      "id": "B06",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "B07"
+      ],
+      "id": "B07",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "B08"
+      ],
+      "id": "B08",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "H01"
+      ],
+      "id": "H01",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "H02"
+      ],
+      "id": "H02",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "H03"
+      ],
+      "id": "H03",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "H04"
+      ],
+      "id": "H04",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "H05"
+      ],
+      "id": "H05",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "S01"
+      ],
+      "id": "S01",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "S02"
+      ],
+      "id": "S02",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "S03"
+      ],
+      "id": "S03",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "S04"
+      ],
+      "id": "S04",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "S05"
+      ],
+      "id": "S05",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "G01"
+      ],
+      "id": "G01",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "G02"
+      ],
+      "id": "G02",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "G03"
+      ],
+      "id": "G03",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "G04"
+      ],
+      "id": "G04",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "G05"
+      ],
+      "id": "G05",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "G06"
+      ],
+      "id": "G06",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "G07"
+      ],
+      "id": "G07",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "G08"
+      ],
+      "id": "G08",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "G09"
+      ],
+      "id": "G09",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "G10"
+      ],
+      "id": "G10",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "G11"
+      ],
+      "id": "G11",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "P01",
+        "P05"
+      ],
+      "id": "P01",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "P02"
+      ],
+      "id": "P02",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "P03"
+      ],
+      "id": "P03",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "P04",
+        "P06",
+        "E01",
+        "E02"
+      ],
+      "id": "P04",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "P07"
+      ],
+      "id": "P07",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "P08"
+      ],
+      "id": "P08",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "M01"
+      ],
+      "id": "M01",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "M02"
+      ],
+      "id": "M02",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "M03"
+      ],
+      "id": "M03",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "M04"
+      ],
+      "id": "M04",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "M05"
+      ],
+      "id": "M05",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "M06"
+      ],
+      "id": "M06",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "M07"
+      ],
+      "id": "M07",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "M08"
+      ],
+      "id": "M08",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "M09"
+      ],
+      "id": "M09",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "E03"
+      ],
+      "id": "E03",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "E04"
+      ],
+      "id": "E04",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "E05"
+      ],
+      "id": "E05",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "E06"
+      ],
+      "id": "E06",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "MISMATCH"
+    },
+    {
+      "display_rows": [
+        "E07"
+      ],
+      "id": "E07",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "E08"
+      ],
+      "id": "E08",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "E09"
+      ],
+      "id": "E09",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "E10"
+      ],
+      "id": "E10",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "E11"
+      ],
+      "id": "E11",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "E12"
+      ],
+      "id": "E12",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "F01",
+        "F02"
+      ],
+      "id": "F01",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "F03"
+      ],
+      "id": "F03",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "F04"
+      ],
+      "id": "F04",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "F05"
+      ],
+      "id": "F05",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "F06"
+      ],
+      "id": "F06",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "A01"
+      ],
+      "id": "A01",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "A02"
+      ],
+      "id": "A02",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "A03"
+      ],
+      "id": "A03",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "A04"
+      ],
+      "id": "A04",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "A05"
+      ],
+      "id": "A05",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "F08"
+      ],
+      "id": "F08",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "N12"
+      ],
+      "id": "N12",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "N13"
+      ],
+      "id": "N13",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "N14"
+      ],
+      "id": "N14",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "C01"
+      ],
+      "id": "C01",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "C02"
+      ],
+      "id": "C02",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "C03"
+      ],
+      "id": "C03",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "C04"
+      ],
+      "id": "C04",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "C05"
+      ],
+      "id": "C05",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "C06"
+      ],
+      "id": "C06",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "C07"
+      ],
+      "id": "C07",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "C08"
+      ],
+      "id": "C08",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "C09"
+      ],
+      "id": "C09",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "C10"
+      ],
+      "id": "C10",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT AFTER EXPLICIT CONVERSION"
+    },
+    {
+      "display_rows": [
+        "C11"
+      ],
+      "id": "C11",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "C12"
+      ],
+      "id": "C12",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "C13"
+      ],
+      "id": "C13",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "C14"
+      ],
+      "id": "C14",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "EXACT"
+    },
+    {
+      "display_rows": [
+        "C15"
+      ],
+      "id": "C15",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    },
+    {
+      "display_rows": [
+        "C16"
+      ],
+      "id": "C16",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "MISMATCH"
+    },
+    {
+      "display_rows": [
+        "C17"
+      ],
+      "id": "C17",
+      "policy": "Conservative aggregate; an unresolved literal alternative remains visible beside exact targets.",
+      "status": "UNVERIFIED"
+    }
+  ],
+  "schema": 1,
+  "status": "HISTORICAL_COMPARISON_ONLY"
+}

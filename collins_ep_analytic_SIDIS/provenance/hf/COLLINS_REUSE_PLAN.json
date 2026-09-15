@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "mission": "v0.5.1",
+  "created_utc": "2026-09-14T17:39:15.158610+00:00",
+  "stage": "BEFORE_COPY_OR_ADAPT",
+  "sources": [
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_projection_normalization.wl",
+      "sha256": "b5e4c743b99ab319d5fd051a24e3ab48cac408443ab883783441c5f4c239fbee",
+      "selected": "D16ProjectionNormalization complete generating Clifford/operator definition algebra",
+      "forbidden_runtime_inputs": [
+        "old evaluated outputs",
+        "old radial masters",
+        "reference_values.json",
+        "literal finite kernel templates"
+      ]
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_wilson_taylor.wl",
+      "sha256": "5ae79ca35ff9ec135456ffb182ea0af1a243126da0d325ad7162bdd7261615f6",
+      "selected": "D16WilsonTaylor complete free-algebra generating proof",
+      "forbidden_runtime_inputs": [
+        "old evaluated outputs",
+        "old radial masters",
+        "reference_values.json",
+        "literal finite kernel templates"
+      ]
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_spectral_support.wl",
+      "sha256": "4d28725cc139a690a8b824f642d0e61609ded344d7832de77fa6275f7a265a9e",
+      "selected": "Selected spectral phase/Appendix IBP/regularity fragments only; exclude hardcoded p0 and conditional bulk/joint diagnostics",
+      "forbidden_runtime_inputs": [
+        "old evaluated outputs",
+        "old radial masters",
+        "reference_values.json",
+        "literal finite kernel templates"
+      ]
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_operator_completion.wl",
+      "sha256": "4ab6410310c59bb29a9bcd28d95467fd2822d99222ffa6d366bafe14cfed6226",
+      "selected": "Selected regular native F map and endpoint chain rule; do not call old D16SpectralSupport",
+      "forbidden_runtime_inputs": [
+        "old evaluated outputs",
+        "old radial masters",
+        "reference_values.json",
+        "literal finite kernel templates"
+      ]
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_cut_numerators.wl",
+      "sha256": "6fbbc5da3cc6f274da8b431055de4d635300b9fc6719d8c32a792b43325a541a",
+      "selected": "D17GeneratedGraphs,D17PrimaryCut,D17IndependentCut complete generating functions",
+      "forbidden_runtime_inputs": [
+        "old evaluated outputs",
+        "old radial masters",
+        "reference_values.json",
+        "literal finite kernel templates"
+      ]
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_gauge_completion.wl",
+      "sha256": "facfa433d4a00673f6ad160438baea15ef160ec68cf0a42af46cf7a7fabdc89b",
+      "selected": "D17OpenGaugeCurrent,D17GaugeCompletion complete generating functions",
+      "forbidden_runtime_inputs": [
+        "old evaluated outputs",
+        "old radial masters",
+        "reference_values.json",
+        "literal finite kernel templates"
+      ]
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_endpoint_completion.wl",
+      "sha256": "b01aea25348b885444c4a59b71d30f539b3590a3ef43c303e50b297bbb08a58e",
+      "selected": "D17EndpointCompletion; only freshly generated numerator inputs",
+      "forbidden_runtime_inputs": [
+        "old evaluated outputs",
+        "old radial masters",
+        "reference_values.json",
+        "literal finite kernel templates"
+      ]
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_virtual_completion.wl",
+      "sha256": "b90001920d2acbff992590d7132d064e84d1d54824ad4483e30fda4066c1810a",
+      "selected": "D17VirtualCompletion fresh generated virtual currents and cluster identity",
+      "forbidden_runtime_inputs": [
+        "old evaluated outputs",
+        "old radial masters",
+        "reference_values.json",
+        "literal finite kernel templates"
+      ]
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/physics_helpers.wl",
+      "sha256": "5480cd674f4e272e00d398f9740b0b39ee08b365f9da04b72ff6abefc58107d1",
+      "selected": "MDot,PhysicalGammas,PhysicalSlash only",
+      "forbidden_runtime_inputs": [
+        "old evaluated outputs",
+        "old radial masters",
+        "reference_values.json",
+        "literal finite kernel templates"
+      ]
+    }
+  ],
+  "excluded": [
+    "d17_radial_distribution.wl",
+    "d17_packet_derivation.wl",
+    "d17_reference_comparison.wl",
+    "d17_completed_stage.wl",
+    "all old evaluated state/review outputs"
+  ],
+  "SIDIS_direct_reuse": [],
+  "SIDIS_note": "Shared measured family/actual Kira and SubTropica helpers owned and recorded by ru_conventions."
+}

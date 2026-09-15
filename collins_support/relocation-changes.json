@@ -1,0 +1,622 @@
+{
+  "files": {
+    "collins_ep_analytic/README.md": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "a5e3b6657e7b8a07d23659c272c2113c6b95c6fef77a17838370ed99c77cbc1b",
+        "size": 4877
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "f7d82ea0421982c65c552471de1666964b8699d94c14e0d5b89c516dfed57a2d",
+        "size": 4966
+      },
+      "reason": "Update current project-local commands and guide links; label completed install/upgrade/report campaigns historical."
+    },
+    "collins_ep_analytic/assembly_runtime.json": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "5e3d916db8cd97800c77df9c4ecf05605a1279a1a67282e4e1a62e4c4167ca6c",
+        "size": 148
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "e1ae4bf6a6c0037e2de0df30bf5fde4e5378df52fbb91106c09892c2cdb38c7a",
+        "size": 123
+      },
+      "reason": "Express the moved legacy analytical-state input as a project-relative configuration path."
+    },
+    "collins_ep_analytic/derivation_runtime.json": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "868d5002142d3dc70ef620c7d485266cf40dfa288b8efb2fa00dda84c88bd913",
+        "size": 629
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "ef250cde182d0a2628fcdbc39fb37e05429f9181d0ffa57776f3b3a56688b5b0",
+        "size": 585
+      },
+      "reason": "Express the moved installation lock and MadGraph root as project-relative configuration paths."
+    },
+    "collins_ep_analytic/numerics/physical_inputs.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "0143b8d5aada6a956c69791fc338dd01f7bc6f5fad0c7b6932c5fa18815b3a82",
+        "size": 9515
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "d79165c3f96277e3bcb5c9073be578cbbeeda03820d6fb458c5ccaa0e616f273",
+        "size": 9377
+      },
+      "reason": "Resolve moved provider manifest, library and input paths at access boundaries while retaining recorded manifest values."
+    },
+    "collins_ep_analytic/run.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "7bc1b49d0bed6dbfe5a6af1495f3dc6aafbf67fcdd56b1c605aa29f98ea23891",
+        "size": 676
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "a1ce7e047f41d59fe4c3c9404daed88bdff661d4324dec96c5ae1b8c1cec1188",
+        "size": 489
+      },
+      "reason": "Point the comparison-engine wrapper to the existing bundled retained validator using the shared resolver."
+    },
+    "collins_ep_analytic_SIDIS/README.md": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "b1176e6a423f63b01275528a342677efc2e784f5ca2226766dd6816879db6421",
+        "size": 7547
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "498f58d9d92594ee955fbd201975f5052a06ff495b690a95a814a764269ff3d6",
+        "size": 7454
+      },
+      "reason": "Update current project-local commands and guide links; label completed install/upgrade/report campaigns historical."
+    },
+    "collins_ep_analytic_SIDIS/comparison/README.md": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "a90582e0b450f23c565cc9c997c22e04e457dc7772e9ff6ad8196bd2cd9da9ad",
+        "size": 4943
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "8cc2e3ee4a77e4e1ace8b05937962f97b55fb2899c933d8d0a0be92799269b81",
+        "size": 4595
+      },
+      "reason": "Update current project-local commands and guide links; label completed install/upgrade/report campaigns historical."
+    },
+    "collins_ep_analytic_SIDIS/reports/README.md": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "73bc6c56b1f8735711f15085609ca652232533e8aecaf24e12d4f2406976d529",
+        "size": 4019
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "dd302cbf334981724777e8f68149c2d26ed19e1f97b7953a9a1810599583545d",
+        "size": 3826
+      },
+      "reason": "Update current project-local commands and guide links; label completed install/upgrade/report campaigns historical."
+    },
+    "collins_ep_analytic_SIDIS/tools/reproduce_organization.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "bd4d7bfff0214746b994fc62e691f91e4f8683d1f2c354e884018eb8556636eb",
+        "size": 10839
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "0d2c6902cde92e4c689e32949fc41353c2f68e0e8b943dfb9525c1e2cd18a7ec",
+        "size": 9648
+      },
+      "reason": "Use the stable validator/accepted paths, exact path-edit identity records and separate local state/report outputs; historical cleanup is not a live archive gate."
+    },
+    "collins_support/validators/analytic/INSTALL.md": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "31f392d73ce6085dac90e083fe3094aedfe6595594d7512d1e934dae1a83676b",
+        "size": 5009
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "362ec97c8df81c2973abebb33aff2e6182f03f590357e2915ecce3873148afdc",
+        "size": 4462
+      },
+      "reason": "Update current project-local commands and guide links; label completed install/upgrade/report campaigns historical."
+    },
+    "collins_support/validators/analytic/README.md": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "586fae036c522d0c76d4fc403620876308f495a079770c86686bcbf8286fc1e6",
+        "size": 5889
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "a6c06da40204ff4c0f9b1eb80ab3235396512b0ecf88619274edf6fb407875cf",
+        "size": 5358
+      },
+      "reason": "Update current project-local commands and guide links; label completed install/upgrade/report campaigns historical."
+    },
+    "collins_support/validators/analytic/compare_ru_reports.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "18d3bfb4c252ee157048c7c167afc039c6ebdb53665267744b6c5bff23d1567c",
+        "size": 4972
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "a406446b4abeab9e6e59d05f1ab6b1bfb38aa6182ac0854a77d873a4a0d669d4",
+        "size": 4982
+      },
+      "reason": "Replay moved seed reports using original release identities and unchanged report content; write current pair output locally."
+    },
+    "collins_support/validators/analytic/install.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "e84f746e430073dd41427f490f5c45734d1e2ca51ff574e45b5e757a3d064857",
+        "size": 2446
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "333d86315326e641aee77314d065338aaa08b03b4e037d6390d3b4ae89b9d660",
+        "size": 2376
+      },
+      "reason": "Label completed installation as historical and remove filesystem-root state defaults/writes."
+    },
+    "collins_support/validators/analytic/native_regression.py": {
+      "after": {
+        "kind": "file",
+        "mode": 493,
+        "sha256": "d1b40f553b2259ed40891aee4e67ae805d27d74592f78222ce6be6c3be98e8b7",
+        "size": 8259
+      },
+      "before": {
+        "kind": "file",
+        "mode": 493,
+        "sha256": "25535ad02e5a9087b1d8c53bda5271ed69f5c53aeb05dd6d621a6d641b05d854",
+        "size": 8188
+      },
+      "reason": "Use only designated project-local state output for optional native regression checks."
+    },
+    "collins_support/validators/analytic/native_smoke.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "b01064b30ac1bb81db5af7ca0bc31df8dac810d974f33bd2a68546b319c23704",
+        "size": 1475
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "1594100852d2f18bf7951ed385e32e9c20515f1ed28732c736c4bac8e69543f2",
+        "size": 1404
+      },
+      "reason": "Use only designated project-local state output for optional native smoke checks."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/INSTALL.md": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "566b2c86f667f9d76a6b8de3db101734e61df342f90c751fd4f8aeb803536492",
+        "size": 5762
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "b011e4643b1ece593e8147609e6f50f8b9c495762327c66649cfca078996996f",
+        "size": 5352
+      },
+      "reason": "Update current project-local commands and guide links; label completed install/upgrade/report campaigns historical."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/README.md": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "757ee2a30c35722b2acc9b13fd4d54708e61bcad00b77f423bea0140423dbaca",
+        "size": 6546
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "3a94960d61973eb448e9c700d16d2ddf0679096f99e4d1925645f4cdca0da154",
+        "size": 5968
+      },
+      "reason": "Update current project-local commands and guide links; label completed install/upgrade/report campaigns historical."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/compare_nlo_reports.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "f2ef648e1ea2ec2aa2b6552e9c93e15dbe7d70b6da79ccc0fd138c34b1e38b38",
+        "size": 4142
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "7076c8aebd22691ab38cf3cff453dac4de38fc092d1edc0de351f621179d7f61",
+        "size": 4117
+      },
+      "reason": "Resolve retained report paths and original manifest identities without rewriting saved reports."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/install.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "13ebae509397e5b40459615896367b89f8c9ccd7da36bd99e6696411f001bd9f",
+        "size": 3869
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "524757a667c839525749ca2aa8fee83b1e2a2ed8d54a12e42d288e8ebf9632a3",
+        "size": 3890
+      },
+      "reason": "Label completed installation as historical and remove filesystem-root state defaults/writes."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/native_smoke.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "de9817be54a761681f7796455c85c9ed1047535ac217cc58402aa27e9afd1a0f",
+        "size": 2067
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "6ed850cfbb5cb844e0ffa15aec2eb10cccaf84733714663086ea77a91c984476",
+        "size": 2053
+      },
+      "reason": "Use only designated project-local state output for optional native smoke checks."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/nlo_support.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "0d77769538aa36972e594566d38a033e8216f731c5a4a86cfd7d3fb71b9a844f",
+        "size": 7023
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "25f5a8f67f904a72fb52832fa67eb4ce6e3f10070b11c92da01b929c903f5d00",
+        "size": 6679
+      },
+      "reason": "Resolve moved filesystem inputs, record-scoped source/release transitions and local report/state output guards."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/README.md": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "8e41dc7f5a5b15f7be34caef5ef0b435188a5d36a7bc57ab42d57cb9a37a0ac3",
+        "size": 13464
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "6a5880268e473a00dd16519e7dfce9bb8daaea38a9a4a558c579955d491535bf",
+        "size": 12825
+      },
+      "reason": "Update current project-local commands and guide links; label completed install/upgrade/report campaigns historical."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/check_baseline.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "436903a218af3d3f04b52309bde6c6732e7b338daa213fc39a8d66449729fa04",
+        "size": 1328
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "fa8f92ca21995b0fc433212b2cdcf3c341e16829a4dc2d721475468d2365f415",
+        "size": 1295
+      },
+      "reason": "Resolve the moved existing baseline; no initialization or baseline reset."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/compare_assembly_reports.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "5bffedffc721c8b8e17279e0b88a5f34b6697bdd6943fda2b6d664a99720c7b9",
+        "size": 11921
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "7c883666b3f87726eaa0eb3e8cf04250d097efe950948895a8bb7c94d084af46",
+        "size": 11447
+      },
+      "reason": "Resolve historical evidence and bound release identity; compare explicit path fields and protect local outputs."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/compare_derivation_reports.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "d49511df5fbdf3ec5e3bd721fc5621d16ccd0fb78193c33ea347b92752f75178",
+        "size": 7453
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "1b3dca9408ddb73d8bca253d7a5e5670ea924239cb0d2820509fae7caaa42e9c",
+        "size": 7186
+      },
+      "reason": "Resolve historical evidence and compare only declared run_paths/detail fields across relocation."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/derivation_support.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "6fef46c6062a771b6c7b52fb8ef993346be538f8d4579922c5d6fd447b609d21",
+        "size": 4379
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "ac681e731ea2a7678cb5b9cfc0314d8c237257fd78cb56abb04260b95315c34d",
+        "size": 4286
+      },
+      "reason": "Resolve the installation lock and MadGraph paths for access/native contexts; preserve installation and native identities."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/extension_inputs.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "8826b391709173b4066843f15570bd65cbc93145fb7390b8252f960ede224f7b",
+        "size": 1872
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "05c35326588c67de91ede92a3ff52e0b710d593ddc482f75b3d0e644cde5ee5d",
+        "size": 1886
+      },
+      "reason": "Resolve the moved analytical history and admit only recorded configuration/wrapper hash changes in the original foundation lock."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/install.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "771dd257c91e0eb79bab6618f5771b87bd728c0fbe059cc12697fd78119792f3",
+        "size": 4857
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "d40bb86d8dabac8b4a642dcb4016369d726f82985163628da85153eaac91bf12",
+        "size": 4716
+      },
+      "reason": "Label completed installation as historical and remove filesystem-root state defaults/writes."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/madgraph_checks.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "c482479deaf20f3615edd697ea00c308327d09cde461903af948e7e1f7909a70",
+        "size": 38325
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "2f67a101869f540ae05f72e8c31fa3388aef9c2da75cb4c02a546d054b7e13c8",
+        "size": 38306
+      },
+      "reason": "Resolve the existing moved MadGraph installation at its filesystem access boundary; arithmetic/evidence logic unchanged."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/support.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "98ec2e66779038f53eab693d6cb09f8497f17f9de080afca0648724ad68951e4",
+        "size": 6843
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "96c69c53cbf6495ce53295bffa263bd174349b5ef1453f0a20fbceb5083409ee",
+        "size": 6612
+      },
+      "reason": "Resolve baseline/history/native access and enforce exact recorded source/release transitions while keeping all baseline and evidence checks."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/tests/test_patch_compatibility.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "6c01e29c826f834666bfbdea0b253fd4e62b4e4ed98c13cffafbd4a587525f37",
+        "size": 6727
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "66ae3f4a3f752cce4ace5a18e00749b5b0f18244691af2e6e923116e1e655ec8",
+        "size": 6705
+      },
+      "reason": "Update only the expected relocated installation-state default."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/verify.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "5b0dc308a0cd5694d71ff657ba52a6591a36648477601b2753fdbfbd2d444876",
+        "size": 15056
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "247bf8b6d548af287a32bb53bbc2405880bf530bd44695f04fc11e1878e33ac6",
+        "size": 14791
+      },
+      "reason": "Resolve moved foundation/numerical input paths and execution-only native context fields."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/verify_assembly.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "c60a5a22511453b8a287a333e8ebd2b88146c0ccef693883c9040ad6cf2bd955",
+        "size": 15427
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "cb39d25e94ee1f9472488f202ee15bb540dadf39e8fc77b59f1c0da67042a725",
+        "size": 15248
+      },
+      "reason": "Resolve saved run inputs and native context paths; local report guard and optional numerical default."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/verify_derivation.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "6f70e90213c25b13f8ee48906096ce740ea658a83d15cd69b5e8a5ed0dbb9d99",
+        "size": 9794
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "6e48212f52a51631868811666500e837237a6dedaf5c6f2af3830466ce87eb70",
+        "size": 9826
+      },
+      "reason": "Resolve saved run inputs and execution-only runtime; local report guard and baseline default."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3/workflow.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "eb952621e571f0705733d41b93ed60503212bf5aa93a4741bfa26f49d286815c",
+        "size": 13648
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "dddcfd647922bde88834ece26c2b956cad3239836ab0678b8d0061e192e5c069",
+        "size": 13368
+      },
+      "reason": "Resolve saved run paths and explicit native contexts, preserve original source/runtime/release meaning, and constrain new states to project support."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/verify_nlo.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "722d7824c982597243ea311cb06e6fb5954cce6b9726fea94ac10004ff05253c",
+        "size": 9850
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "23eb454bf42f2c8ce482e2acb84fea73fe396a78acbaa0233b54fb539689fed4",
+        "size": 9670
+      },
+      "reason": "Resolve saved run inputs and compare declared context input paths explicitly; scientific rows remain unchanged."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/workflow.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "e4022b096311845e8f9170b72294505cbc238473634f578dcbc300a8b0f77dc2",
+        "size": 12167
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "47417024b7eff14173b66d0fab70036c2f67d0d955229cae89b3c11d9c3122cd",
+        "size": 12029
+      },
+      "reason": "Resolve saved run paths and explicit native contexts, preserve original source/runtime/release meaning, and constrain new states to project support."
+    },
+    "collins_support/validators/analytic/ru_support.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "c8237339b2dfc0117a3270a005bec6a47621d2f990923a75730a537aebd2beb8",
+        "size": 10496
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "6f989a1ebc0e4ce9b3a9556e42a8f4ff8e056619f351773dd92f4d3b10648fa0",
+        "size": 10247
+      },
+      "reason": "Resolve moved filesystem inputs, preserve old accepted identities, admit only recorded source/release edits, and guard local report outputs."
+    },
+    "collins_support/validators/analytic/upgrade.py": {
+      "after": {
+        "kind": "file",
+        "mode": 493,
+        "sha256": "ee9e06069bc69de0e3f24b3c4f688f2d2e5068765eaa17d3f0672492b59e24e4",
+        "size": 543
+      },
+      "before": {
+        "kind": "file",
+        "mode": 493,
+        "sha256": "4a8bdabcaa333abe54a889d6cc0e844475fb7afd5fbc6b09d601dd8a829fe6c2",
+        "size": 4064
+      },
+      "reason": "Retire the completed adoption command so missing standalone releases are not restored and root directories cannot be recreated."
+    },
+    "collins_support/validators/analytic/verify_ru.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "a920a83e900dfbff62595b5e46ee54004c18000d135f791dbb503acbc237421c",
+        "size": 17568
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "abc0270cbc15b67b1d18492f93ba51e65d0fad26d8853bfbcd2ccd65f63352b7",
+        "size": 16920
+      },
+      "reason": "Resolve replay inputs and compare only declared mutation-certificate path identities; keep saved evidence hashes and scientific comparisons exact."
+    },
+    "collins_support/validators/analytic/workflow.py": {
+      "after": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "c4f6a442c6425c29089c65e332b81d442a68cc06a167bb62cc88a9cefedd4df1",
+        "size": 19725
+      },
+      "before": {
+        "kind": "file",
+        "mode": 420,
+        "sha256": "6a356da98b6a1719c927cc7bb8572a15d42dcd3c6d6eff6f23b43773a0bc3c6f",
+        "size": 19649
+      },
+      "reason": "Resolve saved run paths and explicit native contexts, preserve original source/runtime/release meaning, and constrain new states to project support."
+    }
+  },
+  "origin_sha256": "9f12ec4f1ef0206403882315f1002430b4703d43635031e5450ba51d17e7f0cf",
+  "schema": 1,
+  "scope": "Exact authorized path/configuration/documentation edits only. Original analytical bytes, reference values, tolerances, qualifications, reports and recorded hashes are not redefined."
+}

@@ -1,0 +1,1949 @@
+{
+  "counts": {
+    "FAIL": 0,
+    "PASS": 167,
+    "total": 167
+  },
+  "kind": "fresh_relocation_run_scalar_comparison",
+  "native_execution_in_this_command": false,
+  "new_independent_physics_acceptance": false,
+  "official_scientific_rows": [
+    {
+      "id": "native.r00",
+      "jobs": 0,
+      "status": "PASS",
+      "values": 2
+    },
+    {
+      "id": "native.r01",
+      "jobs": 2,
+      "status": "PASS",
+      "values": 0
+    },
+    {
+      "id": "integrands.r01",
+      "status": "PASS",
+      "targets": 17
+    },
+    {
+      "id": "native.r02",
+      "jobs": 2,
+      "status": "PASS",
+      "values": 0
+    },
+    {
+      "id": "native.r03",
+      "jobs": 0,
+      "status": "PASS",
+      "values": 104
+    },
+    {
+      "id": "native.r04",
+      "jobs": 1,
+      "status": "PASS",
+      "values": 0
+    },
+    {
+      "id": "integrands.r04",
+      "status": "PASS",
+      "targets": 16
+    },
+    {
+      "id": "native.r05",
+      "jobs": 1,
+      "status": "PASS",
+      "values": 0
+    },
+    {
+      "id": "native.r06",
+      "jobs": 0,
+      "status": "PASS",
+      "values": 9
+    },
+    {
+      "id": "native.r07",
+      "jobs": 0,
+      "status": "PASS",
+      "values": 167
+    },
+    {
+      "id": "reference.d13/coefficients/fqq/one_loop/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqq/tree/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqq/one_loop/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqq/tree/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqq/one_loop/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqq/tree/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqq/one_loop/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqq/tree/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqg/one_loop/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqg/tree/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqg/one_loop/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqg/tree/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqg/one_loop/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqg/tree/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqg/one_loop/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/fqg/tree/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/hqq/one_loop/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/hqq/tree/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/hqq/one_loop/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/hqq/tree/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/hqq/one_loop/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/hqq/tree/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/hqq/one_loop/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/hqq/tree/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dqq/one_loop/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dqq/tree/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dqq/one_loop/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dqq/tree/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dqq/one_loop/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dqq/tree/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dqq/one_loop/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dqq/tree/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dgq/one_loop/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dgq/tree/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dgq/one_loop/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dgq/tree/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dgq/one_loop/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dgq/tree/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dgq/one_loop/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/dgq/tree/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/collins/one_loop/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/collins/tree/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/collins/one_loop/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/collins/tree/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/collins/one_loop/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/collins/tree/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/collins/one_loop/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/coefficients/collins/tree/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/qq/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/qq/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/qq/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/qq/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/qg/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/qg/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/qg/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/qg/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/gq/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/gq/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/gq/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/gq/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/transversity/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/transversity/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/transversity/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d13/splitting/transversity/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d16/identities/Collins_rank1_relative",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d16/identities/EOM_contact",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d16/identities/Fourier_rank0_relative",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d16/identities/PV_combined_measure",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d16/identities/delta_inverse_fraction",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d16/identities/dz1_measure",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/finite/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/finite/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/finite/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/finite/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/mixing/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/mixing/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/mixing/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/mixing/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/bare/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/bare/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/bare/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/bare/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/counterterm/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/counterterm/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/counterterm/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/counterterm/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/epsilon_projection/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/epsilon_projection/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/epsilon_projection/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/epsilon_projection/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/finite/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/finite/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/finite/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/finite/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/independent_finite/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/independent_finite/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/independent_finite/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/independent_finite/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/mixing/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/mixing/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/mixing/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_delta/mixing/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/bare/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/bare/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/bare/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/bare/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/counterterm/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/counterterm/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/counterterm/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/counterterm/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/epsilon_projection/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/epsilon_projection/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/epsilon_projection/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/epsilon_projection/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/finite/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/finite/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/finite/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/finite/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/independent_finite/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/independent_finite/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/independent_finite/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/independent_finite/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/mixing/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/mixing/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/mixing/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d17/v_derivative/mixing/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UU/bare",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UU/overlap",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UU/counterterm",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UU/epsilon_projection",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UU/finite",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UU/gamma_G_minus_TMD",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UU/independent_finite",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UT/bare",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UT/overlap",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UT/counterterm",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UT/epsilon_projection",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UT/finite",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UT/gamma_G_minus_TMD",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d18/UT/independent_finite",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.s09/H_UU",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.s09/H_UT",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.s09/h1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/observable/UU0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/observable/UU1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/paper_limit/UU0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/paper_limit/UU1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/scheme_variation/UU",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/observable/UT0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/observable/UT1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/paper_limit/UT0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/paper_limit/UT1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/scheme_variation/UT",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/ratio/A0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/ratio/A1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/v_delta_delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/v_derivative_delta",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/v_delta_D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/v_derivative_D0",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/v_delta_D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/v_derivative_D1",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/v_delta_regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "reference.d19/HF_integrand/v_derivative_regular",
+      "meaning": "accepted-engine comparison in declared comparison convention",
+      "status": "PASS"
+    },
+    {
+      "id": "coverage.integrals_and_conventions",
+      "qualification": "source review required for physical content",
+      "status": "PASS"
+    }
+  ],
+  "official_scientific_status": "CHECKS_PASS",
+  "qualifications": {
+    "figure6": "PAUSED",
+    "fitted_providers": "NOT_REQUIRED",
+    "generic_HF_endpoint_contacts": "NOT_CERTIFIED",
+    "independence": "integration route; shared source components must be disclosed",
+    "new_modified_amplitudes_MadGraph": "NOT_AUTOMATICALLY_CERTIFIED_BY_RETAINED_CHECKS",
+    "radius_R1": "NOT_CERTIFIED",
+    "scientific_source_review": "REQUIRED",
+    "unrestricted_fixed_order_NLO": "OUTSIDE_SCOPE"
+  },
+  "reference": {
+    "original_sha256": "2bd3deea176c3ae00413118d3d7fde9f393dfa242650ed24245c0af196477ef6",
+    "path": "/bigTMD/collins_support/validators/analytic/reference_values.json",
+    "sha256": "2bd3deea176c3ae00413118d3d7fde9f393dfa242650ed24245c0af196477ef6",
+    "unchanged": true
+  },
+  "release_manifest_sha256": "caafd1ee5c477f0b159797979f625b75b18299007a87eeac1f6c2a99042a00ff",
+  "rows": [
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/collins/one_loop/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/collins/one_loop/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/collins/one_loop/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/collins/one_loop/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/collins/tree/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/collins/tree/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/collins/tree/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/collins/tree/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dgq/one_loop/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dgq/one_loop/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dgq/one_loop/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dgq/one_loop/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dgq/tree/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dgq/tree/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dgq/tree/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dgq/tree/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dqq/one_loop/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dqq/one_loop/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dqq/one_loop/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dqq/one_loop/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dqq/tree/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dqq/tree/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dqq/tree/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/dqq/tree/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqg/one_loop/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqg/one_loop/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqg/one_loop/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqg/one_loop/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqg/tree/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqg/tree/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqg/tree/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqg/tree/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqq/one_loop/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqq/one_loop/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqq/one_loop/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqq/one_loop/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqq/tree/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqq/tree/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqq/tree/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/fqq/tree/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/hqq/one_loop/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/hqq/one_loop/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/hqq/one_loop/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/hqq/one_loop/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/hqq/tree/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/hqq/tree/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/hqq/tree/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/coefficients/hqq/tree/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/gq/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/gq/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/gq/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/gq/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/qg/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/qg/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/qg/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/qg/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/qq/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/qq/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/qq/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/qq/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/transversity/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/transversity/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/transversity/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d13/splitting/transversity/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d16/identities/Collins_rank1_relative",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d16/identities/EOM_contact",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d16/identities/Fourier_rank0_relative",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d16/identities/PV_combined_measure",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d16/identities/delta_inverse_fraction",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d16/identities/dz1_measure",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/finite/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/finite/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/finite/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/finite/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/mixing/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/mixing/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/mixing/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/mixing/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/bare/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/bare/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/bare/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/bare/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/counterterm/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/counterterm/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/counterterm/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/counterterm/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/epsilon_projection/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/epsilon_projection/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/epsilon_projection/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/epsilon_projection/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/finite/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/finite/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/finite/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/finite/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/independent_finite/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/independent_finite/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/independent_finite/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/independent_finite/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/mixing/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/mixing/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/mixing/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_delta/mixing/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/bare/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/bare/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/bare/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/bare/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/counterterm/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/counterterm/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/counterterm/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/counterterm/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/epsilon_projection/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/epsilon_projection/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/epsilon_projection/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/epsilon_projection/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/finite/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/finite/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/finite/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/finite/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/independent_finite/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/independent_finite/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/independent_finite/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/independent_finite/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/mixing/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/mixing/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/mixing/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d17/v_derivative/mixing/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UT/bare",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UT/counterterm",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UT/epsilon_projection",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UT/finite",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UT/gamma_G_minus_TMD",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UT/independent_finite",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UT/overlap",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UU/bare",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UU/counterterm",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UU/epsilon_projection",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UU/finite",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UU/gamma_G_minus_TMD",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UU/independent_finite",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d18/UU/overlap",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/v_delta_D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/v_delta_D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/v_delta_delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/v_delta_regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/v_derivative_D0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/v_derivative_D1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/v_derivative_delta",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/HF_integrand/v_derivative_regular",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/observable/UT0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/observable/UT1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/observable/UU0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/observable/UU1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/paper_limit/UT0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/paper_limit/UT1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/paper_limit/UU0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/paper_limit/UU1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/ratio/A0",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/ratio/A1",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/scheme_variation/UT",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "d19/scheme_variation/UU",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "u=-s-t in both expressions",
+      "quantity": "s09/H_UT",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "u=-s-t in both expressions",
+      "quantity": "s09/H_UU",
+      "residual": 0,
+      "status": "PASS"
+    },
+    {
+      "conversion": "identity",
+      "quantity": "s09/h1",
+      "residual": 0,
+      "status": "PASS"
+    }
+  ],
+  "run": "/bigTMD/collins_support/states/relocation-check/runs/20260915T021821Z-835a7cdd734f",
+  "run_manifest_sha256": "0b7dce454ffb899272126235d39effcb3c39d159a219b2282df67763ad8a2513",
+  "schema": 1,
+  "scientific_qualifications_changed": false,
+  "script_sha256": "69149a50628160052811b7bbe49cf6fefce6eb05c9306edfdeb98a27a0300c60",
+  "settings": {
+    "arithmetic": "exact official algebra; cancel(expand(our-reference)), then simplify if needed",
+    "conversion": {
+      "identity": "s+t+u=0",
+      "operation": "substitute u=-s-t in both candidate and reference before comparison",
+      "other_quantities": "identity conversion",
+      "quantities": "s09/H_*"
+    },
+    "numerical_tolerance": null
+  },
+  "source_entries_checked": 109,
+  "status": "PASS"
+}

@@ -1,0 +1,1218 @@
+{
+  "fresh_compilation": false,
+  "frozen_source_files_checked": 1399,
+  "one_line_diagnostic_verified": true,
+  "scope": "Archive/source review, retrospective arithmetic and optional archived-binary execution; not official acceptance",
+  "seeds": [
+    {
+      "archived_binary_execution": {
+        "comparison_counts": {
+          "PASS": 60
+        },
+        "comparisons": [
+          {
+            "detail": {
+              "Clifford": 0.03043007829775486,
+              "MG": 0.030430078297754858,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.009159575100169327,
+              "MG": 0.009159575100169322,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.0.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.020152313318292946,
+              "MG": 0.020152313318292953,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.0033726697445874585,
+              "MG": -0.0033726697445874646,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.1.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.01627448254369999,
+              "MG": 0.01627448254369999,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0014582810842590523,
+              "MG": 0.0014582810842590518,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.2.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.022790828313794302,
+              "MG": 0.022790828313794295,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.005205525311154413,
+              "MG": -0.005205525311154411,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.3.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.4010993319554943,
+              "MG": 0.40109933195549435,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.38947759621823524,
+              "MG": 0.3894775962182353,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.4.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0162337458876265,
+              "MG": 0.01623374588762649,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.5.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.002737226678015456,
+              "MG": -0.0027372266780154534,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.5.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.00032161462073136444,
+              "MG": 0.00032161462073136427,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -5.8443025976650866e-05,
+              "MG": -5.8443025976650934e-05,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.0.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0007092267209649459,
+              "MG": 0.0007092267209649456,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.000394859626540298,
+              "MG": 0.000394859626540298,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.1.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.000884212988865677,
+              "MG": 0.0008842129888656771,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.0003058672121758393,
+              "MG": -0.0003058672121758396,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.2.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0017285363704073842,
+              "MG": 0.001728536370407384,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.0014457706721783174,
+              "MG": -0.0014457706721783172,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.3.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0006516466429618164,
+              "MG": 0.0006516466429618155,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.00010736002975910603,
+              "MG": -0.00010736002975910598,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.4.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0006611049835823176,
+              "MG": 0.0006611049835823172,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.5.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.0002589908207576341,
+              "MG": -0.0002589908207576343,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.5.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0011399401757059132,
+              "MG": 0.0011399401757059154,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 1.2288301001300492e-05,
+              "MG": 1.2288301001300494e-05,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 6.299869234668332e-05,
+              "MG": 6.299869234668328e-05,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 2.8623102333354813e-05,
+              "MG": 2.862310233335482e-05,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.00016086967069049265,
+              "MG": 0.00016086967069049254,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0008965326919999697,
+              "MG": 0.0008965326919999706,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.5.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.030430078297754858,
+              "absolute_error": 3.122502256758253e-17,
+              "candidate": 0.03043007829775489
+            },
+            "id": "madgraph.candidate.born_eq.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.009159575100169322,
+              "absolute_error": 1.9081958235744878e-17,
+              "candidate": 0.009159575100169341
+            },
+            "id": "madgraph.candidate.born_eq.0.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.020152313318292953,
+              "absolute_error": 6.938893903907228e-18,
+              "candidate": 0.020152313318292946
+            },
+            "id": "madgraph.candidate.born_eq.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.0033726697445874646,
+              "absolute_error": 5.637851296924623e-18,
+              "candidate": -0.003372669744587459
+            },
+            "id": "madgraph.candidate.born_eq.1.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.01627448254369999,
+              "absolute_error": 1.0408340855860843e-17,
+              "candidate": 0.0162744825437
+            },
+            "id": "madgraph.candidate.born_eq.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0014582810842590518,
+              "absolute_error": 1.5178830414797062e-18,
+              "candidate": 0.0014582810842590534
+            },
+            "id": "madgraph.candidate.born_eq.2.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.022790828313794295,
+              "absolute_error": 6.938893903907228e-18,
+              "candidate": 0.022790828313794302
+            },
+            "id": "madgraph.candidate.born_eq.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.005205525311154411,
+              "absolute_error": 6.071532165918825e-18,
+              "candidate": -0.005205525311154417
+            },
+            "id": "madgraph.candidate.born_eq.3.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.40109933195549435,
+              "absolute_error": 1.6653345369377348e-16,
+              "candidate": 0.4010993319554945
+            },
+            "id": "madgraph.candidate.born_eq.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.3894775962182353,
+              "absolute_error": 1.1102230246251565e-16,
+              "candidate": 0.3894775962182354
+            },
+            "id": "madgraph.candidate.born_eq.4.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.01623374588762649,
+              "absolute_error": 3.469446951953614e-18,
+              "candidate": 0.016233745887626494
+            },
+            "id": "madgraph.candidate.born_eq.5.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.0027372266780154534,
+              "absolute_error": 8.673617379884035e-19,
+              "candidate": -0.0027372266780154543
+            },
+            "id": "madgraph.candidate.born_eq.5.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.00032161462073136427,
+              "absolute_error": 5.421010862427522e-20,
+              "candidate": 0.0003216146207313642
+            },
+            "id": "madgraph.candidate.real_eq.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -5.8443025976650934e-05,
+              "absolute_error": 5.421010862427522e-20,
+              "candidate": -5.844302597665088e-05
+            },
+            "id": "madgraph.candidate.real_eq.0.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0007092267209649456,
+              "absolute_error": 0.0,
+              "candidate": 0.0007092267209649456
+            },
+            "id": "madgraph.candidate.real_eq.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.000394859626540298,
+              "absolute_error": 2.168404344971009e-19,
+              "candidate": 0.0003948596265402978
+            },
+            "id": "madgraph.candidate.real_eq.1.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0008842129888656771,
+              "absolute_error": 1.0842021724855044e-19,
+              "candidate": 0.000884212988865677
+            },
+            "id": "madgraph.candidate.real_eq.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.0003058672121758396,
+              "absolute_error": 1.6263032587282567e-19,
+              "candidate": -0.00030586721217583943
+            },
+            "id": "madgraph.candidate.real_eq.2.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.001728536370407384,
+              "absolute_error": 0.0,
+              "candidate": 0.001728536370407384
+            },
+            "id": "madgraph.candidate.real_eq.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.0014457706721783172,
+              "absolute_error": 1.3010426069826053e-18,
+              "candidate": -0.0014457706721783185
+            },
+            "id": "madgraph.candidate.real_eq.3.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0006516466429618155,
+              "absolute_error": 1.0842021724855044e-19,
+              "candidate": 0.0006516466429618154
+            },
+            "id": "madgraph.candidate.real_eq.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.00010736002975910598,
+              "absolute_error": 1.3552527156068805e-20,
+              "candidate": -0.00010736002975910596
+            },
+            "id": "madgraph.candidate.real_eq.4.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0006611049835823172,
+              "absolute_error": 0.0,
+              "candidate": 0.0006611049835823172
+            },
+            "id": "madgraph.candidate.real_eq.5.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.0002589908207576343,
+              "absolute_error": 1.6263032587282567e-19,
+              "candidate": -0.0002589908207576341
+            },
+            "id": "madgraph.candidate.real_eq.5.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0011399401757059154,
+              "absolute_error": 0.0,
+              "candidate": 0.0011399401757059154
+            },
+            "id": "madgraph.candidate.real_eg.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 1.2288301001300494e-05,
+              "absolute_error": 1.6940658945086007e-21,
+              "candidate": 1.2288301001300492e-05
+            },
+            "id": "madgraph.candidate.real_eg.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 6.299869234668328e-05,
+              "absolute_error": 2.710505431213761e-20,
+              "candidate": 6.299869234668325e-05
+            },
+            "id": "madgraph.candidate.real_eg.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 2.862310233335482e-05,
+              "absolute_error": 2.371692252312041e-20,
+              "candidate": 2.8623102333354796e-05
+            },
+            "id": "madgraph.candidate.real_eg.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.00016086967069049254,
+              "absolute_error": 8.131516293641283e-20,
+              "candidate": 0.00016086967069049263
+            },
+            "id": "madgraph.candidate.real_eg.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0008965326919999706,
+              "absolute_error": 1.3010426069826053e-18,
+              "candidate": 0.0008965326919999693
+            },
+            "id": "madgraph.candidate.real_eg.5.UU",
+            "status": "PASS"
+          }
+        ],
+        "kinematics": "Original recorded phase-space points; no regeneration/compilation or new candidate extraction",
+        "maximum_candidate_absolute_residual": 1.6653345369377348e-16,
+        "processes": [
+          {
+            "corrected_card_sha256": "09c0cd04b48cee5441d2c0c409161161f8058e0558168bd229b5b339807bed43",
+            "corrected_exit": 0,
+            "corrected_stdout_sha256": "0e13ce933e843e692889c63cc3e0704fdf6447dcd56e68e97bd0283666783222",
+            "executable_sha256": "106f06a8570be447ae98332a6c1454dbf3c82c3030b1598500c3ed5b11c36374",
+            "executable_unchanged": true,
+            "old_card_sha256": "70dab9f23a38d4bbdc1ebf31fef936560bdfa1a1d1d5035ac5e49c7f555923b4",
+            "original_exit": 2,
+            "process": "born_eq"
+          },
+          {
+            "corrected_card_sha256": "09c0cd04b48cee5441d2c0c409161161f8058e0558168bd229b5b339807bed43",
+            "corrected_exit": 0,
+            "corrected_stdout_sha256": "becdcc79169b34069c237411b86ba1f5590f6744b1660ee60e9db380fb16c4ac",
+            "executable_sha256": "25a5e7e4313f94a69d8a5fa870c499e87b58e4bce3e29d604c513ce7ff5dc825",
+            "executable_unchanged": true,
+            "old_card_sha256": "70dab9f23a38d4bbdc1ebf31fef936560bdfa1a1d1d5035ac5e49c7f555923b4",
+            "original_exit": 2,
+            "process": "real_eq"
+          },
+          {
+            "corrected_card_sha256": "09c0cd04b48cee5441d2c0c409161161f8058e0558168bd229b5b339807bed43",
+            "corrected_exit": 0,
+            "corrected_stdout_sha256": "42e7edef880f2162a3e78586386c4539e0511201268afe354cb7ee006ee9ad36",
+            "executable_sha256": "100ad902b06b7c4238e6308a116322a912b8d555b3e8039743e845576f6bf037",
+            "executable_unchanged": true,
+            "old_card_sha256": "70dab9f23a38d4bbdc1ebf31fef936560bdfa1a1d1d5035ac5e49c7f555923b4",
+            "original_exit": 2,
+            "process": "real_eg"
+          }
+        ]
+      },
+      "current_interpreter_nonpass": [
+        {
+          "detail": "ValueError: stored requests differ from verifier-seeded points",
+          "id": "madgraph.replay.evidence",
+          "status": "FAIL"
+        }
+      ],
+      "current_interpreter_replay": {
+        "FAIL": 1
+      },
+      "independent_pre312_seed_points_exact": true,
+      "official_counts": {
+        "BLOCKED": 3,
+        "PASS": 1277
+      },
+      "official_evidence_identity_matches": true,
+      "official_status": "BLOCKED",
+      "retrospective_nonpass": [],
+      "retrospective_pre312_replay": {
+        "PASS": 62
+      },
+      "seed": 1729
+    },
+    {
+      "archived_binary_execution": {
+        "comparison_counts": {
+          "PASS": 60
+        },
+        "comparisons": [
+          {
+            "detail": {
+              "Clifford": 0.01556153519402011,
+              "MG": 0.015561535194020107,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0066076293374729336,
+              "MG": 0.006607629337472935,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.0.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.030515427985512385,
+              "MG": 0.030515427985512395,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.008915700294907434,
+              "MG": 0.008915700294907437,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.1.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.1798589494982214,
+              "MG": 0.17985894949822145,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.04035901009798371,
+              "MG": 0.04035901009798371,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.2.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.03170029341520962,
+              "MG": 0.031700293415209614,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.013081824161710514,
+              "MG": 0.013081824161710512,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.3.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.02320361943734905,
+              "MG": 0.023203619437349044,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.010817469070027985,
+              "MG": -0.01081746907002798,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.4.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.08998725871257886,
+              "MG": 0.0899872587125788,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.5.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.028049634524884768,
+              "MG": -0.028049634524884754,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.born_eq.5.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0019943798102177225,
+              "MG": 0.0019943798102177225,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.0012317263465970222,
+              "MG": -0.0012317263465970215,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.0.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0008916964136466746,
+              "MG": 0.0008916964136466752,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.00030784149950062825,
+              "MG": -0.0003078414995006285,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.1.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0008817703877657604,
+              "MG": 0.0008817703877657615,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.00029012135327898686,
+              "MG": -0.00029012135327898713,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.2.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0001352096729428055,
+              "MG": 0.00013520967294280558,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -3.391748384794385e-07,
+              "MG": -3.3917483847945094e-07,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.3.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.00019728030541399217,
+              "MG": 0.00019728030541399217,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.00015163458320854577,
+              "MG": 0.00015163458320854587,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.4.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.00532999482183058,
+              "MG": 0.005329994821830577,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.5.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": -0.0042985196780094175,
+              "MG": -0.0042985196780094175,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eq.5.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0001147084732412692,
+              "MG": 0.00011470847324126921,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.00016353063788231335,
+              "MG": 0.00016353063788231327,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 4.510340790091319e-05,
+              "MG": 4.510340790091319e-05,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.0003356812211198237,
+              "MG": 0.0003356812211198235,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 0.00012206942965996727,
+              "MG": 0.00012206942965996723,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "Clifford": 2.6809152196282345e-05,
+              "MG": 2.680915219628233e-05,
+              "meaning": "independent tree amplitude; not TMD matching"
+            },
+            "id": "madgraph.native_covariant.real_eg.5.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.015561535194020107,
+              "absolute_error": 8.673617379884035e-18,
+              "candidate": 0.015561535194020098
+            },
+            "id": "madgraph.candidate.born_eq.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.006607629337472935,
+              "absolute_error": 8.673617379884035e-18,
+              "candidate": 0.006607629337472927
+            },
+            "id": "madgraph.candidate.born_eq.0.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.030515427985512395,
+              "absolute_error": 3.469446951953614e-18,
+              "candidate": 0.03051542798551239
+            },
+            "id": "madgraph.candidate.born_eq.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.008915700294907437,
+              "absolute_error": 6.938893903907228e-18,
+              "candidate": 0.00891570029490743
+            },
+            "id": "madgraph.candidate.born_eq.1.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.17985894949822145,
+              "absolute_error": 1.942890293094024e-16,
+              "candidate": 0.17985894949822165
+            },
+            "id": "madgraph.candidate.born_eq.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.04035901009798371,
+              "absolute_error": 6.245004513516506e-17,
+              "candidate": 0.040359010097983775
+            },
+            "id": "madgraph.candidate.born_eq.2.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.031700293415209614,
+              "absolute_error": 6.938893903907228e-18,
+              "candidate": 0.03170029341520962
+            },
+            "id": "madgraph.candidate.born_eq.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.013081824161710512,
+              "absolute_error": 6.938893903907228e-18,
+              "candidate": 0.013081824161710505
+            },
+            "id": "madgraph.candidate.born_eq.3.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.023203619437349044,
+              "absolute_error": 1.3877787807814457e-17,
+              "candidate": 0.02320361943734903
+            },
+            "id": "madgraph.candidate.born_eq.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.01081746907002798,
+              "absolute_error": 6.938893903907228e-18,
+              "candidate": -0.010817469070027973
+            },
+            "id": "madgraph.candidate.born_eq.4.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0899872587125788,
+              "absolute_error": 4.163336342344337e-17,
+              "candidate": 0.08998725871257884
+            },
+            "id": "madgraph.candidate.born_eq.5.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.028049634524884754,
+              "absolute_error": 1.734723475976807e-17,
+              "candidate": -0.02804963452488477
+            },
+            "id": "madgraph.candidate.born_eq.5.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0019943798102177225,
+              "absolute_error": 1.734723475976807e-18,
+              "candidate": 0.001994379810217724
+            },
+            "id": "madgraph.candidate.real_eq.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.0012317263465970215,
+              "absolute_error": 1.0842021724855044e-18,
+              "candidate": -0.0012317263465970226
+            },
+            "id": "madgraph.candidate.real_eq.0.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0008916964136466752,
+              "absolute_error": 4.336808689942018e-19,
+              "candidate": 0.0008916964136466747
+            },
+            "id": "madgraph.candidate.real_eq.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.0003078414995006285,
+              "absolute_error": 3.2526065174565133e-19,
+              "candidate": -0.0003078414995006282
+            },
+            "id": "madgraph.candidate.real_eq.1.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0008817703877657615,
+              "absolute_error": 1.1926223897340549e-18,
+              "candidate": 0.0008817703877657603
+            },
+            "id": "madgraph.candidate.real_eq.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.00029012135327898713,
+              "absolute_error": 2.710505431213761e-19,
+              "candidate": -0.00029012135327898686
+            },
+            "id": "madgraph.candidate.real_eq.2.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.00013520967294280558,
+              "absolute_error": 1.8973538018496328e-19,
+              "candidate": 0.0001352096729428054
+            },
+            "id": "madgraph.candidate.real_eq.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -3.3917483847945094e-07,
+              "absolute_error": 3.017554874593445e-21,
+              "candidate": -3.391748384794479e-07
+            },
+            "id": "madgraph.candidate.real_eq.3.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.00019728030541399217,
+              "absolute_error": 8.131516293641283e-20,
+              "candidate": 0.0001972803054139921
+            },
+            "id": "madgraph.candidate.real_eq.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.00015163458320854587,
+              "absolute_error": 1.8973538018496328e-19,
+              "candidate": 0.00015163458320854568
+            },
+            "id": "madgraph.candidate.real_eq.4.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.005329994821830577,
+              "absolute_error": 6.071532165918825e-18,
+              "candidate": 0.005329994821830571
+            },
+            "id": "madgraph.candidate.real_eq.5.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": -0.0042985196780094175,
+              "absolute_error": 6.071532165918825e-18,
+              "candidate": -0.004298519678009411
+            },
+            "id": "madgraph.candidate.real_eq.5.UT",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.00011470847324126921,
+              "absolute_error": 5.421010862427522e-20,
+              "candidate": 0.00011470847324126916
+            },
+            "id": "madgraph.candidate.real_eg.0.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.00016353063788231327,
+              "absolute_error": 2.710505431213761e-20,
+              "candidate": 0.00016353063788231324
+            },
+            "id": "madgraph.candidate.real_eg.1.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 4.510340790091319e-05,
+              "absolute_error": 0.0,
+              "candidate": 4.510340790091319e-05
+            },
+            "id": "madgraph.candidate.real_eg.2.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.0003356812211198235,
+              "absolute_error": 2.710505431213761e-19,
+              "candidate": 0.0003356812211198238
+            },
+            "id": "madgraph.candidate.real_eg.3.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 0.00012206942965996723,
+              "absolute_error": 2.710505431213761e-20,
+              "candidate": 0.00012206942965996726
+            },
+            "id": "madgraph.candidate.real_eg.4.UU",
+            "status": "PASS"
+          },
+          {
+            "detail": {
+              "MG": 2.680915219628233e-05,
+              "absolute_error": 2.0328790734103208e-20,
+              "candidate": 2.680915219628231e-05
+            },
+            "id": "madgraph.candidate.real_eg.5.UU",
+            "status": "PASS"
+          }
+        ],
+        "kinematics": "Original recorded phase-space points; no regeneration/compilation or new candidate extraction",
+        "maximum_candidate_absolute_residual": 1.942890293094024e-16,
+        "processes": [
+          {
+            "corrected_card_sha256": "09c0cd04b48cee5441d2c0c409161161f8058e0558168bd229b5b339807bed43",
+            "corrected_exit": 0,
+            "corrected_stdout_sha256": "d35eadba93c0fab8a230432291d8b678518ef328061bd376f30990a93da46d13",
+            "executable_sha256": "106f06a8570be447ae98332a6c1454dbf3c82c3030b1598500c3ed5b11c36374",
+            "executable_unchanged": true,
+            "old_card_sha256": "70dab9f23a38d4bbdc1ebf31fef936560bdfa1a1d1d5035ac5e49c7f555923b4",
+            "original_exit": 2,
+            "process": "born_eq"
+          },
+          {
+            "corrected_card_sha256": "09c0cd04b48cee5441d2c0c409161161f8058e0558168bd229b5b339807bed43",
+            "corrected_exit": 0,
+            "corrected_stdout_sha256": "c09e3e9a9042725b91a92a0ce9cf8643139945ee9fd9793e7bc6db55d98d9f9b",
+            "executable_sha256": "25a5e7e4313f94a69d8a5fa870c499e87b58e4bce3e29d604c513ce7ff5dc825",
+            "executable_unchanged": true,
+            "old_card_sha256": "70dab9f23a38d4bbdc1ebf31fef936560bdfa1a1d1d5035ac5e49c7f555923b4",
+            "original_exit": 2,
+            "process": "real_eq"
+          },
+          {
+            "corrected_card_sha256": "09c0cd04b48cee5441d2c0c409161161f8058e0558168bd229b5b339807bed43",
+            "corrected_exit": 0,
+            "corrected_stdout_sha256": "13d1a1a424bfed03bd05a7d2c78812840ebad1b4cda3ea68d221a0be54478c1a",
+            "executable_sha256": "100ad902b06b7c4238e6308a116322a912b8d555b3e8039743e845576f6bf037",
+            "executable_unchanged": true,
+            "old_card_sha256": "70dab9f23a38d4bbdc1ebf31fef936560bdfa1a1d1d5035ac5e49c7f555923b4",
+            "original_exit": 2,
+            "process": "real_eg"
+          }
+        ]
+      },
+      "current_interpreter_nonpass": [
+        {
+          "detail": "ValueError: stored requests differ from verifier-seeded points",
+          "id": "madgraph.replay.evidence",
+          "status": "FAIL"
+        }
+      ],
+      "current_interpreter_replay": {
+        "FAIL": 1
+      },
+      "independent_pre312_seed_points_exact": true,
+      "official_counts": {
+        "BLOCKED": 3,
+        "PASS": 1277
+      },
+      "official_evidence_identity_matches": true,
+      "official_status": "BLOCKED",
+      "retrospective_nonpass": [],
+      "retrospective_pre312_replay": {
+        "PASS": 62
+      },
+      "seed": 92741
+    }
+  ]
+}

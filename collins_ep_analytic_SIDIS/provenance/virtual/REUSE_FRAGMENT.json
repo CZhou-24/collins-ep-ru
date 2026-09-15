@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "scope": "Ordinary virtual implementation source-reuse fragment for root consolidation",
+  "collins": {
+    "common/s04_virtual_integrand.wl": {
+      "used": true,
+      "source": "/bigTMD/collins_ep_analytic/common/s04_virtual_integrand.wl",
+      "source_sha256": "e0fa7fbaeb47dda92fa6d414cda087325e29721d6d7959043354102649e7e02b",
+      "snapshot": "provenance/virtual/snapshots/collins/common/s04_virtual_integrand.wl",
+      "snapshot_sha256": "e0fa7fbaeb47dda92fa6d414cda087325e29721d6d7959043354102649e7e02b",
+      "destinations": {
+        "common/ru_virtual_generate.wl": "800d7d5dd86481d4d6be932bb702ec40824e8b9616891472a3e0bc8df2038382"
+      },
+      "functions_reused": "FeynArts current/self-energy generation, FCFAConvert, open D-dimensional numerator and projected scalarization, unevaluated TID and chord reconstruction",
+      "consuming_stages": [
+        "r04"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "common/physics_helpers.wl": {
+      "used": true,
+      "source": "/bigTMD/collins_ep_analytic/common/physics_helpers.wl",
+      "source_sha256": "5480cd674f4e272e00d398f9740b0b39ee08b365f9da04b72ff6abefc58107d1",
+      "snapshot": "provenance/virtual/snapshots/collins/common/physics_helpers.wl",
+      "snapshot_sha256": "5480cd674f4e272e00d398f9740b0b39ee08b365f9da04b72ff6abefc58107d1",
+      "destinations": {
+        "common/ru_virtual_io.wl": "deef7c8d4b7960abb7930e64ffd829730aecd8d4b240fa324ed7930705eba4d4"
+      },
+      "functions_reused": "LoadFC native FeynArts/FeynCalc runtime initialization with patching disabled",
+      "consuming_stages": [
+        "r04",
+        "r05",
+        "r06"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "common/s07_hard_matching.wl": {
+      "used": true,
+      "source": "/bigTMD/collins_ep_analytic/common/s07_hard_matching.wl",
+      "source_sha256": "1a484753ab6cb83c8990ef29b832bca9bd2143ab8f8706d625723d2a9db038d6",
+      "snapshot": "provenance/virtual/snapshots/collins/common/s07_hard_matching.wl",
+      "snapshot_sha256": "1a484753ab6cb83c8990ef29b832bca9bd2143ab8f8706d625723d2a9db038d6",
+      "destinations": {
+        "common/r06_virtual_assembly.wls": "f388b2461a2bc6fcc2d6228aeb55d8522f556b24edab016753260f1fc7383077"
+      },
+      "functions_reused": "large-loop angular UV projection, generated self-energy exchange average, conserved-current UV/IR allocation",
+      "consuming_stages": [
+        "r06"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence.",
+      "v051_conversion": "Additional comparison node explicitly substitutes LQ->L in the same native-master contraction and local IR operator."
+    }
+  },
+  "sidis": {
+    "SIDIS/common/s09_reduce_virtual.wl": {
+      "used": true,
+      "source": "/bigTMD/SIDIS/common/s09_reduce_virtual.wl",
+      "source_sha256": "05547f082e0050e24f00461ded5e1c1e77e861a15e4d7d38d2882239ecbccfc8",
+      "snapshot": "provenance/virtual/snapshots/sidis/SIDIS/common/s09_reduce_virtual.wl",
+      "snapshot_sha256": "05547f082e0050e24f00461ded5e1c1e77e861a15e4d7d38d2882239ecbccfc8",
+      "destinations": {
+        "common/r04_virtual_map.wls": "d2d7b0614c194ca8f55fa1df2ad02eed898a003ebdb5e8168ab1adbe2da02423"
+      },
+      "functions_reused": "positive/negative target index sums, maximal sectors, target-driven reduction bounds, Kira YAML and target export",
+      "consuming_stages": [
+        "r04"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "SIDIS/common/s12_virtual_master_inputs.wl": {
+      "used": true,
+      "source": "/bigTMD/SIDIS/common/s12_virtual_master_inputs.wl",
+      "source_sha256": "8280d5a2bc98149f3471785f0b98eefeba8248cb7d730986ddd20d80f661b021",
+      "snapshot": "provenance/virtual/snapshots/sidis/SIDIS/common/s12_virtual_master_inputs.wl",
+      "snapshot_sha256": "8280d5a2bc98149f3471785f0b98eefeba8248cb7d730986ddd20d80f661b021",
+      "destinations": {
+        "common/r05_virtual_masters.wls": "fe9469b01cd4512ba440c12c6401870e8d4e1345a3058fb8964ca5a303ff163a"
+      },
+      "functions_reused": "FCFeynmanParametrize Unity, projective homogeneity, projective gauge and Euler tuple derivation",
+      "consuming_stages": [
+        "r05"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "SIDIS/common/s14_uv_residues.wl": {
+      "used": true,
+      "source": "/bigTMD/SIDIS/common/s14_uv_residues.wl",
+      "source_sha256": "5c4072ab6c70a77c3fce51810f69ebc63e23c0b35519868365c35bd24551ac6c",
+      "snapshot": "provenance/virtual/snapshots/sidis/SIDIS/common/s14_uv_residues.wl",
+      "snapshot_sha256": "5c4072ab6c70a77c3fce51810f69ebc63e23c0b35519868365c35bd24551ac6c",
+      "destinations": {
+        "common/r04_virtual_map.wls": "d2d7b0614c194ca8f55fa1df2ad02eed898a003ebdb5e8168ab1adbe2da02423"
+      },
+      "functions_reused": "mapScalar scalar-monomial coefficient map and exact rational-integrand reconstruction; historical UV-map shortcuts are not reused",
+      "consuming_stages": [
+        "r04"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "SIDIS/common/s18_virtual_coefficients.wl": {
+      "used": true,
+      "source": "/bigTMD/SIDIS/common/s18_virtual_coefficients.wl",
+      "source_sha256": "226a7325ed5af3647e310645847fdf86453f3b7ac158d2bac222a4969fc02fe9",
+      "snapshot": "provenance/virtual/snapshots/sidis/SIDIS/common/s18_virtual_coefficients.wl",
+      "snapshot_sha256": "226a7325ed5af3647e310645847fdf86453f3b7ac158d2bac222a4969fc02fe9",
+      "destinations": {
+        "common/r05_virtual_masters.wls": "fe9469b01cd4512ba440c12c6401870e8d4e1345a3058fb8964ca5a303ff163a"
+      },
+      "functions_reused": "valuation of reduced rational coefficients and required regulator-order computation",
+      "consuming_stages": [
+        "r05"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "SIDIS/common/s19_assemble_virtual.wl": {
+      "used": true,
+      "source": "/bigTMD/SIDIS/common/s19_assemble_virtual.wl",
+      "source_sha256": "93207c9d36ce8cc7accad1851ff3842c5f0c3e387faeca21ff230b82af0dc812",
+      "snapshot": "provenance/virtual/snapshots/sidis/SIDIS/common/s19_assemble_virtual.wl",
+      "snapshot_sha256": "93207c9d36ce8cc7accad1851ff3842c5f0c3e387faeca21ff230b82af0dc812",
+      "destinations": {
+        "common/r06_virtual_assembly.wls": "f388b2461a2bc6fcc2d6228aeb55d8522f556b24edab016753260f1fc7383077"
+      },
+      "functions_reused": "physical spacelike continuation, loop-measure conversion, separated scaleless field UV/IR bookkeeping and Hermitian current allocation",
+      "consuming_stages": [
+        "r06"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence.",
+      "v051_conversion": "Additional comparison node explicitly substitutes LQ->L in the same native-master contraction and local IR operator."
+    }
+  },
+  "not_reused": [
+    "accepted final exports and master values",
+    "SIDIS historical UV maps/caches",
+    "PaVe or Package-X evaluated integrals"
+  ],
+  "new_helpers": {
+    "common/ru_virtual_io.wl": "RU context/packet/evidence/certificate adapters; LoadFC is explicitly shared"
+  }
+}

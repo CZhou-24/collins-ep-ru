@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-09-14T18:08:34.082805+00:00",
+  "stage": "BEFORE_ANGULAR_HELPER_COPY_OR_ADAPT",
+  "sources": [
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d13_collins_derivation.wl",
+      "sha256": "ae2904b9919adef319575915eecf92b4c4abfb77d10f788567ba423c16932a58"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_cut_numerators.wl",
+      "sha256": "6fbbc5da3cc6f274da8b431055de4d635300b9fc6719d8c32a792b43325a541a"
+    }
+  ],
+  "selected": [
+    "D17PrimaryCut generating contractions adapted to full-D momentum, physical coherent tensor and physical/hat radius split.",
+    "d13 lines 105-117 and 163-167 declared common b-independent angular operator continuation only; no diagonal or radial answer is imported."
+  ],
+  "runtime_dependencies": "Fresh actual q->qgg generator object and actual nominal D density from the same r00 call. No review/evaluated inputs."
+}

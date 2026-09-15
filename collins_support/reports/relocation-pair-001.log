@@ -1,0 +1,85 @@
+{
+  "schema": 5,
+  "profile": "reverse_unitarity",
+  "status": "CHECKS_PASS",
+  "qualifications": {
+    "scientific_source_review": "REQUIRED",
+    "independence": "integration route; shared source components must be disclosed",
+    "radius_R1": "NOT_CERTIFIED",
+    "unrestricted_fixed_order_NLO": "OUTSIDE_SCOPE",
+    "generic_HF_endpoint_contacts": "NOT_CERTIFIED",
+    "figure6": "PAUSED",
+    "fitted_providers": "NOT_REQUIRED",
+    "new_modified_amplitudes_MadGraph": "NOT_AUTOMATICALLY_CERTIFIED_BY_RETAINED_CHECKS"
+  },
+  "retained": {
+    "identity": {
+      "pair": "/Collins-ep-analytic-state-v0.4.0/literature-revalidation-001/nlo-pair.json",
+      "pair_sha256": "da7f89a7a952287d066f54f4a75f8c653b2eb71ef785ea2474886b02ce8263b4",
+      "reports": [
+        {
+          "path": "/Collins-ep-analytic-state-v0.4.0/literature-revalidation-001/nlo-1729.json",
+          "sha256": "f897ee91089a2121efc0bd57103dee112fdb89cc9cd05654cefdc53cb90f1ae5"
+        },
+        {
+          "path": "/Collins-ep-analytic-state-v0.4.0/literature-revalidation-001/nlo-92741.json",
+          "sha256": "df6a709563f29df8c62db20d462e9eae939f28b813364d992f91e81b5711198a"
+        }
+      ],
+      "source_hash": "6c50f16a19077f023d8aa66fca67673386bd769b066b47712b7f7b171a7390d0"
+    },
+    "execution": {
+      "command": [
+        "/usr/bin/python3.10",
+        "/bigTMD/collins_support/validators/analytic/retained/v0.4.0/compare_nlo_reports.py",
+        "--repo",
+        "/bigTMD",
+        "--report",
+        "/bigTMD/collins_support/reports/relocation-pair-001-evidence/retained/pair.json",
+        "/bigTMD/collins_support/states/Collins-ep-analytic-state-v0.4.0/literature-revalidation-001/nlo-1729.json",
+        "/bigTMD/collins_support/states/Collins-ep-analytic-state-v0.4.0/literature-revalidation-001/nlo-92741.json"
+      ],
+      "exit_code": 0,
+      "log_sha256": "fbe7d098f1925830bcbf75e8f88aa569ea2996a2d391c7be9721c3f3d2d77af1",
+      "elapsed_seconds": 417.794
+    },
+    "report_sha256": "c4e60381045ed7cfc304c5d34358f82ae70debca4a58a249cec50aca1c2448f3"
+  },
+  "seeds": [
+    1729,
+    92741
+  ],
+  "release": "caafd1ee5c477f0b159797979f625b75b18299007a87eeac1f6c2a99042a00ff",
+  "reports": [
+    {
+      "path": "/bigTMD/collins_support/states/Collins-ep-analytic-state-v0.5.1-organization-001/ru-1729.json",
+      "sha256": "63d49403d3adb8c2bbae6f79197e7793f2e1650d165c5315673b604f1aa59ee8"
+    },
+    {
+      "path": "/bigTMD/collins_support/states/Collins-ep-analytic-state-v0.5.1-organization-001/ru-92741.json",
+      "sha256": "ac9c942b700fda0861b539a669726c272df33417c780ac58370c8594c57d470f"
+    }
+  ],
+  "evidence_snapshot": {
+    "retained/execution.log": {
+      "kind": "file",
+      "sha256": "fbe7d098f1925830bcbf75e8f88aa569ea2996a2d391c7be9721c3f3d2d77af1",
+      "size": 2430
+    },
+    "retained/pair.json": {
+      "kind": "file",
+      "sha256": "c4e60381045ed7cfc304c5d34358f82ae70debca4a58a249cec50aca1c2448f3",
+      "size": 2430
+    },
+    "retained/pair-evidence/retained-pair.json": {
+      "kind": "file",
+      "sha256": "38672bfaaa47adae30cb8569b7f420a53e2ea6599bb650fc0e2e02c45feb0f9f",
+      "size": 1121
+    },
+    "retained/pair-evidence/retained-pair.log": {
+      "kind": "file",
+      "sha256": "91ae646d9450861089895c5c486999bb2f2e343e68f3331892bfcc110e836e20",
+      "size": 1121
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "commit": "5062dcb2407594dafcc2f9f72800e96ff9e6d957",
+  "files": [
+    {
+      "destination": "common/s01_import_inputs.py",
+      "git_blob_sha1": "a834850aaa05de65824c4b933ff30f846cdbf5c7",
+      "source": "SIDIS/common/s01_import_inputs.py"
+    },
+    {
+      "destination": "common/s02_definitions.wl",
+      "git_blob_sha1": "2f865a5f8336cfc2f3e6c74b61f2308c3b92a1a8",
+      "source": "SIDIS/common/s02_definitions.wl"
+    },
+    {
+      "destination": "common/s03_real_families.wl",
+      "git_blob_sha1": "a7d1fa1dc7fda0f9fda2372231f44df074cbaeb5",
+      "source": "SIDIS/common/s03_real_families.wl"
+    },
+    {
+      "destination": "common/s04_reduce_real.wl",
+      "git_blob_sha1": "24349b5a685d6d591aa86e8fc66794588d1965e5",
+      "source": "SIDIS/common/s04_reduce_real.wl"
+    },
+    {
+      "destination": "common/s05_virtual_families.wl",
+      "git_blob_sha1": "72432a45dc652f0b67b2f1ffe578a9b791b8d3c1",
+      "source": "SIDIS/common/s05_virtual_families.wl"
+    },
+    {
+      "destination": "common/s08_cut_master_inputs.wl",
+      "git_blob_sha1": "67a45d4c23b208fd39498dc0d7c6a6f1a5868f97",
+      "source": "SIDIS/common/s08_cut_master_inputs.wl"
+    },
+    {
+      "destination": "common/s09_reduce_virtual.wl",
+      "git_blob_sha1": "487fbe2a4d7d7b547c1f0c72fd0787c7046bb563",
+      "source": "SIDIS/common/s09_reduce_virtual.wl"
+    },
+    {
+      "destination": "common/s10_evaluate_cut_masters.wl",
+      "git_blob_sha1": "5ca4d022939731e188ef1226002521e2c31c450b",
+      "source": "SIDIS/common/s10_evaluate_cut_masters.wl"
+    },
+    {
+      "destination": "common/s11_real_master_coefficients.wl",
+      "git_blob_sha1": "90f26d635c2647366d7d6ae3fc9b11bfe171d6c5",
+      "source": "SIDIS/common/s11_real_master_coefficients.wl"
+    },
+    {
+      "destination": "common/s12_virtual_master_inputs.wl",
+      "git_blob_sha1": "32daf5e4a54698346affbd4fa4557ec44a5e3c4f",
+      "source": "SIDIS/common/s12_virtual_master_inputs.wl"
+    },
+    {
+      "destination": "common/s13_evaluate_virtual_masters.wl",
+      "git_blob_sha1": "a4b39dbacdf933fd56e91633258530fc641fb4c8",
+      "source": "SIDIS/common/s13_evaluate_virtual_masters.wl"
+    },
+    {
+      "destination": "common/s14_uv_residues.wl",
+      "git_blob_sha1": "8960a2a583e308cf9ef8264f6e9973cc8bbc1e34",
+      "source": "SIDIS/common/s14_uv_residues.wl"
+    },
+    {
+      "destination": "common/s15_cut_soft_regions.wl",
+      "git_blob_sha1": "d19ac75d76721353a823c61df898e3c29278f18a",
+      "source": "SIDIS/common/s15_cut_soft_regions.wl"
+    },
+    {
+      "destination": "common/s16_collinear_inputs.wl",
+      "git_blob_sha1": "a0ee6765708a25be2b8664aeda06b413cc52804e",
+      "source": "SIDIS/common/s16_collinear_inputs.wl"
+    },
+    {
+      "destination": "common/s17_assemble_real.wl",
+      "git_blob_sha1": "0ae660d2e17c2da98a7eab5bd125d51f306ef2ab",
+      "source": "SIDIS/common/s17_assemble_real.wl"
+    },
+    {
+      "destination": "common/s18_virtual_coefficients.wl",
+      "git_blob_sha1": "fab7274ad498a3fc2055b623d784a80cff4e3399",
+      "source": "SIDIS/common/s18_virtual_coefficients.wl"
+    },
+    {
+      "destination": "common/s19_assemble_virtual.wl",
+      "git_blob_sha1": "08d10b15469c9eedcd89dbfd2308609bda200b8e",
+      "source": "SIDIS/common/s19_assemble_virtual.wl"
+    },
+    {
+      "destination": "common/s20_final_hats.wl",
+      "git_blob_sha1": "8ea8a26d8bbb54c75926c7fb9f407ce039d06526",
+      "source": "SIDIS/common/s20_final_hats.wl"
+    },
+    {
+      "destination": "common/s21_organize_layout.py",
+      "git_blob_sha1": "0eaad5b3c99306aff9ef176a1fa6d1592c50a47b",
+      "source": "SIDIS/common/s21_organize_layout.py"
+    },
+    {
+      "destination": "common/s22_paths.wl",
+      "git_blob_sha1": "c01e2487535df6bd821272912170eda0ed65d065",
+      "source": "SIDIS/common/s22_paths.wl"
+    }
+  ],
+  "implementation_root": "/bigTMD/collins_ep_analytic_SIDIS",
+  "repository": "https://github.com/NonHermitianMatrix/SIDIS_dsigma_till_NLO"
+}

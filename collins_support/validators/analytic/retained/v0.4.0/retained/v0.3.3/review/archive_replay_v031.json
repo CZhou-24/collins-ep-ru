@@ -1,0 +1,42 @@
+{
+  "frozen_source_files_checked": 1399,
+  "results": [
+    {
+      "arithmetic_replay": {
+        "PASS": 396
+      },
+      "captured_entries": 379,
+      "dangling": 6,
+      "links": 24,
+      "nonpass": [],
+      "seed": 1729,
+      "stored_component_counts": {
+        "assembly.json": {
+          "PASS": 870
+        },
+        "derivation/derivation_checks.json": {
+          "PASS": 388
+        }
+      }
+    },
+    {
+      "arithmetic_replay": {
+        "PASS": 396
+      },
+      "captured_entries": 379,
+      "dangling": 6,
+      "links": 24,
+      "nonpass": [],
+      "seed": 92741,
+      "stored_component_counts": {
+        "assembly.json": {
+          "PASS": 870
+        },
+        "derivation/derivation_checks.json": {
+          "PASS": 388
+        }
+      }
+    }
+  ],
+  "scope": "Read-only saved arithmetic and evidence identity; no native engines executed"
+}

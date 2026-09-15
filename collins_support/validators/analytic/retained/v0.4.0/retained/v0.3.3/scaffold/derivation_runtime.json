@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "stage_timeout_seconds": 14400,
+  "installation_lock": "SET_BY_INSTALLER",
+  "madgraph": {
+    "root": null,
+    "python": "python3",
+    "make": "make",
+    "fortran_compiler": "gfortran",
+    "timeout_seconds": 1800
+  },
+  "madgraph_candidate_command": [
+    "python3",
+    "{repo}/collins_ep_analytic/comparison/madgraph_candidate.py",
+    "--run",
+    "{run}",
+    "--requests",
+    "{requests}",
+    "--response",
+    "{response}"
+  ]
+}

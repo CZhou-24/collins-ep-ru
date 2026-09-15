@@ -1,0 +1,259 @@
+{
+  "commit": "5062dcb2407594dafcc2f9f72800e96ff9e6d957",
+  "repository": "https://github.com/NonHermitianMatrix/SIDIS_dsigma_till_NLO",
+  "files": {
+    "SIDIS/common/s01_import_inputs.py": {
+      "git_blob_sha1": "a834850aaa05de65824c4b933ff30f846cdbf5c7",
+      "upstream_path": "SIDIS/common/s01_import_inputs.py",
+      "local_sha256": "a3e8b10019bf11b2fe4ec162c8285ad9a328fbf73819dc423a0dd8bad9f9af6b",
+      "used": false,
+      "reason": "Historical-channel input staging is unnecessary: fresh current/operator generation and output-bound context replace those loaders."
+    },
+    "SIDIS/common/s02_definitions.wl": {
+      "git_blob_sha1": "2f865a5f8336cfc2f3e6c74b61f2308c3b92a1a8",
+      "upstream_path": "SIDIS/common/s02_definitions.wl",
+      "local_sha256": "681a71379de6da73d70e2326d179cf961bd7156757950e88b0d9b0e5a8268824",
+      "used": true,
+      "adaptation": "Gram matrix, scalar basis, solve defining on-shell relations and reconstruct; Collins inclusive pilot and fixed-measurement continuation; no historical result loading. v0.5.1 extends the shared target, cut Jacobian, Euler and distribution machinery to the three-cut measured family; Fourier/eta/cone operations retain explicit boundaries.",
+      "functions_reused": "Gram matrix, scalar basis, solve defining on-shell relations and reconstruct",
+      "destinations": {
+        "common/r00_definitions.wls": "f2040f9555e20fba465856409837f4dfcc6d967ef79ad3e27e78aac1d6b0ca6a",
+        "common/ru_measured_helpers.wl": "fd302164ed78bdc1eadb466cf35d06a296420a0958b68b8b81e13595dcabe451"
+      },
+      "consuming_stages": [
+        "r00"
+      ]
+    },
+    "SIDIS/common/s03_real_families.wl": {
+      "git_blob_sha1": "a7d1fa1dc7fda0f9fda2372231f44df074cbaeb5",
+      "upstream_path": "SIDIS/common/s03_real_families.wl",
+      "local_sha256": "af23fd0f16f04dde4897cf92b77a9f6826bfee3442a29f26b9450663c78c0675",
+      "used": true,
+      "adaptation": "familyRows Laurent coefficient extraction and integrand reconstruction; Collins inclusive pilot and fixed-measurement continuation; no historical result loading. v0.5.1 extends the shared target, cut Jacobian, Euler and distribution machinery to the three-cut measured family; Fourier/eta/cone operations retain explicit boundaries.",
+      "functions_reused": "familyRows Laurent coefficient extraction and integrand reconstruction",
+      "destinations": {
+        "common/ru_cut_helpers.wl": "364cd16ec65cc53eb15406ea04325154e7c083d0ae8464f049b7d53b3633a0ed",
+        "common/r01_real_map.wls": "6018f50c14c9db259b76144365dde9760740c10810e83e717d19ca655a777f22",
+        "common/ru_measured_helpers.wl": "fd302164ed78bdc1eadb466cf35d06a296420a0958b68b8b81e13595dcabe451"
+      },
+      "consuming_stages": [
+        "r01"
+      ]
+    },
+    "SIDIS/common/s04_reduce_real.wl": {
+      "git_blob_sha1": "24349b5a685d6d591aa86e8fc66794588d1965e5",
+      "upstream_path": "SIDIS/common/s04_reduce_real.wl",
+      "local_sha256": "08d02939b6e58b2f9a87c869a545d70d48e9e6f5b5355ded401e3124ec4e4468",
+      "used": true,
+      "adaptation": "target bounds, preferred masters and Kira input generation; validator owns execution; Collins inclusive pilot and fixed-measurement continuation; no historical result loading. v0.5.1 extends the shared target, cut Jacobian, Euler and distribution machinery to the three-cut measured family; Fourier/eta/cone operations retain explicit boundaries.",
+      "functions_reused": "target bounds, preferred masters and Kira input generation; validator owns execution",
+      "destinations": {
+        "common/ru_cut_helpers.wl": "364cd16ec65cc53eb15406ea04325154e7c083d0ae8464f049b7d53b3633a0ed",
+        "common/ru_measured_helpers.wl": "fd302164ed78bdc1eadb466cf35d06a296420a0958b68b8b81e13595dcabe451",
+        "common/r01_real_map.wls": "6018f50c14c9db259b76144365dde9760740c10810e83e717d19ca655a777f22"
+      },
+      "consuming_stages": [
+        "r01"
+      ]
+    },
+    "SIDIS/common/s05_virtual_families.wl": {
+      "git_blob_sha1": "72432a45dc652f0b67b2f1ffe578a9b791b8d3c1",
+      "upstream_path": "SIDIS/common/s05_virtual_families.wl",
+      "local_sha256": "6efb6517ef972d9565878bc1ba2d997ed8a5cbc82f77bf3527a6656c45ff4b67",
+      "used": false,
+      "reason": "The actual ep open current is scalarized by the enumerated accepted generating source; s09/s14 provide the applicable canonicalization and reconstruction algorithms."
+    },
+    "SIDIS/common/s08_cut_master_inputs.wl": {
+      "git_blob_sha1": "67a45d4c23b208fd39498dc0d7c6a6f1a5868f97",
+      "upstream_path": "SIDIS/common/s08_cut_master_inputs.wl",
+      "local_sha256": "98afc853ff7ce7b5be974c7d3d51cd4fe5ebdf965b908994e2e984c799656440",
+      "used": true,
+      "adaptation": "positive-energy solution, cut Jacobian, Gaussian sphere measure and unevaluated Euler density; Collins inclusive pilot and fixed-measurement continuation; no historical result loading. v0.5.1 extends the shared target, cut Jacobian, Euler and distribution machinery to the three-cut measured family; Fourier/eta/cone operations retain explicit boundaries.",
+      "functions_reused": "positive-energy solution, cut Jacobian, Gaussian sphere measure and unevaluated Euler density",
+      "destinations": {
+        "common/ru_cut_helpers.wl": "364cd16ec65cc53eb15406ea04325154e7c083d0ae8464f049b7d53b3633a0ed",
+        "common/r02_real_masters.wls": "02fd62423e7c2e658c3a7ebe3579eab67c4062f06a0415a550ff66439a91b687",
+        "common/ru_measured_helpers.wl": "fd302164ed78bdc1eadb466cf35d06a296420a0958b68b8b81e13595dcabe451"
+      },
+      "consuming_stages": [
+        "r02"
+      ]
+    },
+    "SIDIS/common/s09_reduce_virtual.wl": {
+      "git_blob_sha1": "487fbe2a4d7d7b547c1f0c72fd0787c7046bb563",
+      "upstream_path": "SIDIS/common/s09_reduce_virtual.wl",
+      "local_sha256": "05547f082e0050e24f00461ded5e1c1e77e861a15e4d7d38d2882239ecbccfc8",
+      "used": true,
+      "source": "/bigTMD/SIDIS/common/s09_reduce_virtual.wl",
+      "source_sha256": "05547f082e0050e24f00461ded5e1c1e77e861a15e4d7d38d2882239ecbccfc8",
+      "snapshot": "provenance/virtual/snapshots/sidis/SIDIS/common/s09_reduce_virtual.wl",
+      "snapshot_sha256": "05547f082e0050e24f00461ded5e1c1e77e861a15e4d7d38d2882239ecbccfc8",
+      "destinations": {
+        "common/r04_virtual_map.wls": "d2d7b0614c194ca8f55fa1df2ad02eed898a003ebdb5e8168ab1adbe2da02423"
+      },
+      "functions_reused": "positive/negative target index sums, maximal sectors, target-driven reduction bounds, Kira YAML and target export",
+      "consuming_stages": [
+        "r04"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "SIDIS/common/s10_evaluate_cut_masters.wl": {
+      "git_blob_sha1": "5ca4d022939731e188ef1226002521e2c31c450b",
+      "upstream_path": "SIDIS/common/s10_evaluate_cut_masters.wl",
+      "local_sha256": "f5bb330ef75c0a2133240e3945f62e6a99c0df7e921774b5428557063e72bab5",
+      "used": false,
+      "reason": "The frozen validator executes its protected SubTropica evaluator with the approved invocation convention; candidate owns unevaluated Euler inputs only."
+    },
+    "SIDIS/common/s11_real_master_coefficients.wl": {
+      "git_blob_sha1": "90f26d635c2647366d7d6ae3fc9b11bfe171d6c5",
+      "upstream_path": "SIDIS/common/s11_real_master_coefficients.wl",
+      "local_sha256": "c453a12bebd4ce2b8dc8aa7ecf14931602aea619889c581f7850db11fc62a03a",
+      "used": true,
+      "adaptation": "fresh rational map times actual native reduction and required epsilon depth; Collins inclusive pilot and fixed-measurement continuation; no historical result loading. v0.5.1 extends the shared target, cut Jacobian, Euler and distribution machinery to the three-cut measured family; Fourier/eta/cone operations retain explicit boundaries.",
+      "functions_reused": "fresh rational map times actual native reduction and required epsilon depth",
+      "destinations": {
+        "common/r03_real_assembly.wls": "8ad4261cd2fd9bad5798e4f53dbfe6315326839a2a1f768ac28c7572a992212e",
+        "common/ru_tmd_assembly.wl": "95e664872f5a323643dd1f6c3a177af380752b6d39107b4b14ef665006ec4087",
+        "common/ru_hf_assembly.wl": "0ed6abb6818d7bb301d338b0a65116ed7d6100c49b1366a58b2a67c8a479f0df"
+      },
+      "consuming_stages": [
+        "r03"
+      ]
+    },
+    "SIDIS/common/s12_virtual_master_inputs.wl": {
+      "git_blob_sha1": "32daf5e4a54698346affbd4fa4557ec44a5e3c4f",
+      "upstream_path": "SIDIS/common/s12_virtual_master_inputs.wl",
+      "local_sha256": "8280d5a2bc98149f3471785f0b98eefeba8248cb7d730986ddd20d80f661b021",
+      "used": true,
+      "source": "/bigTMD/SIDIS/common/s12_virtual_master_inputs.wl",
+      "source_sha256": "8280d5a2bc98149f3471785f0b98eefeba8248cb7d730986ddd20d80f661b021",
+      "snapshot": "provenance/virtual/snapshots/sidis/SIDIS/common/s12_virtual_master_inputs.wl",
+      "snapshot_sha256": "8280d5a2bc98149f3471785f0b98eefeba8248cb7d730986ddd20d80f661b021",
+      "destinations": {
+        "common/r05_virtual_masters.wls": "fe9469b01cd4512ba440c12c6401870e8d4e1345a3058fb8964ca5a303ff163a"
+      },
+      "functions_reused": "FCFeynmanParametrize Unity, projective homogeneity, projective gauge and Euler tuple derivation",
+      "consuming_stages": [
+        "r05"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "SIDIS/common/s13_evaluate_virtual_masters.wl": {
+      "git_blob_sha1": "a4b39dbacdf933fd56e91633258530fc641fb4c8",
+      "upstream_path": "SIDIS/common/s13_evaluate_virtual_masters.wl",
+      "local_sha256": "c1cbd2fec468267a77c131198bb349bfe45c35929b1a91e8690d70ba12041dd5",
+      "used": false,
+      "reason": "Protected validator evaluator executes ordinary virtual Euler jobs; duplicating the source driver would violate tool ownership."
+    },
+    "SIDIS/common/s14_uv_residues.wl": {
+      "git_blob_sha1": "8960a2a583e308cf9ef8264f6e9973cc8bbc1e34",
+      "upstream_path": "SIDIS/common/s14_uv_residues.wl",
+      "local_sha256": "5c4072ab6c70a77c3fce51810f69ebc63e23c0b35519868365c35bd24551ac6c",
+      "used": true,
+      "source": "/bigTMD/SIDIS/common/s14_uv_residues.wl",
+      "source_sha256": "5c4072ab6c70a77c3fce51810f69ebc63e23c0b35519868365c35bd24551ac6c",
+      "snapshot": "provenance/virtual/snapshots/sidis/SIDIS/common/s14_uv_residues.wl",
+      "snapshot_sha256": "5c4072ab6c70a77c3fce51810f69ebc63e23c0b35519868365c35bd24551ac6c",
+      "destinations": {
+        "common/r04_virtual_map.wls": "d2d7b0614c194ca8f55fa1df2ad02eed898a003ebdb5e8168ab1adbe2da02423"
+      },
+      "functions_reused": "mapScalar scalar-monomial coefficient map and exact rational-integrand reconstruction; historical UV-map shortcuts are not reused",
+      "consuming_stages": [
+        "r04"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "SIDIS/common/s15_cut_soft_regions.wl": {
+      "git_blob_sha1": "d19ac75d76721353a823c61df898e3c29278f18a",
+      "upstream_path": "SIDIS/common/s15_cut_soft_regions.wl",
+      "local_sha256": "b9f4a05a996a3d91e6b926f1b001dd2d7f60714d776df5cd4247dee04efcb09d",
+      "used": false,
+      "reason": "Its SIDIS recoil endpoint is not this measured soft operator; explicit new fixed-radius/rapidity/cone geometry and source-shared Fourier transformations derive these regions."
+    },
+    "SIDIS/common/s16_collinear_inputs.wl": {
+      "git_blob_sha1": "a0ee6765708a25be2b8664aeda06b413cc52804e",
+      "upstream_path": "SIDIS/common/s16_collinear_inputs.wl",
+      "local_sha256": "1fed00b84333c3ab438cf8cfe101ed9a87fa78772e0b1721d2a745048909e6d8",
+      "used": false,
+      "reason": "Historical SIDIS subtraction loaders are inapplicable. Fresh operator residues and explicit local UV/IR intervals define current counterterms."
+    },
+    "SIDIS/common/s17_assemble_real.wl": {
+      "git_blob_sha1": "0ae660d2e17c2da98a7eab5bd125d51f306ef2ab",
+      "upstream_path": "SIDIS/common/s17_assemble_real.wl",
+      "local_sha256": "1df84e6817fdcf4b0db8c588d1083a9be499530c63ba10b6cb9991083d1f77e5",
+      "used": true,
+      "adaptation": "test-function endpoint subtraction, separate delta/plus/regular Laurent coefficients; Collins inclusive pilot and fixed-measurement continuation; no historical result loading. v0.5.1 extends the shared target, cut Jacobian, Euler and distribution machinery to the three-cut measured family; Fourier/eta/cone operations retain explicit boundaries.",
+      "functions_reused": "test-function endpoint subtraction, separate delta/plus/regular Laurent coefficients",
+      "destinations": {
+        "common/r03_real_assembly.wls": "8ad4261cd2fd9bad5798e4f53dbfe6315326839a2a1f768ac28c7572a992212e",
+        "common/ru_tmd_assembly.wl": "95e664872f5a323643dd1f6c3a177af380752b6d39107b4b14ef665006ec4087",
+        "common/ru_hf_assembly.wl": "0ed6abb6818d7bb301d338b0a65116ed7d6100c49b1366a58b2a67c8a479f0df"
+      },
+      "consuming_stages": [
+        "r03"
+      ]
+    },
+    "SIDIS/common/s18_virtual_coefficients.wl": {
+      "git_blob_sha1": "fab7274ad498a3fc2055b623d784a80cff4e3399",
+      "upstream_path": "SIDIS/common/s18_virtual_coefficients.wl",
+      "local_sha256": "226a7325ed5af3647e310645847fdf86453f3b7ac158d2bac222a4969fc02fe9",
+      "used": true,
+      "source": "/bigTMD/SIDIS/common/s18_virtual_coefficients.wl",
+      "source_sha256": "226a7325ed5af3647e310645847fdf86453f3b7ac158d2bac222a4969fc02fe9",
+      "snapshot": "provenance/virtual/snapshots/sidis/SIDIS/common/s18_virtual_coefficients.wl",
+      "snapshot_sha256": "226a7325ed5af3647e310645847fdf86453f3b7ac158d2bac222a4969fc02fe9",
+      "destinations": {
+        "common/r05_virtual_masters.wls": "fe9469b01cd4512ba440c12c6401870e8d4e1345a3058fb8964ca5a303ff163a"
+      },
+      "functions_reused": "valuation of reduced rational coefficients and required regulator-order computation",
+      "consuming_stages": [
+        "r05"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "SIDIS/common/s19_assemble_virtual.wl": {
+      "git_blob_sha1": "08d10b15469c9eedcd89dbfd2308609bda200b8e",
+      "upstream_path": "SIDIS/common/s19_assemble_virtual.wl",
+      "local_sha256": "93207c9d36ce8cc7accad1851ff3842c5f0c3e387faeca21ff230b82af0dc812",
+      "used": true,
+      "source": "/bigTMD/SIDIS/common/s19_assemble_virtual.wl",
+      "source_sha256": "93207c9d36ce8cc7accad1851ff3842c5f0c3e387faeca21ff230b82af0dc812",
+      "snapshot": "provenance/virtual/snapshots/sidis/SIDIS/common/s19_assemble_virtual.wl",
+      "snapshot_sha256": "93207c9d36ce8cc7accad1851ff3842c5f0c3e387faeca21ff230b82af0dc812",
+      "destinations": {
+        "common/r06_virtual_assembly.wls": "f388b2461a2bc6fcc2d6228aeb55d8522f556b24edab016753260f1fc7383077"
+      },
+      "functions_reused": "physical spacelike continuation, loop-measure conversion, separated scaleless field UV/IR bookkeeping and Hermitian current allocation",
+      "consuming_stages": [
+        "r06"
+      ],
+      "adaptation": "New RU-context inputs/outputs, no historical result reads, validator-owned Kira/SubTropica evaluation; ep ordinary vector-current kinematics and separate UV/IR evidence."
+    },
+    "SIDIS/common/s20_final_hats.wl": {
+      "git_blob_sha1": "8ea8a26d8bbb54c75926c7fb9f407ce039d06526",
+      "upstream_path": "SIDIS/common/s20_final_hats.wl",
+      "local_sha256": "43bb72ffbc023ca010cadea037248435954916ec58b90fd5621d8fad530a9dbb",
+      "used": false,
+      "reason": "Original photon F1/F2 six-channel hats are not the ep symbolic UU/UT observable. Current formal operator/distribution algorithms are separately enumerated Collins generating source."
+    },
+    "SIDIS/common/s21_organize_layout.py": {
+      "git_blob_sha1": "0eaad5b3c99306aff9ef176a1fa6d1592c50a47b",
+      "upstream_path": "SIDIS/common/s21_organize_layout.py",
+      "local_sha256": "66d10f3439289867aeb642b5610e23a11eb1581d7371f4ed3c4f66e4f7c06966",
+      "used": false,
+      "reason": "The historical six-channel migration is unnecessary; all current jobs are shared under common with explicit sector lists and validator output paths."
+    },
+    "SIDIS/common/s22_paths.wl": {
+      "git_blob_sha1": "c01e2487535df6bd821272912170eda0ed65d065",
+      "upstream_path": "SIDIS/common/s22_paths.wl",
+      "local_sha256": "ddd40e3ea81b9c7e696cce7ba7f1602900e661d42298dd0df359d78b390f2fe6",
+      "used": true,
+      "adaptation": "explicit output-bound path and staging helpers; remove all historical aliases; Collins inclusive pilot and fixed-measurement continuation; no historical result loading.",
+      "functions_reused": "explicit output-bound path and staging helpers; remove all historical aliases",
+      "destinations": {
+        "common/ru_stage.wl": "ec53d03b600c914d9f002e4fcd7113b6c0ceab65a9f2b12e445157246377eaf6"
+      },
+      "consuming_stages": []
+    }
+  }
+}

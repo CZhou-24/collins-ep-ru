@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "action": "Enumeration before any copying or adaptation",
+  "collins_sources": {
+    "common/s04_virtual_integrand.wl": {
+      "source_path": "/bigTMD/collins_ep_analytic/common/s04_virtual_integrand.wl",
+      "sha256": "e0fa7fbaeb47dda92fa6d414cda087325e29721d6d7959043354102649e7e02b",
+      "destinations": [
+        "common/ru_virtual_generate.wl"
+      ]
+    },
+    "common/physics_helpers.wl": {
+      "source_path": "/bigTMD/collins_ep_analytic/common/physics_helpers.wl",
+      "sha256": "5480cd674f4e272e00d398f9740b0b39ee08b365f9da04b72ff6abefc58107d1",
+      "destinations": [
+        "common/ru_virtual_io.wl"
+      ]
+    },
+    "common/s07_hard_matching.wl": {
+      "source_path": "/bigTMD/collins_ep_analytic/common/s07_hard_matching.wl",
+      "sha256": "1a484753ab6cb83c8990ef29b832bca9bd2143ab8f8706d625723d2a9db038d6",
+      "destinations": [
+        "common/r06_virtual_assembly.wls"
+      ]
+    }
+  },
+  "sidis_sources": {
+    "SIDIS/common/s09_reduce_virtual.wl": {
+      "source_path": "/bigTMD/SIDIS/common/s09_reduce_virtual.wl",
+      "commit": "5062dcb2407594dafcc2f9f72800e96ff9e6d957",
+      "sha256": "05547f082e0050e24f00461ded5e1c1e77e861a15e4d7d38d2882239ecbccfc8",
+      "destinations": [
+        "common/r04_virtual_map.wls"
+      ]
+    },
+    "SIDIS/common/s12_virtual_master_inputs.wl": {
+      "source_path": "/bigTMD/SIDIS/common/s12_virtual_master_inputs.wl",
+      "commit": "5062dcb2407594dafcc2f9f72800e96ff9e6d957",
+      "sha256": "8280d5a2bc98149f3471785f0b98eefeba8248cb7d730986ddd20d80f661b021",
+      "destinations": [
+        "common/r05_virtual_masters.wls"
+      ]
+    },
+    "SIDIS/common/s14_uv_residues.wl": {
+      "source_path": "/bigTMD/SIDIS/common/s14_uv_residues.wl",
+      "commit": "5062dcb2407594dafcc2f9f72800e96ff9e6d957",
+      "sha256": "5c4072ab6c70a77c3fce51810f69ebc63e23c0b35519868365c35bd24551ac6c",
+      "destinations": [
+        "common/r04_virtual_map.wls"
+      ]
+    },
+    "SIDIS/common/s18_virtual_coefficients.wl": {
+      "source_path": "/bigTMD/SIDIS/common/s18_virtual_coefficients.wl",
+      "commit": "5062dcb2407594dafcc2f9f72800e96ff9e6d957",
+      "sha256": "226a7325ed5af3647e310645847fdf86453f3b7ac158d2bac222a4969fc02fe9",
+      "destinations": [
+        "common/r05_virtual_masters.wls"
+      ]
+    },
+    "SIDIS/common/s19_assemble_virtual.wl": {
+      "source_path": "/bigTMD/SIDIS/common/s19_assemble_virtual.wl",
+      "commit": "5062dcb2407594dafcc2f9f72800e96ff9e6d957",
+      "sha256": "93207c9d36ce8cc7accad1851ff3842c5f0c3e387faeca21ff230b82af0dc812",
+      "destinations": [
+        "common/r06_virtual_assembly.wls"
+      ]
+    }
+  },
+  "shared_assumptions": "FeynArts SMQCD generation, vector open-line projector and D-dimensional numerator; this route independently executes integration but shares generating source."
+}

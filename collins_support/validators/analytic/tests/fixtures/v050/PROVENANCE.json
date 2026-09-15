@@ -1,0 +1,18 @@
+{
+  "source_bundle": "collins_ep_analytic_SIDIS_v0_5_0_review_bundle.tar.gz",
+  "scope": "reported failure and diagnostic fixtures only, not producing data or new native acceptance",
+  "files": {
+    "ru-1729.json": {
+      "archive_member": "payload/state/ru-1729.json",
+      "sha256": "48fa5564f474588adcbce3d7506180462755893f2abcdb82a44454ad667faf9a"
+    },
+    "ru-92741.json": {
+      "archive_member": "payload/state/ru-92741.json",
+      "sha256": "6a4bf20aed4cd7a0cdd4401bc89efd493e3f2ab9871fb66cd2ce806468434be5"
+    },
+    "volume-masters.json": {
+      "archive_member": "payload/review/audit/native-pilot-001/subtropica-cut-volume-periods-enabled/masters.json",
+      "sha256": "c489a04979c9bba9e370eee75432068705af4c541df9333f0faf2e109a6e7bd6"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "repository": "https://github.com/NonHermitianMatrix/SIDIS_dsigma_till_NLO",
+  "commit": "5062dcb2407594dafcc2f9f72800e96ff9e6d957",
+  "git_tree": "1362d60ddcb5497b1f60ee5608e8ca8ea080d7ac",
+  "files": {
+    "README.md": {
+      "sha256": "b04dd63d92d25940f5241650df540c0572ca2d1e4b9e950abfc21b45acd97911",
+      "git_blob_sha1": "ce04eee57efa6b6d29c0052a8dd9e83cd045bc8f"
+    },
+    "SIDIS/README.md": {
+      "sha256": "6f9d4d5670f2e5c7e3e3f410e1ad740c4befa0049d838d176977d5fd753c75e2",
+      "git_blob_sha1": "c262d834eaf7d95d8b79514a3e69bb8b913c9e8f"
+    },
+    "SIDIS/common/s02_definitions.wl": {
+      "sha256": "681a71379de6da73d70e2326d179cf961bd7156757950e88b0d9b0e5a8268824",
+      "git_blob_sha1": "2f865a5f8336cfc2f3e6c74b61f2308c3b92a1a8"
+    },
+    "SIDIS/common/s20_final_hats.wl": {
+      "sha256": "43bb72ffbc023ca010cadea037248435954916ec58b90fd5621d8fad530a9dbb",
+      "git_blob_sha1": "8ea8a26d8bbb54c75926c7fb9f407ce039d06526"
+    },
+    "SIDIS/bigTMD_comparison/s02_compare_coefficients.wl": {
+      "sha256": "d8262cd90a370b173ce1db8898868fda983544906c3bd807f2f39601a05e19b9",
+      "git_blob_sha1": "5531608195f817ac663d101044b42634324ae5ea"
+    }
+  },
+  "policy": "Inherit applicable SIDIS conventions. Do not equate gamma*+parton invariants to ep Mandelstam variables without a derived map. TMD/Collins choices absent from SIDIS are explicit extensions. Comparison packets may be converted to the pinned paper scheme without changing native production definitions.",
+  "rows": {
+    "invariant_map": "INHERITED_OR_CONVERTED",
+    "dimensional_regulator": "INHERITED_OR_CONVERTED",
+    "couplings": "INHERITED_OR_CONVERTED",
+    "spin_color_averages": "INHERITED_OR_CONVERTED",
+    "phase_space": "INHERITED_OR_CONVERTED",
+    "factorization": "INHERITED_OR_CONVERTED",
+    "transverse_spin": "EXPLICIT_EXTENSION",
+    "collins_moment": "EXPLICIT_EXTENSION",
+    "fourier_tmd": "EXPLICIT_EXTENSION",
+    "rapidity_scheme": "EXPLICIT_EXTENSION",
+    "perturbative_truncation": "EXPLICIT_EXTENSION"
+  }
+}

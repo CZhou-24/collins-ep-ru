@@ -1,0 +1,145 @@
+{
+  "acceptance": "CHECKS_PASS is automated route/coefficient acceptance with scientific review required",
+  "conventions": [
+    "D_algebra",
+    "metric_and_routing",
+    "spin_and_color_averaging",
+    "coupling_powers",
+    "loop_measure",
+    "phase_space_measure",
+    "MSbar",
+    "positive_energy_cuts",
+    "i0",
+    "endpoint_intervals",
+    "transverse_projectors",
+    "Collins_moment",
+    "Fourier_and_z",
+    "rapidity_subtraction",
+    "finite_scheme_allocation"
+  ],
+  "probe_kinds": [
+    "kira_real_rules",
+    "real_master",
+    "virtual_master"
+  ],
+  "profile": "reverse_unitarity",
+  "required_comparison_values": 167,
+  "schema": 5,
+  "scope": {
+    "HF_endpoint_class": "inherited physical class; generic contact coefficients not certified",
+    "R1": "NOT_CERTIFIED",
+    "figure6": "PAUSED",
+    "fitted_providers": "NOT_REQUIRED",
+    "order": "Born plus one loop in alpha_s",
+    "power": "leading power with inherited narrow-cone qualification",
+    "primary_paper": "2007.07281v1",
+    "process": "unpolarized e + transverse p -> e + jet(h) + X",
+    "unrestricted_fixed_order": "OUTSIDE_SCOPE"
+  },
+  "sectors": [
+    "beam_fqq",
+    "beam_fqg",
+    "beam_hqq",
+    "fragment_dqq",
+    "fragment_dgq",
+    "fragment_collins",
+    "fragment_HF",
+    "recoil_soft",
+    "jet_UU",
+    "jet_UT",
+    "hard_virtual"
+  ],
+  "seeds": [
+    1729,
+    92741
+  ],
+  "sidis_commit": "5062dcb2407594dafcc2f9f72800e96ff9e6d957",
+  "stages": [
+    {
+      "id": "r00",
+      "name": "Definitions and fresh amplitudes/operators",
+      "roles": [
+        "definitions",
+        "amplitudes",
+        "projectors",
+        "measurement"
+      ],
+      "script": "common/r00_definitions.wls",
+      "tool": null
+    },
+    {
+      "id": "r01",
+      "name": "Real cut mapping and Kira reduction",
+      "roles": [
+        "cut_mapping",
+        "support",
+        "integrands"
+      ],
+      "script": "common/r01_real_map.wls",
+      "tool": "kira"
+    },
+    {
+      "id": "r02",
+      "name": "Cut-master Euler inputs and SubTropica evaluation",
+      "roles": [
+        "euler_inputs",
+        "cut_measure"
+      ],
+      "script": "common/r02_real_masters.wls",
+      "tool": "subtropica"
+    },
+    {
+      "id": "r03",
+      "name": "Real distributions and subtractions",
+      "roles": [
+        "distributions",
+        "subtractions",
+        "real_coefficients"
+      ],
+      "script": "common/r03_real_assembly.wls",
+      "tool": null
+    },
+    {
+      "id": "r04",
+      "name": "Ordinary virtual mapping and Kira reduction",
+      "roles": [
+        "loop_mapping",
+        "integrands"
+      ],
+      "script": "common/r04_virtual_map.wls",
+      "tool": "kira"
+    },
+    {
+      "id": "r05",
+      "name": "Virtual-master inputs and SubTropica evaluation",
+      "roles": [
+        "euler_inputs",
+        "continuation"
+      ],
+      "script": "common/r05_virtual_masters.wls",
+      "tool": "subtropica"
+    },
+    {
+      "id": "r06",
+      "name": "Virtual and UV assembly",
+      "roles": [
+        "uv_subtraction",
+        "virtual_coefficients"
+      ],
+      "script": "common/r06_virtual_assembly.wls",
+      "tool": null
+    },
+    {
+      "id": "r07",
+      "name": "Symbolic observable and convention conversion",
+      "roles": [
+        "assembly",
+        "conversion",
+        "finite_export"
+      ],
+      "script": "common/r07_assembly.wls",
+      "tool": null
+    }
+  ],
+  "version": "0.5.1"
+}

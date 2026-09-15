@@ -1,0 +1,218 @@
+{
+  "schema": 1,
+  "generated_utc": "2026-09-14T18:10:33.186170+00:00",
+  "mission": "v0.5.1",
+  "owner": "HF helper implementation",
+  "pre_use_plan": "provenance/hf/COLLINS_REUSE_PLAN.json",
+  "supplement": "provenance/hf/REUSE_EXTENSION_PLAN.json",
+  "sources": [
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_operator_completion.wl",
+      "source_sha256": "4ab6410310c59bb29a9bcd28d95467fd2822d99222ffa6d366bafe14cfed6226",
+      "snapshot": "provenance/hf/snapshots/d16_operator_completion.wl",
+      "snapshot_sha256": "4ab6410310c59bb29a9bcd28d95467fd2822d99222ffa6d366bafe14cfed6226",
+      "destinations": [
+        {
+          "path": "common/ru_hf_operator.wl",
+          "sha256": "0523538108a161b1acfb103cf49b30c7b9049b8b885456155469944b7e18ec9a"
+        }
+      ],
+      "kind": "generating/operator source or explicitly identified external operator definition; never evaluated export"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_operator_library.wl",
+      "source_sha256": "09b4113e3dae55a7d63af9b52df0ca6d2d78945852f9313fb4b542a2d6d6eb82",
+      "snapshot": "provenance/hf/snapshots/d16_operator_library.wl",
+      "snapshot_sha256": "09b4113e3dae55a7d63af9b52df0ca6d2d78945852f9313fb4b542a2d6d6eb82",
+      "destinations": [
+        {
+          "path": "common/ru_hf_operator.wl",
+          "sha256": "0523538108a161b1acfb103cf49b30c7b9049b8b885456155469944b7e18ec9a"
+        }
+      ],
+      "kind": "generating/operator source or explicitly identified external operator definition; never evaluated export"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_projection_normalization.wl",
+      "source_sha256": "b5e4c743b99ab319d5fd051a24e3ab48cac408443ab883783441c5f4c239fbee",
+      "snapshot": "provenance/hf/snapshots/d16_projection_normalization.wl",
+      "snapshot_sha256": "b5e4c743b99ab319d5fd051a24e3ab48cac408443ab883783441c5f4c239fbee",
+      "destinations": [
+        {
+          "path": "common/ru_hf_projection.wl",
+          "sha256": "20656fddf3fe58af2ad956b2ee0b1058310ed4101f630af2a954072c0636e98f"
+        }
+      ],
+      "kind": "generating/operator source or explicitly identified external operator definition; never evaluated export"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_spectral_support.wl",
+      "source_sha256": "4d28725cc139a690a8b824f642d0e61609ded344d7832de77fa6275f7a265a9e",
+      "snapshot": "provenance/hf/snapshots/d16_spectral_support.wl",
+      "snapshot_sha256": "4d28725cc139a690a8b824f642d0e61609ded344d7832de77fa6275f7a265a9e",
+      "destinations": [
+        {
+          "path": "common/ru_hf_operator.wl",
+          "sha256": "0523538108a161b1acfb103cf49b30c7b9049b8b885456155469944b7e18ec9a"
+        }
+      ],
+      "kind": "generating/operator source or explicitly identified external operator definition; never evaluated export"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d16_wilson_taylor.wl",
+      "source_sha256": "5ae79ca35ff9ec135456ffb182ea0af1a243126da0d325ad7162bdd7261615f6",
+      "snapshot": "provenance/hf/snapshots/d16_wilson_taylor.wl",
+      "snapshot_sha256": "5ae79ca35ff9ec135456ffb182ea0af1a243126da0d325ad7162bdd7261615f6",
+      "destinations": [
+        {
+          "path": "common/ru_hf_wilson.wl",
+          "sha256": "f17fbaf55f18ffa927436d4f390fec025dbfd5174cf38a6a7886a6c785a0d932"
+        }
+      ],
+      "kind": "generating/operator source or explicitly identified external operator definition; never evaluated export"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_cut_numerators.wl",
+      "source_sha256": "6fbbc5da3cc6f274da8b431055de4d635300b9fc6719d8c32a792b43325a541a",
+      "snapshot": "provenance/hf/snapshots/d17_cut_numerators.wl",
+      "snapshot_sha256": "6fbbc5da3cc6f274da8b431055de4d635300b9fc6719d8c32a792b43325a541a",
+      "destinations": [
+        {
+          "path": "common/ru_hf_cut.wl",
+          "sha256": "1a4183be2f509cd9b069b5864b5fdf281480e76384e887e828f54d25539d60c0"
+        },
+        {
+          "path": "common/ru_hf_generate.wl",
+          "sha256": "b1a5638779d393ecce821985f0b2744809a97ab95f0d51ddd3d4e32b2d77e1dd"
+        },
+        {
+          "path": "common/ru_hf_angular.wl",
+          "sha256": "0609dd6285b22a4fd733db48f8c8ddcbae0bb05c407f7cc12261fbd98f7da73e"
+        }
+      ],
+      "kind": "generating/operator source or explicitly identified external operator definition; never evaluated export"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_endpoint_completion.wl",
+      "source_sha256": "b01aea25348b885444c4a59b71d30f539b3590a3ef43c303e50b297bbb08a58e",
+      "snapshot": "provenance/hf/snapshots/d17_endpoint_completion.wl",
+      "snapshot_sha256": "b01aea25348b885444c4a59b71d30f539b3590a3ef43c303e50b297bbb08a58e",
+      "destinations": [
+        {
+          "path": "common/ru_hf_endpoint.wl",
+          "sha256": "e750665243dcefece3135eb3a2d02ee771ce5cec0ba0f665946134671fd78b4e"
+        }
+      ],
+      "kind": "generating/operator source or explicitly identified external operator definition; never evaluated export"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_gauge_completion.wl",
+      "source_sha256": "facfa433d4a00673f6ad160438baea15ef160ec68cf0a42af46cf7a7fabdc89b",
+      "snapshot": "provenance/hf/snapshots/d17_gauge_completion.wl",
+      "snapshot_sha256": "facfa433d4a00673f6ad160438baea15ef160ec68cf0a42af46cf7a7fabdc89b",
+      "destinations": [
+        {
+          "path": "common/ru_hf_gauge.wl",
+          "sha256": "6c46d9abc4fd9820311f528139e44664052072a738f198994ecb3ca43f13e13f"
+        }
+      ],
+      "kind": "generating/operator source or explicitly identified external operator definition; never evaluated export"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d17_virtual_completion.wl",
+      "source_sha256": "b90001920d2acbff992590d7132d064e84d1d54824ad4483e30fda4066c1810a",
+      "snapshot": "provenance/hf/snapshots/d17_virtual_completion.wl",
+      "snapshot_sha256": "b90001920d2acbff992590d7132d064e84d1d54824ad4483e30fda4066c1810a",
+      "destinations": [
+        {
+          "path": "common/ru_hf_virtual.wl",
+          "sha256": "4417609bde04c1e9db449ee4ae2d011a5974027c721508c2ffd3551349d4e045"
+        }
+      ],
+      "kind": "generating/operator source or explicitly identified external operator definition; never evaluated export"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/physics_helpers.wl",
+      "source_sha256": "5480cd674f4e272e00d398f9740b0b39ee08b365f9da04b72ff6abefc58107d1",
+      "snapshot": "provenance/hf/snapshots/physics_helpers.wl",
+      "snapshot_sha256": "5480cd674f4e272e00d398f9740b0b39ee08b365f9da04b72ff6abefc58107d1",
+      "destinations": [
+        {
+          "path": "common/ru_hf_operator.wl",
+          "sha256": "0523538108a161b1acfb103cf49b30c7b9049b8b885456155469944b7e18ec9a"
+        }
+      ],
+      "kind": "generating/operator source or explicitly identified external operator definition; never evaluated export"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d13_collins_derivation.wl",
+      "source_sha256": "ae2904b9919adef319575915eecf92b4c4abfb77d10f788567ba423c16932a58",
+      "snapshot": "provenance/hf/snapshots/d13_collins_derivation.wl",
+      "snapshot_sha256": "ae2904b9919adef319575915eecf92b4c4abfb77d10f788567ba423c16932a58",
+      "destinations": [
+        {
+          "path": "common/ru_hf_angular.wl",
+          "sha256": "0609dd6285b22a4fd733db48f8c8ddcbae0bb05c407f7cc12261fbd98f7da73e"
+        }
+      ],
+      "kind": "Declared common b-independent angular operator continuation only, not an evaluated coefficient or radial answer. Pre-use plan ANGULAR_REUSE_PLAN.json."
+    }
+  ],
+  "new_original_helpers": [
+    {
+      "path": "common/ru_hf_angular.wl",
+      "sha256": "0609dd6285b22a4fd733db48f8c8ddcbae0bb05c407f7cc12261fbd98f7da73e"
+    },
+    {
+      "path": "common/ru_hf_assembly.wl",
+      "sha256": "0ed6abb6818d7bb301d338b0a65116ed7d6100c49b1366a58b2a67c8a479f0df"
+    },
+    {
+      "path": "common/ru_hf_cut.wl",
+      "sha256": "1a4183be2f509cd9b069b5864b5fdf281480e76384e887e828f54d25539d60c0"
+    },
+    {
+      "path": "common/ru_hf_endpoint.wl",
+      "sha256": "e750665243dcefece3135eb3a2d02ee771ce5cec0ba0f665946134671fd78b4e"
+    },
+    {
+      "path": "common/ru_hf_gauge.wl",
+      "sha256": "6c46d9abc4fd9820311f528139e44664052072a738f198994ecb3ca43f13e13f"
+    },
+    {
+      "path": "common/ru_hf_generate.wl",
+      "sha256": "b1a5638779d393ecce821985f0b2744809a97ab95f0d51ddd3d4e32b2d77e1dd"
+    },
+    {
+      "path": "common/ru_hf_measurement.wl",
+      "sha256": "abb8b9b37bcc26f01a90701068018c2fe4e42844b376e5b6be654461ee4793f3"
+    },
+    {
+      "path": "common/ru_hf_operator.wl",
+      "sha256": "0523538108a161b1acfb103cf49b30c7b9049b8b885456155469944b7e18ec9a"
+    },
+    {
+      "path": "common/ru_hf_projection.wl",
+      "sha256": "20656fddf3fe58af2ad956b2ee0b1058310ed4101f630af2a954072c0636e98f"
+    },
+    {
+      "path": "common/ru_hf_virtual.wl",
+      "sha256": "4417609bde04c1e9db449ee4ae2d011a5974027c721508c2ffd3551349d4e045"
+    },
+    {
+      "path": "common/ru_hf_wilson.wl",
+      "sha256": "f17fbaf55f18ffa927436d4f390fec025dbfd5174cf38a6a7886a6c785a0d932"
+    }
+  ],
+  "SIDIS_direct_used_functions": [],
+  "shared_SIDIS_route": "Measured family/Euler adapters are recorded by the common measured helper owner; HF directly consumes its actual M111 master normalization.",
+  "excluded_runtime_inputs": [
+    "d17_radial_distribution.wl",
+    "d17_packet_derivation.wl",
+    "d17_reference_comparison.wl",
+    "d17_completed_stage.wl",
+    "all old evaluated state/review outputs"
+  ],
+  "timing_qualification": "Source names were enumerated before the additional draft edit. The d16_spectral_support hash was already pinned in COLLINS_REUSE_PLAN; d16_operator_library consulted-definition hash is recorded here after the unexecuted draft edit, before snapshot/use. This supplement is not represented as preceding that draft.",
+  "angular_pre_use_plan": "provenance/hf/ANGULAR_REUSE_PLAN.json"
+}

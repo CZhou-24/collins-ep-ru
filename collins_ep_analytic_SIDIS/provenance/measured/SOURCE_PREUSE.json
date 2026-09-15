@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d13_projection_derivation.wl",
+      "sha256": "561d5463c402215543eca4051217ce98d05baa0823301e7ebc6f3cbc65b6ace8",
+      "scope": "Generating trace / projector definitions only; no final coefficient arrays or old integration backend",
+      "status": "enumerated_before_reuse"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d13_collins_derivation.wl",
+      "sha256": "ae2904b9919adef319575915eecf92b4c4abfb77d10f788567ba423c16932a58",
+      "scope": "Generating trace / projector definitions only; no final coefficient arrays or old integration backend",
+      "status": "enumerated_before_reuse"
+    },
+    {
+      "source": "/bigTMD/collins_ep_analytic/common/d13_endpoint_derivation.wl",
+      "sha256": "f768f51f459d8d42b053265aea646e4ae07aba0f9a900359982901fa0ead403f",
+      "scope": "Generating trace / projector definitions only; no final coefficient arrays or old integration backend",
+      "status": "enumerated_before_reuse"
+    }
+  ]
+}

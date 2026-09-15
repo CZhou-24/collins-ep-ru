@@ -1,0 +1,22 @@
+{
+  "changes_sha256": "f8d15027169fe964be0cbce864bb7d73fd8cc39522beacd4f08ba48e9d30c41c",
+  "origin_sha256": "9f12ec4f1ef0206403882315f1002430b4703d43635031e5450ba51d17e7f0cf",
+  "releases": {
+    "collins_support/validators/analytic": {
+      "after_sha256": "caafd1ee5c477f0b159797979f625b75b18299007a87eeac1f6c2a99042a00ff",
+      "before_sha256": "7bd929a50ea81b8af7d58c91063205d5047cc1bf60b7aa6c449d7661d2f79f0f",
+      "reason": "Recompute original release inventory inside out after exact recorded path edits; version, scientific metadata and member set unchanged."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0": {
+      "after_sha256": "2d64a893028115a266d7d29a43fdb61a73a5c75b19319cb616245fa4edaa715f",
+      "before_sha256": "221a7a7eb52b3cb441759c30819bce0eb7b8841bd25013027f81da7d512df17a",
+      "reason": "Recompute original release inventory inside out after exact recorded path edits; version, scientific metadata and member set unchanged."
+    },
+    "collins_support/validators/analytic/retained/v0.4.0/retained/v0.3.3": {
+      "after_sha256": "94424d255e5b7c886b1c6c998f41ba2274aeed64d059d93063d045d7e248facd",
+      "before_sha256": "2813ac93295e31355485995b5df49575120fbd2ca6203596a15dc96b31f65ffb",
+      "reason": "Recompute original release inventory inside out after exact recorded path edits; version, scientific metadata and member set unchanged."
+    }
+  },
+  "schema": 1
+}

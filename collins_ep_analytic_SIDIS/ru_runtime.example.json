@@ -1,0 +1,11 @@
+{
+  "fermat": "/bigTMD/SIDIS/common/software/fermat/Ferl7/fer64",
+  "feynarts_root": "/factorization-and-loops/Addon/Mathematica_Addon/FeynCalc/FeynArts",
+  "feyncalc_root": "/factorization-and-loops/Addon/Mathematica_Addon/FeynCalc",
+  "kira": "/bigTMD/SIDIS/common/software/kira-3.1",
+  "polymake": "/usr/bin/polymake",
+  "schema": 1,
+  "subtropica_root": "/bigTMD/SIDIS/common/software/SubTropica-1.2.10",
+  "timeout_seconds": 7200,
+  "wolfram_kernel": "/opt/Wolfram/WolframEngine/15.0/Executables/WolframKernel"
+}

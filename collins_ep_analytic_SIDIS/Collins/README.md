@@ -1,0 +1,24 @@
+# Collins: transverse-spin UT projection
+
+UT combines beam transversity with the Collins fragmentation operator in the measured Collins ep observable. The homogeneous Collins matching and off-diagonal two-fraction HF contribution are distinct pieces of its small-b expansion. These are operator/spin sectors, not the original inclusive SIDIS photon-channel labels. This directory links to the canonical [common](../common/) implementation.
+
+| Required sector | Generating source and physical content | Native/assembly route |
+|---|---|---|
+| `beam_hqq` | [ru_tmd_generation.wl](../common/ru_tmd_generation.wl): spacelike transversity projection with physical external spin and internal D algebra | Shared measured M family; transversity subtraction and endpoint |
+| `fragment_collins` | Same [generating helper](../common/ru_tmd_generation.wl): derivative cut, intrinsic EOM density and gauge contact | M family plus rank-one Fourier continuation; homogeneous Hhat subtraction |
+| `fragment_HF` | [ru_hf_generate.wl](../common/ru_hf_generate.wl): operator normalization, complete QCD/Wilson current and both cut placements, retaining u and v | Same M family; [HF coefficient assembly](../common/ru_hf_assembly.wl), physical endpoint action and mixing subtraction |
+| `recoil_soft` | [ru_soft_generation.wl](../common/ru_soft_generation.wl): beam/jet eikonal current and regulated measure | M at u=0; common [transforms](../common/ru_soft_transforms.wl) and [soft allocation](../common/ru_soft_assembly.wl) |
+| `jet_UT` | Same generating source with its spin projection and Collins soft endpoint | Calculated bare/overlap constituents and common operator cancellation |
+| `hard_virtual` | [ru_virtual_generate.wl](../common/ru_virtual_generate.wl): ordinary vector current/self-energy | Separate `jobs/virtual`, native reduction/master and hard matching in r04–r06 |
+
+[r00](../common/r00_definitions.wls) regenerates the amplitudes and these operators. The measured chain is [r01](../common/r01_real_map.wls) → [r02](../common/r02_real_masters.wls) → [r03](../common/r03_real_assembly.wls). Its one scalar M111 master is shared with UU; ten measured sectors do not imply ten independent integrations. The ordinary virtual chain is [r04](../common/r04_virtual_map.wls) → [r05](../common/r05_virtual_masters.wls) → [r06](../common/r06_virtual_assembly.wls).
+
+## HF source and qualification map
+
+[Projection](../common/ru_hf_projection.wl), [operator](../common/ru_hf_operator.wl) and [Wilson](../common/ru_hf_wilson.wl) helpers define normalization and the future-pointing complete operator. [Cut](../common/ru_hf_cut.wl) and [gauge](../common/ru_hf_gauge.wl) helpers generate both placements and gauge-completion checks. [Measurement transport](../common/ru_hf_measurement.wl) distinguishes the physical emitted-particle cut from derivative measurement deltas; raised-cut coefficients remain off-cut until their action is derived.
+
+[Angular continuation](../common/ru_hf_angular.wl) contracts the full-D current and applies the rank-one Fourier phase before the evanescent angular average. Its equality statement is a zero finite one-loop shift in the declared continuation, not all-epsilon or higher-order equality. [Virtual completion](../common/ru_hf_virtual.wl) proves the whole no-additional-state branch zero; it does not assert that every separate loop integral vanishes. [Endpoint completion](../common/ru_hf_endpoint.wl) requires uniform Hölder/Dini and joint-endpoint bounds, lower-fraction integrability and the two endpoint zeros. Exported zero contact representatives apply on this physical class; generic HF contact coefficients remain undetermined.
+
+[r07](../common/r07_assembly.wls) and [ru_observable_helpers.wl](../common/ru_observable_helpers.wl) bind these native values into strict first-order UT, with the HF action inserted once in the local small-b expansion. The already complete all-b Collins TMD does not receive a second HF term. The asymmetry is expanded after the same linear flavor/Fourier operations. The unused [ru_formal_assembly.wl](../common/ru_formal_assembly.wl) remains a historical scaffold.
+
+Use the [complete runner command](../README.md#reproduce-this-organized-edition), since stage files require generated contexts. [Conventions](../CONVENTIONS.md) retain BMHV, Trento/native signs, z and hadron-mass factors, PV measure and conditional operator identifications. The [output/equation index](../comparison/OUTPUT_TO_EQUATION_INDEX.md), [supporting numerical comparison](../comparison/README.md) and [accepted HF review](../../collins_ep_analytic_SIDIS_review/reverse-unitarity-002/audit/hf-route-review-002/HF_ROUTE_REVIEW.md) separate direct new-current checks from retained MadGraph evidence. Generic contacts, closed full twist-three evolution and a final physical prediction remain uncertified; see [limitations](../../collins_ep_analytic_SIDIS_review/reverse-unitarity-002/LIMITATIONS.md).

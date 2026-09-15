@@ -1,0 +1,21 @@
+(* Check the actual Kira rules and final master inventory, not candidate receipts. *)
+c=Import[Environment["COLLINS_RU_KIRA_AUDIT"],"RawJSON"];
+gate[test_,message_]:=If[!TrueQ[test],Print[message];Exit[1]];
+families=c["families"];names=Lookup[families,"id"];heads=Symbol /@ names;
+rules=DeleteDuplicates[Flatten[Get /@ c["rule_files"]]];
+gate[MatchQ[rules,{__Rule}],"Kira did not export a nonempty list of rules"];
+gate[FreeQ[rules,_Real|$Failed|$Aborted],"Inexact or failed Kira rule"];
+inventory=DeleteDuplicates[ToExpression /@ StringCases[Import[c["master_inventory"],"Text"],RegularExpression["[A-Za-z][A-Za-z0-9]*\\[[0-9, -]+\\]"]]];
+isIntegral[x_]:=MemberQ[heads,Head[x]]&&And@@(IntegerQ /@ (List@@x));
+inventory=Select[inventory,isIntegral];gate[Length[inventory]>0,"Empty/unsupported final master inventory"];
+targets=Flatten[Table[(Apply[Symbol[f["id"]],#["powers"]]& /@ f["targets"]),{f,families}]];
+missing=Complement[targets,First /@ rules];gate[Complement[missing,inventory]==={},"Target not reduced or declared a master"];
+rules=Join[rules,(#->#& /@ missing)];gate[DuplicateFreeQ[First /@ rules],"Duplicate rule targets"];
+masters=DeleteDuplicates[Cases[Last /@ rules,x_/;isIntegral[x],Infinity]];
+gate[Length[masters]>0&&Complement[masters,inventory]==={},"Reduction ends outside final master inventory"];
+Do[f=SelectFirst[families,#["id"]===SymbolName[Head[m]]&];
+ gate[Length[List@@m]===Length[f["denominators"]],"Master index count mismatch"];
+ gate[And@@((List@@m)[[# + 1]]>0& /@ f["cuts"]),"Physical cut removed from surviving master"],{m,masters}];
+Put[<|"rules"->rules,"masters"->masters,"targets"->targets|>,c["native_output"]];
+Export[c["output"],<|"status"->"PASS","targets"->Length[targets],"masters"->Length[masters],"rule_count"->Length[rules]|>,"RawJSON"];
+Exit[0];

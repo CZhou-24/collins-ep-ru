@@ -1,0 +1,21 @@
+{
+  "scope": "Reuse analytic Fourier/rapidity transformations and defining soft/jet projectors/measurement only. No old radial evaluator, masters or finite output.",
+  "files": {
+    "/bigTMD/collins_ep_analytic/common/soft_reductions.wl": {
+      "sha256": "e9b5a84bdee2fd52f2c967e370134a43c77b6adc0c15d489a469cb8b2a53d8bd",
+      "functions": [
+        "SoftReductionChain"
+      ],
+      "destination": "common/ru_soft_transforms.wl"
+    },
+    "/bigTMD/collins_ep_analytic/common/d18_jet_derivation.wl": {
+      "sha256": "b5b3ab20273dd1be04598588984bc46a0b3d82f2677b2e981ffd4483fec7260a",
+      "functions": [
+        "D18Projectors",
+        "D18CollinearRegions",
+        "D18Measurement"
+      ],
+      "destination": "common/ru_soft_generation.wl"
+    }
+  }
+}

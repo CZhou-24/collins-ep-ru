@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "references": [
+    {
+      "id": "ep2007",
+      "arxiv": "2007.07281v1",
+      "url": "https://arxiv.org/abs/2007.07281v1",
+      "title": "Electron-jet correlations and hadron-in-jet Collins observable",
+      "source_file": "target-2007.07281v1-source/main.tex",
+      "sha256": "bff5478c8c8c6a5ccca24fe169ae99a2531d2934b384703520662dd685293ea1"
+    },
+    {
+      "id": "kpsy2015",
+      "arxiv": "1505.05589v1",
+      "url": "https://arxiv.org/abs/1505.05589v1",
+      "title": "Extraction of quark transversity distribution and Collins fragmentation functions",
+      "source_file": "fit-1505.05589v1-source/collins-final.tex",
+      "sha256": "0703ee6ab53d3fb64591b33b9c2e3b2b7a36e87dd068e67b909f8a6eaafa63a8"
+    },
+    {
+      "id": "bp2013",
+      "arxiv": "1303.2129v1",
+      "url": "https://arxiv.org/abs/1303.2129v1",
+      "role": "Independent polarized TMD evolution and one-loop matching reference; acquire and hash exact source before use"
+    },
+    {
+      "id": "pp2017",
+      "arxiv": "1707.00913v2",
+      "url": "https://arxiv.org/abs/1707.00913v2",
+      "role": "Hadron-in-jet Collins conventions; pp hard scattering must not be used as an ep reference"
+    }
+  ],
+  "literal_snippets": {
+    "eq:cf": {
+      "literal_latex_lines": " The above coefficient functions are  \n\\bea\nC_{q\\gets q'}(x,\\mu_b) &=\\delta_{q'q} \\left[\\delta(1-x)+\\frac{\\alpha_s}{\\pi}\\left(\\frac{C_F}{2}(1-x) \\right) \\right]\\; , \\label{eq:cf}",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 661
+    },
+    "eq:cf1": {
+      "literal_latex_lines": "C_{q\\gets q'}(x,\\mu_b) &=\\delta_{q'q} \\left[\\delta(1-x)+\\frac{\\alpha_s}{\\pi}\\left(\\frac{C_F}{2}(1-x) \\right) \\right]\\; , \\label{eq:cf}\n\\\\\nC_{q\\gets g}(x,\\mu_b) &= \\frac{\\alpha_s}{\\pi} {T_R} \\, x (1-x)\\; ,  \\label{eq:cf1}",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 663
+    },
+    "eq:cd": {
+      "literal_latex_lines": "C_{q\\gets g}(x,\\mu_b) &= \\frac{\\alpha_s}{\\pi} {T_R} \\, x (1-x)\\; ,  \\label{eq:cf1}\n\\\\\n\\hat C_{q'\\gets q}(z,\\mu_b) &=\\delta_{q'q} \\left[\\delta(1-z)+\\frac{\\alpha_s}{\\pi}\\left(\\frac{C_F}{2}(1-z)  + P_{q\\gets q}(z)\\, \\ln z\\right) \\right]\\; ,  \\label{eq:cd}",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 665
+    },
+    "eq:cd1": {
+      "literal_latex_lines": "\\hat C_{q'\\gets q}(z,\\mu_b) &=\\delta_{q'q} \\left[\\delta(1-z)+\\frac{\\alpha_s}{\\pi}\\left(\\frac{C_F}{2}(1-z)  + P_{q\\gets q}(z)\\, \\ln z\\right) \\right]\\; ,  \\label{eq:cd}\n\\\\\n\\hat C_{g\\gets q}(z,\\mu_b) &= \\frac{\\alpha_s}{\\pi} \\left( \\frac{C_F}{2} z\\; +  P_{g\\gets q}(z)\\, \\ln z \\right) ,  \\label{eq:cd1}",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 667
+    },
+    "P_qq": {
+      "literal_latex_lines": "\\bea\nP_{q\\gets q}(z) &= C_F \\left[ \\frac{1+z^2}{(1-z)_+} + \\frac{3}{2} \\delta(1-z) \\right] \\, , \n\\label{P_qq}",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 672
+    },
+    "P_gq": {
+      "literal_latex_lines": "\\\\\nP_{g\\gets q}(z) &= C_F \\frac{1+(1-z)^2}{z} \\; .\n\\label{P_gq}",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 675
+    },
+    "eq:ch1": {
+      "literal_latex_lines": " The $C$-coefficient functions are found to be\n\\bea\n\\delta C_{q\\gets q'} (x,\\mu_b) &=\\delta_{q'q} \\left[\\delta(1-x)+{\\cal O}(\\alpha_s^2) \\right]\\; \\label{eq:ch1},\\\\",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 811
+    },
+    "eq:ch1perp": {
+      "literal_latex_lines": "\\bea\n\\delta C_{q\\gets q'} (x,\\mu_b) &=\\delta_{q'q} \\left[\\delta(1-x)+{\\cal O}(\\alpha_s^2) \\right]\\; \\label{eq:ch1},\\\\\n\\delta \\hat C_{q'\\gets q}^{\\rm (SIDIS)}(z,\\mu_b) &=\\delta_{q'q} \\left[\\delta(1-z)+\\frac{\\alpha_s}{\\pi}\\left(\\hat P_{q\\gets q}^{c}(z) \\ln z\\right) \\right]\\; \\label{eq:ch1perp},",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 812
+    },
+    "P_qqc": {
+      "literal_latex_lines": "\\bea\n\\hat P_{q\\gets q}^{c}(z) = C_F \\left[ \\frac{2 z}{(1- z)_+} +\\frac{3}{2}\\delta(1-z)\\right].\n\\label{P_qqc}",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 817
+    },
+    "eq:ch1_css": {
+      "literal_latex_lines": "the relevant coefficient functions up to the first order in $\\alpha_s$ (compare to Eq.~\\eqref{eq:ch1perp} to determine relation to hard factor $H$) are given by~\\cite{Koike:2006fn,Bacchetta:2013pqa,Yuan:2009dw,Echevarria:2014rua}:\n\\bea\n\\delta C_{q\\gets q'}^{\\rm (SIDIS)}(z,\\mu_b)  (x,\\mu_b) &=\\delta_{q'q} \\left[\\delta(1-x)+\\frac{\\alpha_s}{\\pi}\\left(-2C_F\\delta(1-x)\\right) \\right]\\; \\label{eq:ch1_css},\\\\",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 834
+    },
+    "eq:ch1perp_css": {
+      "literal_latex_lines": "\\bea\n\\delta C_{q\\gets q'}^{\\rm (SIDIS)}(z,\\mu_b)  (x,\\mu_b) &=\\delta_{q'q} \\left[\\delta(1-x)+\\frac{\\alpha_s}{\\pi}\\left(-2C_F\\delta(1-x)\\right) \\right]\\; \\label{eq:ch1_css},\\\\\n\\delta \\hat C_{q'\\gets q}^{\\rm (SIDIS)}(z,\\mu_b) &=\\delta_{q'q} \\left[\\delta(1-z)+\\frac{\\alpha_s}{\\pi}\\left(\\hat P_{q\\gets q}^{c}(z) \\ln z -2C_F\\delta(1-z)\\right) \\right]\\; \\label{eq:ch1perp_css},",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 835
+    },
+    "hqjcc": {
+      "literal_latex_lines": "\\begin{equation}\nH_{\\rm collins}^{({\\rm DIS})JCC}(Q;\\mu)=H_{UU}^{({\\rm DIS})JCC}(Q;\\mu)=  1+  \n\\frac{\\alpha_s}{2\\pi}C_F\\left[3\\ln\\frac{Q^2}{\\mu^2}-\\ln^2\\left(\\frac{Q^2}{\\mu^2}\\right)-8\\right] \\ .\\label{hqjcc}",
+      "source_reference": "kpsy2015",
+      "source_line_1based": 2563
+    }
+  },
+  "policy": "Literal reference text is preserved. Corrections/conversions are separate derived rows, never edits to the reference. A mismatch between papers is not automatically a production defect."
+}

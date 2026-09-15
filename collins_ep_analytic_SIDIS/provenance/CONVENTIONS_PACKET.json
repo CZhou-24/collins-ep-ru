@@ -1,0 +1,77 @@
+{
+  "D_algebra": {
+    "sidis_source": "SIDIS/common/s02_definitions.wl: Dimension D; s08_cut_master_inputs.wl and s20_final_hats.wl: D=4-2 eps. No polarized gamma5 prescription is defined there.",
+    "collins_definition": "Keep D=4-2 eps in internal unresolved algebra. Physical external spin and Levi-Civita have four dimensions (two transverse components); accepted Collins LoadFC fixes BMHV. Retain evanescent numerator terms through the required regulator order.",
+    "conversion": "No epsilon-sign conversion. The physical external spin plane is a Collins extension. Contract internal D tensors before external spin projection; finite terms from O(eps) numerators times poles cannot be dropped."
+  },
+  "metric_and_routing": {
+    "sidis_source": "SIDIS/common/s02_definitions.wl: p^2=k1^2=0, q^2=-Q2, sSIDIS=(p+q)^2, tSIDIS=(q-k1)^2, recoil=p+q-k1, recoil^2=w.",
+    "collins_definition": "Use metric diag(1,-1,-1,-1), q=l-lprime, epS=(l+p)^2, epT=q^2=-Q2, epU=(p-lprime)^2. Elastic epS+epT+epU=0; tagged real radiation requires its additional scalar products.",
+    "conversion": "sSIDIS=epS+epT+epU, tSIDIS=epT-2(l-lprime).k1, uSIDIS=-2p.k1; sSIDIS+tSIDIS+uSIDIS=-Q2+w. Elastic photon invariants are (0,0,-Q2). Do not identify the SIDIS photon-parton names s,t,u with electron-parton invariants."
+  },
+  "spin_and_color_averaging": {
+    "sidis_source": "SIDIS/common/s05_virtual_families.wl contract uses FermionSpinSum ExtraFactor=initialAverage. Read-only SIDIS/Hqq/s01_result/s01_inputs/s02_born_and_projectors.wl derives quark states=2 Nc, gluon states=(D-2)(Nc^2-1); photon is an open current.",
+    "collins_definition": "The unpolarized incoming electron contributes a further 1/2. eq average is 1/(4Nc); eg is 1/[2(D-2)(Nc^2-1)]. Polarized quark dependence is extracted coherently from density slash(p)(1+gamma5 slash(S))/2 and outgoing analyzer, with the same declared normalization.",
+    "conversion": "For Nc=3,D=4 the eq and eg averages are 1/12 and 1/32. Do not add a photon polarization average. Native amplitude checks exclude flux and phase space and retain complex helicity interference for UT."
+  },
+  "coupling_powers": {
+    "sidis_source": "SIDIS/common/s05_virtual_families.wl explicitly strips model charge and eq^2 gs^4 for photon-parton virtual interference; s20_final_hats.wl restores gs^2=4 Pi alphaS. These are original photon-parton channels.",
+    "collins_definition": "e^2=4 Pi alphaEM, gs^2=4 Pi alphaS. Elastic ep has two QED vertices: squared coupling (4 Pi alphaEM)^2 eq^2; real gluon emission adds 4 Pi alphaS. Define a=alphaS/(2Pi); an amplitude expansion in alphaS/(4Pi) must be converted before interference.",
+    "conversion": "Contract the open hadronic current with (e^2/Q^4) times spin-averaged lepton tensor. One-loop amplitude plus its conjugate gives 2 Re; account for this before a conversion. Preserve the literal EP alpha*alpha_s versus derived alphaEM^2 discrepancy."
+  },
+  "loop_measure": {
+    "sidis_source": "SIDIS/common/s12_virtual_master_inputs.wl uses FCFeynmanParametrize FeynmanIntegralPrefactor=\"Unity\": unnormalized Minkowski d^D ell. s05 and s19 multiply mu^(2eps)/(2Pi)^(4-2eps) in interference assembly.",
+    "collins_definition": "Keep this raw master convention for the migrated virtual route. Track i pi^(D/2), (2Pi)^(-D), mu^(2eps) and the actual amplitude i factors explicitly. The accepted comparison basis uses d^D ell/(i pi^(D/2)) with exp(EulerGamma eps) (mu^2)^eps.",
+    "conversion": "For an identical routed integrand Iraw=Integrate[d^D ell integrand] and Ibar=Iraw/[i pi^(D/2)]: mu^(2eps) Iraw/(2Pi)^D = i mu^(2eps) Ibar/(4Pi)^(D/2). To reach e^(gammaE eps) mu_bar^(2eps) Ibar multiply/divide the recorded normalization and convert mu_bare^2=mu_bar^2 e^(gammaE)/(4Pi) where this convention is chosen. Never remove the physical i0/phase with a real-only substitution."
+  },
+  "phase_space_measure": {
+    "sidis_source": "SIDIS/common/s08_cut_master_inputs.wl derives positive-energy cuts from their Jacobian and sphere area. s20_final_hats.wl: stateNormalization=(2Pi)^D Product[(2Pi)^(-(D-1)),cutMomenta].",
+    "collins_definition": "dPhi_n=(2Pi)^D delta^D(P-sum k_i) Product[d^D k_i delta_+(k_i^2)/(2Pi)^(D-1)], delta_+(k^2)=theta(k0)delta(k^2). Flux for massless incoming ep is 1/(2 epS). Measurement deltas are separate from physical on-shell cuts.",
+    "conversion": "For two massless cuts and P^2=w>0, the raw cut measure is w^(D/2-2)/2^(D-1) times the solid-angle integral; at D=4 it is pi/2. Multiplying (2Pi)^(2-D) gives the standard integrated two-body phase space 1/(8Pi). No old F-hat hard-normalization factor may be multiplied into an already complete exclusive ep phase space."
+  },
+  "MSbar": {
+    "sidis_source": "SIDIS/common/s14_uv_residues.wl explicitly defines MSPole=1/eps-EulerGamma+Log[4Pi]. No C11 TMD operator scheme is defined by the inclusive SIDIS workflow.",
+    "collins_definition": "Use standard MSbar and distinguish epsUV from epsIR until scaleless UV/IR bookkeeping is complete. The native accepted Collins basis also uses standard MSbar; C11 is an explicit comparison-side finite operator conversion.",
+    "conversion": "A scaleless integral is 0 only after identifying epsUV=epsIR; it can carry c(1/epsUV-1/epsIR). The C11/additive-MSbar ratio is exp(gammaE eps)/Gamma(1-eps)=1-pi^2 eps^2/12+O(eps^3). Apply it to the freshly derived additive counterterm, not to an invented finite shift."
+  },
+  "positive_energy_cuts": {
+    "sidis_source": "SIDIS/common/s02_definitions.wl stores energy[r]>0 and energy[recoil-r]>0; s08 independently solves both cuts and selects the unique positive-energy root for w>0.",
+    "collins_definition": "For a real scalar x, delta(x)=[1/(x-i0)-1/(x+i0)]/(2Pi i). Thus delta_+(k^2-m^2)=theta(k0) times this discontinuity. Each declared physical cut retains this orientation and positive-energy support; measurement deltas and theta boundaries are separately documented.",
+    "conversion": "The method paper hep-ph/0207004v3 Eq17 prints the opposite discontinuity ordering. Retain its literal equation unchanged and display this orientation difference explicitly. Positive cut indices in Kira enforce algebraic cut survival; they do not prove physical support or absence of measurement boundary terms."
+  },
+  "i0": {
+    "sidis_source": "SIDIS/common/s12_virtual_master_inputs.wl constructs Euclidean chord parameters; s19_assemble_virtual.wl performs the physical continuation and preserves phases before Hermitian interference.",
+    "collins_definition": "Uncut Feynman denominators use +i0. Physical cuts are the declared difference of opposite prescriptions; future-pointing Wilson-line/eikonal denominators retain their own ray orientation and common damping regulator.",
+    "conversion": "For a timelike invariant s>0, Log(-s-i0)=Log(s)-i Pi; (-s-i0)^lambda=s^lambda Exp(-i Pi lambda). The h.c./2 in the HF operator is Re of the same complex projected cut, with conjugated ray prescriptions. Do not replace all denominators by absolute values or count an additional mirror twice."
+  },
+  "endpoint_intervals": {
+    "sidis_source": "SIDIS/common/s17_assemble_real.wl: Ln=[Log(w/B)^n/w]_+ on [0,B]. s15 derives endpoint regions from actual cut-master input.",
+    "collins_definition": "Define Collins diagonal plus distributions on [0,1] by integral [f(x)]_+ phi(x)=integral f(x)(phi(x)-phi(1)); keep delta, plus and regular pieces separately. HF variables u=zh/z and v=z/z1 have zh<=u<=1,0<v<1.",
+    "conversion": "For w=B(1-x), the pushforward of Ln with dw is [Log(1-x)^n/(1-x)]_+ dx with test phi(B(1-x)); delta(w)dw maps to delta(1-x)dx. w^(-1-k eps)=-B^(-k eps)delta(w)/(k eps)+B^(-k eps)sum_n(-k eps)^n Ln/n!. HF generic c0 Phi(u,1)-c1 d_v Phi(u,1) remains unresolved; the physical class additionally needs |Phi|<=C(u)(1-v)^(1+alpha),alpha>0, both boundary zeros, and uniform joint-endpoint/regulator control."
+  },
+  "transverse_projectors": {
+    "sidis_source": "No transverse-spin, gamma5, epsilon-plane or Collins projector is defined in pinned unpolarized SIDIS.",
+    "collins_definition": "Accepted Collins physical bases: N is beam cross jet, Xi=N cross beam, Xo=N cross jet, epsilon0123 upper=+1, epsilon12=+1. The analyzer is (-j_y,j_x), giving sy*hx-sx*hy=sin(phiS-phiH). Use physical BMHV external projectors with full D-dimensional unresolved numerator.",
+    "conversion": "This is a declared polarized extension. Reusing the same current/projector reduces independence to the integration route. A new or modified amplitude/spin adapter needs a direct check against its new outputs including coherent helicity interference; old MadGraph counts do not provide that binding."
+  },
+  "Collins_moment": {
+    "sidis_source": "No Collins fragmentation matrix element, hadron-mass factor or moment is defined in pinned unpolarized SIDIS.",
+    "collins_definition": "Define HC=-HTrento/z, Hhat3(z)=integral d2p p^2 HC(z,p^2)/Mh, and HTrento^(1)=integral d2p p^2 HTrento/(2z^2 Mh^2). The physical first transverse moment gives vector coefficient -i b^alpha Hhat3/(2z).",
+    "conversion": "Hhat3=-2z Mh HTrento^(1). Accepted native and Kang raw cut-matrix conventions B/z versus B/(2z) give both HhatNative/HhatKang=2 and HFNative/HFKang=2: the relative mixing-basis factor is one. This definition-level conversion does not silently fix printed upper-index/Wilson-link conventions or the literal CA-kernel discrepancy. EP-to-Trento identification remains explicitly conditional."
+  },
+  "Fourier_and_z": {
+    "sidis_source": "No TMD Fourier transform is defined in pinned inclusive SIDIS.",
+    "collins_definition": "Fragmentation forward phase exp(-i p.b/z), inverse z^(-2) d2b/(2Pi)^2 exp(+i p.b/z). Beam uses its own bq phase without fragmentation z. Physical observed transverse plane has two components.",
+    "conversion": "The coordinate Jacobian is z^-2. Rank-zero radial measure is b db J0/(2Pi z^2); with -i b Hhat3/(2z) the rank-one radial measure is b^2 db J1/(4Pi z^3). The full dT versus accepted physical-J0 continuation ratio is Gamma(1-eps)Gamma(1+eps); divide both scalar and vector by that same b-independent ratio after its actual derivation. This Fourier operation may remain analytic outside Kira only when its connection to newly evaluated cut masters is proved; the old radial route cannot be renamed reverse unitarity."
+  },
+  "rapidity_subtraction": {
+    "sidis_source": "Pinned inclusive SIDIS has dimensional collinear/soft endpoints, but no TMD rapidity regulator, Collins-Soper scale, or standard-soft square-root subtraction.",
+    "collins_definition": "Collins extension uses eta before eps, future staples, and one standard-soft square root. V=ln(mu^2/nu^2), T=ln(mu^2/zeta), g=ln[R^2/(4cosh(Y)^2)], zetaJ=zeta0 exp(g). Keep nu regulator scale and zeta physical rapidity scale distinct.",
+    "conversion": "Conventions d/dln(mu^2),d/dln(zeta) imply a factor 1/2 from a kernel defined with d/dln(sqrt(zeta)). A finite separator shift chi=ln(zetaNew/zetaOld) is derived as a native eikonal shell and the opposite residual domain; arbitrary compensating finite polynomials are not a derivation. Eta cancellation must occur at fixed eps before expanding eps."
+  },
+  "finite_scheme_allocation": {
+    "sidis_source": "SIDIS/common/s17,s19,s20 separate real/virtual/UV/collinear pieces and check poles before finite export; photon F1/F2 hats do not define Collins TMD finite matching.",
+    "collins_definition": "Assemble the actual native beam, fragmentation/HF, residual soft and hard factors at strict O(a), a=alphaS/(2Pi). Fragmenting jet replaces the inclusive jet; no inclusive-J times fragmenting-G product. Intrinsic matching, overlap and common allocations precede any claim of zero additional jet remainder.",
+    "conversion": "UU=UU0+a UU1 and UT=UT0+a UT1; A=UT0/UU0+a(UT1/UU0-UT0 UU1/UU0^2). Scheme-converted factors must retain full-product compensation. The accepted physical HF zero contacts are representative choices on the qualified physical class, not generic distribution identities. R=1, unrestricted nonsingular NLO, closed twist-three evolution and Figure6 remain uncertified."
+  }
+}

@@ -1,0 +1,55 @@
+(* File-layout adapter. No physics expression is transformed here. *)
+sidisRoot=DirectoryName[DirectoryName[$InputFileName]];
+sidisLayout=Import[FileNameJoin[{sidisRoot,"common","s21_result","layout.json"}],"RawJSON"];
+sidisMoveKeys=Reverse[SortBy[Keys[sidisLayout["Moves"]],StringLength]];
+sidisRelative[path_String]:=Module[{absolute=ExpandFileName[path],prefix},
+ prefix=SelectFirst[Prepend[sidisLayout["OriginalRoots"],sidisRoot],
+   StringStartsQ[absolute,#<>"/"]&,Missing["External"]];
+ If[MissingQ[prefix],Missing["External"],StringDrop[absolute,StringLength[prefix]+1]]];
+sidisPath[parts_List]:=Module[{path=FileNameJoin[parts],relative,pieces,first,step,newStep,name,move},
+ If[StringEndsQ[path,"`"],Return[path]];
+ relative=sidisRelative[path];If[MissingQ[relative],Return[path]];
+ move=SelectFirst[sidisMoveKeys,relative===#||StringStartsQ[relative,#<>"/"]&,None];
+ If[move=!=None,Return[FileNameJoin[{sidisRoot,sidisLayout["Moves"][move]<>
+   StringDrop[relative,StringLength[move]]}]]];
+ pieces=StringSplit[relative,"/"];If[pieces==={},Return[sidisRoot]];first=First[pieces];
+ If[MemberQ[Keys[sidisLayout["ChannelStages"]],first]&&Length[pieces]>1,
+  name=pieces[[2]];
+  If[KeyExistsQ[sidisLayout["SourceAliases"],relative],Return[FileNameJoin[{sidisRoot,relative}]]];
+  If[StringMatchQ[name,"s"~~DigitCharacter~~DigitCharacter~~"_result"]&&
+    DirectoryQ[FileNameJoin[{sidisRoot,first,name}]],
+   Return[FileNameJoin[Prepend[pieces,sidisRoot]]]];
+  If[StringStartsQ[name,"s"]&&StringMatchQ[StringTake[name,3],"s"~~DigitCharacter~~DigitCharacter],
+   step=StringTake[name,3];newStep=Lookup[sidisLayout["ChannelStages"][first],step,step];
+   name=newStep<>StringDrop[name,3];
+   Return[If[StringEndsQ[name,"_result"],
+     FileNameJoin[Join[{sidisRoot,first,newStep<>"_result"},Drop[pieces,2]]],
+     FileNameJoin[Join[{sidisRoot,first,newStep<>"_result",name},Drop[pieces,2]]]]]]];
+ If[first==="common",
+  If[Length[pieces]>1&&StringMatchQ[StringTake[pieces[[2]],UpTo[3]],"s"~~DigitCharacter~~DigitCharacter]&&
+    !StringMatchQ[pieces[[2]],"s"~~DigitCharacter~~DigitCharacter~~"_result"]&&
+    !MemberQ[{"wl","py"},FileExtension[pieces[[2]]]],
+   Return[FileNameJoin[Join[{sidisRoot,"common",StringTake[pieces[[2]],3]<>"_result"},Rest[pieces]]]]];
+  Return[FileNameJoin[Prepend[pieces,sidisRoot]]]];
+ If[first==="software",Return[FileNameJoin[Join[{sidisRoot,"common"},pieces]]]];
+ If[StringContainsQ[first,"previous"]||first==="s17_excluded_packagex",
+  Return[FileNameJoin[Join[{sidisRoot,"common","previous_runs"},pieces]]]];
+ If[KeyExistsQ[sidisLayout["Sources"],first],Return[FileNameJoin[{sidisRoot,"common",first}]]];
+ If[StringMatchQ[StringTake[first,UpTo[3]],"s"~~DigitCharacter~~DigitCharacter],
+  step=StringTake[first,3];Return[FileNameJoin[Join[{sidisRoot,"common",step<>"_result"},pieces]]]];
+ FileNameJoin[Prepend[pieces,sidisRoot]]];
+
+sidisOriginalSource[path_String]:=Module[{relative=sidisRelative[path],name,record,current},
+ If[MissingQ[relative],Return[Missing["NotSource"]]];
+ name=Lookup[sidisLayout["SourceAliases"],relative,Missing["NotSource"]];
+ If[MissingQ[name],Return[name]];
+ record=sidisLayout["Sources"][name];current=FileNameJoin[{sidisRoot,"common",name}];
+ If[FileHash[current,"SHA256","HexString"]=!=record["RelocatedSHA256"],
+  Print["FAIL: source changed after the recorded path-only relocation: ",name];Quit[1]];
+ FileNameJoin[{sidisRoot,"common","previous_runs","layout_sources",name}]];
+sidisHash[path_String,args___]:=Module[{mapped=sidisPath[{path}],original},
+ original=sidisOriginalSource[mapped];FileHash[If[MissingQ[original],mapped,original],args]];
+sidisImport[path_String,"Text"]:=Module[{mapped=sidisPath[{path}],original},
+ original=sidisOriginalSource[mapped];Import[If[MissingQ[original],mapped,original],"Text"]];
+sidisImport[path_String,args___]:=Import[sidisPath[{path}],args];
+sidisGet[path_String]:=Get[sidisPath[{path}]];
