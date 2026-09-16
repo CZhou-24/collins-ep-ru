@@ -1,0 +1,1047 @@
+{
+  "equations": {
+    "Uqq_delta": {
+      "value": [
+        "add",
+        [
+          "mul",
+          "CF",
+          [
+            "add",
+            [
+              "mul",
+              "-3/2",
+              "L"
+            ],
+            [
+              "mul",
+              "-1/2",
+              [
+                "pow",
+                "L",
+                2
+              ]
+            ],
+            [
+              "mul",
+              "1/12",
+              [
+                "pow",
+                "pi",
+                2
+              ]
+            ]
+          ]
+        ],
+        [
+          "mul",
+          "3/2",
+          "CF",
+          "L"
+        ]
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E114",
+      "location": "Eq.(114), delta; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Uqq_plus0": {
+      "value": [
+        "mul",
+        2,
+        "CF",
+        "L"
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E114",
+      "location": "Eq.(114), plus0; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Uqq_plus1": {
+      "value": [
+        "mul",
+        -4,
+        "CF"
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E114",
+      "location": "Eq.(114), plus1; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Uqq_regular": {
+      "value": [
+        "add",
+        [
+          "mul",
+          -1,
+          "CF"
+        ],
+        [
+          "mul",
+          "CF",
+          "z"
+        ],
+        [
+          "mul",
+          -1,
+          "CF",
+          "L"
+        ],
+        [
+          "mul",
+          2,
+          "CF",
+          [
+            "log",
+            [
+              "add",
+              1,
+              [
+                "mul",
+                -1,
+                "z"
+              ]
+            ]
+          ]
+        ],
+        [
+          "mul",
+          -1,
+          "CF",
+          "L",
+          "z"
+        ],
+        [
+          "mul",
+          2,
+          "CF",
+          "z",
+          [
+            "log",
+            [
+              "add",
+              1,
+              [
+                "mul",
+                -1,
+                "z"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E114",
+      "location": "Eq.(114), regular; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Uqg_delta": {
+      "value": 0,
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E115",
+      "location": "Eq.(115), delta; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Uqg_plus0": {
+      "value": 0,
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E115",
+      "location": "Eq.(115), plus0; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Uqg_plus1": {
+      "value": 0,
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E115",
+      "location": "Eq.(115), plus1; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Uqg_regular": {
+      "value": [
+        "mul",
+        [
+          "pow",
+          "z",
+          -1
+        ],
+        [
+          "add",
+          [
+            "mul",
+            -1,
+            "CF",
+            [
+              "pow",
+              "z",
+              2
+            ]
+          ],
+          [
+            "mul",
+            -4,
+            "CF",
+            [
+              "log",
+              [
+                "add",
+                1,
+                [
+                  "mul",
+                  -1,
+                  "z"
+                ]
+              ]
+            ]
+          ],
+          [
+            "mul",
+            2,
+            "CF",
+            "L"
+          ],
+          [
+            "mul",
+            "CF",
+            "L",
+            [
+              "pow",
+              "z",
+              2
+            ]
+          ],
+          [
+            "mul",
+            -2,
+            "CF",
+            "L",
+            "z"
+          ],
+          [
+            "mul",
+            -2,
+            "CF",
+            [
+              "pow",
+              "z",
+              2
+            ],
+            [
+              "log",
+              [
+                "add",
+                1,
+                [
+                  "mul",
+                  -1,
+                  "z"
+                ]
+              ]
+            ]
+          ],
+          [
+            "mul",
+            4,
+            "CF",
+            "z",
+            [
+              "log",
+              [
+                "add",
+                1,
+                [
+                  "mul",
+                  -1,
+                  "z"
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E115",
+      "location": "Eq.(115), regular; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Ugg_delta": {
+      "value": [
+        "add",
+        [
+          "mul",
+          "-1/2",
+          "CA",
+          [
+            "pow",
+            "L",
+            2
+          ]
+        ],
+        [
+          "mul",
+          "1/12",
+          "CA",
+          [
+            "pow",
+            "pi",
+            2
+          ]
+        ]
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E116",
+      "location": "Eq.(116), delta; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Ugg_plus0": {
+      "value": [
+        "mul",
+        2,
+        "CA",
+        "L"
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E116",
+      "location": "Eq.(116), plus0; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Ugg_plus1": {
+      "value": [
+        "mul",
+        -4,
+        "CA"
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E116",
+      "location": "Eq.(116), plus1; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Ugg_regular": {
+      "value": [
+        "mul",
+        [
+          "pow",
+          "z",
+          -1
+        ],
+        [
+          "add",
+          [
+            "mul",
+            -4,
+            "CA",
+            [
+              "log",
+              [
+                "add",
+                1,
+                [
+                  "mul",
+                  -1,
+                  "z"
+                ]
+              ]
+            ]
+          ],
+          [
+            "mul",
+            2,
+            "CA",
+            "L"
+          ],
+          [
+            "mul",
+            -4,
+            "CA",
+            "L",
+            "z"
+          ],
+          [
+            "mul",
+            -4,
+            "CA",
+            [
+              "pow",
+              "z",
+              2
+            ],
+            [
+              "log",
+              [
+                "add",
+                1,
+                [
+                  "mul",
+                  -1,
+                  "z"
+                ]
+              ]
+            ]
+          ],
+          [
+            "mul",
+            -2,
+            "CA",
+            "L",
+            [
+              "pow",
+              "z",
+              3
+            ]
+          ],
+          [
+            "mul",
+            2,
+            "CA",
+            "L",
+            [
+              "pow",
+              "z",
+              2
+            ]
+          ],
+          [
+            "mul",
+            4,
+            "CA",
+            [
+              "pow",
+              "z",
+              3
+            ],
+            [
+              "log",
+              [
+                "add",
+                1,
+                [
+                  "mul",
+                  -1,
+                  "z"
+                ]
+              ]
+            ]
+          ],
+          [
+            "mul",
+            8,
+            "CA",
+            "z",
+            [
+              "log",
+              [
+                "add",
+                1,
+                [
+                  "mul",
+                  -1,
+                  "z"
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E116",
+      "location": "Eq.(116), regular; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Ugq_delta": {
+      "value": 0,
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E117",
+      "location": "Eq.(117), delta; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Ugq_plus0": {
+      "value": 0,
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E117",
+      "location": "Eq.(117), plus0; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Ugq_plus1": {
+      "value": 0,
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E117",
+      "location": "Eq.(117), plus1; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Ugq_regular": {
+      "value": [
+        "add",
+        [
+          "mul",
+          "L",
+          "TF"
+        ],
+        [
+          "mul",
+          -2,
+          "TF",
+          "z"
+        ],
+        [
+          "mul",
+          -2,
+          "TF",
+          [
+            "log",
+            [
+              "add",
+              1,
+              [
+                "mul",
+                -1,
+                "z"
+              ]
+            ]
+          ]
+        ],
+        [
+          "mul",
+          2,
+          "TF",
+          [
+            "pow",
+            "z",
+            2
+          ]
+        ],
+        [
+          "mul",
+          -4,
+          "TF",
+          [
+            "pow",
+            "z",
+            2
+          ],
+          [
+            "log",
+            [
+              "add",
+              1,
+              [
+                "mul",
+                -1,
+                "z"
+              ]
+            ]
+          ]
+        ],
+        [
+          "mul",
+          -2,
+          "L",
+          "TF",
+          "z"
+        ],
+        [
+          "mul",
+          2,
+          "L",
+          "TF",
+          [
+            "pow",
+            "z",
+            2
+          ]
+        ],
+        [
+          "mul",
+          4,
+          "TF",
+          "z",
+          [
+            "log",
+            [
+              "add",
+              1,
+              [
+                "mul",
+                -1,
+                "z"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E117",
+      "location": "Eq.(117), regular; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Tqq_delta": {
+      "value": [
+        "add",
+        [
+          "mul",
+          "CF",
+          [
+            "add",
+            [
+              "mul",
+              "-3/2",
+              "L"
+            ],
+            [
+              "mul",
+              "-1/2",
+              [
+                "pow",
+                "L",
+                2
+              ]
+            ],
+            [
+              "mul",
+              "1/12",
+              [
+                "pow",
+                "pi",
+                2
+              ]
+            ]
+          ]
+        ],
+        [
+          "mul",
+          "3/2",
+          "CF",
+          "L"
+        ]
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E126",
+      "location": "Eq.(126), delta; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Tqq_plus0": {
+      "value": [
+        "mul",
+        2,
+        "CF",
+        "L"
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E126",
+      "location": "Eq.(126), plus0; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Tqq_plus1": {
+      "value": [
+        "mul",
+        -4,
+        "CF"
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E126",
+      "location": "Eq.(126), plus1; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    },
+    "Tqq_regular": {
+      "value": [
+        "add",
+        [
+          "mul",
+          -2,
+          "CF",
+          "L"
+        ],
+        [
+          "mul",
+          4,
+          "CF",
+          [
+            "log",
+            [
+              "add",
+              1,
+              [
+                "mul",
+                -1,
+                "z"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source_url": "https://arxiv.org/html/2311.00672v2#S3.E126",
+      "location": "Eq.(126), regular; order alpha_s/(2 pi)",
+      "transcription": "Independently entered from the literal pinned source; distribution conversion is f(z)D_n=f(1)D_n+[f(z)-f(1)]log^n(1-z)/(1-z). The literal reference is retained in jet_snippets.json.",
+      "independence": "literature"
+    }
+  },
+  "direct_paper_distributions": {
+    "Uqq": {
+      "delta": [
+        "add",
+        [
+          "mul",
+          "CF",
+          [
+            "add",
+            [
+              "mul",
+              "-3/2",
+              "L"
+            ],
+            [
+              "mul",
+              "-1/2",
+              [
+                "pow",
+                "L",
+                2
+              ]
+            ],
+            [
+              "mul",
+              "1/12",
+              [
+                "pow",
+                "pi",
+                2
+              ]
+            ]
+          ]
+        ],
+        [
+          "mul",
+          "3/2",
+          "CF",
+          "L"
+        ]
+      ],
+      "multiplier_plus0": [
+        "mul",
+        "CF",
+        "L",
+        [
+          "add",
+          1,
+          [
+            "pow",
+            "z",
+            2
+          ]
+        ]
+      ],
+      "multiplier_plus1": [
+        "mul",
+        -2,
+        "CF",
+        [
+          "add",
+          1,
+          [
+            "pow",
+            "z",
+            2
+          ]
+        ]
+      ],
+      "regular": [
+        "mul",
+        -1,
+        "CF",
+        [
+          "add",
+          1,
+          [
+            "mul",
+            -1,
+            "z"
+          ]
+        ]
+      ]
+    },
+    "Uqg": {
+      "delta": 0,
+      "multiplier_plus0": 0,
+      "multiplier_plus1": 0,
+      "regular": [
+        "mul",
+        "CF",
+        [
+          "add",
+          [
+            "mul",
+            -1,
+            "z"
+          ],
+          [
+            "mul",
+            [
+              "pow",
+              "z",
+              -1
+            ],
+            [
+              "add",
+              1,
+              [
+                "pow",
+                [
+                  "add",
+                  1,
+                  [
+                    "mul",
+                    -1,
+                    "z"
+                  ]
+                ],
+                2
+              ]
+            ],
+            [
+              "add",
+              "L",
+              [
+                "mul",
+                -2,
+                [
+                  "log",
+                  [
+                    "add",
+                    1,
+                    [
+                      "mul",
+                      -1,
+                      "z"
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    },
+    "Ugg": {
+      "delta": [
+        "add",
+        [
+          "mul",
+          "-1/2",
+          "CA",
+          [
+            "pow",
+            "L",
+            2
+          ]
+        ],
+        [
+          "mul",
+          "1/12",
+          "CA",
+          [
+            "pow",
+            "pi",
+            2
+          ]
+        ]
+      ],
+      "multiplier_plus0": [
+        "mul",
+        2,
+        "CA",
+        "L",
+        "z"
+      ],
+      "multiplier_plus1": [
+        "mul",
+        -4,
+        "CA",
+        [
+          "pow",
+          "z",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            1,
+            [
+              "pow",
+              "z",
+              2
+            ],
+            [
+              "mul",
+              -1,
+              "z"
+            ]
+          ],
+          2
+        ]
+      ],
+      "regular": [
+        "mul",
+        2,
+        "CA",
+        "L",
+        [
+          "add",
+          [
+            "mul",
+            "z",
+            [
+              "add",
+              1,
+              [
+                "mul",
+                -1,
+                "z"
+              ]
+            ]
+          ],
+          [
+            "mul",
+            [
+              "pow",
+              "z",
+              -1
+            ],
+            [
+              "add",
+              1,
+              [
+                "mul",
+                -1,
+                "z"
+              ]
+            ]
+          ]
+        ]
+      ]
+    },
+    "Ugq": {
+      "delta": 0,
+      "multiplier_plus0": 0,
+      "multiplier_plus1": 0,
+      "regular": [
+        "mul",
+        "TF",
+        [
+          "add",
+          [
+            "mul",
+            [
+              "add",
+              "L",
+              [
+                "mul",
+                -2,
+                [
+                  "log",
+                  [
+                    "add",
+                    1,
+                    [
+                      "mul",
+                      -1,
+                      "z"
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            [
+              "add",
+              [
+                "pow",
+                "z",
+                2
+              ],
+              [
+                "pow",
+                [
+                  "add",
+                  1,
+                  [
+                    "mul",
+                    -1,
+                    "z"
+                  ]
+                ],
+                2
+              ]
+            ]
+          ],
+          [
+            "mul",
+            -2,
+            "z",
+            [
+              "add",
+              1,
+              [
+                "mul",
+                -1,
+                "z"
+              ]
+            ]
+          ]
+        ]
+      ]
+    },
+    "Tqq": {
+      "delta": [
+        "add",
+        [
+          "mul",
+          "CF",
+          [
+            "add",
+            [
+              "mul",
+              "-3/2",
+              "L"
+            ],
+            [
+              "mul",
+              "-1/2",
+              [
+                "pow",
+                "L",
+                2
+              ]
+            ],
+            [
+              "mul",
+              "1/12",
+              [
+                "pow",
+                "pi",
+                2
+              ]
+            ]
+          ]
+        ],
+        [
+          "mul",
+          "3/2",
+          "CF",
+          "L"
+        ]
+      ],
+      "multiplier_plus0": [
+        "mul",
+        2,
+        "CF",
+        "L",
+        "z"
+      ],
+      "multiplier_plus1": [
+        "mul",
+        -4,
+        "CF",
+        "z"
+      ],
+      "regular": 0
+    }
+  }
+}

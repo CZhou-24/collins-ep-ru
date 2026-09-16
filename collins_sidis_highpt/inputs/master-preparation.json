@@ -1,0 +1,22 @@
+{
+  "real-master-bank.wl": {
+    "source": "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/real-portable-transport-001/portable-real.wl",
+    "sha256": "81ea572fabcc0c0a25d5fb9463c71bfcb3f5909190a60b87f1d210bf676b7a1a",
+    "kind": "exact representation of archived master selections, not new integration"
+  },
+  "virtual-master-bank.wl": {
+    "source": "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/virtual-portable-views-001/portable-virtual.wl",
+    "sha256": "28c2246670b4214411de62771d159d7bcdec31e72c5fff1b27569484bc646fc7",
+    "kind": "exact representation of archived master selections, not new integration"
+  },
+  "real-master-basis.wl": {
+    "source": "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/master-basis-001/real-master-basis.wl",
+    "sha256": "1c7e54883e06bbed5057e2ae20c60b77515f72fbf97b191846721f43b32c00b5",
+    "kind": "exact representation of archived master selections, not new integration"
+  },
+  "virtual-master-basis.wl": {
+    "source": "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/master-basis-001/virtual-master-basis.wl",
+    "sha256": "e147a3c523f91c56b1b19de0fcbf9276c58733a55f3230acc4191a2d6dda38a2",
+    "kind": "exact representation of archived master selections, not new integration"
+  }
+}

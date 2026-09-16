@@ -1,0 +1,87 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "collins_sidis_highpt/tools/checks/check_review_layout.py"
+      ],
+      "exit_code": 0,
+      "log": "collins_support/reports/sidis-highpt-install-001/active-checks/path-import-inventory.log",
+      "name": "path-import-inventory"
+    },
+    {
+      "command": [
+        "python3",
+        "collins_support/validators/analytic/selftest.py"
+      ],
+      "exit_code": 0,
+      "log": "collins_support/reports/sidis-highpt-install-001/active-checks/shared-base.log",
+      "name": "shared-base"
+    },
+    {
+      "command": [
+        "python3",
+        "collins_support/validators/tests/test_sidis_highpt.py"
+      ],
+      "exit_code": 0,
+      "log": "collins_support/reports/sidis-highpt-install-001/active-checks/adapter.log",
+      "name": "adapter"
+    },
+    {
+      "command": [
+        "python3",
+        "collins_sidis_highpt/tools/checks/test_reporting_fix.py",
+        "--repo",
+        "/bigTMD"
+      ],
+      "exit_code": 0,
+      "log": "collins_support/reports/sidis-highpt-install-001/active-checks/reporting.log",
+      "name": "reporting"
+    },
+    {
+      "command": [
+        "python3",
+        "collins_sidis_highpt/tools/checks/test_reporting_native_log.py"
+      ],
+      "exit_code": 0,
+      "log": "collins_support/reports/sidis-highpt-install-001/active-checks/native-log-reporting.log",
+      "name": "native-log-reporting"
+    },
+    {
+      "command": [
+        "python3",
+        "collins_support/validators/sidis_highpt.py",
+        "check-inputs",
+        "--project",
+        "collins_sidis_highpt/project.json",
+        "--sidis-root",
+        "SIDIS"
+      ],
+      "exit_code": 0,
+      "log": "collins_support/reports/sidis-highpt-install-001/active-checks/registered-inputs.log",
+      "name": "registered-inputs"
+    },
+    {
+      "command": [
+        "/opt/Wolfram/WolframEngine/15.0/Executables/WolframKernel",
+        "-noprompt",
+        "-script",
+        "collins_sidis_highpt/tools/checks/check_continuation_syntax.wls"
+      ],
+      "exit_code": 0,
+      "log": "collins_support/reports/sidis-highpt-install-001/active-checks/wolfram-syntax.log",
+      "name": "wolfram-syntax"
+    },
+    {
+      "command": [
+        "python3",
+        "collins_sidis_highpt/tools/pipeline/build_project.py"
+      ],
+      "exit_code": 0,
+      "log": "collins_support/reports/sidis-highpt-install-001/active-checks/inventory-regeneration.log",
+      "name": "inventory-regeneration"
+    }
+  ],
+  "inventory_byte_idempotent": true,
+  "project_sha256": "52db74978152ae956e96bc8ce1e8ed9880c916b34901838c1b5a921f44f767bf"
+}

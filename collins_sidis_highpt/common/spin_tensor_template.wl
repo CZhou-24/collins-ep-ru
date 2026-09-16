@@ -1,0 +1,58 @@
+(* A single tagged-spin trace retains independent physical photon/spin vectors.
+   All projections are substituted only after the D-dimensional trace closes. *)
+HSRealTemplateGeometry[]:=Module[{keys,mom,gram,rows={},i,j,g,hv,name,expr},
+ FCClearScalarProducts[];
+ mom={p,q,k1,k2,k3};keys=Join[mom,{hsIn,hsOut,hsA,hsB}];
+ gram={{0,(s+Q2)/2,(Q2+s+t-w)/2,-a/2,(a-t+w)/2},
+ {(s+Q2)/2,-Q2,-(Q2+t)/2,(w+a+b)/2,(s+t-w-a-b)/2},
+ {(Q2+s+t-w)/2,-(Q2+t)/2,0,b/2,(s-w-b)/2},
+ {-a/2,(w+a+b)/2,b/2,0,w/2},
+ {(a-t+w)/2,(s+t-w-a-b)/2,(s-w-b)/2,w/2,0}};
+ Do[g=If[i<=5&&j<=5,gram[[i,j]],
+   Which[i===j&&MemberQ[{6,7},i],-1,
+    (i===1&&j===6)||(i===3&&j===7),0,
+    True,name=Symbol["hsDot"<>ToString[i]<>"x"<>ToString[j]];AppendTo[rows,{name,keys[[i]],keys[[j]]}];name]];
+  hv=If[MemberQ[{4,5},i]&&MemberQ[{4,5},j],If[i===j,hsHat,-hsHat],0];
+  With[{aa=keys[[i]],bb=keys[[j]],dd=g,hh=hv},SPD[aa,bb]=dd;SP[aa,bb]=dd-hh;SPE[aa,bb]=hh],
+  {i,Length[keys]},{j,i,Length[keys]}];
+ $HSTemplateDotRows=rows;
+ <|"momenta"->mom,"gramD"->gram,"projector_dot_rows"->rows,
+ "projectors"->{hsIn,hsOut,hsA,hsB},"observed_momentum"->k1,
+ "hat_gram"->{{hsHat,-hsHat},{-hsHat,hsHat}}|>];
+HSRealTemplatePair[left_,right_,gluons_List]:=Module[{aa,bb,x},
+ aa=left/.Polarization[q,___]->hsA;bb=right/.Polarization[q,___]->hsB;
+ x=HSTaggedSpinSum[aa,bb,"T",hsIn,hsOut];
+ x=SUNSimplify[x,Explicit->True,SUNNToCACF->False];
+ Do[x=DoPolarizationSums[x,leg,p],{leg,gluons}];
+ x=Contract[DiracSimplify[x,DiracTraceEvaluate->True]];
+ x=Factor[Together[ExpandScalarProduct[FeynAmpDenominatorExplicit[x]]/$HSChargeSquared]];
+ If[!FreeQ[x,_Pair|_Spinor|_DiracTrace|_DiracGamma|_SUNTF|_SUNTrace|_Real|$Failed|$Aborted],
+  Print["REAL_TEMPLATE_NONSCALAR ",InputForm[DeleteDuplicates[Cases[x,_Pair,Infinity]]]];Abort[]];x];
+HSProjectRealTemplate[value_,geometry_,photons_List,spins_List,average_:True]:=Module[{replacement,rows,rules,x},
+ replacement={hsIn->spins[[1]],hsOut->spins[[2]],hsA->photons[[1]],hsB->photons[[2]]};
+ rows=geometry["projector_dot_rows"];
+ rules=(#[[1]]->HSOnShell[HSDot[$HSVectors[#[[2]]/.replacement],$HSVectors[#[[3]]/.replacement]]])&/@rows;
+ rules=Join[rules,{Q2->Q^2,hsHat->FCI[SPE[k2,k2]]}];
+ x=value/.rules;If[TrueQ[average],HSSphereAverage[x],x]];
+HSVirtualTemplateGeometry[]:=Module[{keys,mom,gram,rows={},g,hv,name},
+ FCClearScalarProducts[];mom={p,q,k1,k2,ell};keys=Join[mom,{hsIn,hsOut,hsA,hsB}];
+ gram={{0,(s+Q2)/2,(Q2+s+t)/2,-t/2,loopP},
+ {(s+Q2)/2,-Q2,-(Q2+t)/2,(s+t)/2,loopQ},
+ {(Q2+s+t)/2,-(Q2+t)/2,0,s/2,loopK},
+ {-t/2,(s+t)/2,s/2,0,loopP+loopQ-loopK},
+ {loopP,loopQ,loopK,loopP+loopQ-loopK,loop2}};
+ Do[g=If[i<=5&&j<=5,gram[[i,j]],
+   Which[i===j&&MemberQ[{6,7},i],-1,
+    (i===1&&j===6)||(i===3&&j===7),0,
+    True,name=Symbol["hsDot"<>ToString[i]<>"x"<>ToString[j]];AppendTo[rows,{name,keys[[i]],keys[[j]]}];name]];
+  hv=If[i===5&&j===5,hsHat,0];
+  With[{aa=keys[[i]],bb=keys[[j]],dd=g,hh=hv},SPD[aa,bb]=dd;SP[aa,bb]=dd-hh;SPE[aa,bb]=hh],
+  {i,Length[keys]},{j,i,Length[keys]}];
+ <|"momenta"->mom,"gramD"->gram,"projector_dot_rows"->rows,"projectors"->{hsIn,hsOut,hsA,hsB},
+ "observed_momentum"->k1,"loop_hat_squared"->hsHat|>];
+HSProjectVirtualTemplate[value_,geometry_,loopGeometry_,photons_List,spins_List]:=Module[{replacement,vectors,rows,rules,x},
+ replacement={hsIn->spins[[1]],hsOut->spins[[2]],hsA->photons[[1]],hsB->photons[[2]]};
+ vectors=Join[$HSVectors,<|ell->loopGeometry["loop_vector4"]|>];rows=geometry["projector_dot_rows"];
+ rules=(#[[1]]->HSOnShell[HSDot[vectors[#[[2]]/.replacement],vectors[#[[3]]/.replacement]]])&/@rows;
+ rules=Join[rules,{Q2->Q^2,s->Q^2 r,t->-Q^2(1+r)(1-z),hsHat->FCI[SPE[ell,ell]]}];
+ x=value/.rules;HSSphereAverage[x]];

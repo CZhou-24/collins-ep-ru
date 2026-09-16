@@ -1,0 +1,967 @@
+{
+  "equations": {
+    "UU_LL": {
+      "value": [
+        "mul",
+        8,
+        "CF",
+        "z",
+        [
+          "pow",
+          [
+            "add",
+            1,
+            "r"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; UU_LL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T11_LL": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T11_LL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T12_LL": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T12_LL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T21_LL": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T21_LL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T22_LL": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T22_LL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "UU_LX": {
+      "value": [
+        "mul",
+        -4,
+        "CF",
+        "h",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            1,
+            "r"
+          ],
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ],
+        [
+          "add",
+          [
+            "mul",
+            -1,
+            "r"
+          ],
+          [
+            "mul",
+            -1,
+            "z"
+          ],
+          [
+            "mul",
+            "r",
+            "z"
+          ]
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; UU_LX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T11_LX": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        "h",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T11_LX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T12_LX": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T12_LX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T21_LX": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T21_LX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T22_LX": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        "h",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T22_LX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "UU_LY": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; UU_LY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T11_LY": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T11_LY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T12_LY": {
+      "value": [
+        "mul",
+        -4,
+        "CF",
+        "h",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T12_LY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T21_LY": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        "h",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T21_LY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T22_LY": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T22_LY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "UU_XL": {
+      "value": [
+        "mul",
+        -4,
+        "CF",
+        "h",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            1,
+            "r"
+          ],
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ],
+        [
+          "add",
+          [
+            "mul",
+            -1,
+            "r"
+          ],
+          [
+            "mul",
+            -1,
+            "z"
+          ],
+          [
+            "mul",
+            "r",
+            "z"
+          ]
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; UU_XL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T11_XL": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        "h",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T11_XL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T12_XL": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T12_XL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T21_XL": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T21_XL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T22_XL": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        "h",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T22_XL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "UU_XX": {
+      "value": [
+        "mul",
+        -2,
+        "CF",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            1,
+            "r"
+          ],
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ],
+        [
+          "add",
+          1,
+          [
+            "pow",
+            "z",
+            2
+          ],
+          [
+            "mul",
+            2,
+            "r"
+          ],
+          [
+            "mul",
+            2,
+            [
+              "pow",
+              "r",
+              2
+            ]
+          ],
+          [
+            "mul",
+            [
+              "pow",
+              "r",
+              2
+            ],
+            [
+              "pow",
+              "z",
+              2
+            ]
+          ],
+          [
+            "mul",
+            -2,
+            "r",
+            [
+              "pow",
+              "z",
+              2
+            ]
+          ],
+          [
+            "mul",
+            -2,
+            "z",
+            [
+              "pow",
+              "r",
+              2
+            ]
+          ],
+          [
+            "mul",
+            2,
+            "r",
+            "z"
+          ]
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; UU_XX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T11_XX": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ],
+        [
+          "add",
+          [
+            "mul",
+            -1,
+            "r"
+          ],
+          [
+            "mul",
+            -1,
+            "z"
+          ],
+          [
+            "mul",
+            "r",
+            "z"
+          ]
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T11_XX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T12_XX": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T12_XX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T21_XX": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T21_XX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T22_XX": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ],
+        [
+          "add",
+          [
+            "mul",
+            -1,
+            "r"
+          ],
+          [
+            "mul",
+            -1,
+            "z"
+          ],
+          [
+            "mul",
+            "r",
+            "z"
+          ]
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T22_XX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "UU_XY": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; UU_XY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T11_XY": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T11_XY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T12_XY": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        "z",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T12_XY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T21_XY": {
+      "value": [
+        "mul",
+        -4,
+        "CF",
+        "z",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T21_XY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T22_XY": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T22_XY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "UU_YL": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; UU_YL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T11_YL": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T11_YL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T12_YL": {
+      "value": [
+        "mul",
+        -4,
+        "CF",
+        "h",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T12_YL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T21_YL": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        "h",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T21_YL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T22_YL": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T22_YL",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "UU_YX": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; UU_YX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T11_YX": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T11_YX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T12_YX": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        "z",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T12_YX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T21_YX": {
+      "value": [
+        "mul",
+        -4,
+        "CF",
+        "z",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T21_YX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T22_YX": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T22_YX",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "UU_YY": {
+      "value": [
+        "mul",
+        -2,
+        "CF",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            1,
+            "r"
+          ],
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ],
+        [
+          "add",
+          1,
+          [
+            "pow",
+            "z",
+            2
+          ],
+          [
+            "mul",
+            2,
+            "r"
+          ],
+          [
+            "mul",
+            2,
+            [
+              "pow",
+              "r",
+              2
+            ]
+          ],
+          [
+            "mul",
+            [
+              "pow",
+              "r",
+              2
+            ],
+            [
+              "pow",
+              "z",
+              2
+            ]
+          ],
+          [
+            "mul",
+            -2,
+            "r",
+            "z"
+          ],
+          [
+            "mul",
+            -2,
+            "z",
+            [
+              "pow",
+              "r",
+              2
+            ]
+          ],
+          [
+            "mul",
+            2,
+            "r",
+            [
+              "pow",
+              "z",
+              2
+            ]
+          ]
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; UU_YY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T11_YY": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ],
+        [
+          "add",
+          "z",
+          [
+            "mul",
+            -1,
+            "r"
+          ],
+          [
+            "mul",
+            "r",
+            "z"
+          ]
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T11_YY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T12_YY": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T12_YY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T21_YY": {
+      "value": 0,
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T21_YY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    },
+    "T22_YY": {
+      "value": [
+        "mul",
+        4,
+        "CF",
+        [
+          "pow",
+          "r",
+          -1
+        ],
+        [
+          "pow",
+          [
+            "add",
+            -1,
+            "z"
+          ],
+          -1
+        ],
+        [
+          "add",
+          "z",
+          [
+            "mul",
+            -1,
+            "r"
+          ],
+          [
+            "mul",
+            "r",
+            "z"
+          ]
+        ]
+      ],
+      "source_url": "local:tools/independent_born.py",
+      "location": "Independent 4x4 Clifford trace of the two gamma* q -> q g Feynman diagrams; T22_YY",
+      "transcription": "Generated independently with explicit Dirac matrices; r=s/Q^2, z=(Q^2+s+t)/(Q^2+s), h>0 and h^2=r z (1-z). No producing result or saved amplitude was loaded.",
+      "independence": "independent_calculation"
+    }
+  }
+}

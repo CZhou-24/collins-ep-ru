@@ -1,0 +1,10 @@
+{
+  "sha256_by_original_local_path": {
+    "collins_support/reports/sidis-highpt-001/continuation-001/native-campaign-002/COMPARISON_INVENTORY.json": "fbce0f172cb27c4629c2a7f1b25e5aedecff36fce4c796ba5dd2287158543cf6",
+    "collins_support/reports/sidis-highpt-install-001/active-checks/results.json": "c02b18c8c96aab7c7f067ec342b0ad29d5a2f31d9910812e9ea2d7448d1aab78",
+    "collins_support/reports/sidis-highpt-install-001/active-checks/virtual-followup/result.json": "bffa7a627dcc09b3076d240f756f6c78fee23f9168969cf3be786666ade40010",
+    "collins_support/reports/sidis-highpt-install-001/publication-inputs-verified.json": "47e79cc972aa27ef2438bc64114745888e7e02e10816b5bf489a3422e77c934d",
+    "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/boundary/summary.json": "938335dd01cf33ad6412f73abbf2664ffa28c010c29bfb7c6950ca4dd0756111",
+    "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/result.json": "0117d3e4eafc1d9d007b15b2c8bba31d038ae318e21a51d4488ffcf126b2406d"
+  }
+}

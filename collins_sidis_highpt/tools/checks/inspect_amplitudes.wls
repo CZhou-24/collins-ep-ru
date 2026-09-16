@@ -1,0 +1,24 @@
+(* Read preserved amplitude metadata; write only the new diagnostic directory. *)
+$HistoryLength=0;
+root=DirectoryName[DirectoryName[DirectoryName[DirectoryName[$InputFileName]]]];
+out=FileNameJoin[{root,"collins_support","reports","sidis-highpt-001","amplitude-inspection"}];
+If[DirectoryQ[out],Print["Choose a new diagnostic directory"];Exit[1]];
+CreateDirectory[out];
+rt=Import[FileNameJoin[{root,"collins_ep_analytic_SIDIS","ru_runtime.json"}],"RawJSON"];
+Global`$FAPatch=False;Global`$LoadAddOns={"FeynArts"};Global`$FeynCalcStartupMessages=False;
+Global`$FeynCalcDirectory=rt["feyncalc_root"];
+FeynCalc`$FeynArtsDirectory=rt["feynarts_root"];
+Get[FileNameJoin[{Global`$FeynCalcDirectory,"FeynCalc.m"}]];
+FCSetDiracGammaScheme["BMHV"];
+bank=Get[FileNameJoin[{root,"SIDIS","Hqq","s01_result","s01_inputs","s01_result.wl"}]];
+Print["BANK KEYS ",Keys[bank]];
+keys=Select[Keys[bank],MemberQ[{"Born","RealQGG","RealSame","RealDistinct","Virtual"},#]&];
+summary=Association@Table[key-><|"count"->Length[bank[key]],"leaf_count"->LeafCount[bank[key]],"external_spinors"->DeleteDuplicates[Cases[bank[key],_Spinor,Infinity]],"requests"->bank["Requests"][key],"incoming_species"->bank["IncomingSpecies"][key],"outgoing_species"->bank["OutgoingSpecies"][key]|>,{key,keys}];
+Put[summary,FileNameJoin[{out,"amplitude_inventory.wl"}]];
+Put[bank["Born"],FileNameJoin[{out,"born_input.wl"}]];
+Print[InputForm[summary]];
+born=Get[FileNameJoin[{root,"SIDIS","Hqq","s01_result","s01_inputs","s02_result.wl"}]];
+Print["UU BORN ",InputForm[KeyTake[born,{"BornPg","BornPpp","ModelChargeSquared","InitialAverages","BornScalarProducts","BornKinematics"}]]];
+Put[KeyTake[born,{"BornPg","BornPpp","ModelChargeSquared","InitialAverages","BornScalarProducts","BornKinematics"}],FileNameJoin[{out,"saved_UU_definitions.wl"}]];
+Print["SAVED_AMPLITUDE_INSPECTION_COMPLETE; NO NEW PHYSICS ACCEPTANCE"];
+Exit[0];

@@ -1,0 +1,18 @@
+{
+  "retrieved_utc": "2026-09-15T21:48:56.688751+00:00",
+  "local_search": "No named asset found in local reference/source trees",
+  "records": [
+    {
+      "kind": "source",
+      "url": "https://arxiv.org/src/hep-ph/9706511v2",
+      "file": "source.bin",
+      "sha256": "31897bd31998a4f3200755428095ccc0f529d35f58f12a413e1227f868f5f7c0"
+    },
+    {
+      "kind": "pdf",
+      "url": "https://arxiv.org/pdf/hep-ph/9706511v2",
+      "file": "paper.pdf",
+      "sha256": "59b5523a8647728431eff99d21da8691eeb14a374b96a3777e8538aa44111b3f"
+    }
+  ]
+}

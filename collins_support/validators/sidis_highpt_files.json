@@ -1,0 +1,9 @@
+{
+  "base_release": "c016a289ceb0dbe5019373efcc23fea7d23f5adc5efed8664610f63663e0ecd3",
+  "files": {
+    "sidis_highpt.py": "8cea5069016bd81b4437141024e0cf83dc4d223af7d0d5b1c8b55240c0b8373a",
+    "sidis_highpt_extract.wls": "50bece498d188a8b4952341f77774c438df6c513befdc94a3f3d17c5d99f1007",
+    "sidis_highpt_project.example.json": "2b138db3065237724d303df296089d7d5e5653ac2e43e2e7648a44f100d705c3",
+    "tests/test_sidis_highpt.py": "9af80b5bfb67e1f4c496fe4584b5b4891ae3df60baa8a660da3a4b038d9a8d1a"
+  }
+}

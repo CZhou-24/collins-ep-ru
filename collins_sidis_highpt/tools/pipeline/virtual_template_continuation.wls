@@ -1,0 +1,31 @@
+(* Native open photon/spin tensor for every saved Hqq loop diagram. *)
+$HistoryLength=0;root=DirectoryName[DirectoryName[DirectoryName[DirectoryName[$InputFileName]]]];engine=FileNameJoin[{root,"collins_sidis_highpt"}];
+out=Environment["SIDIS_VIRTUAL_OUT"];
+If[!StringQ[out]||DirectoryQ[out],Print["Supply unused SIDIS_VIRTUAL_OUT"];Exit[1]];
+CreateDirectory[out,CreateIntermediateDirectories->True];
+rt=Import[FileNameJoin[{root,"collins_ep_analytic_SIDIS","ru_runtime.json"}],"RawJSON"];
+Global`$FAPatch=False;Global`$LoadAddOns={"FeynArts"};Global`$FeynCalcStartupMessages=False;
+Global`$FeynCalcDirectory=rt["feyncalc_root"];FeynCalc`$FeynArtsDirectory=rt["feynarts_root"];
+Get[FileNameJoin[{rt["feyncalc_root"],"FeynCalc.m"}]];
+FeynCalc`FCSetDiracGammaScheme["BMHV"];
+Get[FileNameJoin[{engine,"common","spin_core.wl"}]];
+Get[FileNameJoin[{engine,"common","spin_tensor_template.wl"}]];
+geometry=HSVirtualTemplateGeometry[];
+file=FileNameJoin[{root,"SIDIS","Hqq","s01_result","s01_inputs","s01_result.wl"}];bank=Get[file];
+normfile=FileNameJoin[{root,"SIDIS","Hqq","s01_result","s01_inputs","s02_result.wl"}];$HSChargeSquared=Get[normfile]["ModelChargeSquared"];
+born=Total[bank["Born"]]/.{SMP["e"]->1,SMP["g_s"]->1};loops=bank["Virtual"]/.{SMP["e"]->1,SMP["g_s"]->1};
+masses=DeleteDuplicates[Cases[loops,value_/;MatchQ[Head[value],_Symbol]&&MemberQ[{"MQU","MQD"},SymbolName[Head[value]]]:>value,Infinity]];
+loops=loops/.Thread[masses->0];
+diagrams=Range[Length[loops]];requested=Environment["SIDIS_VIRTUAL_DIAGRAMS"];
+If[StringQ[requested]&&StringLength[requested]>0,diagrams=ToExpression/@StringSplit[requested,","]];
+If[!And@@(IntegerQ[#]&&1<=#<=Length[loops]&/@diagrams),Print["Invalid diagram selection"];Exit[2]];
+hash[p_]:=IntegerString[FileHash[p,"SHA256"],16,64];
+sources=AssociationMap[hash,{file,normfile,$InputFileName,FileNameJoin[{engine,"common","spin_core.wl"}],FileNameJoin[{engine,"common","spin_tensor_template.wl"}]}];
+Put[<|"sources"->sources,"geometry"->geometry,"diagrams_requested"->diagrams,"massless_quark_specialization"->Thread[masses->0],
+ "gamma5_scheme"->FCGetDiracGammaScheme[],"normalization"->"M_loop M_Born conjugate, 1/(2 Nc), eq^2 gs^4 stripped; loop measure and Hermitian conjugate unapplied"|>,FileNameJoin[{out,"inputs.wl"}]];
+rows=<||>;
+Do[Print["VIRTUAL_TEMPLATE ",i];value=CheckAbort[TimeConstrained[HSRealTemplatePair[loops[[i]],born,{k2}],1800,$Aborted],$Aborted];
+ If[value===$Aborted,Print["VIRTUAL_TEMPLATE_ABORTED"];Exit[3]];
+ AssociateTo[rows,ToString[i]->value];Put[<|"value"->value,"diagram"->i,"geometry"->geometry,"sources"->sources|>,FileNameJoin[{out,ToString[i]<>".wl"}]],{i,diagrams}];
+Put[<|"diagrams"->rows,"geometry"->geometry,"sources"->sources,"qualification"->"Full open photon/spin tensor before loop integration and subtraction"|>,FileNameJoin[{out,"templates.wl"}]];
+Print["VIRTUAL_TEMPLATES_COMPLETE ",Length[rows]];Exit[0];

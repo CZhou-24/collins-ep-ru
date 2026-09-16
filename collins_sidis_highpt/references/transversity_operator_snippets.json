@@ -1,0 +1,37 @@
+{
+  "source": "references/hep-ph-9706511v2/source/transvnlo.tex",
+  "source_sha256": "38d2ac987d79af0da42e3cac9b1978408abf19cd99fe319977b419b63a5ffaf1",
+  "macro_preamble": "\\documentstyle[12pt,epsfig]{article}\n\\textheight 23.0cm \\textwidth 16cm\n\\oddsidemargin 0cm \\evensidemargin 0cm\n\\topmargin 0cm\n",
+  "snippets": {
+    "g51": {
+      "latex": "\\begin{equation} \\label{g51}\nu(p,s) \\bar{u} (p,s) = - \\slsh{p} \\slsh{s} \\gamma_5 \\; ,\n\\end{equation}",
+      "source_label": "g51",
+      "equation_number": 30,
+      "line_start": 491,
+      "sha256": "950075006ed0f3eaff2c6a08a1724add320426b1e56b25a955879ff13816cf15"
+    },
+    "g52": {
+      "latex": "\\begin{equation} \\label{g52}\n\\Proj \\sim \\frac{1}{4 n \\cdot k} \\slsh{n} \\slsh{s} \\gamma_5 \\; ,\n\\end{equation}",
+      "source_label": "g52",
+      "equation_number": 32,
+      "line_start": 503,
+      "sha256": "16a4a974fb0025ca5d0eec147060a591b925dbabc2828fa7a3d695592bb0c480"
+    },
+    "repl1": {
+      "latex": "\\begin{equation} \\label{repl1}\n(k \\cdot s)^2 \\rightarrow -\\frac{1}{2 (1-\\epsilon)} k^2 (1-x) \\; .\n\\end{equation}",
+      "source_label": "repl1",
+      "equation_number": 35,
+      "line_start": 571,
+      "sha256": "a3a11e2c564b6c6f04d108b2b59e36ba473d30febaca09d4f2d3e62b2e1a4861"
+    },
+    "losplitd": {
+      "latex": "\\begin{equation} \\label{losplitd}\n\\Delta_T P_{qq}^{(0),d=4-2 \\epsilon}(x) = \\Delta_T P_{qq}^{(0)} (x) =\nC_F \\frac{2 x}{1-x} \\hspace*{1cm} (x<1) \\; .\n\\end{equation}",
+      "source_label": "losplitd",
+      "equation_number": 36,
+      "line_start": 584,
+      "sha256": "ce0d05c4f8c31dcb15336bae262dc7d9da209c2172f434f215fb704d2d4e3189"
+    }
+  },
+  "note": "Literal equations. Candidate dimensional continuation and finite conversions must be assessed separately.",
+  "numbering_verification": "Pinned v2 PDF page 11 (zero-index page 10), equations (30),(32); (35),(36) on following pages."
+}

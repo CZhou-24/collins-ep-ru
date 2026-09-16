@@ -1,0 +1,12 @@
+$HistoryLength=0;root=DirectoryName[DirectoryName[DirectoryName[DirectoryName[$InputFileName]]]];
+contextFile=Environment["SIDIS_PAIR_COMPARISON_CONTEXT"];cfg=Import[contextFile,"RawJSON"];out=cfg["output"];
+If[DirectoryQ[out],Exit[1]];CreateDirectory[out,CreateIntermediateDirectories->True];
+files=FileNames["pair_*.wl",cfg["fresh"]];results=<||>;identities=<||>;
+Do[old=FileNameJoin[{cfg["previous"],FileNameTake[file]}];If[!FileExistsQ[old],Print["MISSING_PAIR ",old];Exit[2]];
+ freshRecord=Get[file];previousRecord=Get[old];residuals=Merge[{freshRecord["Collins"],Map[-#&,previousRecord["Collins"]]},Factor[Total[#]]&];
+ AssociateTo[results,FileBaseName[file]->residuals];
+ AssociateTo[identities,FileBaseName[file]->AssociationMap[IntegerString[FileHash[#,"SHA256"],16,64]&,{file,old}]],{file,files}];
+Put[<|"residuals"->results,"identities"->identities,"source_sha256"->IntegerString[FileHash[$InputFileName,"SHA256"],16,64]|>,FileNameJoin[{out,"comparison.wl"}]];
+pass=Length[files]===36&&Length[results]===36&&Length[Flatten[Values/@Values[results]]]===72&&And@@(#===0&/@Flatten[Values/@Values[results]]);
+Export[FileNameJoin[{out,"summary.json"}],<|"pairs"->Length[files],"scalar_residuals"->Length[Flatten[Values/@Values[results]]],"pass"->pass|>,"RawJSON"];
+If[!TrueQ[pass],Exit[2]];Print["FRESH_PAIR_REGRESSION_PASS"];Exit[0];

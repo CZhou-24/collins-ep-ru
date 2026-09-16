@@ -19,3 +19,15 @@ The comparison PDFs describe the previously checked implementation. The current 
 Review priorities include the physical versus dimensionally regulated spin/Fourier projections, finite scheme conversions, HF normalization and endpoint contacts, and the documented literal reference discrepancies. Agreement with the earlier engine is a regression comparison, not an independent proof of every physical assumption. Generic HF contact coefficients, accuracy at R=1, unrestricted nonsingular NLO, NNLO and closed full twist-three evolution remain uncertified.
 
 Primary references and exact recorded source details are collected in [references.json](collins_support/validators/analytic/references.json): arXiv:2007.07281, 1707.00913, 1505.05589, 1303.2129, 1012.3419, 0903.4680 and 1705.08443. Applicable conventions follow the recorded SIDIS source; additional Collins conventions and explicit conversions are documented separately.
+
+<!-- SIDIS_HIGHPT_REVIEW_BEGIN -->
+The [SIDIS high-pT Collins engine](collins_sidis_highpt/README.md) is organized
+for review alongside the existing calculations. Its original single-run native
+pass has 16,416 declared checks and 16 boundary comparisons. The separately
+documented 54-comparison follow-up brings the current inventory to 16,470;
+that revision has no full native campaign. Cancelled runs/probes and omitted
+checks remain explicit, and independent physics review remains pending.
+See the [current installation and review notes](collins_support/SIDIS_HIGHPT_REVIEW.md).
+<!-- SIDIS_HIGHPT_REVIEW_END -->
+
+SIDIS high-pT: [review summary](collins_support/reports/sidis-highpt-review/README.md).

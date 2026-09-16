@@ -5,3 +5,34 @@ __pycache__/
 # Fresh run evidence is local, not part of the source review tree.
 collins_support/states/
 collins_support/reports/
+
+# BEGIN selected high-pT review rules
+
+# Prepared high-pT review exclusions (existing rules retained).
+# New Collins generated data are external artifacts, not source commits.
+/collins_support/states/
+/collins_support/reports/sidis-highpt-001/
+/collins_sidis_highpt/**/__pycache__/
+/collins_support/**/__pycache__/
+/collins_sidis_highpt/**/*.pyc
+/collins_support/**/*.pyc
+/collins_sidis_highpt_final_campaign_review.zip
+/collins_sidis_highpt_review_supplement.zip
+/publication/
+/collins_sidis_highpt_virtual_comparison_followup.zip
+
+# Keep other report trees ignored, but expose the selected compact reviews.
+!/collins_support/reports/
+/collins_support/reports/*
+!/collins_support/reports/sidis-highpt-final-review/
+!/collins_support/reports/sidis-highpt-install-001/
+# END selected high-pT review rules
+
+# SIDIS minimal publication selection
+/collins_sidis_highpt/tools/development/
+/collins_support/reports/sidis-highpt-final-review/
+/collins_support/reports/sidis-highpt-install-001/
+!/collins_support/
+!/collins_support/reports/
+!/collins_support/reports/sidis-highpt-review/
+!/collins_support/reports/sidis-highpt-review/**

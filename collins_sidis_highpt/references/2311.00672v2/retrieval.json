@@ -1,0 +1,20 @@
+{
+  "retrieved_utc": "2026-09-15T21:01:35.939766+00:00",
+  "local_search": "No 2311.00672 asset/name or reference-index entry found before retrieval",
+  "records": [
+    {
+      "kind": "source",
+      "requested_url": "https://arxiv.org/src/2311.00672v2",
+      "resolved_url": "https://arxiv.org/src/2311.00672v2",
+      "sha256": "9cf2d3010db21022db7a57776cbc4b7b382af0188b2d4e12e17ee0f4faf56554",
+      "file": "source.tar"
+    },
+    {
+      "kind": "html",
+      "requested_url": "https://arxiv.org/html/2311.00672v2",
+      "resolved_url": "https://arxiv.org/html/2311.00672v2",
+      "sha256": "abda04117bcd8626dd46a24f09eef3cade4452cca5dc81692e9134e0a7f2c197",
+      "file": "paper.html"
+    }
+  ]
+}

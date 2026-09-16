@@ -1,0 +1,206 @@
+[
+  {
+    "id": "Hqq_amplitudes",
+    "path": "SIDIS/Hqq/s01_result/s01_inputs/s01_result.wl",
+    "sha256": "0dc987fe060db67a8fa060945380760b0ceb788843882e760c0a79959852297a",
+    "size": 610527
+  },
+  {
+    "id": "Hqq_born_normalization",
+    "path": "SIDIS/Hqq/s01_result/s01_inputs/s02_result.wl",
+    "sha256": "000d506ed74e608d51b58d2dedf66d287ce7a1e66c894132e6451b7e0dcc26de",
+    "size": 3283
+  },
+  {
+    "id": "born_independent",
+    "path": "collins_sidis_highpt/references/born_clifford.json",
+    "sha256": "f6a9a0715008f7044e57297a8ff41d01df21030e5c2a93d6aad745f524ed5449",
+    "size": 28540
+  },
+  {
+    "id": "born_uu_archived",
+    "path": "collins_sidis_highpt/references/uu_born_archived.json",
+    "sha256": "3c236d69bc2c71b1c91f261929f689d958204041ce9f796a0dc1453bdb3ea2d0",
+    "size": 2045
+  },
+  {
+    "id": "Hqg_amplitudes",
+    "path": "SIDIS/Hqg/s01_result/s01_inputs/s04_result.wl",
+    "sha256": "8403c287ed130c5db601069eb71ad2d6a7b2b851662dea716441c472bc10eba9",
+    "size": 568255
+  },
+  {
+    "id": "Hqqprime_amplitudes",
+    "path": "SIDIS/Hqqprime/s01_result/s01_inputs/s01_result/real.wl",
+    "sha256": "e34d22bd588e253ff7bd84975579bb6160cba57027dea3fe0ddeede715e8327a",
+    "size": 89622
+  },
+  {
+    "id": "Hqqbar_amplitudes",
+    "path": "SIDIS/Hqqbar/s01_result/s01_inputs/s01_result/real.wl",
+    "sha256": "393e8503576b3fdd557c40f0fe6cfab9dd31d956100f8091dd615d904ab70c8a",
+    "size": 113578
+  },
+  {
+    "id": "UU_bigTMD_validation",
+    "path": "SIDIS/bigTMD_comparison/s04_result.json",
+    "sha256": "d9990b3a3e952f58d4192895c0ac1594720a1ab6437a12fbc6f0eb4e7f5b0fab",
+    "size": 3423
+  },
+  {
+    "id": "Hqq_UU",
+    "path": "SIDIS/Hqq/s17_result/s17_result.wl",
+    "sha256": "fd138ee9d65de4c3cabaf60303de72c637295549ba9913a90f58563b59af71b2",
+    "size": 3034397
+  },
+  {
+    "id": "Hqg_UU",
+    "path": "SIDIS/Hqg/s17_result/s17_result.wl",
+    "sha256": "6f45a83b0c2f2dce2d568431f7eb2fc5e9ba43e0fc612882092b312671ed590b",
+    "size": 1838355
+  },
+  {
+    "id": "Hgq_UU",
+    "path": "SIDIS/Hgq/s17_result/s17_result.wl",
+    "sha256": "7bff33cc4332bc639d13fbcd86ccd964973ca1a0b0fec06c6598e691c07def7f",
+    "size": 1830657
+  },
+  {
+    "id": "Hgg_UU",
+    "path": "SIDIS/Hgg/s11_result/s11_result.wl",
+    "sha256": "85cc9a0e52f453fe65441e17a3f6b43aa7c81e457359477bc992bdd5ed453e43",
+    "size": 217042
+  },
+  {
+    "id": "Hqqbar_UU",
+    "path": "SIDIS/Hqqbar/s11_result/s11_result.wl",
+    "sha256": "28cf4119f7db84a58a76f88aee9e14ace618f5146af6d9c1a1c602c6179bd21e",
+    "size": 191522
+  },
+  {
+    "id": "Hqqprime_UU",
+    "path": "SIDIS/Hqqprime/s11_result/s11_result.wl",
+    "sha256": "26e5c071f4a005d2682b8b3e3a0af3b25d0e0dbc904863a3621da37c8f3d291b",
+    "size": 218426
+  },
+  {
+    "id": "real_geometry",
+    "path": "SIDIS/common/s02_result/s02_result.wl",
+    "sha256": "c1e5f21d97b10b831b16ccafe2a9b3ed3fac463d5c6e204b4ecbafb471bf740d",
+    "size": 9215
+  },
+  {
+    "id": "real_archived_reductions",
+    "path": "SIDIS/common/s04_result/s04_result.wl",
+    "sha256": "77754c4eb11f5626cc9ab473aa6c8f7a4722ab94d979cdd175da8e4a79192110",
+    "size": 816647
+  },
+  {
+    "id": "virtual_geometry",
+    "path": "SIDIS/common/s09_result/s09_result.wl",
+    "sha256": "0c23971167f6b6cab97accd1fe5ddc05c99a7844be2a1aa560d4e4ebcc50090f",
+    "size": 530439
+  },
+  {
+    "id": "virtual_topologies",
+    "path": "SIDIS/Hqq/s05_result/s05_result.wl",
+    "sha256": "09fa009a4fc04d1becfe5c2cfb8915388700efa8573870c678727cc97125e1e8",
+    "size": 2885208
+  },
+  {
+    "id": "portable_real_masters",
+    "path": "collins_sidis_highpt/inputs/real-master-bank.wl",
+    "sha256": "81ea572fabcc0c0a25d5fb9463c71bfcb3f5909190a60b87f1d210bf676b7a1a",
+    "size": 143074
+  },
+  {
+    "id": "portable_virtual_masters",
+    "path": "collins_sidis_highpt/inputs/virtual-master-bank.wl",
+    "sha256": "28c2246670b4214411de62771d159d7bcdec31e72c5fff1b27569484bc646fc7",
+    "size": 102771
+  },
+  {
+    "id": "real_master_basis",
+    "path": "collins_sidis_highpt/inputs/real-master-basis.wl",
+    "sha256": "1c7e54883e06bbed5057e2ae20c60b77515f72fbf97b191846721f43b32c00b5",
+    "size": 55729
+  },
+  {
+    "id": "virtual_master_basis",
+    "path": "collins_sidis_highpt/inputs/virtual-master-basis.wl",
+    "sha256": "e147a3c523f91c56b1b19de0fcbf9276c58733a55f3230acc4191a2d6dda38a2",
+    "size": 86401
+  },
+  {
+    "id": "uu_scalar_representation",
+    "path": "collins_sidis_highpt/inputs/uu-scalar-representation.wl",
+    "sha256": "babad6eba2bc0bfd0139dc1ac46c73406a66cbeda427f0441c618f128f6e153c",
+    "size": 12365030
+  },
+  {
+    "id": "uu_literal_native",
+    "path": "collins_sidis_highpt/references/uu-inclusive-native.json",
+    "sha256": "21bad151e54911d7f6babf499dec27d2587014dea2568c050b230c8488ad7080",
+    "size": 68483
+  },
+  {
+    "id": "jet_paper_source",
+    "path": "collins_sidis_highpt/references/2311.00672v2/source/main.tex",
+    "sha256": "1ad9ad1c6e458f388563162a4132b45364ad1384acc601e43eafff9d21de2d77",
+    "size": 153987
+  },
+  {
+    "id": "jet_literal_coefficients",
+    "path": "collins_sidis_highpt/references/jet_matching.json",
+    "sha256": "15a709f7ecdb39a38c00dffc4437f9ef483739d1505e6bccaaa1bffaf889e928",
+    "size": 22839
+  },
+  {
+    "id": "flavor_contract",
+    "path": "SIDIS/numerics/s08_result",
+    "sha256": "e0c6f1f00f2ac0fb1eeb6912e96b957f8bd50c2d632976ff4109518383d4f63d",
+    "size": 36194
+  },
+  {
+    "id": "archived_s08",
+    "path": "SIDIS/common/s08_result/s08_result.wl",
+    "sha256": "76b97660cedd87b8c9dbcf5cb3b46ae8a95835e30ba0bcab7b67c3c78ffcf755",
+    "size": 11141
+  },
+  {
+    "id": "archived_s10",
+    "path": "SIDIS/common/s10_result/s10_result.wl",
+    "sha256": "dba9edd52b6cc80846a08f65ec2b98b908a4d7a429edff359dd3a460c597a253",
+    "size": 5512
+  },
+  {
+    "id": "archived_s12",
+    "path": "SIDIS/common/s12_result/s12_result.wl",
+    "sha256": "07e1f4b08b86df75ee9fc9e489d929f22789e4d58017a5cdee40f12abc4c124e",
+    "size": 6495
+  },
+  {
+    "id": "archived_s14",
+    "path": "SIDIS/common/s14_result/s14_result.wl",
+    "sha256": "47cc08f577206fbfafc583320aeed48d53cd57b649e1a3e2db3c46dcfacb9aa0",
+    "size": 3315
+  },
+  {
+    "id": "archived_s15",
+    "path": "SIDIS/common/s15_result/s15_result.wl",
+    "sha256": "82cb3ca0de4501b3c045d025e6b93f4228426c344023b2a727fc93d69615ef0b",
+    "size": 8428
+  },
+  {
+    "id": "virtual_master_shard_1",
+    "path": "SIDIS/common/s19_result/s19_virtual/79cd3f1423ab11db937b20dc4afe0ef09d49b03da34b6a8f59c30f1b94d97db9/s19_masters.wl",
+    "sha256": "ac87cf16aae64a6c7b9fa086f6a89f720633de13d86de08dc016f5967f45d20f",
+    "size": 17614
+  },
+  {
+    "id": "virtual_master_shard_2",
+    "path": "SIDIS/common/s19_result/s19_virtual/eb0e0666a6603d6e8f8c6b2ce37339b6d39ecb5c6e184486b8b16fdf7f725730/s19_masters.wl",
+    "sha256": "dc15677c629da486316a53cc2c16e4ca50c64d5fe815bc6a92b08c552a32c641",
+    "size": 17617
+  }
+]

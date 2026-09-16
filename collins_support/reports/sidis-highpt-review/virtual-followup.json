@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "case": "nominal",
+      "identity_passes": 54,
+      "integer_zeros": 54,
+      "meaning": "Saved residual serialization/check replay, not recalculation",
+      "status": "PASS"
+    },
+    {
+      "case": "nonzero",
+      "meaning": "Synthetic residual injection accepted for recording, rejected for nominal enforcement; not a master probe",
+      "nominal_rejection": "scientific checks failed: r06.virtualComparison_generic_11_LL_m2.check, r06.virtualComparison_plus_11_LL_m2_plus.check, r06.virtualComparison_minus_11_LL_m2_minus.check",
+      "recorded_failures": 3,
+      "remaining_passes": 51,
+      "status": "PASS"
+    },
+    {
+      "case": "missing",
+      "meaning": "Malformed inventory rejected by producer",
+      "status": "PASS"
+    },
+    {
+      "case": "extra",
+      "meaning": "Malformed inventory rejected by producer",
+      "status": "PASS"
+    }
+  ],
+  "generator_sha256": "e9b9bdb100153cb5981ea427bbaa561440ae36a1a70ebf2e19e9c55d76404b3d",
+  "new_declared_checks": 16470,
+  "original_inputs_unchanged": true,
+  "original_native_checks": 16416,
+  "original_run": "20260916T095719Z-1584d7f6dd71",
+  "producer_sha256": "c5ec39e4ee461dd09896506dd36817198590aa9dbd7c894094f20c002294e0c8",
+  "qualification": "Serialization/check replay and synthetic rejection tests only. Full new native run, pair, master probes and independent physics review NOT_RUN.",
+  "source_files": {
+    "linear-generic/certificates.wl": {
+      "path": "/bigTMD/collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r06_result/linear-generic/certificates.wl",
+      "sha256": "95cbfa9558d686e66b0aeef09655615661bcf1f21b259edeebff6aee81491ca9",
+      "size": 7979851
+    },
+    "linear-minus/certificates.wl": {
+      "path": "/bigTMD/collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r06_result/linear-minus/certificates.wl",
+      "sha256": "bae8685e9fe8ad755b8dabf4e737c2da9f9299b553b3b55ac799a3f541a7febd",
+      "size": 8634296
+    },
+    "linear-plus/certificates.wl": {
+      "path": "/bigTMD/collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r06_result/linear-plus/certificates.wl",
+      "sha256": "1282be3603e29e78fd43754d8ac673f2817e1c5f6e0859ee0775ac89380d7e40",
+      "size": 8609287
+    },
+    "packet-unpartitioned.wl": {
+      "path": "/bigTMD/collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r06_result/packet-unpartitioned.wl",
+      "sha256": "70691bf08c8d697b685bfda5a8e9860fb565a48e5e7c3de8912682411e657a22",
+      "size": 11470303
+    },
+    "uv/uv.wl": {
+      "path": "/bigTMD/collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r06_result/uv/uv.wl",
+      "sha256": "2aa52765c8b36a2b43b8c52865f1d29a39bb61208a1fccbe7af55753329711e4",
+      "size": 6092
+    }
+  },
+  "status": "FOCUSED_CHECKS_PASS",
+  "validator_identity": {
+    "base": "c016a289ceb0dbe5019373efcc23fea7d23f5adc5efed8664610f63663e0ecd3",
+    "extension": "dcc1291a87e4394389e021305e3c2c1ef7b8a361800c452f5ffc91d2e5f59337"
+  }
+}

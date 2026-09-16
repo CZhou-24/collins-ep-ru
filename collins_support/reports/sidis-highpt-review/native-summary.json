@@ -1,0 +1,102 @@
+{
+  "boundary": {
+    "all_completed_pass": true,
+    "complete_boundary_inventory": true,
+    "qualification": "Exact asymptotic coefficients; all 16 physical boundary rows are required. Dependency probes may spoil regularity.",
+    "rows": {
+      "Hqq_Collins_L_Delta": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqq_Collins_L_L0": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqq_Collins_L_L1": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqq_Collins_L_Regular": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqq_Collins_T_Delta": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqq_Collins_T_L0": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqq_Collins_T_L1": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqq_Collins_T_Regular": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqqbar_Collins_L_Delta": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqqbar_Collins_L_L0": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqqbar_Collins_L_L1": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqqbar_Collins_L_Regular": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqqbar_Collins_T_Delta": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqqbar_Collins_T_L0": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqqbar_Collins_T_L1": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      },
+      "Hqqbar_Collins_T_Regular": {
+        "equal_limits": true,
+        "finite_evaluated_limits": true
+      }
+    }
+  },
+  "campaign_disposition": "ENDED_AT_USER_REQUEST",
+  "check_status_counts": {
+    "PASS": 16416
+  },
+  "classification_counts": {
+    "EXACT": 16388,
+    "EXACT AFTER EXPLICIT CONVERSION": 28,
+    "MISMATCH": 2,
+    "UNVERIFIED": 33
+  },
+  "current_revision_full_native_campaign": "NOT_RUN",
+  "historical_packet_hashes": {
+    "r00": "e0c1c4b8180683961a8bafb135f3dbafc78e29cb001a2ebd0b8e924cb486570b",
+    "r01": "d97eae0af377c3137bbab3ca445a889c3b366fa391193f31a82b72a8d0f39196",
+    "r02": "686f9d7ddb44772a5ce22f8e8b66ffe3b1aff7400b3b3357f6194505e1ed00f2",
+    "r03": "e802dbd8e0ccdccf5d1e656d8b5f1e1e52ac6023fcfb4eb966499fd0d82e827f",
+    "r04": "eedf9ed8ba5b362af3c287694cc1a17777ab5f24fb31c7391bb44ca125050a24",
+    "r05": "2a49469a46017068254877039759ce3ac1dc9b8f43c3cc33515b249d2a67f53e",
+    "r06": "0cae9717730c2b2ddb403d094a4769d348b00e090d8242f6f0e03dc626a71c38",
+    "r07": "9d5d25fcdec84c0416b0198c342e7862f045d2510949e6e1b93b0ad35e550004"
+  },
+  "historical_project_sha256": "7998a4851ac64905d67a557432e9f5f667b0659d8973263876ece8ff706bc39c",
+  "historical_result_sha256": "0117d3e4eafc1d9d007b15b2c8bba31d038ae318e21a51d4488ffcf126b2406d",
+  "independent_physics_review": "PENDING",
+  "qualification": "Extraction of saved verdicts; no new native execution or arithmetic audit.",
+  "repeat_run_pair_and_dynamic_probes": "NOT_CERTIFIED",
+  "run_id": "20260916T095719Z-1584d7f6dd71",
+  "status": "NATIVE_CHECKS_PASS",
+  "through": "r07"
+}

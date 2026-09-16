@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "profile": "sidis_highpt_collins",
+  "ready": false,
+  "scope": {
+    "frame": "Breit",
+    "hard_orders": {
+      "LO": 1,
+      "NLO": 2
+    },
+    "observable": "Collins_hadron_in_jet",
+    "spin_definition": "TODO: unpolarized electron and transverse proton; define partonic transverse-spin basis",
+    "azimuth_definition": "TODO: define the Collins harmonic and all reference planes",
+    "jet_algorithm": "TODO",
+    "jet_radius": "TODO",
+    "jet_approximation": "TODO: choose and document accuracy; do not claim arbitrary R",
+    "momentum_region": "TODO: hard jet pT relative to photon-proton axis, hadron jT relative to jet",
+    "factorization_definition": "TODO: collinear hard production with the specified hadron-in-jet fragmentation measurement",
+    "documentation": "SCOPE.md"
+  },
+  "stages": {
+    "r00": {
+      "script": "common/r00.wls",
+      "roles": [
+        "definitions",
+        "amplitudes",
+        "projectors",
+        "measurement"
+      ]
+    },
+    "r01": {
+      "script": "common/r01.wls",
+      "roles": [
+        "cut_mapping",
+        "support",
+        "integrands"
+      ]
+    },
+    "r02": {
+      "script": "common/r02.wls",
+      "roles": [
+        "master_inputs"
+      ]
+    },
+    "r03": {
+      "script": "common/r03.wls",
+      "roles": [
+        "distributions",
+        "subtractions",
+        "real_coefficients"
+      ]
+    },
+    "r04": {
+      "script": "common/r04.wls",
+      "roles": [
+        "loop_mapping",
+        "integrands"
+      ]
+    },
+    "r05": {
+      "script": "common/r05.wls",
+      "roles": [
+        "master_inputs",
+        "continuation"
+      ]
+    },
+    "r06": {
+      "script": "common/r06.wls",
+      "roles": [
+        "uv_subtraction",
+        "virtual_coefficients"
+      ]
+    },
+    "r07": {
+      "script": "common/r07.wls",
+      "roles": [
+        "assembly",
+        "conversion",
+        "finite_export"
+      ]
+    }
+  },
+  "channels": {
+    "Hqq": {
+      "born": null,
+      "reason": "TODO: derive contribution or exclusion; do not assume all six unpolarized channels enter UT",
+      "zero_check": null,
+      "ut_active": null,
+      "uu_source": null,
+      "uu_validation": null
+    },
+    "Hqg": {
+      "born": null,
+      "reason": "TODO: derive contribution or exclusion; do not assume all six unpolarized channels enter UT",
+      "zero_check": null,
+      "ut_active": null,
+      "uu_source": null,
+      "uu_validation": null
+    },
+    "Hgq": {
+      "born": null,
+      "reason": "TODO: derive contribution or exclusion; do not assume all six unpolarized channels enter UT",
+      "zero_check": null,
+      "ut_active": null,
+      "uu_source": null,
+      "uu_validation": null
+    },
+    "Hgg": {
+      "born": null,
+      "reason": "TODO: derive contribution or exclusion; do not assume all six unpolarized channels enter UT",
+      "zero_check": null,
+      "ut_active": null,
+      "uu_source": null,
+      "uu_validation": null
+    },
+    "Hqqbar": {
+      "born": null,
+      "reason": "TODO: derive contribution or exclusion; do not assume all six unpolarized channels enter UT",
+      "zero_check": null,
+      "ut_active": null,
+      "uu_source": null,
+      "uu_validation": null
+    },
+    "Hqqprime": {
+      "born": null,
+      "reason": "TODO: derive contribution or exclusion; do not assume all six unpolarized channels enter UT",
+      "zero_check": null,
+      "ut_active": null,
+      "uu_source": null,
+      "uu_validation": null
+    }
+  },
+  "sources": {
+    "Hqq_saved_amplitudes": {
+      "root": "sidis",
+      "path": "Hqq/s01_result/s01_inputs/s01_result.wl",
+      "role": "amplitudes",
+      "sha256": "TODO",
+      "origin": "NonHermitianMatrix/SIDIS_dsigma_till_NLO at recorded revision 5062dcb2407594dafcc2f9f72800e96ff9e6d957"
+    },
+    "comparisons": {
+      "root": "engine",
+      "path": "references/comparisons.json",
+      "role": "reference",
+      "sha256": "TODO",
+      "origin": "Literal independent reference equations and separately documented conversions"
+    }
+  },
+  "master_imports": {},
+  "checks": [],
+  "exports": {}
+}
