@@ -1360,16 +1360,16 @@
         2*Log[-((omega - s)/(omega + Q2))]*Log[-omega + s] + 
         2*Log[-omega + s]^2 - 4*PolyLog[2, omega/(omega + Q2)] + 
         4*PolyLog[2, (omega + Q2 - s)/Q2]))/((omega + Q2)*(omega - s))|>, 
- "source_sha256" -> <|"/bigTMD/collins_support/reports/sidis-highpt-001/conti\
-nuation-001/virtual-portable-views-001/portable-virtual.wl" -> 
-    "28c2246670b4214411de62771d159d7bcdec31e72c5fff1b27569484bc646fc7", 
+ "source_sha256" -> <|"/bigTMD/collins_support/states/runs/sidis-highpt-002-v\
+07-subtraction-fix/masters/virtual-portable-views/portable-virtual.wl" -> 
+    "68094e464eb2e9d6ad22a2ad37dd04ebd6985ea36098991ef27d814c747f347c", 
    "/bigTMD/collins_sidis_highpt/common/transcendental_basis.wl" -> 
-    "cc6bae2268dde042c47e487f1203a0cc9b67edcb167e8ffa64b50ad3e9ec039f", 
-   "/bigTMD/collins_sidis_highpt/tools/prepare_master_basis.wls" -> 
-    "9c91d68b465e54cad7db031fc1a3496c894f85869fe190b4fb49a15354368852", 
-   "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/master-\
-basis-001-context.json" -> 
-    "17021c931390edda560682d77de3466816e34238b64661565b54624303106ad7", 
+    "6d7dca1b6639cccffc7d10fd54cd1758b8cf0088586641287faf368b0057782e", 
+   "/bigTMD/collins_sidis_highpt/tools/development/prepare_master_basis.wls" \
+-> "4adb350c2b6a28fb5ecfdead5b92a1b247bf76765d4d03b9035dc0a646bb4c7b", 
+   "/bigTMD/collins_support/states/runs/sidis-highpt-002-v07-subtraction-fix/\
+masters/master-basis-context.json" -> 
+    "dc7bbdaf8aa07aba38ec328f90b4a01e7f13df51d9b5fa5534280e3f5ff49564", 
    "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/virtual\
 -linear-002/certificates.wl" -> 
     "44df012c51cf039a7bbbc4154299283f44066ec05a45b46253b70f6b37f96ba9", 

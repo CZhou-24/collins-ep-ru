@@ -30,7 +30,7 @@ convolutions=<||>;counterterms=<||>;
 Do[tensor=invariantBorn[component];mapped=tensor/.{s->scaledS,t->scaledT};sides=<||>;counterSides=<||>;
  Do[rootValue=If[side==="PDF",incoming,outgoing];
   weight=If[side==="PDF",Factor[(jacIn/incoming)(mapped/.{eta->incoming,zeta->1})],
-   Factor[(jacOut/outgoing^2)(mapped/.{eta->1,zeta->outgoing})]];
+   Factor[(jacOut/outgoing^(2-2 eps))(mapped/.{eta->1,zeta->outgoing})]];
   pole=Factor[weight/(1-rootValue)];endpointBorn=FullSimplify[Limit[w pole,w->0,Direction->"FromAbove"],endpoint];
   ratio=FullSimplify[Limit[(1-rootValue)/w,w->0,Direction->"FromAbove"],endpoint];
   gate["mapped endpoint equals dimensional Born",Factor[endpointBorn-tensor]===0];
@@ -52,7 +52,7 @@ Do[tensor=invariantBorn[component];mapped=tensor/.{s->scaledS,t->scaledT};sides=
 Put[<|"dimensional_convolutions"->convolutions,"MS_counterterms"->counterterms,"kernel"->kernel,"kernel_canonical"->canonical,
  "kernel_test_actions"->moments,"literal_reference_snippet"->literal,
  "scaled_invariants"-><|"s"->scaledS,"t"->scaledT,"recoil"->recoil|>,"roots"->{incoming,outgoing},"jacobians"->{jacIn,jacOut},
- "convolution_measures"-><|"PDF"->HoldComplete[deta/eta],"FF"->HoldComplete[dzeta/zeta^2]|>,
+ "convolution_measures"-><|"PDF"->HoldComplete[deta/eta],"FF"->HoldComplete[dzeta/zeta^(2-2 eps)]|>,
  "measure_basis"->"Incoming collinear PDF convolution and invariant observed-particle fragmentation convolution; physical photon basis and spin directions do not rescale",
  "coupling_normalization"->HoldComplete[gs^2(alphaS/(2Pi))2Pi/gs^4/.alphaS->gs^2/(4Pi)],
  "finite_scheme_terms_unfixed"-><|"PDF"->HoldComplete[Convolution[DeltaC_PDF,BornD]],"FF"->HoldComplete[Convolution[BornD,DeltaC_FF]]|>,

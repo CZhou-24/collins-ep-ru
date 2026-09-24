@@ -1,0 +1,147 @@
+{
+  "subject": "V07 dilogarithm continuation and outgoing FF measure corrections, and an independent comparison of the inclusive polarized hard coefficients",
+  "separate_from": {
+    "historical_run": "/bigTMD/collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71",
+    "historical_verdict": "NATIVE_CHECKS_PASS with 16,416 declared checks and 16 boundary comparisons; campaign ENDED_AT_USER_REQUEST; independent physics review pending. Unchanged and not reissued by this rebuild."
+  },
+  "corrections": {
+    "C1_outgoing_FF_measure": {
+      "file": "collins_sidis_highpt/tools/pipeline/transversity_subtractions.wls",
+      "change": "outgoing^(2-2 eps) weight; recorded measure HoldComplete[dzeta/zeta^(2-2 eps)]",
+      "outgoing_root": "(s-w)/s",
+      "effect": "4 of 36 MSbar counterterm rows: FF-side Regular of 11_XX, 11_YY, 22_XX, 22_YY. Longitudinal shifts only at O(eps^2) because Born_D4[Collins_L]=0.",
+      "finite_hard_effect": "exactly one coefficient changes: Hqq Collins_T Regular, both branches"
+    },
+    "C2_V07_continuation": {
+      "files": [
+        "SIDIS/common/s19_result/s19_virtual/79cd3f1423ab11db937b20dc4afe0ef09d49b03da34b6a8f59c30f1b94d97db9/s19_masters.wl",
+        "SIDIS/common/s19_result/s19_virtual/eb0e0666a6603d6e8f8c6b2ce37339b6d39ecb5c6e184486b8b16fdf7f725730/s19_masters.wl"
+      ],
+      "change": "Conjugate[PolyLog[2,(Q2+s)/Q2]] in the V07 master series and its FunctionLimits record; no whole-integral conjugation, no blanket replacement",
+      "bank_effect": "3 of 126 portable entries (V07_1_1_1_1_Re_p0 and its two branch views); delta = 4 Pi^3 Log[(Q2+s)/Q2]/(s(Q2+s+t))",
+      "assembly_effect": "none: the V07 reduction coefficient is purely imaginary (Re[c]=0), so the Hermitian 2 Re[Sum c M] uses only Im[V07]; all 18 r06 Laurent rows unchanged and the regenerated basis is content-identical to the registered one"
+    },
+    "C3_scale_check_kernel": {
+      "file": "collins_sidis_highpt/tools/pipeline/assemble_hard_recipes.wls",
+      "change": "projectKernel alone takes /.{D->4, eps->0}"
+    },
+    "C5_export_identifier_truncation": {
+      "file": "collins_sidis_highpt/common/native_compact_basis_linear.wl",
+      "defect": "IntegerString[n,10,3] kept only the last three digits; index 1000 became _c000 and 1001+ overwrote 001+ in the exported coefficients",
+      "affected_blocks": {
+        "r07/Hqq_Collins_T_plus_Regular_p0_b001": {
+          "coefficients": 1149,
+          "exported_before": 1000
+        },
+        "r07/Hqq_Collins_T_minus_Regular_p0_b001": {
+          "coefficients": 1149,
+          "exported_before": 1000
+        }
+      },
+      "largest_unaffected_block": 482,
+      "causal_confirmation": "recipe evaluated directly minus truncated export, normalized, at x=1/3,z=2/5,w=3/4: 0.09103198892753964850191237749766114126 = the benchmark residual; 0.21017862619788669 at x=1/2,z=1/3,w=3/4; longitudinal exactly 0",
+      "fix": "HSCompactIndex[n]=IntegerString[n,10,Max[3,IntegerLength[n]]] for block and colour indices; gates 'unique block identifier' and 'unique exported scalar identifier'",
+      "regression": "tools/checks/check_compact_basis_ids.wls: 1003-monomial block, PASS on fixed helper, FAIL on previous helper",
+      "hard_basis_effect": "13688 -> 13986 exported values; only Hqq Collins_T Regular changes (both branches); poles 64/64 and scale residuals 96/96 still zero; fixed export equals the direct recipe",
+      "historical_run": "same defect; its 13113 declared exports include the two wrapped _c000 identifiers with PASS rows in result.json; files unchanged",
+      "development_siblings_also_fixed": [
+        "native_basis_linear.wl",
+        "native_color_basis_linear.wl",
+        "native_polynomial_basis_linear.wl"
+      ]
+    },
+    "C4_conjugate_branch_rule": {
+      "file": "collins_sidis_highpt/common/physical_polylogs.wl",
+      "change": "rule for Conjugate[PolyLog[2,x]], x>1, listed before the plain rule",
+      "reason": "without it HSPhysicalHermitian left Conjugate heads in pre_Hermitian_converted and the reconstruction gate failed symbolically"
+    }
+  },
+  "continuation_branch_verification": {
+    "method": "exact eta->0+ limit of each FunctionLimits left-hand side under the recorded Feynman deformation, at four interior points of Q2>0, s>0, t<0, Q2+s+t>0",
+    "V07_PolyLog2_1_minus_c14_over_c34": "Im > 0; matches Conjugate[PolyLog[2,(Q2+s)/Q2]] exactly",
+    "V06_PolyLog2_1_minus_c34_over_c23": "Im < 0; matches the unconjugated PolyLog[2,(Q2+s)/s] exactly",
+    "conclusion": "V06 and V07 take opposite signs of the infinitesimal imaginary part, so a blanket conjugation would have broken V06"
+  },
+  "reuse_provenance": {
+    "checked": "all 34 registered sources hashed against disk before the rebuild",
+    "byte_identical_before_rebuild": 32,
+    "differing_before_rebuild": [
+      "virtual_master_shard_1",
+      "virtual_master_shard_2"
+    ],
+    "reused_unchanged": [
+      "r00 Born tensors and amplitudes",
+      "r01-r02 real maps and reductions",
+      "r03 real linear certificates, collinear templates, tagged/virtual operator records and scheme-match",
+      "r04 virtual map",
+      "r05 virtual reduction",
+      "r06 uv",
+      "r07 UU import"
+    ],
+    "real_side_control": "prepare_master_basis.wls rerun on the unchanged real bank reproduced the registered real-master-basis.wl content exactly: 158 values, identical expansions, identical original selections, 0 changed"
+  },
+  "checks_after_rebuild": {
+    "pole_rows_eps_m2_and_m1": {
+      "total": 64,
+      "nonzero": 0,
+      "after_C5": "64 of 64 cancel"
+    },
+    "scale_residual_rows": {
+      "total": 96,
+      "nonzero": 0
+    },
+    "finite_rows": 32,
+    "boundary_summary": {
+      "rows": 16,
+      "all_finite": true,
+      "all_equal": true,
+      "all_completed_pass": true,
+      "note": "complete_boundary_inventory is set by the full stage driver, not by this focused rerun; all 16 rows are present and passing"
+    },
+    "registered_source_hashes": {
+      "total": 34,
+      "matching": 34,
+      "mismatching": []
+    },
+    "declared_checks": 16796,
+    "declared_exports": 13439,
+    "inventory_change": "13113 -> 13439 exports and 16470 -> 16796 checks: +28 from the C1 subtraction change to the transverse Regular basis, +298 (2 x 149) from the C5 export fix",
+    "observable": "UU0, UU1, UT0 identical to the truncated-ID build; only UT1 changes; order residuals 0",
+    "software_tests": {
+      "collins_support/validators/analytic/selftest.py": "PASS, 101 tests",
+      "collins_support/validators/tests/test_sidis_highpt.py": "OK, 45 tests, 1 skipped",
+      "collins_sidis_highpt/tools/checks/test_reporting_fix.py": "OK, 8 tests",
+      "collins_sidis_highpt/tools/checks/test_reporting_native_log.py": "OK, 10 tests",
+      "collins_sidis_highpt/tools/checks/check_virtual_comparisons.py": "FOCUSED_CHECKS_PASS",
+      "collins_sidis_highpt/tools/checks/check_continuation_syntax.wls": "CONTINUATION_SYNTAX_PASS, 143 sources",
+      "sidis_highpt.py check-inputs": "INPUTS_READY, 34 sources"
+    }
+  },
+  "comparison": {
+    "benchmark": "SIDIS_HighPT_TT_HardCoefficients, prepared 2026-09-17, used as a comparison input only and never as a replacement for our coefficients",
+    "born_normalization": "symbolic match, residual 0, both photon components",
+    "verdict_tally": {
+      "NUMERICAL AGREEMENT": 57,
+      "NUMERICAL AGREEMENT (reduced precision)": 12,
+      "EXACT AT BOUNDARY (offset-independent)": 4,
+      "REMOVABLE-LIMIT CONVERGENCE": 8,
+      "BOTH ZERO": 45,
+      "total": 126
+    },
+    "previously_unresolved": "Hqq NLO transverse interior (the Regular coefficient), traced to C5 and closed; the pre-fix table and log are kept under pre-idfix/"
+  },
+  "changed_file_sha256": {
+    "SIDIS/common/s19_result/s19_virtual/79cd3f1423ab11db937b20dc4afe0ef09d49b03da34b6a8f59c30f1b94d97db9/s19_masters.wl": "284824329df11ea2360178ddaddd2dd3f0899b2bdc4490a66a8041bcd63d1549",
+    "SIDIS/common/s19_result/s19_virtual/eb0e0666a6603d6e8f8c6b2ce37339b6d39ecb5c6e184486b8b16fdf7f725730/s19_masters.wl": "ad16e47723603d86472546d2ca37c96cc207569a645d2fa15eb2ef7b13c70088",
+    "collins_sidis_highpt/tools/pipeline/transversity_subtractions.wls": "31f850a502449a8b1970bbe638fbbe2f9c37faec8fb05da1cb3592c03ba236a0",
+    "collins_sidis_highpt/tools/pipeline/assemble_hard_recipes.wls": "4aabee6635b41a4da638283309f5d74761c36f6c560f98b200858c7d5d726314",
+    "collins_sidis_highpt/common/physical_polylogs.wl": "dd6f99810f2a7a0cd58be3a36c204c690f2672868e29d8c82fee798cf770cca3",
+    "collins_sidis_highpt/common/native_compact_basis_linear.wl": "a176c4b0b67ca715711e7716b80382b3e7c6ab63cf719b019e554f04d6c7825d",
+    "collins_sidis_highpt/tools/checks/check_compact_basis_ids.wls": "1b0f294a64bb579de939467a487cace9c3562324fd2d66b83888e54286c08169",
+    "collins_sidis_highpt/inputs/native_contract.json": "87464b8e89463ecf06184cd6eed906f9d165e82fb8ead172c57a5c723c00b02b",
+    "collins_sidis_highpt/inputs/virtual-master-bank.wl": "68094e464eb2e9d6ad22a2ad37dd04ebd6985ea36098991ef27d814c747f347c",
+    "collins_sidis_highpt/inputs/virtual-master-basis.wl": "5b36dc2d4e51966b61468db350fed793d5c7fc0cb50453703e39d4960ea36863",
+    "collins_sidis_highpt/inputs/master-preparation.json": "424558991e4152217e1979f7e9fcc8cfd9c4244849295ee533e2a022816e4e17",
+    "collins_sidis_highpt/project.json": "9287a62b8f2017fbe709025ac974a6543ed5894f36c412267ca6b7a57d38c609"
+  }
+}

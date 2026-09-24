@@ -45,7 +45,7 @@
    "V07_1_1_1_1_Im_m1" -> (Pi^2*(2*EulerGamma + 2*Log[Pi] + 2*Log[s] + 
        Log[s/Q2] - Log[Q2/(Q2 + s + t)] - Log[s/(Q2 + s + t)]))/
      (s*(Q2 + s + t)), "V07_1_1_1_1_Re_p0" -> 
-    (-2*Pi^3*(EulerGamma + Log[Pi] + Log[s] + Log[s/Q2] + Log[(Q2 + s)/Q2] - 
+    (-2*Pi^3*(EulerGamma + Log[Pi] + Log[s] + Log[s/Q2] - Log[(Q2 + s)/Q2] - 
        Log[s/(Q2 + s + t)]))/(s*(Q2 + s + t)), "V07_1_1_1_1_Im_p0" -> 
     -1/6*(Pi^2*(6*EulerGamma^2 - 5*Pi^2 + 12*EulerGamma*Log[Pi] + 
         6*Log[Pi]^2 + 12*EulerGamma*Log[s] + 12*Log[Pi]*Log[s] + 6*Log[s]^2 + 
@@ -190,9 +190,9 @@
     (Pi^2*(2*EulerGamma + 2*Log[Pi] - Log[Q2/(-omega + Q2)] + 2*Log[s] + 
        Log[s/Q2] - Log[s/(-omega + Q2)]))/((-omega + Q2)*s), 
    "V07_1_1_1_1_Re_p0_plus" -> (-2*Pi^3*(EulerGamma + Log[Pi] + Log[s] + 
-       Log[s/Q2] - Log[s/(omega + Q2)] + Log[(Q2 + s)/Q2]))/((omega + Q2)*s), 
+       Log[s/Q2] - Log[s/(omega + Q2)] - Log[(Q2 + s)/Q2]))/((omega + Q2)*s), 
    "V07_1_1_1_1_Re_p0_minus" -> (-2*Pi^3*(EulerGamma + Log[Pi] + Log[s] + 
-       Log[s/Q2] - Log[s/(-omega + Q2)] + Log[(Q2 + s)/Q2]))/
+       Log[s/Q2] - Log[s/(-omega + Q2)] - Log[(Q2 + s)/Q2]))/
      ((-omega + Q2)*s), "V07_1_1_1_1_Im_p0_plus" -> 
     -1/6*(Pi^2*(6*EulerGamma^2 - 5*Pi^2 + 12*EulerGamma*Log[Pi] + 
         6*Log[Pi]^2 - 6*EulerGamma*Log[Q2/(omega + Q2)] - 
@@ -422,6 +422,7 @@ mu^(2eps)(2Pi)^(-4+2eps) loop measure"|>, "V07_1_1_1_1" ->
           (s*(Q2 + s + t)) - (I*Pi^2*Log[Q2/(Q2 + s + t)])/(s*(Q2 + s + t)) - 
          (I*Pi^2*Log[s/(Q2 + s + t)])/(s*(Q2 + s + t)), 
         ((-1/2*I)*Pi^2*(2*EulerGamma^2 - (4*I)*EulerGamma*Pi - 3*Pi^2))/
+          (s*(Q2 + s + t)) - ((2*I)*Pi^2*Conjugate[PolyLog[2, (Q2 + s)/Q2]])/
           (s*(Q2 + s + t)) - (I*Pi^2*Log[Pi]^2)/(s*(Q2 + s + t)) - 
          (I*Pi^2*Log[s]^2)/(s*(Q2 + s + t)) - ((I/2)*Pi^2*Log[s/Q2]^2)/
           (s*(Q2 + s + t)) + (I*EulerGamma*Pi^2*Log[Q2/(Q2 + s + t)])/
@@ -439,8 +440,7 @@ mu^(2eps)(2Pi)^(-4+2eps) loop measure"|>, "V07_1_1_1_1" ->
            ((2*I)*Pi^2*Log[s])/(s*(Q2 + s + t)) - (I*Pi^2*Log[s/Q2])/
             (s*(Q2 + s + t)) + (I*Pi^2*Log[Q2/(Q2 + s + t)])/
             (s*(Q2 + s + t)) + (I*Pi^2*Log[s/(Q2 + s + t)])/
-            (s*(Q2 + s + t))) - ((2*I)*Pi^2*PolyLog[2, (Q2 + s)/Q2])/
-          (s*(Q2 + s + t)) + ((2*I)*Pi^2*PolyLog[2, (s + t)/(Q2 + s + t)])/
+            (s*(Q2 + s + t))) + ((2*I)*Pi^2*PolyLog[2, (s + t)/(Q2 + s + t)])/
           (s*(Q2 + s + t))}, -2, 1, 1], "converted_series" -> 
       ((-2*I)*Pi^2)/(eps^2*s*(Q2 + s + t)) - 
        ((I/2)*Pi^2*(2*EulerGamma^2 - (4*I)*EulerGamma*Pi - 3*Pi^2))/
@@ -464,11 +464,11 @@ mu^(2eps)(2Pi)^(-4+2eps) loop measure"|>, "V07_1_1_1_1" ->
          ((2*I)*Pi^2*Log[s])/(s*(Q2 + s + t)) - (I*Pi^2*Log[s/Q2])/
           (s*(Q2 + s + t)) + (I*Pi^2*Log[Q2/(Q2 + s + t)])/(s*(Q2 + s + t)) + 
          (I*Pi^2*Log[s/(Q2 + s + t)])/(s*(Q2 + s + t))) - 
-       ((2*I)*Pi^2*(Pi^2/3 - I*Pi*Log[(Q2 + s)/Q2] - Log[(Q2 + s)/Q2]^2/2 - 
+       ((2*I)*Pi^2*(Pi^2/3 + I*Pi*Log[(Q2 + s)/Q2] - Log[(Q2 + s)/Q2]^2/2 - 
           PolyLog[2, Q2/(Q2 + s)]))/(s*(Q2 + s + t)) + 
        ((2*I)*Pi^2*PolyLog[2, (s + t)/(Q2 + s + t)])/(s*(Q2 + s + t)), 
      "real_series" -> (2*Pi^3)/(eps*s*(Q2 + s + t)) - 
-       (2*Pi^3*(EulerGamma + Log[Pi] + Log[s] + Log[s/Q2] + 
+       (2*Pi^3*(EulerGamma + Log[Pi] + Log[s] + Log[s/Q2] - 
           Log[(Q2 + s)/Q2] - Log[s/(Q2 + s + t)]))/(s*(Q2 + s + t)), 
      "imaginary_series" -> (-2*Pi^2)/(eps^2*s*(Q2 + s + t)) + 
        (Pi^2*(2*EulerGamma + 2*Log[Pi] + 2*Log[s] + Log[s/Q2] - 
@@ -575,8 +575,11 @@ mu^(2eps)(2Pi)^(-4+2eps) loop measure"|>|>, "reconstruction_residuals" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -589,8 +592,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -605,8 +611,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -622,8 +631,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -643,8 +655,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -666,8 +681,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -681,8 +699,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -695,8 +716,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -711,8 +735,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -728,8 +755,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -747,8 +777,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -769,8 +802,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -784,8 +820,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -798,8 +837,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -814,8 +856,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -831,8 +876,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -850,8 +898,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -872,8 +923,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -887,8 +941,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -901,8 +958,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -917,9 +977,12 @@ archived values retained.", "numerical_settings" ->
           True|>, "conditions" -> Q2 > 0 && s > 0 && t < 0 && 
          Q2 + s + t > 0 && mu > 0, "conversion_identity" -> 
         HoldComplete[PolyLog[2, x] + PolyLog[2, 1/x] == 
-          -Pi^2/6 - Log[-x]^2/2], "branch" -> "Principal PolyLog on x>1; \
-Log[-x]=Log[x]+I Pi. Original archived values retained.", 
-       "numerical_settings" -> <|"precision_digits" -> 60, 
+          -Pi^2/6 - Log[-x]^2/2], "conjugate_branch_identity" -> 
+        HoldComplete[Conjugate[PolyLog[2, x]] == Conjugate[
+           PolyLog[2, x - I*0]] == PolyLog[2, x + I*0]], 
+       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. \
+Conjugate[PolyLog[2,x]] is the value just above the cut. Original archived \
+values retained.", "numerical_settings" -> <|"precision_digits" -> 60, 
          "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -935,9 +998,12 @@ Log[-x]=Log[x]+I Pi. Original archived values retained.",
           True|>, "conditions" -> Q2 > 0 && s > 0 && t < 0 && 
          Q2 + s + t > 0 && mu > 0, "conversion_identity" -> 
         HoldComplete[PolyLog[2, x] + PolyLog[2, 1/x] == 
-          -Pi^2/6 - Log[-x]^2/2], "branch" -> "Principal PolyLog on x>1; \
-Log[-x]=Log[x]+I Pi. Original archived values retained.", 
-       "numerical_settings" -> <|"precision_digits" -> 60, 
+          -Pi^2/6 - Log[-x]^2/2], "conjugate_branch_identity" -> 
+        HoldComplete[Conjugate[PolyLog[2, x]] == Conjugate[
+           PolyLog[2, x - I*0]] == PolyLog[2, x + I*0]], 
+       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. \
+Conjugate[PolyLog[2,x]] is the value just above the cut. Original archived \
+values retained.", "numerical_settings" -> <|"precision_digits" -> 60, 
          "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -955,9 +1021,12 @@ Log[-x]=Log[x]+I Pi. Original archived values retained.",
           True|>, "conditions" -> Q2 > 0 && s > 0 && t < 0 && 
          Q2 + s + t > 0 && mu > 0, "conversion_identity" -> 
         HoldComplete[PolyLog[2, x] + PolyLog[2, 1/x] == 
-          -Pi^2/6 - Log[-x]^2/2], "branch" -> "Principal PolyLog on x>1; \
-Log[-x]=Log[x]+I Pi. Original archived values retained.", 
-       "numerical_settings" -> <|"precision_digits" -> 60, 
+          -Pi^2/6 - Log[-x]^2/2], "conjugate_branch_identity" -> 
+        HoldComplete[Conjugate[PolyLog[2, x]] == Conjugate[
+           PolyLog[2, x - I*0]] == PolyLog[2, x + I*0]], 
+       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. \
+Conjugate[PolyLog[2,x]] is the value just above the cut. Original archived \
+values retained.", "numerical_settings" -> <|"precision_digits" -> 60, 
          "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -978,9 +1047,12 @@ Log[-x]=Log[x]+I Pi. Original archived values retained.",
           True|>, "conditions" -> Q2 > 0 && s > 0 && t < 0 && 
          Q2 + s + t > 0 && mu > 0, "conversion_identity" -> 
         HoldComplete[PolyLog[2, x] + PolyLog[2, 1/x] == 
-          -Pi^2/6 - Log[-x]^2/2], "branch" -> "Principal PolyLog on x>1; \
-Log[-x]=Log[x]+I Pi. Original archived values retained.", 
-       "numerical_settings" -> <|"precision_digits" -> 60, 
+          -Pi^2/6 - Log[-x]^2/2], "conjugate_branch_identity" -> 
+        HoldComplete[Conjugate[PolyLog[2, x]] == Conjugate[
+           PolyLog[2, x - I*0]] == PolyLog[2, x + I*0]], 
+       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. \
+Conjugate[PolyLog[2,x]] is the value just above the cut. Original archived \
+values retained.", "numerical_settings" -> <|"precision_digits" -> 60, 
          "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -994,8 +1066,11 @@ Log[-x]=Log[x]+I Pi. Original archived values retained.",
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1008,8 +1083,11 @@ archived values retained.", "numerical_settings" ->
         <||>, "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && 
          mu > 0, "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1027,8 +1105,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1049,8 +1130,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1089,8 +1173,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1138,8 +1225,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1154,8 +1244,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1169,8 +1262,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1190,8 +1286,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1215,8 +1314,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1227,7 +1329,7 @@ archived values retained.", "numerical_settings" ->
    "V07_1_1_1_1_p0" -> 
     <|"real" -> <|"value" -> (-4*EulerGamma*Pi^3)/(s*(Q2 + s + t)) - 
          (4*Pi^3*Log[Pi])/(s*(Q2 + s + t)) - (4*Pi^3*Log[s])/
-          (s*(Q2 + s + t)) - (4*Pi^3*Log[s/Q2])/(s*(Q2 + s + t)) - 
+          (s*(Q2 + s + t)) - (4*Pi^3*Log[s/Q2])/(s*(Q2 + s + t)) + 
          (4*Pi^3*Log[(Q2 + s)/Q2])/(s*(Q2 + s + t)) + 
          (4*Pi^3*Log[s/(Q2 + s + t)])/(s*(Q2 + s + t)), 
        "pre_Hermitian_converted" -> 
@@ -1249,10 +1351,13 @@ archived values retained.", "numerical_settings" ->
            ((2*I)*Pi^2*Log[s])/(s*(Q2 + s + t)) - (I*Pi^2*Log[s/Q2])/
             (s*(Q2 + s + t)) + (I*Pi^2*Log[Q2/(Q2 + s + t)])/
             (s*(Q2 + s + t)) + (I*Pi^2*Log[s/(Q2 + s + t)])/
-            (s*(Q2 + s + t))) - ((2*I)*Pi^2*(Pi^2/3 - I*Pi*Log[(Q2 + s)/Q2] - 
+            (s*(Q2 + s + t))) - ((2*I)*Pi^2*(Pi^2/3 + I*Pi*Log[(Q2 + s)/Q2] - 
             Log[(Q2 + s)/Q2]^2/2 - PolyLog[2, Q2/(Q2 + s)]))/
           (s*(Q2 + s + t)) + ((2*I)*Pi^2*PolyLog[2, (s + t)/(Q2 + s + t)])/
-          (s*(Q2 + s + t)), "branch_rules" -> {PolyLog[2, (Q2 + s)/Q2] -> 
+          (s*(Q2 + s + t)), "branch_rules" -> 
+        {Conjugate[PolyLog[2, (Q2 + s)/Q2]] -> Pi^2/3 + 
+           I*Pi*Log[(Q2 + s)/Q2] - Log[(Q2 + s)/Q2]^2/2 - 
+           PolyLog[2, Q2/(Q2 + s)], PolyLog[2, (Q2 + s)/Q2] -> 
           Pi^2/3 - I*Pi*Log[(Q2 + s)/Q2] - Log[(Q2 + s)/Q2]^2/2 - 
            PolyLog[2, Q2/(Q2 + s)]}, "real_function_domains" -> 
         <|Log[Pi] -> True, Log[s] -> True, Log[s/Q2] -> True, 
@@ -1262,8 +1367,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1271,8 +1379,10 @@ archived values retained.", "numerical_settings" ->
             Nf -> 5, eps -> 1/43}, {Q2 -> 5, s -> 2, t -> -6, mu -> 7/3, 
             SUNN -> 3, Nf -> 3, eps -> 1/31}}|>, 
        "numerical_conversion_residuals" -> {{0``108.67975981132834, 
-          0``108.65220678340101, 0``108.68295346373475}}|>, 
-     "imaginary" -> <|"value" -> (-2*EulerGamma^2*Pi^2)/(s*(Q2 + s + t)) + 
+          0``108.652206783401, 0``108.68295346373475}, 
+         {0``108.69265785219007, 0``108.65406744492618, 
+          0``108.69899430336665}}|>, "imaginary" -> 
+      <|"value" -> (-2*EulerGamma^2*Pi^2)/(s*(Q2 + s + t)) + 
          (5*Pi^4)/(3*s*(Q2 + s + t)) - (4*EulerGamma*Pi^2*Log[Pi])/
           (s*(Q2 + s + t)) - (2*Pi^2*Log[Pi]^2)/(s*(Q2 + s + t)) - 
          (4*EulerGamma*Pi^2*Log[s])/(s*(Q2 + s + t)) - 
@@ -1311,11 +1421,13 @@ archived values retained.", "numerical_settings" ->
             ((2*I)*Pi^2*Log[s])/(s*(Q2 + s + t)) - (I*Pi^2*Log[s/Q2])/
              (s*(Q2 + s + t)) + (I*Pi^2*Log[Q2/(Q2 + s + t)])/
              (s*(Q2 + s + t)) + (I*Pi^2*Log[s/(Q2 + s + t)])/
-             (s*(Q2 + s + t))) - ((2*I)*Pi^2*(Pi^2/3 - 
+             (s*(Q2 + s + t))) - ((2*I)*Pi^2*(Pi^2/3 + 
              I*Pi*Log[(Q2 + s)/Q2] - Log[(Q2 + s)/Q2]^2/2 - 
              PolyLog[2, Q2/(Q2 + s)]))/(s*(Q2 + s + t)) + 
           ((2*I)*Pi^2*PolyLog[2, (s + t)/(Q2 + s + t)])/(s*(Q2 + s + t))), 
-       "branch_rules" -> {PolyLog[2, (Q2 + s)/Q2] -> 
+       "branch_rules" -> {Conjugate[PolyLog[2, (Q2 + s)/Q2]] -> 
+          Pi^2/3 + I*Pi*Log[(Q2 + s)/Q2] - Log[(Q2 + s)/Q2]^2/2 - 
+           PolyLog[2, Q2/(Q2 + s)], PolyLog[2, (Q2 + s)/Q2] -> 
           Pi^2/3 - I*Pi*Log[(Q2 + s)/Q2] - Log[(Q2 + s)/Q2]^2/2 - 
            PolyLog[2, Q2/(Q2 + s)]}, "real_function_domains" -> 
         <|Log[Pi] -> True, Log[s] -> True, Log[s/Q2] -> True, 
@@ -1325,8 +1437,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1334,15 +1449,20 @@ archived values retained.", "numerical_settings" ->
             Nf -> 5, eps -> 1/43}, {Q2 -> 5, s -> 2, t -> -6, mu -> 7/3, 
             SUNN -> 3, Nf -> 3, eps -> 1/31}}|>, 
        "numerical_conversion_residuals" -> {{0``108.67975981132834, 
-          0``108.65220678340101, 0``108.68295346373475}}|>|>, 
-   "V08_1_1_1_1_m2" -> <|"real" -> <|"value" -> 0, 
-       "pre_Hermitian_converted" -> ((-2*I)*Pi^2)/(t*(Q2 + s + t)), 
-       "branch_rules" -> {}, "real_function_domains" -> <||>, 
-       "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
+          0``108.652206783401, 0``108.68295346373475}, 
+         {0``108.69265785219007, 0``108.65406744492618, 
+          0``108.69899430336665}}|>|>, "V08_1_1_1_1_m2" -> 
+    <|"real" -> <|"value" -> 0, "pre_Hermitian_converted" -> 
+        ((-2*I)*Pi^2)/(t*(Q2 + s + t)), "branch_rules" -> {}, 
+       "real_function_domains" -> <||>, "conditions" -> 
+        Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1356,8 +1476,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1377,8 +1500,11 @@ archived values retained.", "numerical_settings" ->
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1403,8 +1529,11 @@ archived values retained.", "numerical_settings" ->
         Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1439,9 +1568,12 @@ archived values retained.", "numerical_settings" ->
           True|>, "conditions" -> Q2 > 0 && s > 0 && t < 0 && 
          Q2 + s + t > 0 && mu > 0, "conversion_identity" -> 
         HoldComplete[PolyLog[2, x] + PolyLog[2, 1/x] == 
-          -Pi^2/6 - Log[-x]^2/2], "branch" -> "Principal PolyLog on x>1; \
-Log[-x]=Log[x]+I Pi. Original archived values retained.", 
-       "numerical_settings" -> <|"precision_digits" -> 60, 
+          -Pi^2/6 - Log[-x]^2/2], "conjugate_branch_identity" -> 
+        HoldComplete[Conjugate[PolyLog[2, x]] == Conjugate[
+           PolyLog[2, x - I*0]] == PolyLog[2, x + I*0]], 
+       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. \
+Conjugate[PolyLog[2,x]] is the value just above the cut. Original archived \
+values retained.", "numerical_settings" -> <|"precision_digits" -> 60, 
          "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1497,8 +1629,11 @@ Log[-x]=Log[x]+I Pi. Original archived values retained.",
        "conditions" -> Q2 > 0 && s > 0 && t < 0 && Q2 + s + t > 0 && mu > 0, 
        "conversion_identity" -> HoldComplete[
          PolyLog[2, x] + PolyLog[2, 1/x] == -Pi^2/6 - Log[-x]^2/2], 
-       "branch" -> "Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original \
-archived values retained.", "numerical_settings" -> 
+       "conjugate_branch_identity" -> HoldComplete[
+         Conjugate[PolyLog[2, x]] == Conjugate[PolyLog[2, x - I*0]] == 
+          PolyLog[2, x + I*0]], "branch" -> "Principal PolyLog on x>1; \
+Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. \
+Original archived values retained.", "numerical_settings" -> 
         <|"precision_digits" -> 60, "absolute_tolerance" -> 
           1/100000000000000000000000000000000000000000000000000, 
          "points" -> {{Q2 -> 4, s -> 3, t -> -2, mu -> 2, SUNN -> 3, Nf -> 4, 
@@ -1506,19 +1641,21 @@ archived values retained.", "numerical_settings" ->
             Nf -> 5, eps -> 1/43}, {Q2 -> 5, s -> 2, t -> -6, mu -> 7/3, 
             SUNN -> 3, Nf -> 3, eps -> 1/31}}|>, 
        "numerical_conversion_residuals" -> {}|>|>|>, 
- "source_sha256" -> <|"/bigTMD/collins_support/reports/sidis-highpt-001/conti\
-nuation-001/virtual-kira-check-002/reduction.wl" -> 
-    "6376e209e01b2a422b58dd67b4fca94153ec2432f63210f9d1a95c2aff582a36", 
+ "source_sha256" -> <|"/bigTMD/collins_support/states/runs/sidis-highpt-001/c\
+ontinuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/co\
+mmon/r05_result/reduction/reduction.wl" -> 
+    "97e24ad6e1a499663e9bf8cc21dbefc0ae1f44266cb202d27e239801a2ec368b", 
    "/bigTMD/collins_sidis_highpt/common/physical_polylogs.wl" -> 
-    "064367ee37de6e77ca8c63feae56b7c479430222ff5be4080adec257bc5fb18a", 
-   "/bigTMD/collins_sidis_highpt/tools/prepare_virtual_master_coefficients.wl\
-s" -> "e9fdb99cd6143ee90cc78a14c02069b1998a4ccb6485c192c830bf5ebcaf6d7e", 
+    "dd6f99810f2a7a0cd58be3a36c204c690f2672868e29d8c82fee798cf770cca3", 
+   "/bigTMD/collins_sidis_highpt/tools/development/prepare_virtual_master_coe\
+fficients.wls" -> 
+    "968d1eedb11eb0b017c0afcb9b7e0873eee9ee63d06bdd3b5fd53dab0a1a3614", 
    "/bigTMD/SIDIS/common/s19_result/s19_virtual/79cd3f1423ab11db937b20dc4afe0\
 ef09d49b03da34b6a8f59c30f1b94d97db9/s19_masters.wl" -> 
-    "ac87cf16aae64a6c7b9fa086f6a89f720633de13d86de08dc016f5967f45d20f", 
+    "284824329df11ea2360178ddaddd2dd3f0899b2bdc4490a66a8041bcd63d1549", 
    "/bigTMD/SIDIS/common/s19_result/s19_virtual/eb0e0666a6603d6e8f8c6b2ce3733\
 9b6d39ecb5c6e184486b8b16fdf7f725730/s19_masters.wl" -> 
-    "dc15677c629da486316a53cc2c16e4ca50c64d5fe815bc6a92b08c552a32c641"|>, 
+    "ad16e47723603d86472546d2ca37c96cc207569a645d2fa15eb2ef7b13c70088"|>, 
  "qualification" -> "Archived master reuse with exact native \
 coefficient/branch selections. No new master integration; the polarized \
 coefficients still come from fresh reductions.", 
@@ -1566,8 +1703,9 @@ coefficients still come from fresh reductions.",
    "V08_1_1_1_1_Re_p0_minus" -> 0, "V08_1_1_1_1_Im_p0_plus" -> 0, 
    "V08_1_1_1_1_Im_p0_minus" -> 0|>, "branch_view_definition" -> 
   HoldComplete[t == sign*omega - s && omega > 0 && sign^2 == 1], 
- "view_source_sha256" -> <|"/bigTMD/collins_support/reports/sidis-highpt-001/\
-continuation-001/virtual-portable-001/portable-virtual.wl" -> 
-    "0fa8c0bca67962a1251f413b55ae2af84683276e29994ce64d479c655508dfd3", 
-   "/bigTMD/collins_sidis_highpt/tools/prepare_virtual_master_branch_views.wl\
-s" -> "8b070262a9bbd6efcda254bc913bcc8c8158c7f02bd36e96d7593fd03acb4d95"|>|>
+ "view_source_sha256" -> <|"/bigTMD/collins_support/states/runs/sidis-highpt-\
+002-v07-subtraction-fix/masters/portable-virtual/portable-virtual.wl" -> 
+    "c4e56dd8357234cbcb5d390381cd262d76e6f66be2e27c8f7f3a4838e54b0d4a", 
+   "/bigTMD/collins_sidis_highpt/tools/development/prepare_virtual_master_bra\
+nch_views.wls" -> 
+    "8b070262a9bbd6efcda254bc913bcc8c8158c7f02bd36e96d7593fd03acb4d95"|>|>

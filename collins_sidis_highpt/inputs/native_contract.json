@@ -69013,11 +69013,1203 @@
       "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
     },
     {
-      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c000.finite",
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1000.finite",
       "kind": "finite",
       "stage": "r07",
       "channel": "Hqq",
-      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c000",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1000",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1001.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1001",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1002.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1002",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1003.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1003",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1004.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1004",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1005.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1005",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1006.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1006",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1007.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1007",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1008.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1008",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1009.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1009",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1010.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1010",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1011.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1011",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1012.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1012",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1013.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1013",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1014.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1014",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1015.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1015",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1016.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1016",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1017.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1017",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1018.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1018",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1019.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1019",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1020.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1020",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1021.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1021",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1022.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1022",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1023.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1023",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1024.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1024",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1025.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1025",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1026.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1026",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1027.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1027",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1028.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1028",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1029.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1029",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1030.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1030",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1031.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1031",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1032.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1032",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1033.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1033",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1034.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1034",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1035.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1035",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1036.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1036",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1037.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1037",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1038.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1038",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1039.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1039",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1040.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1040",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1041.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1041",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1042.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1042",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1043.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1043",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1044.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1044",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1045.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1045",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1046.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1046",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1047.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1047",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1048.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1048",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1049.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1049",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1050.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1050",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1051.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1051",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1052.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1052",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1053.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1053",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1054.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1054",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1055.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1055",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1056.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1056",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1057.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1057",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1058.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1058",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1059.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1059",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1060.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1060",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1061.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1061",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1062.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1062",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1063.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1063",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1064.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1064",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1065.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1065",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1066.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1066",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1067.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1067",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1068.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1068",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1069.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1069",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1070.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1070",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1071.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1071",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1072.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1072",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1073.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1073",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1074.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1074",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1075.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1075",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1076.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1076",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1077.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1077",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1078.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1078",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1079.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1079",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1080.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1080",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1081.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1081",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1082.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1082",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1083.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1083",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1084.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1084",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1085.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1085",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1086.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1086",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1087.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1087",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1088.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1088",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1089.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1089",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1090.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1090",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1091.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1091",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1092.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1092",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1093.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1093",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1094.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1094",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1095.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1095",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1096.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1096",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1097.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1097",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1098.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1098",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1099.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1099",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1100.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1100",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1101.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1101",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1102.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1102",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1103.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1103",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1104.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1104",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1105.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1105",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1106.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1106",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1107.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1107",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1108.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1108",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1109.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1109",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1110.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1110",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1111.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1111",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1112.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1112",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1113.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1113",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1114.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1114",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1115.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1115",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1116.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1116",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1117.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1117",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1118.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1118",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1119.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1119",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1120.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1120",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1121.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1121",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1122.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1122",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1123.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1123",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1124.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1124",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1125.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1125",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1126.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1126",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1127.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1127",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1128.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1128",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1129.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1129",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1130.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1130",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1131.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1131",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1132.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1132",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1133.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1133",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1134.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1134",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1135.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1135",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1136.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1136",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1137.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1137",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1138.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1138",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1139.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1139",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1140.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1140",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1141.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1141",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1142.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1142",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1143.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1143",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1144.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1144",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1145.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1145",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1146.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1146",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1147.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1147",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1148.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1148",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1149.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b001_c1149",
       "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
     },
     {
@@ -76261,6 +77453,102 @@
       "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
     },
     {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c045.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c045",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c046.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c046",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c047.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c047",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c048.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c048",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c049.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c049",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c050.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c050",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c051.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c051",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c052.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c052",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c053.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c053",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c054.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c054",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c055.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c055",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b016_c056.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b016_c056",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
       "id": "UT_Hqq_Collins_T_plus_Regular_p0_b017_c001.finite",
       "kind": "finite",
       "stage": "r07",
@@ -77322,6 +78610,22 @@
       "stage": "r07",
       "channel": "Hqq",
       "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b017_c133",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b017_c134.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b017_c134",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_plus_Regular_p0_b017_c135.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_plus_Regular_p0_b017_c135",
       "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
     },
     {
@@ -98169,11 +99473,1203 @@
       "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
     },
     {
-      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c000.finite",
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1000.finite",
       "kind": "finite",
       "stage": "r07",
       "channel": "Hqq",
-      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c000",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1000",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1001.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1001",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1002.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1002",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1003.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1003",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1004.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1004",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1005.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1005",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1006.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1006",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1007.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1007",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1008.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1008",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1009.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1009",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1010.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1010",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1011.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1011",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1012.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1012",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1013.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1013",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1014.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1014",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1015.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1015",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1016.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1016",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1017.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1017",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1018.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1018",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1019.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1019",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1020.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1020",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1021.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1021",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1022.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1022",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1023.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1023",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1024.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1024",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1025.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1025",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1026.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1026",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1027.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1027",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1028.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1028",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1029.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1029",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1030.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1030",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1031.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1031",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1032.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1032",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1033.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1033",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1034.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1034",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1035.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1035",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1036.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1036",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1037.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1037",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1038.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1038",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1039.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1039",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1040.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1040",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1041.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1041",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1042.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1042",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1043.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1043",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1044.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1044",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1045.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1045",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1046.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1046",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1047.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1047",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1048.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1048",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1049.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1049",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1050.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1050",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1051.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1051",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1052.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1052",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1053.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1053",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1054.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1054",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1055.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1055",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1056.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1056",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1057.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1057",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1058.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1058",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1059.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1059",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1060.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1060",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1061.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1061",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1062.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1062",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1063.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1063",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1064.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1064",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1065.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1065",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1066.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1066",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1067.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1067",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1068.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1068",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1069.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1069",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1070.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1070",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1071.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1071",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1072.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1072",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1073.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1073",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1074.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1074",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1075.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1075",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1076.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1076",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1077.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1077",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1078.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1078",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1079.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1079",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1080.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1080",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1081.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1081",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1082.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1082",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1083.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1083",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1084.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1084",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1085.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1085",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1086.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1086",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1087.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1087",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1088.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1088",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1089.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1089",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1090.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1090",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1091.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1091",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1092.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1092",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1093.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1093",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1094.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1094",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1095.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1095",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1096.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1096",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1097.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1097",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1098.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1098",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1099.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1099",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1100.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1100",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1101.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1101",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1102.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1102",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1103.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1103",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1104.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1104",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1105.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1105",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1106.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1106",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1107.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1107",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1108.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1108",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1109.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1109",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1110.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1110",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1111.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1111",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1112.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1112",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1113.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1113",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1114.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1114",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1115.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1115",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1116.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1116",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1117.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1117",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1118.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1118",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1119.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1119",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1120.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1120",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1121.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1121",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1122.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1122",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1123.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1123",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1124.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1124",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1125.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1125",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1126.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1126",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1127.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1127",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1128.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1128",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1129.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1129",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1130.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1130",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1131.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1131",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1132.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1132",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1133.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1133",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1134.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1134",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1135.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1135",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1136.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1136",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1137.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1137",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1138.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1138",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1139.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1139",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1140.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1140",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1141.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1141",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1142.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1142",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1143.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1143",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1144.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1144",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1145.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1145",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1146.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1146",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1147.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1147",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1148.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1148",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1149.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b001_c1149",
       "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
     },
     {
@@ -105417,6 +107913,102 @@
       "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
     },
     {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c045.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c045",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c046.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c046",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c047.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c047",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c048.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c048",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c049.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c049",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c050.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c050",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c051.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c051",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c052.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c052",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c053.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c053",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c054.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c054",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c055.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c055",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b016_c056.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b016_c056",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
       "id": "UT_Hqq_Collins_T_minus_Regular_p0_b017_c001.finite",
       "kind": "finite",
       "stage": "r07",
@@ -106478,6 +109070,22 @@
       "stage": "r07",
       "channel": "Hqq",
       "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b017_c133",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b017_c134.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b017_c134",
+      "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
+    },
+    {
+      "id": "UT_Hqq_Collins_T_minus_Regular_p0_b017_c135.finite",
+      "kind": "finite",
+      "stage": "r07",
+      "channel": "Hqq",
+      "lhs": "r07/UT_Hqq_Collins_T_minus_Regular_p0_b017_c135",
       "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
     },
     {
@@ -132680,6 +135288,258 @@
       "reason": "Actual scalar coefficient of the displayed exact hard function/polynomial basis; no remaining regulator."
     },
     {
+      "id": "Hgg.UU_literal_recovery",
+      "kind": "uu_recovery",
+      "stage": "r07",
+      "channel": "Hgg",
+      "lhs": "r07/UURecovery_Hgg",
+      "reason": "Recover one nonzero archived F1 coefficient from the independently converted transverse photon coefficient at the documented exact physical point. This is UU reuse/convention recovery, not a fresh or independent UU NLO derivation.",
+      "reference": {
+        "source": "uu_literal_native",
+        "equation": "Hgg"
+      }
+    },
+    {
+      "id": "JetRG_Hgg_Ugq_delta",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgg",
+      "lhs": "r07/JetRG_Hgg_Ugq_delta",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgg_Ugq_plus0",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgg",
+      "lhs": "r07/JetRG_Hgg_Ugq_plus0",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgg_Ugq_plus1",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgg",
+      "lhs": "r07/JetRG_Hgg_Ugq_plus1",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgg_Ugq_regular",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgg",
+      "lhs": "r07/JetRG_Hgg_Ugq_regular",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgg_Ugg_delta",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgg",
+      "lhs": "r07/JetRG_Hgg_Ugg_delta",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgg_Ugg_plus0",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgg",
+      "lhs": "r07/JetRG_Hgg_Ugg_plus0",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgg_Ugg_plus1",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgg",
+      "lhs": "r07/JetRG_Hgg_Ugg_plus1",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgg_Ugg_regular",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgg",
+      "lhs": "r07/JetRG_Hgg_Ugg_regular",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "Hgq.UU_literal_recovery",
+      "kind": "uu_recovery",
+      "stage": "r07",
+      "channel": "Hgq",
+      "lhs": "r07/UURecovery_Hgq",
+      "reason": "Recover one nonzero archived F1 coefficient from the independently converted transverse photon coefficient at the documented exact physical point. This is UU reuse/convention recovery, not a fresh or independent UU NLO derivation.",
+      "reference": {
+        "source": "uu_literal_native",
+        "equation": "Hgq"
+      }
+    },
+    {
+      "id": "JetRG_Hgq_Uqq_delta",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgq",
+      "lhs": "r07/JetRG_Hgq_Uqq_delta",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgq_Uqq_plus0",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgq",
+      "lhs": "r07/JetRG_Hgq_Uqq_plus0",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgq_Uqq_plus1",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgq",
+      "lhs": "r07/JetRG_Hgq_Uqq_plus1",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgq_Uqq_regular",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgq",
+      "lhs": "r07/JetRG_Hgq_Uqq_regular",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgq_Uqg_delta",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgq",
+      "lhs": "r07/JetRG_Hgq_Uqg_delta",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgq_Uqg_plus0",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgq",
+      "lhs": "r07/JetRG_Hgq_Uqg_plus0",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgq_Uqg_plus1",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgq",
+      "lhs": "r07/JetRG_Hgq_Uqg_plus1",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hgq_Uqg_regular",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hgq",
+      "lhs": "r07/JetRG_Hgq_Uqg_regular",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "Hqg.UU_literal_recovery",
+      "kind": "uu_recovery",
+      "stage": "r07",
+      "channel": "Hqg",
+      "lhs": "r07/UURecovery_Hqg",
+      "reason": "Recover one nonzero archived F1 coefficient from the independently converted transverse photon coefficient at the documented exact physical point. This is UU reuse/convention recovery, not a fresh or independent UU NLO derivation.",
+      "reference": {
+        "source": "uu_literal_native",
+        "equation": "Hqg"
+      }
+    },
+    {
+      "id": "JetRG_Hqg_Ugq_delta",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hqg",
+      "lhs": "r07/JetRG_Hqg_Ugq_delta",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hqg_Ugq_plus0",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hqg",
+      "lhs": "r07/JetRG_Hqg_Ugq_plus0",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hqg_Ugq_plus1",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hqg",
+      "lhs": "r07/JetRG_Hqg_Ugq_plus1",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hqg_Ugq_regular",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hqg",
+      "lhs": "r07/JetRG_Hqg_Ugq_regular",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hqg_Ugg_delta",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hqg",
+      "lhs": "r07/JetRG_Hqg_Ugg_delta",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hqg_Ugg_plus0",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hqg",
+      "lhs": "r07/JetRG_Hqg_Ugg_plus0",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hqg_Ugg_plus1",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hqg",
+      "lhs": "r07/JetRG_Hqg_Ugg_plus1",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
+      "id": "JetRG_Hqg_Ugg_regular",
+      "kind": "jet_matching",
+      "stage": "r07",
+      "channel": "Hqg",
+      "lhs": "r07/JetRG_Hqg_Ugg_regular",
+      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
+      "rhs": 0
+    },
+    {
       "id": "Hqq.UU_literal_recovery",
       "kind": "uu_recovery",
       "stage": "r07",
@@ -132796,258 +135656,6 @@
       "stage": "r07",
       "channel": "Hqq",
       "lhs": "r07/JetRG_Hqq_Tqq_regular",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "Hqg.UU_literal_recovery",
-      "kind": "uu_recovery",
-      "stage": "r07",
-      "channel": "Hqg",
-      "lhs": "r07/UURecovery_Hqg",
-      "reason": "Recover one nonzero archived F1 coefficient from the independently converted transverse photon coefficient at the documented exact physical point. This is UU reuse/convention recovery, not a fresh or independent UU NLO derivation.",
-      "reference": {
-        "source": "uu_literal_native",
-        "equation": "Hqg"
-      }
-    },
-    {
-      "id": "JetRG_Hqg_Ugq_delta",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hqg",
-      "lhs": "r07/JetRG_Hqg_Ugq_delta",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hqg_Ugq_plus0",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hqg",
-      "lhs": "r07/JetRG_Hqg_Ugq_plus0",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hqg_Ugq_plus1",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hqg",
-      "lhs": "r07/JetRG_Hqg_Ugq_plus1",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hqg_Ugq_regular",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hqg",
-      "lhs": "r07/JetRG_Hqg_Ugq_regular",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hqg_Ugg_delta",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hqg",
-      "lhs": "r07/JetRG_Hqg_Ugg_delta",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hqg_Ugg_plus0",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hqg",
-      "lhs": "r07/JetRG_Hqg_Ugg_plus0",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hqg_Ugg_plus1",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hqg",
-      "lhs": "r07/JetRG_Hqg_Ugg_plus1",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hqg_Ugg_regular",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hqg",
-      "lhs": "r07/JetRG_Hqg_Ugg_regular",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "Hgq.UU_literal_recovery",
-      "kind": "uu_recovery",
-      "stage": "r07",
-      "channel": "Hgq",
-      "lhs": "r07/UURecovery_Hgq",
-      "reason": "Recover one nonzero archived F1 coefficient from the independently converted transverse photon coefficient at the documented exact physical point. This is UU reuse/convention recovery, not a fresh or independent UU NLO derivation.",
-      "reference": {
-        "source": "uu_literal_native",
-        "equation": "Hgq"
-      }
-    },
-    {
-      "id": "JetRG_Hgq_Uqq_delta",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgq",
-      "lhs": "r07/JetRG_Hgq_Uqq_delta",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgq_Uqq_plus0",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgq",
-      "lhs": "r07/JetRG_Hgq_Uqq_plus0",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgq_Uqq_plus1",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgq",
-      "lhs": "r07/JetRG_Hgq_Uqq_plus1",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgq_Uqq_regular",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgq",
-      "lhs": "r07/JetRG_Hgq_Uqq_regular",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgq_Uqg_delta",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgq",
-      "lhs": "r07/JetRG_Hgq_Uqg_delta",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgq_Uqg_plus0",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgq",
-      "lhs": "r07/JetRG_Hgq_Uqg_plus0",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgq_Uqg_plus1",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgq",
-      "lhs": "r07/JetRG_Hgq_Uqg_plus1",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgq_Uqg_regular",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgq",
-      "lhs": "r07/JetRG_Hgq_Uqg_regular",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "Hgg.UU_literal_recovery",
-      "kind": "uu_recovery",
-      "stage": "r07",
-      "channel": "Hgg",
-      "lhs": "r07/UURecovery_Hgg",
-      "reason": "Recover one nonzero archived F1 coefficient from the independently converted transverse photon coefficient at the documented exact physical point. This is UU reuse/convention recovery, not a fresh or independent UU NLO derivation.",
-      "reference": {
-        "source": "uu_literal_native",
-        "equation": "Hgg"
-      }
-    },
-    {
-      "id": "JetRG_Hgg_Ugq_delta",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgg",
-      "lhs": "r07/JetRG_Hgg_Ugq_delta",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgg_Ugq_plus0",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgg",
-      "lhs": "r07/JetRG_Hgg_Ugq_plus0",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgg_Ugq_plus1",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgg",
-      "lhs": "r07/JetRG_Hgg_Ugq_plus1",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgg_Ugq_regular",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgg",
-      "lhs": "r07/JetRG_Hgg_Ugq_regular",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgg_Ugg_delta",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgg",
-      "lhs": "r07/JetRG_Hgg_Ugg_delta",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgg_Ugg_plus0",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgg",
-      "lhs": "r07/JetRG_Hgg_Ugg_plus0",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgg_Ugg_plus1",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgg",
-      "lhs": "r07/JetRG_Hgg_Ugg_plus1",
-      "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
-      "rhs": 0
-    },
-    {
-      "id": "JetRG_Hgg_Ugg_regular",
-      "kind": "jet_matching",
-      "stage": "r07",
-      "channel": "Hgg",
-      "lhs": "r07/JetRG_Hgg_Ugg_regular",
       "reason": "Canonical delta/plus/regular jet derivative plus soft-subtracted TMD evolution equals the literal LO DGLAP kernel. The observable applies one-loop jet matching only to Born hard channels at this order.",
       "rhs": 0
     },
@@ -166532,7 +169140,752 @@
       "sector": "UT",
       "order": 2
     },
-    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c000": {
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1000": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1001": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1002": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1003": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1004": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1005": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1006": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1007": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1008": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1009": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1010": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1011": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1012": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1013": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1014": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1015": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1016": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1017": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1018": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1019": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1020": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1021": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1022": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1023": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1024": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1025": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1026": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1027": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1028": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1029": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1030": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1031": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1032": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1033": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1034": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1035": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1036": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1037": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1038": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1039": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1040": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1041": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1042": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1043": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1044": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1045": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1046": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1047": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1048": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1049": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1050": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1051": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1052": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1053": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1054": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1055": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1056": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1057": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1058": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1059": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1060": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1061": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1062": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1063": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1064": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1065": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1066": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1067": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1068": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1069": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1070": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1071": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1072": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1073": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1074": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1075": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1076": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1077": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1078": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1079": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1080": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1081": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1082": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1083": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1084": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1085": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1086": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1087": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1088": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1089": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1090": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1091": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1092": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1093": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1094": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1095": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1096": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1097": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1098": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1099": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1100": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1101": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1102": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1103": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1104": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1105": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1106": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1107": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1108": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1109": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1110": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1111": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1112": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1113": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1114": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1115": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1116": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1117": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1118": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1119": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1120": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1121": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1122": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1123": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1124": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1125": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1126": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1127": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1128": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1129": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1130": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1131": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1132": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1133": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1134": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1135": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1136": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1137": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1138": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1139": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1140": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1141": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1142": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1143": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1144": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1145": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1146": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1147": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1148": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b001_c1149": {
       "channel": "Hqq",
       "sector": "UT",
       "order": 2
@@ -171062,6 +174415,66 @@
       "sector": "UT",
       "order": 2
     },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c045": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c046": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c047": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c048": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c049": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c050": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c051": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c052": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c053": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c054": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c055": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b016_c056": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
     "UT_Hqq_Collins_T_plus_Regular_p0_b017_c001": {
       "channel": "Hqq",
       "sector": "UT",
@@ -171723,6 +175136,16 @@
       "order": 2
     },
     "UT_Hqq_Collins_T_plus_Regular_p0_b017_c133": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b017_c134": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_plus_Regular_p0_b017_c135": {
       "channel": "Hqq",
       "sector": "UT",
       "order": 2
@@ -181402,7 +184825,752 @@
       "sector": "UT",
       "order": 2
     },
-    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c000": {
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1000": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1001": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1002": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1003": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1004": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1005": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1006": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1007": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1008": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1009": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1010": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1011": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1012": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1013": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1014": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1015": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1016": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1017": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1018": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1019": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1020": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1021": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1022": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1023": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1024": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1025": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1026": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1027": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1028": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1029": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1030": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1031": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1032": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1033": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1034": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1035": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1036": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1037": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1038": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1039": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1040": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1041": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1042": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1043": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1044": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1045": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1046": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1047": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1048": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1049": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1050": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1051": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1052": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1053": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1054": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1055": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1056": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1057": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1058": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1059": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1060": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1061": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1062": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1063": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1064": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1065": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1066": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1067": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1068": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1069": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1070": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1071": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1072": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1073": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1074": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1075": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1076": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1077": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1078": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1079": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1080": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1081": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1082": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1083": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1084": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1085": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1086": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1087": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1088": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1089": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1090": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1091": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1092": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1093": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1094": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1095": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1096": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1097": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1098": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1099": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1100": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1101": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1102": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1103": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1104": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1105": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1106": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1107": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1108": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1109": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1110": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1111": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1112": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1113": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1114": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1115": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1116": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1117": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1118": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1119": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1120": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1121": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1122": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1123": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1124": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1125": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1126": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1127": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1128": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1129": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1130": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1131": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1132": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1133": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1134": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1135": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1136": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1137": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1138": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1139": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1140": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1141": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1142": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1143": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1144": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1145": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1146": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1147": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1148": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b001_c1149": {
       "channel": "Hqq",
       "sector": "UT",
       "order": 2
@@ -185932,6 +190100,66 @@
       "sector": "UT",
       "order": 2
     },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c045": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c046": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c047": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c048": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c049": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c050": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c051": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c052": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c053": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c054": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c055": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b016_c056": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
     "UT_Hqq_Collins_T_minus_Regular_p0_b017_c001": {
       "channel": "Hqq",
       "sector": "UT",
@@ -186593,6 +190821,16 @@
       "order": 2
     },
     "UT_Hqq_Collins_T_minus_Regular_p0_b017_c133": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b017_c134": {
+      "channel": "Hqq",
+      "sector": "UT",
+      "order": 2
+    },
+    "UT_Hqq_Collins_T_minus_Regular_p0_b017_c135": {
       "channel": "Hqq",
       "sector": "UT",
       "order": 2
@@ -199523,10 +203761,10 @@
     }
   },
   "inventory_provenance": {
-    "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/native-mapping-adapter-check-002/packet.json": "89fe1f987bc1075d148399a0138c47e614cef062fd18c216ccfa9553a2296285",
-    "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/native-packet-integration-001/common/r07_result/native-contract-r07.json": "d39aa5cbb2cb9d9bef030e0eb1393fc584632dfe83c7c2984687223fee1ff318",
+    "/bigTMD/collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r01_result/packet.json": "d97eae0af377c3137bbab3ca445a889c3b366fa391193f31a82b72a8d0f39196",
+    "/bigTMD/collins_support/states/runs/sidis-highpt-002-v07-subtraction-fix/r07_result/native-contract-r07.json": "2a3bbd6f65608b1b685a3bdec198c40b4297b38fcde788b738ccabf05ae320fb",
     "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/native-reduction-inventory-002.json": "390435a649d435dc4050718ff9a3c7f1fe0f7270eae407b1f41a57ad98d8a768",
-    "/bigTMD/collins_sidis_highpt/tools/prepare_native_contract.py": "1dfe43207d3771861ba98f9a2f2eeaf558a442b8631cc07cf72e21984cab5e62"
+    "/bigTMD/collins_sidis_highpt/tools/development/prepare_native_contract.py": "1dfe43207d3771861ba98f9a2f2eeaf558a442b8631cc07cf72e21984cab5e62"
   },
   "qualification": "Names and meanings of actual produced scalar checks/exports only. Acceptance requires two complete native executions, pair comparison, both dependency seeds, and all physical boundary checks."
 }

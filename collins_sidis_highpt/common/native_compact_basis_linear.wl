@@ -1,7 +1,11 @@
 (* Exact scalar transport in a displayed function basis. The imported objects
    are coefficients of archived master functions, never coefficients of a hard
    answer. Basis expressions and reconstructions remain native evidence. *)
-ClearAll[HSBasisRebind,HSBasisSplit,HSBasisCertificates,HSBasisKnown,HSBasisOriginal];
+ClearAll[HSBasisRebind,HSBasisSplit,HSBasisCertificates,HSBasisKnown,HSBasisOriginal,HSCompactIndex];
+(* Export identifiers are zero-padded to three digits. IntegerString[n,10,3]
+   keeps only the last three digits, so an index of 1001 would collide with 1
+   and silently overwrite that coefficient; the width must grow with n. *)
+HSCompactIndex[n_Integer]:=IntegerString[n,10,Max[3,IntegerLength[n]]];
 HSBasisKnown[bank_Association,prefix_String]:=Association[
  KeyValueMap[(prefix<>#1)->#2&,bank["values"]]];
 HSBasisOriginal[bank_Association,evaluated_Association]:=Association[
@@ -24,10 +28,10 @@ HSBasisSplit[row_Association]:=Module[{pieces,bases,rows},
 HSBasisCertificates[key_String,row_Association,known_Association,sectors_List,nominalKnown_:Automatic]:=Module[
  {nominal=If[nominalKnown===Automatic,known,nominalKnown],denominators,commonDen,products,
   decomposition,values=<||>,basis=<||>,recipes=<||>,scalarValues=<||>,normalizations=<||>,
-  id,index=0,scalar,value,originalScalar,normalizedTerms,localKnown,localNominal,den,refID,refIndex,colorVariables,colorPieces,colorPowers,colorRows,colorID,colorIndex,colorMonomial,colorRow,
+  id,index=0,blockIDs=<||>,scalar,value,originalScalar,normalizedTerms,localKnown,localNominal,den,refID,refIndex,colorVariables,colorPieces,colorPowers,colorRows,colorID,colorIndex,colorMonomial,colorRow,
   colorRules,colorCoefficient,colorReconstruction,polynomialProofs=<||>,polynomialResiduals},
  decomposition=HSBasisSplit[row];
- Do[index++;id=key<>"_b"<>IntegerString[index,10,3];scalar=piece["recipe"];originalScalar=scalar;normalizedTerms=<||>;localKnown=<||>;localNominal=<||>;refIndex=0;
+ Do[index++;id=key<>"_b"<>HSCompactIndex[index];gate["unique block identifier",!KeyExistsQ[blockIDs,id]];AssociateTo[blockIDs,id->True];scalar=piece["recipe"];originalScalar=scalar;normalizedTerms=<||>;localKnown=<||>;localNominal=<||>;refIndex=0;
   KeyValueMap[Function[{ref,factor},refIndex++;refID=First[StringSplit[key,"/"]]<>"/normalized_"<>StringRiffle[sectors,"_"]<>"_"<>StringReplace[ref,"/"->"_"];
    den=Factor[Denominator[Cancel[nominal[ref]]]];
    AssociateTo[localKnown,refID->Factor[den known[ref]]];AssociateTo[localNominal,refID->Factor[den nominal[ref]]];
@@ -68,7 +72,7 @@ HSBasisCertificates[key_String,row_Association,known_Association,sectors_List,no
     "residuals"->polynomialResiduals|>];
    gate["polynomial reconstruction",And@@(#===0&/@Values[polynomialResiduals])]];
   colorIndex=0;
-  Do[colorIndex++;colorID=id<>"_c"<>IntegerString[colorIndex,10,3];colorRow=colorPiece["recipe"];
+  Do[colorIndex++;colorID=id<>"_c"<>HSCompactIndex[colorIndex];colorRow=colorPiece["recipe"];gate["unique exported scalar identifier",!KeyExistsQ[values,colorID]];
    value=Expand[Total[Join[{colorRow["constant"]},KeyValueMap[Factor[#2 localKnown[#1]]&,colorRow["terms"]]]]];
    AssociateTo[values,colorID-><|"constant"->RUExact[colorRow["constant"]],
     "terms"->KeyValueMap[<|"ref"->#1,"factor"->RUExact[#2]|>&,colorRow["terms"]],

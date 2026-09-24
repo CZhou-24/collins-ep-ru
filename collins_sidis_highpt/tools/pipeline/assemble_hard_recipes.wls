@@ -34,7 +34,7 @@ projectVirtual[component_,sign_]:=Module[{bank=virtual[branchName[sign]]["recipe
 projectSub[component_,side_,dist_]:=If[dist==="L1",0,
  Total[sub["MS_counterterms"][#][side][dist]&/@projectors[component]]/2];
 projectKernel[component_,side_,dist_]:=If[dist==="L1",0,
- (Total[sub["dimensional_convolutions"][#][side][dist]&/@projectors[component]]/2)/.D->4];
+ (Total[sub["dimensional_convolutions"][#][side][dist]&/@projectors[component]]/2)/.{D->4,eps->0}];
 projectBorn[component_]:=Factor[PowerExpand[(Total[born["T"<>#]&/@projectors[component]]/2)/.
  {D->4,CF->(SUNN^2-1)/(2SUNN),r->s/Q2,z->(Q2+s+t)/(Q2+s),Q->Sqrt[Q2]}]];
 phase=muR^(2eps)(2Pi)^(-2+2eps);beta=(11SUNN-2Nf)/3;

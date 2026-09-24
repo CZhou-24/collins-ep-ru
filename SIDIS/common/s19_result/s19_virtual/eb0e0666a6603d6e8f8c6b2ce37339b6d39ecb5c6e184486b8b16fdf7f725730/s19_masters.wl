@@ -65,7 +65,7 @@
          ((2*I)*Pi^2*Log[s])/(s*(Q2 + s + t)) - (I*Pi^2*Log[s/Q2])/
           (s*(Q2 + s + t)) + (I*Pi^2*Log[Q2/(Q2 + s + t)])/(s*(Q2 + s + t)) + 
          (I*Pi^2*Log[s/(Q2 + s + t)])/(s*(Q2 + s + t))) - 
-       ((2*I)*Pi^2*PolyLog[2, (Q2 + s)/Q2])/(s*(Q2 + s + t)) + 
+       ((2*I)*Pi^2*Conjugate[PolyLog[2, (Q2 + s)/Q2]])/(s*(Q2 + s + t)) + 
        ((2*I)*Pi^2*PolyLog[2, (s + t)/(Q2 + s + t)])/(s*(Q2 + s + t))}, -2, 
      1, 1], FeynCalc`GLI["V08", {1, 1, 1, 1}] -> 
     SeriesData[eps, 0, {((-2*I)*Pi^2)/(t*(Q2 + s + t)), 
@@ -206,13 +206,13 @@
            (s*(Q2 + s + t)) - ((2*I)*Pi^2*Log[s])/(s*(Q2 + s + t)) - 
           (I*Pi^2*Log[s/Q2])/(s*(Q2 + s + t)) + (I*Pi^2*Log[Q2/(Q2 + s + t)])/
            (s*(Q2 + s + t)) + (I*Pi^2*Log[s/(Q2 + s + t)])/
-           (s*(Q2 + s + t))) - ((2*I)*Pi^2*PolyLog[2, (Q2 + s)/Q2])/
+           (s*(Q2 + s + t))) - ((2*I)*Pi^2*Conjugate[PolyLog[2, (Q2 + s)/Q2]])/
          (s*(Q2 + s + t)) + ((2*I)*Pi^2*PolyLog[2, (s + t)/(Q2 + s + t)])/
          (s*(Q2 + s + t))}, -2, 1, 1], "FunctionLimits" -> 
      {Log[c14] -> (-I)*Pi + Log[s], Log[c14/c23] -> 
        (-I)*Pi + Log[s/(Q2 + s + t)], Log[c14/c34] -> (-I)*Pi + Log[s/Q2], 
       Log[c34/c23] -> Log[Q2/(Q2 + s + t)], Log[Pi] -> Log[Pi], 
-      PolyLog[2, 1 - c14/c34] -> PolyLog[2, (Q2 + s)/Q2], 
+      PolyLog[2, 1 - c14/c34] -> Conjugate[PolyLog[2, (Q2 + s)/Q2]], 
       PolyLog[2, 1 - c34/c23] -> PolyLog[2, (s + t)/(Q2 + s + t)]}, 
     "FeynmanDeformation" -> {c14 -> (-I)*eta - s, 
       c23 -> (-I)*eta + Q2 + s + t, c34 -> (-I)*eta + Q2}, 

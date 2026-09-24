@@ -1,0 +1,247 @@
+================ NUMERICAL COMPARISON ================
+rule: Delta/plus  ours = A*kappa_pol*theirs (read at W->0);  interior ours(dW) = kappa_pol*theirs(dw)
+
+---- LO q-q, delta coefficient ----
+LO q-q Delta T                          x=1/3,z=2/5 (x<z)               ours=74.86277709                 theirs=74.86277709                 rel=       -59
+0.   NUMERICAL AGREEMENT
+LO q-q Delta T                          x=1/2,z=1/3 (x>z)               ours=74.86277709                 theirs=74.86277709                 rel=       -59
+0.   NUMERICAL AGREEMENT
+LO q-q Delta T                          x=1/4,z=3/5 (x<z)               ours=74.86277709                 theirs=74.86277709                 rel=       -59
+0.   NUMERICAL AGREEMENT
+LO q-q Delta T                          x=7/10,z=1/5 (x>z)              ours=74.86277709                 theirs=74.86277709                 rel=       -59
+0.   NUMERICAL AGREEMENT
+LO q-q Delta T                          x=1/3,z=2/5 equal scales        ours=74.86277709                 theirs=74.86277709                 rel=       -59
+0.   NUMERICAL AGREEMENT
+LO q-q Delta L                          x=1/3,z=2/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+LO q-q Delta L                          x=1/2,z=1/3 (x>z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+LO q-q Delta L                          x=1/4,z=3/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+LO q-q Delta L                          x=7/10,z=1/5 (x>z)              ours=0                           theirs=0                           rel=0               BOTH ZERO
+LO q-q Delta L                          x=1/3,z=2/5 equal scales        ours=0                           theirs=0                           rel=0               BOTH ZERO
+
+---- NLO delta and plus coefficients (at W->0) ----
+Hqq NLO Delta T br1                     x=1/3,z=2/5 (x<z)               ours=10.07370725                 theirs=10.07370725                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L0 T br1                        x=1/3,z=2/5 (x<z)               ours=-22.57030889                theirs=-22.57030889                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L1 T br1                        x=1/3,z=2/5 (x<z)               ours=11.12046229                 theirs=11.12046229                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO Delta T br-1                    x=1/2,z=1/3 (x>z)               ours=14.25025238                 theirs=14.25025238                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L0 T br-1                       x=1/2,z=1/3 (x>z)               ours=-29.75090540                theirs=-29.75090540                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L1 T br-1                       x=1/2,z=1/3 (x>z)               ours=11.12046229                 theirs=11.12046229                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO Delta T br1                     x=1/4,z=3/5 (x<z)               ours=13.15238691                 theirs=13.15238691                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L0 T br1                        x=1/4,z=3/5 (x<z)               ours=-23.21444596                theirs=-23.21444596                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L1 T br1                        x=1/4,z=3/5 (x<z)               ours=11.12046229                 theirs=11.12046229                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO Delta T br-1                    x=7/10,z=1/5 (x>z)              ours=21.47370455                 theirs=21.47370455                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L0 T br-1                       x=7/10,z=1/5 (x>z)              ours=-37.39063885                theirs=-37.39063885                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L1 T br-1                       x=7/10,z=1/5 (x>z)              ours=11.12046229                 theirs=11.12046229                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO Delta T br1                     x=1/3,z=2/5 equal scales        ours=8.593398984                 theirs=8.593398984                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L0 T br1                        x=1/3,z=2/5 equal scales        ours=-5.361868810                theirs=-5.361868810                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L1 T br1                        x=1/3,z=2/5 equal scales        ours=11.12046229                 theirs=11.12046229                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO Delta L br1                     x=1/3,z=2/5 (x<z)               ours=1.363848483                 theirs=1.363848483                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L0 L br1                        x=1/3,z=2/5 (x<z)               ours=0                           theirs=       -110
+0. × 10         rel=0               BOTH ZERO
+Hqq NLO L1 L br1                        x=1/3,z=2/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqq NLO Delta L br-1                    x=1/2,z=1/3 (x>z)               ours=1.369093779                 theirs=1.369093779                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L0 L br-1                       x=1/2,z=1/3 (x>z)               ours=0                           theirs=       -110
+0. × 10         rel=0               BOTH ZERO
+Hqq NLO L1 L br-1                       x=1/2,z=1/3 (x>z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqq NLO Delta L br1                     x=1/4,z=3/5 (x<z)               ours=2.199283281                 theirs=2.199283281                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L0 L br1                        x=1/4,z=3/5 (x<z)               ours=0                           theirs=       -110
+0. × 10         rel=0               BOTH ZERO
+Hqq NLO L1 L br1                        x=1/4,z=3/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqq NLO Delta L br-1                    x=7/10,z=1/5 (x>z)              ours=0.9260626651                theirs=0.9260626651                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L0 L br-1                       x=7/10,z=1/5 (x>z)              ours=0                           theirs=       -110
+0. × 10         rel=0               BOTH ZERO
+Hqq NLO L1 L br-1                       x=7/10,z=1/5 (x>z)              ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqq NLO Delta L br1                     x=1/3,z=2/5 equal scales        ours=1.363848483                 theirs=1.363848483                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO L0 L br1                        x=1/3,z=2/5 equal scales        ours=0                           theirs=       -110
+0. × 10         rel=0               BOTH ZERO
+Hqq NLO L1 L br1                        x=1/3,z=2/5 equal scales        ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO Delta T br1                  x=1/3,z=2/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L0 T br1                     x=1/3,z=2/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L1 T br1                     x=1/3,z=2/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO Delta T br-1                 x=1/2,z=1/3 (x>z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L0 T br-1                    x=1/2,z=1/3 (x>z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L1 T br-1                    x=1/2,z=1/3 (x>z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO Delta T br1                  x=1/4,z=3/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L0 T br1                     x=1/4,z=3/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L1 T br1                     x=1/4,z=3/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO Delta T br-1                 x=7/10,z=1/5 (x>z)              ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L0 T br-1                    x=7/10,z=1/5 (x>z)              ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L1 T br-1                    x=7/10,z=1/5 (x>z)              ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO Delta T br1                  x=1/3,z=2/5 equal scales        ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L0 T br1                     x=1/3,z=2/5 equal scales        ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L1 T br1                     x=1/3,z=2/5 equal scales        ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO Delta L br1                  x=1/3,z=2/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L0 L br1                     x=1/3,z=2/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L1 L br1                     x=1/3,z=2/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO Delta L br-1                 x=1/2,z=1/3 (x>z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L0 L br-1                    x=1/2,z=1/3 (x>z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L1 L br-1                    x=1/2,z=1/3 (x>z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO Delta L br1                  x=1/4,z=3/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L0 L br1                     x=1/4,z=3/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L1 L br1                     x=1/4,z=3/5 (x<z)               ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO Delta L br-1                 x=7/10,z=1/5 (x>z)              ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L0 L br-1                    x=7/10,z=1/5 (x>z)              ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L1 L br-1                    x=7/10,z=1/5 (x>z)              ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO Delta L br1                  x=1/3,z=2/5 equal scales        ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L0 L br1                     x=1/3,z=2/5 equal scales        ours=0                           theirs=0                           rel=0               BOTH ZERO
+Hqqbar NLO L1 L br1                     x=1/3,z=2/5 equal scales        ours=0                           theirs=0                           rel=0               BOTH ZERO
+
+---- NLO interior density (0<w<1) ----
+Hqq NLO interior T br1                  x=1/3,z=2/5,w=3/4               ours=-135.1235886                theirs=-135.1235886                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior T br-1                 x=1/2,z=1/3,w=3/4               ours=-288.8782092                theirs=-288.8782092                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior T br1                  x=1/4,z=3/5,w=1/5               ours=-41.94656876                theirs=-41.94656876                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior T br-1                 x=3/5,z=1/4,w=9/10              ours=-1193.811448                theirs=-1193.811448                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior T br-1                 x=7/10,z=1/5,w=1/2              ours=-312.1357910                theirs=-312.1357910                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior T br1                  x=z=2/5,w=3/4 (removable)       ours=-197.3643741                theirs=-197.3643741                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior T br1                  x=z=1/2,w=3/5 (removable)       ours=-246.1262026                theirs=-246.1262026                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior T br1                  x=z=1/2,w=3/5 eq scales         ours=-45.73828635                theirs=-45.73828635                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior L br1                  x=1/3,z=2/5,w=3/4               ours=0.7840971522                theirs=0.7840971522                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior L br-1                 x=1/2,z=1/3,w=3/4               ours=1.180418708                 theirs=1.180418708                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior L br1                  x=1/4,z=3/5,w=1/5               ours=2.734866297                 theirs=2.734866297                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior L br-1                 x=3/5,z=1/4,w=9/10              ours=0.5254210156                theirs=0.5254210156                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior L br-1                 x=7/10,z=1/5,w=1/2              ours=2.195479207                 theirs=2.195479207                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior L br1                  x=z=2/5,w=3/4 (removable)       ours=1.013274391                 theirs=1.013274391                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior L br1                  x=z=1/2,w=3/5 (removable)       ours=3.478654448                 theirs=3.478654448                 rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqq NLO interior L br1                  x=z=1/2,w=3/5 eq scales         ours=0.9939012709                theirs=0.9939012709                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior T br1               x=1/3,z=2/5,w=3/4               ours=-0.2489155209               theirs=-0.2489155209               rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior T br-1              x=1/2,z=1/3,w=3/4               ours=-0.4796703543               theirs=-0.4796703543               rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior T br1               x=1/4,z=3/5,w=1/5               ours=0.3038615705                theirs=0.3038615705                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior T br-1              x=3/5,z=1/4,w=9/10              ours=-1.678534075                theirs=-1.678534075                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior T br-1              x=7/10,z=1/5,w=1/2              ours=-0.9046554052               theirs=-0.9046554052               rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior T br1               x=z=2/5,w=3/4 (removable)       ours=-0.2852876725               theirs=-0.2852876725               rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior T br1               x=z=1/2,w=3/5 (removable)       ours=0.0004889803331             theirs=0.0004889803331             rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior T br1               x=z=1/2,w=3/5 eq scales         ours=0.0001397086666             theirs=0.0001397086666             rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior L br1               x=1/3,z=2/5,w=3/4               ours=0.03889298580               theirs=0.03889298580               rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior L br-1              x=1/2,z=1/3,w=3/4               ours=-0.002167222339             theirs=-0.002167222339             rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior L br1               x=1/4,z=3/5,w=1/5               ours=0.04679238938               theirs=0.04679238938               rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior L br-1              x=3/5,z=1/4,w=9/10              ours=-0.07884146588              theirs=-0.07884146588              rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior L br-1              x=7/10,z=1/5,w=1/2              ours=0.1357003032                theirs=0.1357003032                rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior L br1               x=z=2/5,w=3/4 (removable)       ours=0.03846573822               theirs=0.03846573822               rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior L br1               x=z=1/2,w=3/5 (removable)       ours=0.06866117116               theirs=0.06866117116               rel=       -59
+0.   NUMERICAL AGREEMENT
+Hqqbar NLO interior L br1               x=z=1/2,w=3/5 eq scales         ours=0.01961747747               theirs=0.01961747747               rel=       -59
+0.   NUMERICAL AGREEMENT
+
+---- removable boundary x=z: our two branches vs Congyue at x=z ----
+Hqq NLO Delta T br-1 x=z limit          x=z+d, z=2/5                    ours=12.21748170                 theirs=12.21748170                 rel=         -10
+2  REMOVABLE-LIMIT CONVERGENCE
+Hqq NLO Delta T br1 x=z limit           x=z-d, z=2/5                    ours=12.21748169                 theirs=12.21748170                 rel=         -10
+2  REMOVABLE-LIMIT CONVERGENCE
+Hqq NLO Delta T br-1 x=z limit          x=z+d, z=1/2                    ours=19.34683253                 theirs=19.34683252                 rel=         -10
+2  REMOVABLE-LIMIT CONVERGENCE
+Hqq NLO Delta T br1 x=z limit           x=z-d, z=1/2                    ours=19.34683252                 theirs=19.34683252                 rel=         -10
+2  REMOVABLE-LIMIT CONVERGENCE
+Hqq NLO L0 T br-1 x=z limit             x=z+d, z=2/5                    ours=-26.22648906                theirs=-26.22648905                rel=         -10
+2  REMOVABLE-LIMIT CONVERGENCE
+Hqq NLO L0 T br1 x=z limit              x=z-d, z=2/5                    ours=-26.22648905                theirs=-26.22648905                rel=         -10
+2  REMOVABLE-LIMIT CONVERGENCE
+Hqq NLO L0 T br-1 x=z limit             x=z+d, z=1/2                    ours=-34.05122263                theirs=-34.05122262                rel=         -10
+1  REMOVABLE-LIMIT CONVERGENCE
+Hqq NLO L0 T br1 x=z limit              x=z-d, z=1/2                    ours=-34.05122262                theirs=-34.05122262                rel=         -10
+1  REMOVABLE-LIMIT CONVERGENCE
+Hqq NLO L1 T br-1 x=z limit             x=z+d, z=2/5                    ours=11.12046229                 theirs=11.12046229                 rel=       -59
+0.   EXACT AT BOUNDARY (offset-independent)
+Hqq NLO L1 T br1 x=z limit              x=z-d, z=2/5                    ours=11.12046229                 theirs=11.12046229                 rel=       -59
+0.   EXACT AT BOUNDARY (offset-independent)
+Hqq NLO L1 T br-1 x=z limit             x=z+d, z=1/2                    ours=11.12046229                 theirs=11.12046229                 rel=       -59
+0.   EXACT AT BOUNDARY (offset-independent)
+Hqq NLO L1 T br1 x=z limit              x=z-d, z=1/2                    ours=11.12046229                 theirs=11.12046229                 rel=       -59
+0.   EXACT AT BOUNDARY (offset-independent)
+
+---- distribution action on smooth test functions, w in (1/10,1) (endpoint-conversion test) ----
+Hqqbar action T t=1                     x=1/3,z=2/5                     ours=-0.1510960401               theirs=-0.1510960401               rel=       -19
+0.   NUMERICAL AGREEMENT (reduced precision)
+Hqqbar action T t=w                     x=1/3,z=2/5                     ours=-0.1770539364               theirs=-0.1770539364               rel=       -19
+0.   NUMERICAL AGREEMENT (reduced precision)
+Hqqbar action T t=Exp[w]                x=1/3,z=2/5                     ours=-0.4476452644               theirs=-0.4476452644               rel=       -19
+0.   NUMERICAL AGREEMENT (reduced precision)
+Hqqbar action L t=1                     x=1/3,z=2/5                     ours=0.03278482595               theirs=0.03278482595               rel=       -19
+0.   NUMERICAL AGREEMENT (reduced precision)
+Hqqbar action L t=w                     x=1/3,z=2/5                     ours=0.02249398082               theirs=0.02249398082               rel=       -19
+0.   NUMERICAL AGREEMENT (reduced precision)
+Hqqbar action L t=Exp[w]                x=1/3,z=2/5                     ours=0.06693231709               theirs=0.06693231709               rel=       -19
+0.   NUMERICAL AGREEMENT (reduced precision)
+Hqq action T t=1                        x=1/3,z=2/5                     ours=-2.274461008                theirs=-2.274461008                rel=         -16
+4  NUMERICAL AGREEMENT (reduced precision)
+Hqq action T t=w                        x=1/3,z=2/5                     ours=35.68057552                 theirs=35.68057552                 rel=       -19
+0.   NUMERICAL AGREEMENT (reduced precision)
+Hqq action T t=Exp[w]                   x=1/3,z=2/5                     ours=78.74838672                 theirs=78.74838672                 rel=       -19
+0.   NUMERICAL AGREEMENT (reduced precision)
+Hqq action L t=1                        x=1/3,z=2/5                     ours=2.826492804                 theirs=2.826492804                 rel=       -19
+0.   NUMERICAL AGREEMENT (reduced precision)
+Hqq action L t=w                        x=1/3,z=2/5                     ours=1.949840771                 theirs=1.949840771                 rel=       -20
+5.   NUMERICAL AGREEMENT (reduced precision)
+Hqq action L t=Exp[w]                   x=1/3,z=2/5                     ours=5.953642738                 theirs=5.953642738                 rel=       -20
+4.   NUMERICAL AGREEMENT (reduced precision)
+
+---- residual free symbols after conversion ----
+  ours Hqq T Delta br1                      none
+  ours Hqq T L0 br1                         none
+  ours Hqq T L1 br1                         none
+  ours Hqq T Regular br1                    none
+  ours Hqqbar T Delta br1                   none
+  ours Hqqbar T L0 br1                      none
+  ours Hqqbar T L1 br1                      none
+  ours Hqqbar T Regular br1                 none
+  congyue Hqq T Delta                       none
+  congyue Hqqbar T Delta                    none
+  congyue Hqq T Plus[0]                     none
+  congyue Hqq T Plus[1]                     none
+  EulerGamma coefficient in Congyue Hqq T Delta: InputForm[0]
+
+NUMERICAL_ROWS 126
+  NUMERICAL AGREEMENT               57
+  BOTH ZERO                         45
+  REMOVABLE-LIMIT CONVERGENCE       8
+  EXACT AT BOUNDARY (offset-independ4
+  NUMERICAL AGREEMENT (reduced preci12
+COMPARE_NUMERIC_COMPLETE

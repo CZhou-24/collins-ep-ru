@@ -3,8 +3,18 @@
    This is a representation conversion, not a change to an archived master.
    Each real-function substitution is conditional on a proved domain. *)
 HSPhysicalHermitian[value_,conditions_]:=Module[
- {polylogs,rules={},argument,converted,atoms,domains,symbols,forward,backward,
+ {polylogs,conjugated,rules={},argument,converted,atoms,domains,symbols,forward,backward,
   algebraic,hermitian,checks={},points,residuals},
+ (* A master continued from above its cut is recorded as Conjugate[PolyLog[2,x]].
+    Resolve that head first, with the conjugate branch identity, so no Conjugate
+    survives into the converted expression or the reconstruction residual.
+    Listing it before the plain rule keeps ReplaceAll from rewriting the inner
+    dilogarithm with the below-the-cut branch. *)
+ conjugated=DeleteDuplicates[Cases[value,Conjugate[PolyLog[2,_]],Infinity]];
+ Do[argument=Last[First[term]];
+  If[TrueQ[FullSimplify[argument>1,conditions]],
+   AppendTo[rules,term->Pi^2/3-Log[argument]^2/2-PolyLog[2,1/argument]+I Pi Log[argument]]],
+  {term,conjugated}];
  polylogs=DeleteDuplicates[Cases[value,PolyLog[2,_],Infinity]];
  Do[argument=Last[term];
   If[TrueQ[FullSimplify[argument>1,conditions]],
@@ -31,6 +41,7 @@ HSPhysicalHermitian[value_,conditions_]:=Module[
  <|"value"->hermitian,"pre_Hermitian_converted"->converted,"branch_rules"->rules,
   "real_function_domains"->domains,"conditions"->conditions,
   "conversion_identity"->HoldComplete[PolyLog[2,x]+PolyLog[2,1/x]==-Pi^2/6-Log[-x]^2/2],
-  "branch"->"Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Original archived values retained.",
+  "conjugate_branch_identity"->HoldComplete[Conjugate[PolyLog[2,x]]==Conjugate[PolyLog[2,x-I 0]]==PolyLog[2,x+I 0]],
+  "branch"->"Principal PolyLog on x>1; Log[-x]=Log[x]+I Pi. Conjugate[PolyLog[2,x]] is the value just above the cut. Original archived values retained.",
   "numerical_settings"-><|"precision_digits"->60,"absolute_tolerance"->10^-50,"points"->points|>,
   "numerical_conversion_residuals"->residuals|>];

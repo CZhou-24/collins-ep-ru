@@ -38,6 +38,29 @@ and uses existing exact identity checks. Focused follow-up checks do not
 transfer the original native pass to a new source revision. See
 [follow-up status](VIRTUAL_COMPARISON_FOLLOWUP.md).
 
+## Applied corrections after the recorded run
+
+Two corrections were applied after `20260916T095719Z-1584d7f6dd71`: the
+outgoing fragmentation measure in the transversity subtraction
+(`dzeta/zeta^(2-2 eps)`) and the V07 dilogarithm continuation in both archived
+virtual master banks. The affected virtual-master representations, subtraction
+terms, virtual assembly, finite hard coefficients and observable were rebuilt;
+the reused Born, real and reduction artifacts were checked byte-for-byte
+against their registration. The independent comparison then exposed a third
+defect: the scalar exporter truncated coefficient identifiers to three digits
+and silently overwrote 149 coefficients in each of the two transverse
+`Regular` blocks, in the recorded run as well; the exporter was fixed, guarded
+and regression-tested, and the r07 stages and export inventory were
+regenerated. What changed, what it changed, and the checks after the rebuild
+are recorded separately in
+[CORRECTION_PROVENANCE.md](CORRECTION_PROVENANCE.md). That rebuild is not a new
+native campaign and does not transfer the recorded acceptance above.
+
+An independent comparison of the inclusive polarized hard coefficients against
+Congyue's `SIDIS_HighPT_TT_HardCoefficients` package is kept separately in
+`../collins_support/reports/sidis-highpt-002-v07-subtraction-fix/README.md`,
+with its own verdict.
+
 ## Installation and ordinary execution
 
 Follow [installation and runtime setup](../collins_support/validators/sidis_highpt_docs/INSTALL.md).

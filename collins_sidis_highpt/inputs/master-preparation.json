@@ -5,9 +5,10 @@
     "kind": "exact representation of archived master selections, not new integration"
   },
   "virtual-master-bank.wl": {
-    "source": "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/virtual-portable-views-001/portable-virtual.wl",
-    "sha256": "28c2246670b4214411de62771d159d7bcdec31e72c5fff1b27569484bc646fc7",
-    "kind": "exact representation of archived master selections, not new integration"
+    "source": "/bigTMD/collins_support/states/runs/sidis-highpt-002-v07-subtraction-fix/masters/virtual-portable-views/portable-virtual.wl",
+    "sha256": "68094e464eb2e9d6ad22a2ad37dd04ebd6985ea36098991ef27d814c747f347c",
+    "kind": "exact representation of archived master selections, not new integration",
+    "regenerated_for": "V07 dilogarithm continuation correction (see CORRECTION_PROVENANCE.md)"
   },
   "real-master-basis.wl": {
     "source": "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/master-basis-001/real-master-basis.wl",
@@ -15,8 +16,9 @@
     "kind": "exact representation of archived master selections, not new integration"
   },
   "virtual-master-basis.wl": {
-    "source": "/bigTMD/collins_support/reports/sidis-highpt-001/continuation-001/master-basis-001/virtual-master-basis.wl",
-    "sha256": "e147a3c523f91c56b1b19de0fcbf9276c58733a55f3230acc4191a2d6dda38a2",
-    "kind": "exact representation of archived master selections, not new integration"
+    "source": "/bigTMD/collins_support/states/runs/sidis-highpt-002-v07-subtraction-fix/masters/master-basis/virtual-master-basis.wl",
+    "sha256": "5b36dc2d4e51966b61468db350fed793d5c7fc0cb50453703e39d4960ea36863",
+    "kind": "exact representation of archived master selections, not new integration",
+    "regenerated_for": "V07 dilogarithm continuation correction (see CORRECTION_PROVENANCE.md)"
   }
 }
