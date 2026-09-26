@@ -1,0 +1,53 @@
+{
+	"status":"FAIL",
+	"passed":1,
+	"total":4,
+	"source":"\/bigTMD\/collins_sidis_highpt\/common\/jet_matching.wl",
+	"source_sha256":"6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829",
+	"regression_sha256":"dcb3e9d00d96ee60551ede1b9600b8910d95f83ece952ff1833fb144f80bf800",
+	"wolfram_version":"15.0.0 for Linux x86 (64-bit) (May 31, 2026)",
+	"assumptions":"real integration variable 0 < z < 1; smooth polynomial test functions",
+	"downvalues":"{HoldPattern[HSJetDistributionAction[c_, test_, z_]] :> c[\"delta\"]*(test \/. z -> 1)}",
+	"rows":[
+		{
+			"component":"delta",
+			"coefficients":"<|\"delta\" -> 3, \"plus0\" -> 0, \"plus1\" -> 0, \"regular\" -> 0|>",
+			"test_function":"1 + z^2",
+			"actual":"6",
+			"expected":"6",
+			"residual":"0",
+			"tolerance":"0 (exact symbolic)",
+			"pass":true
+		},
+		{
+			"component":"plus0",
+			"coefficients":"<|\"delta\" -> 0, \"plus0\" -> 2, \"plus1\" -> 0, \"regular\" -> 0|>",
+			"test_function":"z",
+			"actual":"0",
+			"expected":"-2",
+			"residual":"2",
+			"tolerance":"0 (exact symbolic)",
+			"pass":false
+		},
+		{
+			"component":"plus1",
+			"coefficients":"<|\"delta\" -> 0, \"plus0\" -> 0, \"plus1\" -> 3, \"regular\" -> 0|>",
+			"test_function":"z",
+			"actual":"0",
+			"expected":"3",
+			"residual":"-3",
+			"tolerance":"0 (exact symbolic)",
+			"pass":false
+		},
+		{
+			"component":"regular",
+			"coefficients":"<|\"delta\" -> 0, \"plus0\" -> 0, \"plus1\" -> 0, \"regular\" -> 1 + z|>",
+			"test_function":"1 + z^2",
+			"actual":"0",
+			"expected":"25\/12",
+			"residual":"-25\/12",
+			"tolerance":"0 (exact symbolic)",
+			"pass":false
+		}
+	]
+}

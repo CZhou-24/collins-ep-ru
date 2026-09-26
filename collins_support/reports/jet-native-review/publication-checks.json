@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "scope": "Fresh four-case native regression plus lightweight syntax/import/path/source-identity and saved-evidence checks in publication. No focused comparison, campaign or probe rerun.",
+  "checkout": "/bigTMD/publication/collins-ep-ru-upload",
+  "python_syntax": [
+    "collins_support/checks/jet_native_comparison/report.py",
+    "collins_support/checks/jet_native_comparison/run.py",
+    "collins_support/checks/jet_native_comparison/source_correction.py",
+    "collins_support/checks/jet_native_comparison/test_source_correction.py",
+    "collins_support/checks/jet_native_comparison/verify_correction_report.py"
+  ],
+  "imports": [
+    {
+      "module": "source_correction",
+      "path": "collins_support/checks/jet_native_comparison/source_correction.py"
+    },
+    {
+      "module": "run",
+      "path": "collins_support/checks/jet_native_comparison/run.py"
+    },
+    {
+      "module": "report",
+      "path": "collins_support/checks/jet_native_comparison/report.py"
+    },
+    {
+      "module": "verify_correction_report",
+      "path": "collins_support/checks/jet_native_comparison/verify_correction_report.py"
+    }
+  ],
+  "source_identity_tests": {
+    "passed": 5,
+    "total": 5,
+    "exit_code": 0
+  },
+  "native_regression": {
+    "passed": 4,
+    "total": 4,
+    "actual_source": "/bigTMD/publication/collins-ep-ru-upload/collins_sidis_highpt/common/jet_matching.wl",
+    "source_sha256": "57e616a97afdcd2804fb8be9330ee52b7800fbca9feb50eaeaf595b9d3bbe1ba",
+    "regression_sha256": "dcb3e9d00d96ee60551ede1b9600b8910d95f83ece952ff1833fb144f80bf800"
+  },
+  "archived_regression": {
+    "old_passed": 1,
+    "corrected_passed": 4,
+    "total": 4,
+    "same_regression_script": true
+  },
+  "reused_comparison": {
+    "counts": {
+      "EXACT": 68,
+      "EXPECTED_NONZERO_DIFFERENCE": 27,
+      "NUMERICAL_AGREEMENT": 24
+    },
+    "discrepancies": 0,
+    "unresolved": 0,
+    "unchanged_rows": 117,
+    "corrected_rows": [
+      "auxiliary_distribution_helper/Tqq",
+      "auxiliary_distribution_helper/Uqq"
+    ],
+    "original_summary_sha256": "073a897994962abecc945048fdd141d2027567d6833ddb5105849d547eaccc3f",
+    "corrected_summary_sha256": "92fdc5deaa3e1a1a6d7707062989339ae48b0d9b8e6f874131bd351b58480293",
+    "native_extract_identical": true
+  },
+  "packaged_source_prerequisites": [
+    {
+      "path": "collins_ep_analytic_SIDIS/CONVENTIONS.md",
+      "sha256": "727ee51dfdf07e285025638d3c8b335f04fbef3333029346679d5d015a5fc173"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r00_definitions.wls",
+      "sha256": "f2040f9555e20fba465856409837f4dfcc6d967ef79ad3e27e78aac1d6b0ca6a"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r01_real_map.wls",
+      "sha256": "6018f50c14c9db259b76144365dde9760740c10810e83e717d19ca655a777f22"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r02_real_masters.wls",
+      "sha256": "02fd62423e7c2e658c3a7ebe3579eab67c4062f06a0415a550ff66439a91b687"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r03_real_assembly.wls",
+      "sha256": "8ad4261cd2fd9bad5798e4f53dbfe6315326839a2a1f768ac28c7572a992212e"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r07_assembly.wls",
+      "sha256": "9dc9ceeb3b9ae0d956209b5088698ded76a85916ed7ddd0326d8aed336afba9f"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_stage.wl",
+      "sha256": "ec53d03b600c914d9f002e4fcd7113b6c0ceab65a9f2b12e445157246377eaf6"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_io.wl",
+      "sha256": "49e992ab8d8bd741bc39cae37ce03bc8b90916ee268a41a8695957f68137080c"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_generation.wl",
+      "sha256": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_transforms.wl",
+      "sha256": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_assembly.wl",
+      "sha256": "1cba04b5a7586ae012cce84588bd8f1fece39f68dc0460da909b688ce3286f7c"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_tmd_generation.wl",
+      "sha256": "c02b3de797fd547ba9efef952ecfb6effbc0610797842094d8fd52c87c89b309"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_tmd_assembly.wl",
+      "sha256": "95e664872f5a323643dd1f6c3a177af380752b6d39107b4b14ef665006ec4087"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_hf_projection.wl",
+      "sha256": "20656fddf3fe58af2ad956b2ee0b1058310ed4101f630af2a954072c0636e98f"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_observable_helpers.wl",
+      "sha256": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc"
+    },
+    {
+      "path": "collins_sidis_highpt/common/fragmentation.wl",
+      "sha256": "be48c1a33cafe268542cdc4e3e245320676d4750cfbbbe748c47be88eebc436e"
+    },
+    {
+      "path": "collins_sidis_highpt/common/jet_matching.wl",
+      "sha256": "57e616a97afdcd2804fb8be9330ee52b7800fbca9feb50eaeaf595b9d3bbe1ba"
+    },
+    {
+      "path": "collins_sidis_highpt/common/tmd_evolution.wl",
+      "sha256": "df5155d6f9c1edb128995547e7fc677375bddda7e8ee71303d1e883039aa435c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_assembly.wl",
+      "sha256": "ed0f629f8df3ff5719e47d0c3da60ddc01fbd577089e8334c4172cda0dd0b8e8"
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_flavors.wl",
+      "sha256": "0e50f68ade9dd9167bddd98159e36b9d14dbe2ca9d00a1cebb4d77ecb271366f"
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_convolution.wl",
+      "sha256": "ec0b68e32d46f14fbba0c2ac3587c85eb0d77fa0851c37fa3ec8fbc1075ee9b5"
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_distribution_actions.wl",
+      "sha256": "f9e0eff39a10756c0a7d100535fbc620d39f354e616ec3fb927f97424b3bcf94"
+    },
+    {
+      "path": "collins_sidis_highpt/references/2311.00672v2/source/main.tex",
+      "sha256": "1ad9ad1c6e458f388563162a4132b45364ad1384acc601e43eafff9d21de2d77"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/assemble_native_observable.wls",
+      "sha256": "96cf6355a7110875e34d188a87204817f8da8a6decfdfa5c26cb72ce1f72ede1"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/jet_matching_check.wls",
+      "sha256": "f1cc6a4bf2fe149f65a5464b29922bdb51cfc7451e78cf07741cebe5e7c433ab"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/jet_tmd_rg_check.wls",
+      "sha256": "6db81d32bca8f2ff3b3a7d5b22d9409ae001d32c0344d8e91b840331c09316aa"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/ru_runtime.json",
+      "sha256": "f5f67891501f721571b947d7d07bab5d29da3bf9936f6cb6799eabab045dc8fa"
+    }
+  ],
+  "external_saved_input_count": 34,
+  "full_comparison_run": false,
+  "campaigns_run": false,
+  "probes_run": false,
+  "qualification": "High-pT intrinsic Collins input is supplied from ep; this is not independent high-pT intrinsic matching or renewed historical acceptance.",
+  "markdown_links": {
+    "checked": 49,
+    "unresolved": [],
+    "scope": "All selected Markdown documents; every relative link resolves inside the publication checkout."
+  },
+  "preservation": {
+    "historical_local_files_unchanged": 68,
+    "unrelated_files_unchanged": {
+      "publication": 10,
+      "active": 3
+    },
+    "all_selected_source_destination_hashes_match": true
+  },
+  "staged_diff_review": {
+    "git_diff_check_exit_code": 2,
+    "warning_types": {
+      "trailing whitespace.": 3633
+    },
+    "warning_counts_by_file": {
+      "collins_support/reports/jet-native-comparison-001/verified/comparison-expressions.wl": 871,
+      "collins_support/reports/jet-native-comparison-001/verified/native-extract.wl": 835,
+      "collins_support/reports/jet-native-comparison-002/baseline-comparison.csv": 120,
+      "collins_support/reports/jet-native-comparison-002/comparison/comparison-expressions.wl": 873,
+      "collins_support/reports/jet-native-comparison-002/comparison/distribution-regression/regression.wl": 25,
+      "collins_support/reports/jet-native-comparison-002/comparison/native-extract.wl": 835,
+      "collins_support/reports/jet-native-comparison-002/regression-after/regression.wl": 25,
+      "collins_support/reports/jet-native-comparison-002/regression-before/regression.wl": 24,
+      "collins_support/reports/jet-native-review/native-regression/regression.wl": 25
+    },
+    "decision": "Preserve hashed native Wolfram exports and archived CSV bytes exactly; do not reformat scientific evidence to remove whitespace warnings. No warning touches production source or reusable check code.",
+    "all_61_staged_blobs_match_active_bytes": true
+  }
+}

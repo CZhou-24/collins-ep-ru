@@ -1,0 +1,9 @@
+{
+  "repo": "/bigTMD",
+  "out": "/bigTMD/collins_support/reports/jet-native-comparison-002/comparison",
+  "ep_run": "/bigTMD/collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd",
+  "highpt_run": "/bigTMD/collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71",
+  "production": "/bigTMD/collins_ep_analytic_SIDIS",
+  "output": "/bigTMD/collins_support/reports/jet-native-comparison-002/comparison",
+  "validation_probe": false
+}

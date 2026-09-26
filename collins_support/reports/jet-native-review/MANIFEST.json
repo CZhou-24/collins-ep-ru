@@ -1,0 +1,383 @@
+{
+  "scope": "Only the distribution grouping fix, reusable native jet checks, byte-preserved completed comparison/correction evidence and fresh publication regression/review. No native comparison replay was executed for publication.",
+  "excluded": [
+    "raw state trees",
+    "caches",
+    "environments",
+    "cleanup records",
+    "archives",
+    "unrelated reorganizations"
+  ],
+  "historical_adapter_documentation_changes": [
+    {
+      "path": "collins_support/checks/jet_native_comparison/README.md",
+      "recorded_sha256": "7a94b6326fa445de4a160cbb991f710b530e4e4ca949ef0cde98c563775b57cf",
+      "publication_sha256": "b920bed9a08aa2e0021e96832caabbc773afdac241d3d2985a917cdfd878a03d",
+      "reason": "Portable publication documentation and explicit external prerequisite instructions; scientific adapters unchanged."
+    }
+  ],
+  "added_input_inventory": "collins_support/checks/jet_native_comparison/external-inputs.json",
+  "files": [
+    {
+      "path": "collins_sidis_highpt/common/jet_matching.wl",
+      "bytes": 1613,
+      "sha256": "57e616a97afdcd2804fb8be9330ee52b7800fbca9feb50eaeaf595b9d3bbe1ba",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/README.md",
+      "bytes": 7216,
+      "sha256": "b920bed9a08aa2e0021e96832caabbc773afdac241d3d2985a917cdfd878a03d",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/compare_native.wls",
+      "bytes": 18603,
+      "sha256": "0984368b5fc4fa3df61acfa7756ad686831b393386ed1378059bd38c7787b45c",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/external-inputs.json",
+      "bytes": 11250,
+      "sha256": "6d06358628b83d0209a3d24c625ccc2dbd05ffe3e51f991d2a5120ae3eec436d",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/extract_native.wls",
+      "bytes": 2106,
+      "sha256": "d1bc794aa04b9d4f73c3bd1587c2a547a1efd23344b4ff2e971aa34e24482e79",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/quadrature.wl",
+      "bytes": 2071,
+      "sha256": "604b0299cc91e398571b58dadcde7541cd585c15b7fbbf904ea001164f1f3e9a",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/regress_distribution_action.wls",
+      "bytes": 2782,
+      "sha256": "dcb3e9d00d96ee60551ede1b9600b8910d95f83ece952ff1833fb144f80bf800",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/report.py",
+      "bytes": 12616,
+      "sha256": "6668b3e06598a2aae4e17214dd474cf1a8d13faa524d0e811ec1976b1950a68f",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/run.py",
+      "bytes": 12834,
+      "sha256": "624f8372b8c3e60c5260cf1535540b664ac64633bbfb7e0ab2f02765d1a34368",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/source-correction.json",
+      "bytes": 666,
+      "sha256": "a0034cab203a50990e5e5e2660ff70cff3112e128db41f23ea30f1f9104e601d",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/source_correction.py",
+      "bytes": 2254,
+      "sha256": "2d74834b640d4ef092e5014c3cdfdbf0ac911ca9d4cdcef91aef5ef4c11b4c7b",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/test_source_correction.py",
+      "bytes": 2227,
+      "sha256": "d32ff414b8a716e9108742f4a65144a311d252a8a3efc501afba030851404550",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/verify_correction_report.py",
+      "bytes": 9913,
+      "sha256": "10c6b13c4b8be8babc37fb92c3125f6450bbaaa3c685679535c61508824eb53d",
+      "role": "reusable check/source"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/REPORT.md",
+      "bytes": 9501,
+      "sha256": "cf27e7792075be36c15b38ba92e92dd812dadf0dddc8017368a7c58851fb99ff",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/compare_native.log",
+      "bytes": 7786,
+      "sha256": "f1624fb2ee3b7f139d018937740392ba146992ad99f0886aee58f5298dc387cc",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/comparison-expressions.wl",
+      "bytes": 129169,
+      "sha256": "cc9c91d36d967fa224552a35ff014de727b3d5e819879efc8d7dce9fdce3cdc8",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/comparison.csv",
+      "bytes": 132254,
+      "sha256": "b87001988a8524c20d4afdb5e641136cf15f0ffb6c23e801747b34a580f17066",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/context.json",
+      "bytes": 518,
+      "sha256": "7ec270f1e3a936c030d40b23756c6a95f2b7e4a96cd10b3963951be9a4d266e0",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/extract_native.log",
+      "bytes": 5953,
+      "sha256": "3e3a730501a183c3b7946e74976346af55b3eba411abf66d258bea32ce461977",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/native-extract.wl",
+      "bytes": 111557,
+      "sha256": "92460f3c8c5bca9dee20ff90631a76fd1c8c5394dd6ccca9dce2a125e373a501",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/native-results.json",
+      "bytes": 151173,
+      "sha256": "ae2209d811f0e774c9178514bbb8a2062c8ad51c590b50d83668120fb7190d0f",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/provenance.json",
+      "bytes": 34761,
+      "sha256": "2afada45a9af98ab334dda788554eaa6679c4e0113222e4e5c6556c2320c248a",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/summary.json",
+      "bytes": 158050,
+      "sha256": "073a897994962abecc945048fdd141d2027567d6833ddb5105849d547eaccc3f",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/REPORT.md",
+      "bytes": 3316,
+      "sha256": "d53641d9d369a05e8c539f28c0a5613600ed172993e6e8636f1b18e16f02d38f",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/baseline-comparison.csv",
+      "bytes": 10979,
+      "sha256": "93183a5a1a9325a97c4b025a77cb881bcc751108232ab2f609fea85e88b7ce6e",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/REPORT.md",
+      "bytes": 9968,
+      "sha256": "9c2d6be2ccf5b5fd54f683615bb63066e09c5752b07c0891e502bb05681cc89d",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/compare_native.log",
+      "bytes": 7691,
+      "sha256": "d8a5190a55ff7510fc65bb72b7a319497890f0b050a6380ef793c7a0e8fc976f",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/comparison-expressions.wl",
+      "bytes": 129353,
+      "sha256": "8a2fd3dd5d8a84745292a511a9c7d367ce98ba2ff5a395f7b960a54972229230",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/comparison.csv",
+      "bytes": 132368,
+      "sha256": "eccf1afdb7a02afa57e57e70401aeac9ad207b6d1ac905dea30949dce8066fc7",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/context.json",
+      "bytes": 522,
+      "sha256": "06ee5726202ada8389f033c45ca3cd6c37772666e2f39be2032762e3d1ef23d2",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/distribution-regression/regression.json",
+      "bytes": 1778,
+      "sha256": "b3d4407a84b7e2f3d2ed92dd3b9aea8ac6f48f3ddf2fbe98468f1a33869b207f",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/distribution-regression/regression.wl",
+      "bytes": 1798,
+      "sha256": "dfe1d63b0bbbf9da927fba14de5c47efb44021e21f536e4b580e72ae3e31201f",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/extract_native.log",
+      "bytes": 5953,
+      "sha256": "3e3a730501a183c3b7946e74976346af55b3eba411abf66d258bea32ce461977",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/native-extract.wl",
+      "bytes": 111557,
+      "sha256": "92460f3c8c5bca9dee20ff90631a76fd1c8c5394dd6ccca9dce2a125e373a501",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/native-results.json",
+      "bytes": 151267,
+      "sha256": "08d41e3b81eaf043ecc975670fe3dd9f4718a23b6a0ac32a47e1518f15bbefc2",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/provenance.json",
+      "bytes": 36873,
+      "sha256": "fc9b61ef22aee409cd6fc9a985fc4929f869bde7c9b8f9786ee782bfc378218c",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/regress_distribution_action.log",
+      "bytes": 390,
+      "sha256": "8376af2942c982b8b21c1b63846f177d4422e8dad957ed7273b668730dbec190",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/comparison/summary.json",
+      "bytes": 161624,
+      "sha256": "92fdc5deaa3e1a1a6d7707062989339ae48b0d9b8e6f874131bd351b58480293",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/correction-verification.json",
+      "bytes": 923,
+      "sha256": "04b75dec440c29a511a40659a13d42803722ef654f8b5659b86a354856fa2949",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/focused-python-checks.json",
+      "bytes": 210,
+      "sha256": "ca60a7b8dfca6530e7ef5b2daa337fb95b387f251675250c9f64e5b8e1babe9d",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/jet_matching.before.wl",
+      "bytes": 1611,
+      "sha256": "6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/preservation-after.json",
+      "bytes": 110958,
+      "sha256": "b0892d8d5f4ef5dc2ba313cccfca1b5d6dafd5239e0b9ef3a0dc9f128fcf8859",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/preservation-before.json",
+      "bytes": 70037,
+      "sha256": "c4e6957977505b94f9c3a964d6be957980d477e86b547045f519d849061b85f2",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/regression-after-execution.json",
+      "bytes": 333,
+      "sha256": "81f6fda2732cb32414d4136f7ed79617953a8514519e02b5991ccc5eba1c894a",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/regression-after.log",
+      "bytes": 390,
+      "sha256": "8376af2942c982b8b21c1b63846f177d4422e8dad957ed7273b668730dbec190",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/regression-after/regression.json",
+      "bytes": 1778,
+      "sha256": "b3d4407a84b7e2f3d2ed92dd3b9aea8ac6f48f3ddf2fbe98468f1a33869b207f",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/regression-after/regression.wl",
+      "bytes": 1798,
+      "sha256": "dfe1d63b0bbbf9da927fba14de5c47efb44021e21f536e4b580e72ae3e31201f",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/regression-before-execution.json",
+      "bytes": 323,
+      "sha256": "e110e8df9c0d0b883d168a6ad6fd4217b265b30012df70f2d3b2c76386dfd313",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/regression-before.log",
+      "bytes": 391,
+      "sha256": "a3f20500e9a2069140b68a640934e5846adef478ac1649ebdd29d97b1a8aebe9",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/regression-before/regression.json",
+      "bytes": 1611,
+      "sha256": "95f17c8ee446322b9a4ff267eaaf6f3d9e5cbb1d907c625a386e4acec1bca89c",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/regression-before/regression.wl",
+      "bytes": 1624,
+      "sha256": "46686b616dc91da02b6505d6b3c9ee87324160ad10bce669809478c4fa4d745e",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/source-correction.diff",
+      "bytes": 839,
+      "sha256": "0ce1dced1affe91ac558fd9bb18f716942828d87e77304c474615e3e4dbce344",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-002/source-identity-tests.log",
+      "bytes": 529,
+      "sha256": "a4eb752ea575a8c48fd810089e9223e3858eafd11ce05ff5c4075dc2c86e8e8f",
+      "role": "byte-preserved historical comparison/correction evidence"
+    },
+    {
+      "path": "collins_support/reports/jet-native-review/REPORT.md",
+      "bytes": 6005,
+      "sha256": "1f893e551714dd043553919928a22bf9f01dd1fd889eb6d443279ba9d9338166",
+      "role": "publication review or fresh lightweight publication verification"
+    },
+    {
+      "path": "collins_support/reports/jet-native-review/native-execution.json",
+      "bytes": 782,
+      "sha256": "18b3078a787761ce97cc33c27536c4738e7e4256c319a3fb1d64c5b26ed07d8c",
+      "role": "publication review or fresh lightweight publication verification"
+    },
+    {
+      "path": "collins_support/reports/jet-native-review/native-regression.log",
+      "bytes": 390,
+      "sha256": "8376af2942c982b8b21c1b63846f177d4422e8dad957ed7273b668730dbec190",
+      "role": "publication review or fresh lightweight publication verification"
+    },
+    {
+      "path": "collins_support/reports/jet-native-review/native-regression/regression.json",
+      "bytes": 1813,
+      "sha256": "715444d5197a68a648ee6a15d9f0f33da9e67fc892110a344e32d7ecaad8dc1f",
+      "role": "publication review or fresh lightweight publication verification"
+    },
+    {
+      "path": "collins_support/reports/jet-native-review/native-regression/regression.wl",
+      "bytes": 1798,
+      "sha256": "dfe1d63b0bbbf9da927fba14de5c47efb44021e21f536e4b580e72ae3e31201f",
+      "role": "publication review or fresh lightweight publication verification"
+    },
+    {
+      "path": "collins_support/reports/jet-native-review/publication-checks.json",
+      "bytes": 8762,
+      "sha256": "e2d36eca5aa98718b7a76f3c880dea62017bd9008f960842f7018fbc8dd2ca1e",
+      "role": "publication review or fresh lightweight publication verification"
+    },
+    {
+      "path": "collins_support/reports/jet-native-review/source-identity-tests.log",
+      "bytes": 529,
+      "sha256": "a4eb752ea575a8c48fd810089e9223e3858eafd11ce05ff5c4075dc2c86e8e8f",
+      "role": "publication review or fresh lightweight publication verification"
+    }
+  ],
+  "self_excluded": "MANIFEST.json cannot contain its own digest; Git records it."
+}

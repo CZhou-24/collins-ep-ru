@@ -1,0 +1,5 @@
+"delta"": ""PASS""; actual=""6""; expected=""6""; residual=""0"
+"plus0"": ""PASS""; actual=""-2""; expected=""-2""; residual=""0"
+"plus1"": ""PASS""; actual=""3""; expected=""3""; residual=""0"
+"regular"": ""PASS""; actual=""25/12""; expected=""25/12""; residual=""0"
+"Native distribution regression: "4"/4; source SHA256 ""57e616a97afdcd2804fb8be9330ee52b7800fbca9feb50eaeaf595b9d3bbe1ba"

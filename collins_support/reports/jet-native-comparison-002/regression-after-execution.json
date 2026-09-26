@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/opt/Wolfram/WolframEngine/15.0/Executables/WolframKernel",
+    "-noprompt",
+    "-script",
+    "/bigTMD/collins_support/checks/jet_native_comparison/regress_distribution_action.wls"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.888744592666626,
+  "source": "actual production file after grouping correction"
+}

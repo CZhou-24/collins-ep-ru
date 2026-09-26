@@ -1,0 +1,10 @@
+test_actual_correction_recovers_exact_historical_hash (__main__.SourceCorrectionTests) ... ok
+test_further_source_edit_is_rejected (__main__.SourceCorrectionTests) ... ok
+test_recording_a_new_hash_cannot_waive_a_formula_edit (__main__.SourceCorrectionTests) ... ok
+test_unrecognized_historical_identity_is_rejected (__main__.SourceCorrectionTests) ... ok
+test_unrelated_path_is_not_exempted (__main__.SourceCorrectionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK

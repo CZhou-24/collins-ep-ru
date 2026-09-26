@@ -1,0 +1,14 @@
+--- historical/common/jet_matching.wl
++++ corrected/common/jet_matching.wl
+@@ -20,9 +20,9 @@
+  <|"delta"->Factor[Coefficient[v,dd]],"plus0"->Factor[c0/.z->1],
+  "plus1"->Factor[c1/.z->1],
+  "regular"->Factor[reg+(c0-(c0/.z->1))/(1-z)+(c1-(c1/.z->1))Log[1-z]/(1-z)]|>];
+-HSJetDistributionAction[c_,test_,z_]:=c["delta"](test/.z->1)
++HSJetDistributionAction[c_,test_,z_]:=(c["delta"](test/.z->1)
+  +Inactive[Integrate][c["plus0"](test-(test/.z->1))/(1-z)
+- +c["plus1"]Log[1-z](test-(test/.z->1))/(1-z)+c["regular"]test,{z,0,1}];
++ +c["plus1"]Log[1-z](test-(test/.z->1))/(1-z)+c["regular"]test,{z,0,1}]);
+ (* Coefficient expansion only. Nonperturbative PDFs/TMDs remain symbolic;
+    this operator never fills in a missing hard C1 with a model value. *)
+ HSTruncateHardJet[c0_,c1_,j0_,j1_,a_]:=Normal[Series[(a c0+a^2 c1)(j0+a j1),{a,0,2}]];

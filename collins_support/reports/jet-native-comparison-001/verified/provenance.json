@@ -1,0 +1,641 @@
+{
+  "files": [
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "role": "historical run identity/completion",
+      "bytes": 26737,
+      "sha256": "fddf9e5a16918fd2d48e0920f39c3102c9fbee300bf47bd8fbf2606c31cf95a4"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r00.json",
+      "role": "historical receipt",
+      "bytes": 6169,
+      "sha256": "950eb4275796ef58a6e116ca8d47b22baa5225481bc5fe6a5f030d67fec22ca1"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r00_result/measured_soft_operators.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 22936,
+      "sha256": "bc04015e691f4a523e1549c3f1871ded5c22bf2d7b53ba7ee0c04f9b11573388",
+      "recorded_sha256": "bc04015e691f4a523e1549c3f1871ded5c22bf2d7b53ba7ee0c04f9b11573388",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r00.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r00_result/measured_tmd_operators.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 26886,
+      "sha256": "03debce50db0c8e82df2cd66bef72e4bad20c902e5a72950de7b38635a4ba09a",
+      "recorded_sha256": "03debce50db0c8e82df2cd66bef72e4bad20c902e5a72950de7b38635a4ba09a",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r00.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r00_result/measured_hf_operators.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 328892,
+      "sha256": "f70e941d6e54319aec75f120220538982f162aa5e31283e3ee1d87c5fb7f4e8b",
+      "recorded_sha256": "f70e941d6e54319aec75f120220538982f162aa5e31283e3ee1d87c5fb7f4e8b",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r00.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r01.json",
+      "role": "historical receipt",
+      "bytes": 20039,
+      "sha256": "1eaf42535e0a4ce49549e0a2733c144a0f50d0259e0dd9412b0efd3e1f3fddc5"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r01_result/measured_integrands.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 158427,
+      "sha256": "bb24e8fa0e1f7d3b15bb05872931baba4f3a8613d583bf83db59ebea2768a28b",
+      "recorded_sha256": "bb24e8fa0e1f7d3b15bb05872931baba4f3a8613d583bf83db59ebea2768a28b",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r01.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r01_result/jobs/measured/reduction_certificate.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 378,
+      "sha256": "afaeeab93c1d2b68f05fc068c64d5b18809a985adb8bd313e7150b0d64358b23",
+      "recorded_sha256": "afaeeab93c1d2b68f05fc068c64d5b18809a985adb8bd313e7150b0d64358b23",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r01.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r02.json",
+      "role": "historical receipt",
+      "bytes": 30851,
+      "sha256": "39fd818bd4d7e5c21fbdfe880b3f5c21fb31e6a9a9d108a909a4d2482a66dbd1"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r02_result/jobs/measured/masters.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 54,
+      "sha256": "f3170103108a326dcd5f972a4425db0b06e95bab080be66d1a991d633c34cf90",
+      "recorded_sha256": "f3170103108a326dcd5f972a4425db0b06e95bab080be66d1a991d633c34cf90",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r02.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r02_result/jobs/measured/subtropica_execution.json",
+      "role": "reused native expression/evidence",
+      "bytes": 116,
+      "sha256": "229fbe98a41a870b0d07434c99e9c87562c7acce9bff07cd8ca8187d473693b8",
+      "recorded_sha256": "229fbe98a41a870b0d07434c99e9c87562c7acce9bff07cd8ca8187d473693b8",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r02.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r03.json",
+      "role": "historical receipt",
+      "bytes": 2524,
+      "sha256": "55fd0422ef1672463784bffe3874cc2beecacf48076a2bae564cc7b5664dc4e2"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r03_result/measured_coefficients.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 104595,
+      "sha256": "320a39323c2e57cde45586fe8753352d4ffba43f47b8b4b83a473bff268e810e",
+      "recorded_sha256": "320a39323c2e57cde45586fe8753352d4ffba43f47b8b4b83a473bff268e810e",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r03.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r03_result/packet.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 49447,
+      "sha256": "bd06dce6d6b9153985b0e88de6facb33578b750bf0bce43b1e83cdaddcb4a0ba",
+      "recorded_sha256": "bd06dce6d6b9153985b0e88de6facb33578b750bf0bce43b1e83cdaddcb4a0ba",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r03.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r03_result/execution.log",
+      "role": "reused native expression/evidence",
+      "bytes": 66,
+      "sha256": "79243b1d588e6bec7f2d1343ab988f96f0eadb7f454d0802822a32bf76beec49",
+      "recorded_sha256": "79243b1d588e6bec7f2d1343ab988f96f0eadb7f454d0802822a32bf76beec49",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r03.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r07.json",
+      "role": "historical receipt",
+      "bytes": 2200,
+      "sha256": "ce96b9cbd9ae7f6dbea8dcd83f177ff5257bfee30e6d97ede8b331a471865cb0"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r07_result/observable_assembly.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 13717,
+      "sha256": "4699082cb91d8d655b68a72ebfc9c49568923dc29990881a9e56eb0860faf6d5",
+      "recorded_sha256": "4699082cb91d8d655b68a72ebfc9c49568923dc29990881a9e56eb0860faf6d5",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r07_result/convention_conversion.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 16068,
+      "sha256": "705bf2b6b6fd86be4eb0ce382a9fadad9c54ba2617769b6bcfafe10bac68abb1",
+      "recorded_sha256": "705bf2b6b6fd86be4eb0ce382a9fadad9c54ba2617769b6bcfafe10bac68abb1",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r07_result/packet.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 71519,
+      "sha256": "d034605473d7215927346a171191088a7dde2f4a60169c3d18f9aaf9669b45ab",
+      "recorded_sha256": "d034605473d7215927346a171191088a7dde2f4a60169c3d18f9aaf9669b45ab",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r07_result/execution.log",
+      "role": "reused native expression/evidence",
+      "bytes": 73,
+      "sha256": "1bd9342c86168f3f9f51c9f692ceddfcf98b7d7c6e00dcf9ba2c34021a25832e",
+      "recorded_sha256": "1bd9342c86168f3f9f51c9f692ceddfcf98b7d7c6e00dcf9ba2c34021a25832e",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/CONVENTIONS.md",
+      "role": "active generating source/reference",
+      "bytes": 19601,
+      "sha256": "727ee51dfdf07e285025638d3c8b335f04fbef3333029346679d5d015a5fc173",
+      "recorded_sha256": "727ee51dfdf07e285025638d3c8b335f04fbef3333029346679d5d015a5fc173",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r00_definitions.wls",
+      "role": "active generating source/reference",
+      "bytes": 4258,
+      "sha256": "f2040f9555e20fba465856409837f4dfcc6d967ef79ad3e27e78aac1d6b0ca6a",
+      "recorded_sha256": "f2040f9555e20fba465856409837f4dfcc6d967ef79ad3e27e78aac1d6b0ca6a",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r01_real_map.wls",
+      "role": "active generating source/reference",
+      "bytes": 5628,
+      "sha256": "6018f50c14c9db259b76144365dde9760740c10810e83e717d19ca655a777f22",
+      "recorded_sha256": "6018f50c14c9db259b76144365dde9760740c10810e83e717d19ca655a777f22",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r02_real_masters.wls",
+      "role": "active generating source/reference",
+      "bytes": 3843,
+      "sha256": "02fd62423e7c2e658c3a7ebe3579eab67c4062f06a0415a550ff66439a91b687",
+      "recorded_sha256": "02fd62423e7c2e658c3a7ebe3579eab67c4062f06a0415a550ff66439a91b687",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r03_real_assembly.wls",
+      "role": "active generating source/reference",
+      "bytes": 7151,
+      "sha256": "8ad4261cd2fd9bad5798e4f53dbfe6315326839a2a1f768ac28c7572a992212e",
+      "recorded_sha256": "8ad4261cd2fd9bad5798e4f53dbfe6315326839a2a1f768ac28c7572a992212e",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r07_assembly.wls",
+      "role": "active generating source/reference",
+      "bytes": 10962,
+      "sha256": "9dc9ceeb3b9ae0d956209b5088698ded76a85916ed7ddd0326d8aed336afba9f",
+      "recorded_sha256": "9dc9ceeb3b9ae0d956209b5088698ded76a85916ed7ddd0326d8aed336afba9f",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_stage.wl",
+      "role": "active generating source/reference",
+      "bytes": 1119,
+      "sha256": "ec53d03b600c914d9f002e4fcd7113b6c0ceab65a9f2b12e445157246377eaf6",
+      "recorded_sha256": "ec53d03b600c914d9f002e4fcd7113b6c0ceab65a9f2b12e445157246377eaf6",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_io.wl",
+      "role": "active generating source/reference",
+      "bytes": 1116,
+      "sha256": "49e992ab8d8bd741bc39cae37ce03bc8b90916ee268a41a8695957f68137080c",
+      "recorded_sha256": "49e992ab8d8bd741bc39cae37ce03bc8b90916ee268a41a8695957f68137080c",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_generation.wl",
+      "role": "active generating source/reference",
+      "bytes": 11792,
+      "sha256": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20",
+      "recorded_sha256": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_transforms.wl",
+      "role": "active generating source/reference",
+      "bytes": 5770,
+      "sha256": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990",
+      "recorded_sha256": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_assembly.wl",
+      "role": "active generating source/reference",
+      "bytes": 7067,
+      "sha256": "1cba04b5a7586ae012cce84588bd8f1fece39f68dc0460da909b688ce3286f7c",
+      "recorded_sha256": "1cba04b5a7586ae012cce84588bd8f1fece39f68dc0460da909b688ce3286f7c",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_tmd_generation.wl",
+      "role": "active generating source/reference",
+      "bytes": 21803,
+      "sha256": "c02b3de797fd547ba9efef952ecfb6effbc0610797842094d8fd52c87c89b309",
+      "recorded_sha256": "c02b3de797fd547ba9efef952ecfb6effbc0610797842094d8fd52c87c89b309",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_tmd_assembly.wl",
+      "role": "active generating source/reference",
+      "bytes": 8790,
+      "sha256": "95e664872f5a323643dd1f6c3a177af380752b6d39107b4b14ef665006ec4087",
+      "recorded_sha256": "95e664872f5a323643dd1f6c3a177af380752b6d39107b4b14ef665006ec4087",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_hf_projection.wl",
+      "role": "active generating source/reference",
+      "bytes": 11624,
+      "sha256": "20656fddf3fe58af2ad956b2ee0b1058310ed4101f630af2a954072c0636e98f",
+      "recorded_sha256": "20656fddf3fe58af2ad956b2ee0b1058310ed4101f630af2a954072c0636e98f",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_observable_helpers.wl",
+      "role": "active generating source/reference",
+      "bytes": 1305,
+      "sha256": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc",
+      "recorded_sha256": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc",
+      "recorded_by": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/run.json",
+      "role": "historical run identity/completion",
+      "bytes": 58484,
+      "sha256": "12daaa9c56add15e33f20f42186dc3b7a9c980f28363be4ea741979bf82b482e"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "role": "historical receipt",
+      "bytes": 95689,
+      "sha256": "027bc58841c1b230d6fa578e478a227d38c0ddd92354e0b049d516f017c72904"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/finite-jet/jet-matching-native.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 1906,
+      "sha256": "6d5d6ba52a752bca6ec361c20ea777501b4313c351a3e34d9f5befa48e681da6",
+      "recorded_sha256": "6d5d6ba52a752bca6ec361c20ea777501b4313c351a3e34d9f5befa48e681da6",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/finite-jet/jet-matching-native.json",
+      "role": "reused native expression/evidence",
+      "bytes": 4896,
+      "sha256": "a978df801f26923ab123002c897916508b7a46a8bc4a008827c55a6c635c17fd",
+      "recorded_sha256": "a978df801f26923ab123002c897916508b7a46a8bc4a008827c55a6c635c17fd",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/finite-jet.log",
+      "role": "reused native expression/evidence",
+      "bytes": 64,
+      "sha256": "039411f8f552b3f0ea621c36d8bd5f54505ebc3f47e756b86fe159a813d13fd6",
+      "recorded_sha256": "039411f8f552b3f0ea621c36d8bd5f54505ebc3f47e756b86fe159a813d13fd6",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/jet-TMD-RG/rg.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 3781,
+      "sha256": "9072a3610a39137b67b1993e6b2897ddc334b93882fc2a0db5be0a592d62298d",
+      "recorded_sha256": "9072a3610a39137b67b1993e6b2897ddc334b93882fc2a0db5be0a592d62298d",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/jet-TMD-RG.log",
+      "role": "reused native expression/evidence",
+      "bytes": 86,
+      "sha256": "f862edf5d80a29292e54720c6f69b7f00c548a12746e2a93fdb0c2875d72fbf6",
+      "recorded_sha256": "f862edf5d80a29292e54720c6f69b7f00c548a12746e2a93fdb0c2875d72fbf6",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/observable.log",
+      "role": "reused native expression/evidence",
+      "bytes": 335,
+      "sha256": "44d90ab5ac54ca1d62c7cf4aa6e50ec6ccd7aa3ffcf6bb45025b244e6af63c62",
+      "recorded_sha256": "44d90ab5ac54ca1d62c7cf4aa6e50ec6ccd7aa3ffcf6bb45025b244e6af63c62",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/observable/UU_Hqq.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 24101915,
+      "sha256": "61f15925c8d49e0fa417bf0ae87e52b61e2fb812f808933238b5d6a5794fc43a",
+      "recorded_sha256": "61f15925c8d49e0fa417bf0ae87e52b61e2fb812f808933238b5d6a5794fc43a",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/observable/UT_Hqq.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 42071367,
+      "sha256": "880b4d698445048820322568f8d852385c33f692c267879c37bc421607261c55",
+      "recorded_sha256": "880b4d698445048820322568f8d852385c33f692c267879c37bc421607261c55",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/observable/hard-banks.wl",
+      "role": "reused native expression/evidence",
+      "bytes": 8939791,
+      "sha256": "21431e792e287d6cb642d6867a93a8fb4c704517b7f97ab9f6a97f52a56576e8",
+      "recorded_sha256": "21431e792e287d6cb642d6867a93a8fb4c704517b7f97ab9f6a97f52a56576e8",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/native-driver.json",
+      "role": "reused native expression/evidence",
+      "bytes": 8825,
+      "sha256": "292659413ee867c4f9276d895132f2715ebde3bb38428a2c8ff778be8db0b044",
+      "recorded_sha256": "292659413ee867c4f9276d895132f2715ebde3bb38428a2c8ff778be8db0b044",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/execution.log",
+      "role": "reused native expression/evidence",
+      "bytes": 324,
+      "sha256": "e87b9ee11580c39fcc68339c67d302372d1de004eee1bc2458585fa44b15a32f",
+      "recorded_sha256": "e87b9ee11580c39fcc68339c67d302372d1de004eee1bc2458585fa44b15a32f",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_sidis_highpt/common/fragmentation.wl",
+      "role": "active generating source/reference",
+      "bytes": 758,
+      "sha256": "be48c1a33cafe268542cdc4e3e245320676d4750cfbbbe748c47be88eebc436e",
+      "recorded_sha256": "be48c1a33cafe268542cdc4e3e245320676d4750cfbbbe748c47be88eebc436e",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_sidis_highpt/common/jet_matching.wl",
+      "role": "active generating source/reference",
+      "bytes": 1611,
+      "sha256": "6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829",
+      "recorded_sha256": "6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_sidis_highpt/common/tmd_evolution.wl",
+      "role": "active generating source/reference",
+      "bytes": 703,
+      "sha256": "df5155d6f9c1edb128995547e7fc677375bddda7e8ee71303d1e883039aa435c",
+      "recorded_sha256": "df5155d6f9c1edb128995547e7fc677375bddda7e8ee71303d1e883039aa435c",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_assembly.wl",
+      "role": "active generating source/reference",
+      "bytes": 4967,
+      "sha256": "ed0f629f8df3ff5719e47d0c3da60ddc01fbd577089e8334c4172cda0dd0b8e8",
+      "recorded_sha256": "ed0f629f8df3ff5719e47d0c3da60ddc01fbd577089e8334c4172cda0dd0b8e8",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_flavors.wl",
+      "role": "active generating source/reference",
+      "bytes": 2095,
+      "sha256": "0e50f68ade9dd9167bddd98159e36b9d14dbe2ca9d00a1cebb4d77ecb271366f",
+      "recorded_sha256": "0e50f68ade9dd9167bddd98159e36b9d14dbe2ca9d00a1cebb4d77ecb271366f",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_convolution.wl",
+      "role": "active generating source/reference",
+      "bytes": 1239,
+      "sha256": "ec0b68e32d46f14fbba0c2ac3587c85eb0d77fa0851c37fa3ec8fbc1075ee9b5",
+      "recorded_sha256": "ec0b68e32d46f14fbba0c2ac3587c85eb0d77fa0851c37fa3ec8fbc1075ee9b5",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_distribution_actions.wl",
+      "role": "active generating source/reference",
+      "bytes": 2885,
+      "sha256": "f9e0eff39a10756c0a7d100535fbc620d39f354e616ec3fb927f97424b3bcf94",
+      "recorded_sha256": "f9e0eff39a10756c0a7d100535fbc620d39f354e616ec3fb927f97424b3bcf94",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_sidis_highpt/references/2311.00672v2/source/main.tex",
+      "role": "active generating source/reference",
+      "bytes": 153987,
+      "sha256": "1ad9ad1c6e458f388563162a4132b45364ad1384acc601e43eafff9d21de2d77",
+      "recorded_sha256": "1ad9ad1c6e458f388563162a4132b45364ad1384acc601e43eafff9d21de2d77",
+      "recorded_by": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/run.json",
+      "matches_recorded": true
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/assemble_native_observable.wls",
+      "role": "relocated native producing script",
+      "bytes": 5684,
+      "sha256": "96cf6355a7110875e34d188a87204817f8da8a6decfdfa5c26cb72ce1f72ede1",
+      "historical_sha256": "3d1b297d6c5f39220c6c3a9ca87815977416fd68d5a3a4004d9afd775aefb557",
+      "historical_source_reconstruction_sha256": "3d1b297d6c5f39220c6c3a9ca87815977416fd68d5a3a4004d9afd775aefb557",
+      "historical_source_relation": "Exact original hash after undoing only the extra DirectoryName for tools/pipeline relocation; no physics/body differences."
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/jet_matching_check.wls",
+      "role": "relocated native producing script",
+      "bytes": 2103,
+      "sha256": "f1cc6a4bf2fe149f65a5464b29922bdb51cfc7451e78cf07741cebe5e7c433ab",
+      "historical_sha256": "f6822ba9d46e6b636551718972fc488234770863ba2bbf520ee1f7b962faed34",
+      "historical_source_reconstruction_sha256": "f6822ba9d46e6b636551718972fc488234770863ba2bbf520ee1f7b962faed34",
+      "historical_source_relation": "Exact original hash after undoing only the extra DirectoryName for tools/pipeline relocation; no physics/body differences."
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/jet_tmd_rg_check.wls",
+      "role": "relocated native producing script",
+      "bytes": 2999,
+      "sha256": "6db81d32bca8f2ff3b3a7d5b22d9409ae001d32c0344d8e91b840331c09316aa",
+      "historical_sha256": "7dffb86cef4a7da625287d4695f111f4cdb21c8375f85b25f2d87d36d283731c",
+      "historical_source_reconstruction_sha256": "7dffb86cef4a7da625287d4695f111f4cdb21c8375f85b25f2d87d36d283731c",
+      "historical_source_relation": "Exact original hash after undoing only the extra DirectoryName for tools/pipeline relocation; no physics/body differences."
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/result.json",
+      "role": "historical completion only, not new comparison evidence",
+      "bytes": 2427364,
+      "sha256": "0117d3e4eafc1d9d007b15b2c8bba31d038ae318e21a51d4488ffcf126b2406d"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/README.md",
+      "role": "new comparison adapter/input",
+      "bytes": 3239,
+      "sha256": "3617fad664f4344ea1c3bb2753dd46f73c2b773eb0dad65fe033c89ed24c1915"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/compare_native.wls",
+      "role": "new comparison adapter/input",
+      "bytes": 18448,
+      "sha256": "42b917dc11b6d2e76815a3c6dc27fcd3aff72e88b36d8d9c6d22194a6b77ca08"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/extract_native.wls",
+      "role": "new comparison adapter/input",
+      "bytes": 2106,
+      "sha256": "d1bc794aa04b9d4f73c3bd1587c2a547a1efd23344b4ff2e971aa34e24482e79"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/quadrature.wl",
+      "role": "new comparison adapter/input",
+      "bytes": 2071,
+      "sha256": "604b0299cc91e398571b58dadcde7541cd585c15b7fbbf904ea001164f1f3e9a"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/report.py",
+      "role": "new comparison adapter/input",
+      "bytes": 11263,
+      "sha256": "39e32f4e91790a290501814c9b25c9d098651ad5759dedfa2e39111e04185b87"
+    },
+    {
+      "path": "collins_support/checks/jet_native_comparison/run.py",
+      "role": "new comparison adapter/input",
+      "bytes": 11946,
+      "sha256": "7102fc6324929924848e44fe1e0e4e2cf139f1c55fe807c719980d2d8e795f11"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/ru_runtime.json",
+      "role": "unchanged active runtime configuration",
+      "bytes": 518,
+      "sha256": "f5f67891501f721571b947d7d07bab5d29da3bf9936f6cb6799eabab045dc8fa"
+    }
+  ],
+  "historical_completion": {
+    "ep": {
+      "run": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd",
+      "status": "STAGES_PASS",
+      "through": "r07",
+      "stages": {
+        "r00": {
+          "exit_code": 0
+        },
+        "r01": {
+          "exit_code": 0
+        },
+        "r02": {
+          "exit_code": 0
+        },
+        "r03": {
+          "exit_code": 0
+        },
+        "r07": {
+          "exit_code": 0
+        }
+      }
+    },
+    "highpt": {
+      "run": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71",
+      "status": "EXECUTED",
+      "through": "r07",
+      "stages": {
+        "r07": {
+          "exit_code": 0
+        }
+      },
+      "result_status": "NATIVE_CHECKS_PASS",
+      "historical_checks": {
+        "PASS": 16416
+      },
+      "jet_helper_jobs": [
+        {
+          "label": "jet-TMD-RG",
+          "status": "FINISHED",
+          "exit_code": 0,
+          "source_sha256": "7dffb86cef4a7da625287d4695f111f4cdb21c8375f85b25f2d87d36d283731c",
+          "log_sha256": "f862edf5d80a29292e54720c6f69b7f00c548a12746e2a93fdb0c2875d72fbf6"
+        },
+        {
+          "label": "finite-jet",
+          "status": "FINISHED",
+          "exit_code": 0,
+          "source_sha256": "f6822ba9d46e6b636551718972fc488234770863ba2bbf520ee1f7b962faed34",
+          "log_sha256": "039411f8f552b3f0ea621c36d8bd5f54505ebc3f47e756b86fe159a813d13fd6"
+        },
+        {
+          "label": "observable",
+          "status": "FINISHED",
+          "exit_code": 0,
+          "source_sha256": "3d1b297d6c5f39220c6c3a9ca87815977416fd68d5a3a4004d9afd775aefb557",
+          "log_sha256": "44d90ab5ac54ca1d62c7cf4aa6e50ec6ccd7aa3ffcf6bb45025b244e6af63c62"
+        }
+      ]
+    }
+  },
+  "scope": "Relevant jet dependency evidence; no replay of full historical acceptance or hard calculations.",
+  "wolfram": {
+    "path": "/opt/Wolfram/WolframEngine/15.0/Executables/WolframKernel",
+    "sha256": "4f3f249b461dc8cf1b259eb86849cb3ff36ca7b54ac9266d5c7b2cab01bcfab4",
+    "historical_comparisons": {
+      "ep": {
+        "recorded": {
+          "path": "/opt/Wolfram/WolframEngine/15.0/Executables/WolframKernel",
+          "sha256": "4f3f249b461dc8cf1b259eb86849cb3ff36ca7b54ac9266d5c7b2cab01bcfab4"
+        },
+        "same_sha256": true
+      },
+      "highpt": {
+        "recorded": {
+          "path": "/opt/Wolfram/WolframEngine/15.0/Executables/WolframKernel",
+          "sha256": "4f3f249b461dc8cf1b259eb86849cb3ff36ca7b54ac9266d5c7b2cab01bcfab4"
+        },
+        "same_sha256": true
+      }
+    }
+  }
+}

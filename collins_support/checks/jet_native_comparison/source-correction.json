@@ -1,0 +1,10 @@
+{
+  "path": "collins_sidis_highpt/common/jet_matching.wl",
+  "historical_sha256": "6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829",
+  "corrected_sha256": "57e616a97afdcd2804fb8be9330ee52b7800fbca9feb50eaeaf595b9d3bbe1ba",
+  "change": "Insert exactly two parentheses around the entire HSJetDistributionAction RHS; all other bytes unchanged. The ungrouped loaded DownValue retained only delta.",
+  "historical_source_matches_current": false,
+  "historical_evidence": "collins_support/reports/jet-native-comparison-001/verified",
+  "correction_evidence": "collins_support/reports/jet-native-comparison-002",
+  "historical_acceptance_renewed": false
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "original_report": "collins_support/reports/jet-native-comparison-001/verified",
+  "original_summary_sha256": "073a897994962abecc945048fdd141d2027567d6833ddb5105849d547eaccc3f",
+  "fresh_summary_sha256": "92fdc5deaa3e1a1a6d7707062989339ae48b0d9b8e6f874131bd351b58480293",
+  "preservation_files": 343,
+  "unchanged_files": 342,
+  "unexpected_changes": [],
+  "unchanged_comparison_rows": 117,
+  "resolved_auxiliary_discrepancies": 2,
+  "expected_nonzero_rows_retained": 27,
+  "old_counts": {
+    "EXACT": 66,
+    "DISCREPANCY": 2,
+    "EXPECTED_NONZERO_DIFFERENCE": 27,
+    "NUMERICAL_AGREEMENT": 24
+  },
+  "new_counts": {
+    "EXACT": 68,
+    "EXPECTED_NONZERO_DIFFERENCE": 27,
+    "NUMERICAL_AGREEMENT": 24
+  },
+  "old_definition_failed_corrected_passed_same_regression": true,
+  "regression_script_sha256": "dcb3e9d00d96ee60551ede1b9600b8910d95f83ece952ff1833fb144f80bf800",
+  "row_failures": []
+}

@@ -1,0 +1,1720 @@
+{
+  "files": [
+    {
+      "path": "collins_ep_analytic_SIDIS/CONVENTIONS.md",
+      "bytes": 19601,
+      "sha256": "727ee51dfdf07e285025638d3c8b335f04fbef3333029346679d5d015a5fc173"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r00_definitions.wls",
+      "bytes": 4258,
+      "sha256": "f2040f9555e20fba465856409837f4dfcc6d967ef79ad3e27e78aac1d6b0ca6a"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r01_real_map.wls",
+      "bytes": 5628,
+      "sha256": "6018f50c14c9db259b76144365dde9760740c10810e83e717d19ca655a777f22"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r02_real_masters.wls",
+      "bytes": 3843,
+      "sha256": "02fd62423e7c2e658c3a7ebe3579eab67c4062f06a0415a550ff66439a91b687"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r03_real_assembly.wls",
+      "bytes": 7151,
+      "sha256": "8ad4261cd2fd9bad5798e4f53dbfe6315326839a2a1f768ac28c7572a992212e"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r07_assembly.wls",
+      "bytes": 10962,
+      "sha256": "9dc9ceeb3b9ae0d956209b5088698ded76a85916ed7ddd0326d8aed336afba9f"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_hf_projection.wl",
+      "bytes": 11624,
+      "sha256": "20656fddf3fe58af2ad956b2ee0b1058310ed4101f630af2a954072c0636e98f"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_io.wl",
+      "bytes": 1116,
+      "sha256": "49e992ab8d8bd741bc39cae37ce03bc8b90916ee268a41a8695957f68137080c"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_observable_helpers.wl",
+      "bytes": 1305,
+      "sha256": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_assembly.wl",
+      "bytes": 7067,
+      "sha256": "1cba04b5a7586ae012cce84588bd8f1fece39f68dc0460da909b688ce3286f7c"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_generation.wl",
+      "bytes": 11792,
+      "sha256": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_transforms.wl",
+      "bytes": 5770,
+      "sha256": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_stage.wl",
+      "bytes": 1119,
+      "sha256": "ec53d03b600c914d9f002e4fcd7113b6c0ceab65a9f2b12e445157246377eaf6"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_tmd_assembly.wl",
+      "bytes": 8790,
+      "sha256": "95e664872f5a323643dd1f6c3a177af380752b6d39107b4b14ef665006ec4087"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_tmd_generation.wl",
+      "bytes": 21803,
+      "sha256": "c02b3de797fd547ba9efef952ecfb6effbc0610797842094d8fd52c87c89b309"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/ru_runtime.json",
+      "bytes": 518,
+      "sha256": "f5f67891501f721571b947d7d07bab5d29da3bf9936f6cb6799eabab045dc8fa"
+    },
+    {
+      "path": "collins_sidis_highpt/common/angular_projection.wl",
+      "bytes": 2194,
+      "sha256": "20f8ed1b3b9740654eb3df239e8d718ae7327134ca62e5e37dd528f60c1cd129"
+    },
+    {
+      "path": "collins_sidis_highpt/common/channel_operators.wl",
+      "bytes": 1862,
+      "sha256": "02116a0a7153784a31200a1ede27744d12489772b2921fa22e2659530cb1e5b3"
+    },
+    {
+      "path": "collins_sidis_highpt/common/collins_monomial_projection.wl",
+      "bytes": 1903,
+      "sha256": "5473aa2a9a29a86f273002f6f7ec15d6d6eb2caa3fcfe9497578ca75d17260c0"
+    },
+    {
+      "path": "collins_sidis_highpt/common/cut_distribution.wl",
+      "bytes": 5069,
+      "sha256": "bbe397ee2e6a0d7a2c105dd03b480063576a7f498bb68b55d742b6e0fdfdd459"
+    },
+    {
+      "path": "collins_sidis_highpt/common/fragmentation.wl",
+      "bytes": 758,
+      "sha256": "be48c1a33cafe268542cdc4e3e245320676d4750cfbbbe748c47be88eebc436e"
+    },
+    {
+      "path": "collins_sidis_highpt/common/jet_matching.wl",
+      "bytes": 1611,
+      "sha256": "6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829"
+    },
+    {
+      "path": "collins_sidis_highpt/common/laurent_master_product.wl",
+      "bytes": 1343,
+      "sha256": "b091bd213bd19fd60ec7a607c2a1f0629035efecaf020c5f77696a8a76d645a2"
+    },
+    {
+      "path": "collins_sidis_highpt/common/native_basis_linear.wl",
+      "bytes": 4474,
+      "sha256": "9ed71a048b81b5b8abfee514e89a2d95efaf966414d6dec81928924c69c55277"
+    },
+    {
+      "path": "collins_sidis_highpt/common/native_certificate_dag.wl",
+      "bytes": 2824,
+      "sha256": "8d3dea73528ada7400a6811f3462b54dd5046d668683d90e8f3008479e924f0c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/native_color_basis_linear.wl",
+      "bytes": 6345,
+      "sha256": "b2ca0d3356bbdc2ffe4acce49a91873b7dc381b95bf60b57ac078b667b8110e8"
+    },
+    {
+      "path": "collins_sidis_highpt/common/native_compact_basis_linear.wl",
+      "bytes": 7440,
+      "sha256": "a176c4b0b67ca715711e7716b80382b3e7c6ab63cf719b019e554f04d6c7825d"
+    },
+    {
+      "path": "collins_sidis_highpt/common/native_linear.wl",
+      "bytes": 1642,
+      "sha256": "8f0e97901780d4d6d18216bf0e646625fb50d637931718c2cc915ba33e4acd96"
+    },
+    {
+      "path": "collins_sidis_highpt/common/native_master_shape.wl",
+      "bytes": 2464,
+      "sha256": "f932aa5853e75e129280257c50589ee24d7521f1a21577ded7176f91389b905d"
+    },
+    {
+      "path": "collins_sidis_highpt/common/native_polynomial_basis_linear.wl",
+      "bytes": 6592,
+      "sha256": "558d23379fad6ef171a79c971c162f4cd09e4bf1f35a367d46b36d66af030d91"
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_assembly.wl",
+      "bytes": 4967,
+      "sha256": "ed0f629f8df3ff5719e47d0c3da60ddc01fbd577089e8334c4172cda0dd0b8e8"
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_convolution.wl",
+      "bytes": 1239,
+      "sha256": "ec0b68e32d46f14fbba0c2ac3587c85eb0d77fa0851c37fa3ec8fbc1075ee9b5"
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_distribution_actions.wl",
+      "bytes": 2885,
+      "sha256": "f9e0eff39a10756c0a7d100535fbc620d39f354e616ec3fb927f97424b3bcf94"
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_flavors.wl",
+      "bytes": 2095,
+      "sha256": "0e50f68ade9dd9167bddd98159e36b9d14dbe2ca9d00a1cebb4d77ecb271366f"
+    },
+    {
+      "path": "collins_sidis_highpt/common/open_tensor_polynomial.wl",
+      "bytes": 1351,
+      "sha256": "8890a0443c4a21c27729fb982f6007bffe288d084b83e7173d6b40b494876f65"
+    },
+    {
+      "path": "collins_sidis_highpt/common/physical_polylogs.wl",
+      "bytes": 3117,
+      "sha256": "dd6f99810f2a7a0cd58be3a36c204c690f2672868e29d8c82fee798cf770cca3"
+    },
+    {
+      "path": "collins_sidis_highpt/common/positive_log_basis.wl",
+      "bytes": 1580,
+      "sha256": "2d4bf9e5c4a5b9161ff3992423bb4545e526214b65a76f3d75f15afd56f884e4"
+    },
+    {
+      "path": "collins_sidis_highpt/common/r00.wls",
+      "bytes": 7486,
+      "sha256": "3e2355f07898806c4cd6ec4543452859ded2ff610f62e4a6ac6a8988eb385fb9"
+    },
+    {
+      "path": "collins_sidis_highpt/common/r01.wls",
+      "bytes": 387,
+      "sha256": "8e691f776853aef08c177863573e0506e27cc71a1d95f4badda02a060cf7ab9c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/r02.wls",
+      "bytes": 387,
+      "sha256": "8e691f776853aef08c177863573e0506e27cc71a1d95f4badda02a060cf7ab9c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/r03.wls",
+      "bytes": 387,
+      "sha256": "8e691f776853aef08c177863573e0506e27cc71a1d95f4badda02a060cf7ab9c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/r04.wls",
+      "bytes": 387,
+      "sha256": "8e691f776853aef08c177863573e0506e27cc71a1d95f4badda02a060cf7ab9c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/r05.wls",
+      "bytes": 387,
+      "sha256": "8e691f776853aef08c177863573e0506e27cc71a1d95f4badda02a060cf7ab9c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/r06.wls",
+      "bytes": 387,
+      "sha256": "8e691f776853aef08c177863573e0506e27cc71a1d95f4badda02a060cf7ab9c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/r07.wls",
+      "bytes": 387,
+      "sha256": "8e691f776853aef08c177863573e0506e27cc71a1d95f4badda02a060cf7ab9c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/rational_laurent.wl",
+      "bytes": 1305,
+      "sha256": "75e63604349448e42f046707baeff811d946101995989a0729bf5f3ff7b8ba41"
+    },
+    {
+      "path": "collins_sidis_highpt/common/real_families.wl",
+      "bytes": 5226,
+      "sha256": "c83c8884fbbb0100e0000f9fb6fe5d9c252cf710f1ed3599e9a8a8f896c9b57c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/spin_core.wl",
+      "bytes": 3439,
+      "sha256": "f7bcaaa7354833164d692512316fc2bd6b07df21a80f15713808933726767c51"
+    },
+    {
+      "path": "collins_sidis_highpt/common/spin_nlo.wl",
+      "bytes": 3003,
+      "sha256": "02ef7f130ba7a3141347f9f06e776c1f883c5f2ecdda0bceb03437ab75163b83"
+    },
+    {
+      "path": "collins_sidis_highpt/common/spin_real_tensor.wl",
+      "bytes": 1443,
+      "sha256": "91b7d7972bf3192839ac3ca2cc86549bd7309162686de927e722831f35f6a951"
+    },
+    {
+      "path": "collins_sidis_highpt/common/spin_tensor_template.wl",
+      "bytes": 3658,
+      "sha256": "b8646527a3ce33612c6d77069fc14da9813ff73708870d915b11285fff25faa1"
+    },
+    {
+      "path": "collins_sidis_highpt/common/spin_virtual.wl",
+      "bytes": 2878,
+      "sha256": "f3cc84be9cbda6178648fe9045cf601d9a8608a251d917e4881584c6ab66f5d3"
+    },
+    {
+      "path": "collins_sidis_highpt/common/tmd_evolution.wl",
+      "bytes": 703,
+      "sha256": "df5155d6f9c1edb128995547e7fc677375bddda7e8ee71303d1e883039aa435c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/transcendental_basis.wl",
+      "bytes": 1423,
+      "sha256": "6d7dca1b6639cccffc7d10fd54cd1758b8cf0088586641287faf368b0057782e"
+    },
+    {
+      "path": "collins_sidis_highpt/common/uu_import.wl",
+      "bytes": 2952,
+      "sha256": "bcbff706041242eaf01627593de59c916cd80548237af52f6642709055ded600"
+    },
+    {
+      "path": "collins_sidis_highpt/common/uv_homogeneous.wl",
+      "bytes": 1780,
+      "sha256": "82810fbc8f7a7e1f2f6df04e5e760d6c5779ae092c1060e6f602084c973eb5be"
+    },
+    {
+      "path": "collins_sidis_highpt/references/2311.00672v2/source/main.tex",
+      "bytes": 153987,
+      "sha256": "1ad9ad1c6e458f388563162a4132b45364ad1384acc601e43eafff9d21de2d77"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/README.md",
+      "bytes": 3101,
+      "sha256": "b50fb3938863b84c88a2f6a202258ba9175d1ec8283570846802df548ccca76e"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/angular_check.wls",
+      "bytes": 1443,
+      "sha256": "2e18d9dea5c3a2698d134c3c12dd106a82a8ea2a2bc54944ebb79357a592aa25"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/antiquark_point_check.wls",
+      "bytes": 3136,
+      "sha256": "3b417e10ddc1e76b62a5dcddb9e44dd7d87bbe9787860eacae1d24521affaf10"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/assemble_collinear_check.py",
+      "bytes": 5368,
+      "sha256": "e06fb32133d6df41861ac5b82037761a51ac2098da0789e6b31e0566df36d3af"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/audit_reduction.py",
+      "bytes": 3287,
+      "sha256": "9adfd3bdd727489cc51ab5cfa0a441c08965bc0d1cefb646dab4856065f37297"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/build_campaign_report.py",
+      "bytes": 15775,
+      "sha256": "e438f82c6666f12ffe5076ee0c7eccb9d3ac9f622150cd13c558c3eb06b9514a"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/channel_zero_check.wls",
+      "bytes": 3041,
+      "sha256": "f621e9eef803ef90d1b19710a0a85ea4eb8c6a23f1c25e5a49362f10034c158f"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_born_points.py",
+      "bytes": 4486,
+      "sha256": "6ada3cf30399bb6cb4c8bc1468038fb4bd8311e29ba865463edefe9db303d8c0"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_collinear_exports.py",
+      "bytes": 4810,
+      "sha256": "a358c58a1bee11440ab3b39c0f4b5a74c498cea5bff80afb4d1df05525102a85"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_compact_basis_ids.wls",
+      "bytes": 2681,
+      "sha256": "1b0f294a64bb579de939467a487cace9c3562324fd2d66b83888e54286c08169"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_complete_transport.py",
+      "bytes": 1805,
+      "sha256": "4915b371c7b81002230c65282a67421922032cd1523c116eef56e9ff5c71a36f"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_continuation_syntax.wls",
+      "bytes": 465,
+      "sha256": "7e2810f09c594878b7cff3415c359f7c8856d024e8f21b53095bbe3e59431eb1"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_cut_reduction.wls",
+      "bytes": 3569,
+      "sha256": "045483af6dacd0edb00717570e93603420018bd0eb4cc59b28869ac24a47f90c"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_endpoint_overlap.wls",
+      "bytes": 2036,
+      "sha256": "258aaf3ff72491a92b2604c0d8619937593e9da626310c8f1caae199d6b79143"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_final_packet_additions.py",
+      "bytes": 3267,
+      "sha256": "2e1e06ace3651bcf9413dafa7e72b82a3436a235a732853ef932dd143ee67052"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_jet_distributions.py",
+      "bytes": 4283,
+      "sha256": "6f5eacfd745459b86b3b71113560c5bbf36030df39cf51e3f8e4053c086bfc97"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_linear_transport.py",
+      "bytes": 2633,
+      "sha256": "704a4150d8a9210a4f7ec25937245281557e1e4a715786535d0c9f1cd80e265d"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_mapping_adapter.py",
+      "bytes": 1876,
+      "sha256": "1f45afd768571bc96629dbe99742e2dbbd267b931efab49fe48ebd93ef5143cd"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_monomial_projection.wls",
+      "bytes": 2299,
+      "sha256": "f1c8847f7108e84cc6c7bcfdfb90d543b323b2b35f3e3b0ab5c8c7fddf600246"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_operator_virtual_exports.py",
+      "bytes": 3433,
+      "sha256": "55eb96c700553692b60c12870654c3ed3b6e2da9688ccd0514d424d03618aed7"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_review_layout.py",
+      "bytes": 4077,
+      "sha256": "50105b78d346b89ff6b8bb0d6d555af1293a9df1b167276acea6b2fb64ee03b8"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_template_conservation.py",
+      "bytes": 4560,
+      "sha256": "25ea1588455d5d462da630a14d58cb1212cc58765d0a89c7bfc722a6ee779161"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_tensor_templates.wls",
+      "bytes": 2445,
+      "sha256": "e81ae6bb0eda8a6d5f829b48b62d3eaf72c61138000e57364b87fd1c207047d0"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_virtual_comparison_packet.wls",
+      "bytes": 993,
+      "sha256": "0fe09fa970a2c9a92ca77727e37e9ee70b2854a921c1fca2add34d4789324f6f"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/check_virtual_comparisons.py",
+      "bytes": 7493,
+      "sha256": "fc3ad5626b551c6c2af6315401b8a6a8eef8385e0bb3c083c53f957ef6b8bd15"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/compare_pair_projections.wls",
+      "bytes": 1340,
+      "sha256": "3e17e7bcadc0a0d52421505de1806a3549d3ae468a3d8913857fe90dbcbf7e09"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/cut_master_depth_check.wls",
+      "bytes": 3792,
+      "sha256": "f7d295c31b156a36388121743cdcd4afb444c5d8960beff87970ca76e1fa89e5"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/derive_jet_scheme_match.py",
+      "bytes": 6619,
+      "sha256": "62311785ba0756dd3d0918690c09a57356fbb6cda194037c06a5eec6930443cc"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/diagnose_endpoint_algebra.wls",
+      "bytes": 1968,
+      "sha256": "39754065612e98f198f9084f57fca6cae3701ff841af624f66161d6183856500"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/diagnose_uu_basis.wls",
+      "bytes": 870,
+      "sha256": "c2a48eef945bae9753fd744b185a08be7ed7d7313c3ae9c08f0a9f1969fbe70b"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/export_diagnostics.wls",
+      "bytes": 3735,
+      "sha256": "9c1cf02b9c4703025920187cb1274017b3d74f835b68e607ddaa28ae07559429"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/export_reduction_closure.py",
+      "bytes": 3190,
+      "sha256": "8ab684df5cac03a9054456a13c79e76c64c1cae6bb25279175a65184acc5e02f"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/export_uu_reference.wls",
+      "bytes": 989,
+      "sha256": "cac561f6967d4a357616d08fa60714226a038cddb819ed0d535783b5d6d2300e"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/extract_reduction_inventory.wls",
+      "bytes": 1106,
+      "sha256": "fad584d25fe52ad9990d0510549c36b975d6da967b9a52fc9042480617608e43"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/extract_uu_native_reference.wls",
+      "bytes": 2372,
+      "sha256": "402f8e74e5e464cdba1450c7679f02ffdfaa7f0941c3b5229478a23cb24d33be"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/fragmentation_check.wls",
+      "bytes": 1686,
+      "sha256": "7b009168ef79e5f934f8671503bf1fe3dbe1af7ceb706aab18d295aa92dac556"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/hqqbar_uu_normalization.wls",
+      "bytes": 4245,
+      "sha256": "46c0a430ffc94908d02ab500ea10029c50a275746ca9e674eb894668e6fbfa29"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/independent_born.py",
+      "bytes": 4441,
+      "sha256": "5b54d751410487c5b1987e1eb33b4ab4cd661426ba00bb840d1805083debd748"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/inspect_amplitudes.wls",
+      "bytes": 1884,
+      "sha256": "348d93892c1369a9598bb3e2e93ab59afa4d7b33a8b31a6d0f8bfacd938d29e9"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/invariant_measure_check.py",
+      "bytes": 5461,
+      "sha256": "c967c9190f8721227e55d45d81479c2c16b218101eb815e8643af22c8a4aa321"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/operator_scheme_check.wls",
+      "bytes": 5610,
+      "sha256": "d545dc7cc3fe9d2b2bf2d331e2de513ef70674d5d91536b4dd01406880da391e"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/prepare_basis_transport.wls",
+      "bytes": 2116,
+      "sha256": "28e0f2a007e57734d78b8df596760a97fe169460e7e9289284bef090cb3032d1"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/prepare_basis_values.wls",
+      "bytes": 735,
+      "sha256": "6b74292d737f82ba4c0e3e5e4f539b7d26824ed5c1d8d4ee348bcb77f140ec77"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/prepare_hard_basis_transport.wls",
+      "bytes": 2971,
+      "sha256": "df7a9c0fcdc1cf1db4f103afb2c2f23386b67805e95cf459f74c735ec4685809"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/prepare_linear_transport.wls",
+      "bytes": 970,
+      "sha256": "12d12c51d3260e9321a80d2fdb0ca09b1d5165222735f96e1b895287b9d4755b"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/prepare_native_hard_check.wls",
+      "bytes": 1852,
+      "sha256": "dfc88cb160a2d015d2ed002230302c5b1bf50c27910c8f3c4122f4f939d2d15a"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/prepare_packet_master_context.wls",
+      "bytes": 551,
+      "sha256": "5600e6d15fc806b57ccb61a23ab9a392fa053a10cf80ef728045bf1e38807deb"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/prepare_uu_transport.wls",
+      "bytes": 531,
+      "sha256": "b23dc3e4407215088d672a6ff6d144f1a4fb62287511596f5c6180a25a2a49b6"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/prepare_virtual_comparison_case.wls",
+      "bytes": 743,
+      "sha256": "0b48a401539beea7f8fb30b88bfa407cace0bacc270c47da3530f4f72d3fe128"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/production_collinear_check.wls",
+      "bytes": 7048,
+      "sha256": "dc6d419d7665bd83f35a8ca911f5265ddd8e472e7b66703edcffb20e7e71ad82"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/profile_precision_rows.py",
+      "bytes": 1812,
+      "sha256": "c67470ed377e906a6f410dddb0d56f0077d0cacacf0830d588429e339a2a0574"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/real_ward_check.wls",
+      "bytes": 1560,
+      "sha256": "b8dc015390eea0b4ea9c8a46519eadc8356a9b0717eca4d609e7a4b584145f6e"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/report_native_continuation.py",
+      "bytes": 12012,
+      "sha256": "40e4f182b85b612e725c4713f7a19d050c6ce3e274688f7695e114a56b0a2374"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/run_native_campaign.py",
+      "bytes": 6537,
+      "sha256": "59def5b85995a60280c2a34f1b22a78479e8061bb4e930338aef20d32ed36088"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/summarize_hard_milestone.wls",
+      "bytes": 2065,
+      "sha256": "05a6e10addd483e530dfe56d9ddba4b704a2202018f3fdb86e5cd24cf3eaf03c"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/test_reporting_fix.py",
+      "bytes": 11397,
+      "sha256": "06a58233de0984581ff1b7b075823855ce5eef597c1bcf435daac13eb51fae86"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/test_reporting_native_log.py",
+      "bytes": 2602,
+      "sha256": "6c102167d9e55dbacb5764a4d17ee85dfe24cb79c2d297e060562d2d47acb1f5"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/align_master_denominators.wls",
+      "bytes": 1099,
+      "sha256": "c798ee4042079fa0533ba0b4c6a966819971acc2fc32e31a95bebbc95b92b9b6"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/assemble_hard_linear.wls",
+      "bytes": 7230,
+      "sha256": "51e8faa5658836004a6d1478a0fa6d6427c903031499db552abb955daec31af7"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/assemble_hqq_boundary.wls",
+      "bytes": 6413,
+      "sha256": "ea609577a57b4265e9d6a9e159e5c2390aabbf53aa7acc779df986cfd3ef4368"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/assemble_hqq_intermediate.wls",
+      "bytes": 7010,
+      "sha256": "eec3381a5368bf891b21bce7d27b08f02fe53a3bbc0126f4d1b4e17b6b2faf81"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/assemble_hqqbar_finite.wls",
+      "bytes": 3320,
+      "sha256": "ebbcc8905288b67448d91d73f40303fefd3bc1c807851a50437881797045ef05"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/assemble_native_hard.wls",
+      "bytes": 4167,
+      "sha256": "63fc90d34b78c0d3aa51f433ec4bb383c5f5ac7daef63d96fafa83d7f4461d24"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/assemble_native_hard_color.wls",
+      "bytes": 4173,
+      "sha256": "906ebe87c838741fe91fdf4a1eadf8120ec27de81bb8b61f27ceb9538a1bf58d"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/assemble_native_hard_polynomial.wls",
+      "bytes": 4178,
+      "sha256": "63c8b755d85f584eae64c79d6a72c49f8624aec589bf6446ff179fcbd3cd1287"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/assemble_observable.wls",
+      "bytes": 4840,
+      "sha256": "759fdd0392904fe9a9264d6d458fecf6966964e5774b7733240bff2ae611d80a"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/assemble_real_endpoints.wls",
+      "bytes": 5800,
+      "sha256": "eb4a8c09015991eabb07de176eccbffa48b04b7ba082d3064c56d0a2bdbda0dd"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/assemble_real_endpoints_linear.wls",
+      "bytes": 6057,
+      "sha256": "008f0d2461b495eecae5bd1ab81b6bd64fccd34483491948f856306db9e1aab4"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/check_native_boundary.wls",
+      "bytes": 2574,
+      "sha256": "5ca3270228b4bc5193dc25197cb5f9909658fc1143e827059252f51a1672ad17"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/collins_monomial_projection_block.wl",
+      "bytes": 3290,
+      "sha256": "df04c70ce686bb60b1417e4066ab5c2b620bc24888771299ccadfc4f927d733d"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/collins_monomial_resume_block.wl",
+      "bytes": 4017,
+      "sha256": "b9a92e5708a6c24ffc476d04b61d4f725def42c2f2318e86d49ac3c581e4d0dc"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/collins_pair_projection_block.wl",
+      "bytes": 3595,
+      "sha256": "a0d070ee375ce1d01dbcfb59b6847fdf9437eeaa193fe39e494cd43c35c4b410"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/collins_stream_projection.wl",
+      "bytes": 3351,
+      "sha256": "b5ac12e7d58359d51c37a4099eeb6d2b7e8a96f8a9e4c8f841717add9334bb0b"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/compact_uu_scalar_exports.wls",
+      "bytes": 1509,
+      "sha256": "398c60869e6f5cf7b19a3cbc87dfc4851bc09191883aaf8ce160b874325a5efa"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/fetch_reference.py",
+      "bytes": 1711,
+      "sha256": "766389e87aa7475ab5fd3742d6ff5a908b816e6d88d65ebca6caf9c27dec3d96"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/map_collins_monomials.wls",
+      "bytes": 8558,
+      "sha256": "a5cac768375de8dec683cc68e20ced73b3397458d027c77dd01c03244ca391eb"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/map_collins_monomials_resume.wls",
+      "bytes": 8589,
+      "sha256": "382125b7b2b696f2b3460855470a814ea953d53b7d013270dc3b6dc9fe0a6d70"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/map_collins_pairs.wls",
+      "bytes": 6971,
+      "sha256": "b085b1fd4857413ff58794eabbe3900041a74d5c7f03e13fa7da12afc494f0a2"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/map_collins_stream.wls",
+      "bytes": 8393,
+      "sha256": "fa3b926c7c2e99f01ff445cd2b5e5a13c5b74b78973e6032542c08968af69fb9"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/map_collins_templates.wls",
+      "bytes": 10802,
+      "sha256": "b5e1bc8990e8d36535a91758215ccdbcc4ec8008d76c43b8b48b407264ff76fe"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/match_real_masters.wls",
+      "bytes": 4148,
+      "sha256": "82e0b98b0311aa682de81616c6ddb4891d02fe8133b526e6206aad0d9d45907f"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/match_real_masters_linear.wls",
+      "bytes": 4387,
+      "sha256": "9054dbc29736a1583d9b3d94f8568cd2b3cdb2b1696b85e267275dcbf067d5f4"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/nlo_pilot.wls",
+      "bytes": 2664,
+      "sha256": "823da652aa10d311eacb79ca6454412b822505968bfe5322d46f7c1e493f5aeb"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/partition_uu_scalar_exports.wls",
+      "bytes": 2554,
+      "sha256": "a5c6471e0d4fcaa2359aeb0768a8136463cb6af368563ec9c7fd5bea9a7fc510"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/pilot_born.wls",
+      "bytes": 2006,
+      "sha256": "cc95142d7168c2d4e182df75f8fade36f6a722760fd8d4451ed4840c0d84a621"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/prepare_inputs.py",
+      "bytes": 4193,
+      "sha256": "4831604aa54ef1503be43062e013f5d74c50d6bb6966efbbfa7ed32dec3daf93"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/prepare_jet_reference.py",
+      "bytes": 3436,
+      "sha256": "613e2e55fa42fc2016f78d2f1bc3784a10b97fd2ebb8e322c53499cfb27e7b14"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/prepare_master_basis.wls",
+      "bytes": 2479,
+      "sha256": "4adb350c2b6a28fb5ecfdead5b92a1b247bf76765d4d03b9035dc0a646bb4c7b"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/prepare_master_branch_views.wls",
+      "bytes": 2010,
+      "sha256": "d958723d086d563e11370ee909414f9959b8ddecc738218ce911d0ca5453a58f"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/prepare_native_contract.py",
+      "bytes": 5339,
+      "sha256": "1dfe43207d3771861ba98f9a2f2eeaf558a442b8631cc07cf72e21984cab5e62"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/prepare_real_master_coefficients.wls",
+      "bytes": 4005,
+      "sha256": "116c3a2bceb962323d9088cc69125751aaa1dad53f2e64d7643e52b0ae9cba96"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/prepare_real_master_transport.wls",
+      "bytes": 1497,
+      "sha256": "8bc529ea075cabe5a29fc81fd9c2c14211c6af77f52b82dec8a762a337e1abb8"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/prepare_uu_scalar_exports.wls",
+      "bytes": 3447,
+      "sha256": "87a70ca602270c85c1c75675b75e212cfbac982ed408ab411f2c5f256e958b33"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/prepare_virtual_master_branch_views.wls",
+      "bytes": 1097,
+      "sha256": "8b070262a9bbd6efcda254bc913bcc8c8158c7f02bd36e96d7593fd03acb4d95"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/prepare_virtual_master_coefficients.wls",
+      "bytes": 3725,
+      "sha256": "968d1eedb11eb0b017c0afcb9b7e0873eee9ee63d06bdd3b5fd53dab0a1a3614"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/real_distinct_assembly.wls",
+      "bytes": 3388,
+      "sha256": "afdb60c3a956d7ded021252f2ad2e73eb10ec91d80279e921f38a674cb2724f3"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/real_map_pilot.wls",
+      "bytes": 5021,
+      "sha256": "1da1f9b043afc5f74d71f47bb271bd471b2dd0c8502e738436fde3ad6463ca14"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/real_tensor_continuation.wls",
+      "bytes": 4517,
+      "sha256": "4b09569b31e97223d4603c66c677e76cec20f85b37d65747a9f204ca982cccdb"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/record_reference_snippets.py",
+      "bytes": 1133,
+      "sha256": "c5ab9f47c66914e468930d3ca7dfbf9133bd8246459850b70faaffab762d7964"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/reproduce_development.py",
+      "bytes": 3395,
+      "sha256": "99f79f4121ba654951aef020883aaf489300a627424209495154d6c83b6283e3"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/run_cut_reduction.py",
+      "bytes": 6061,
+      "sha256": "44d799ee80c7f932dcfd7b115f79130a2c1620c0fa2c6ff759c24e0fcfb0df1d"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/development/virtual_tensor_continuation.wls",
+      "bytes": 4371,
+      "sha256": "b60f8f83b6fe559214f9a06389a869a34717526aa229b4fbeb6b95744c3ffe65"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/assemble_hard_recipes.wls",
+      "bytes": 6631,
+      "sha256": "4aabee6635b41a4da638283309f5d74761c36f6c560f98b200858c7d5d726314"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/assemble_native_hard_compact.wls",
+      "bytes": 4175,
+      "sha256": "48e6253b93db2ef48951e14de6138805bdb40dbf7f221538800e82a010b21b1e"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/assemble_native_observable.wls",
+      "bytes": 5684,
+      "sha256": "96cf6355a7110875e34d188a87204817f8da8a6decfdfa5c26cb72ce1f72ede1"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/assemble_virtual_masters.wls",
+      "bytes": 7860,
+      "sha256": "86cce17819b828c0a8cb04dabeac5f40d9c172491527ea3d37296aef9f0e826d"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/build_project.py",
+      "bytes": 8205,
+      "sha256": "656f69e7e9fceaf9f6661779b7498605a2a1a443e210dd8c77a5c033e70fb58f"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/check_flavor_contract.wls",
+      "bytes": 4238,
+      "sha256": "5d2c879948f9c374ee2d8387cc058759b36566beb13b0bbf4873f57673194377"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/check_native_boundary_series.wls",
+      "bytes": 3447,
+      "sha256": "147fb46b9b516c438c5212eee35003441349e4d154b4c8e1d1e17cea5662c91f"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/check_observable_actions.wls",
+      "bytes": 2887,
+      "sha256": "c3adeeb281447bc0d49d3cb4df4ef0a265480b88f0061452cbe6a20244d48620"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/check_real_reduction.wls",
+      "bytes": 4814,
+      "sha256": "bcf4a2949aada1b056a60c106981c5466424cbfb58867608486b6b714c7402b9"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/check_virtual_reduction.wls",
+      "bytes": 5126,
+      "sha256": "0e18c622e30da0baecf5ab6af6b4d179a416e443fc50fa44eab1f02b9f833354"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/collinear_scheme_match.wls",
+      "bytes": 6117,
+      "sha256": "034c6804ddd4c7eab769ab646e21788637941ea71d03b80e399ca70001cbe286"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/emit_native_final_packet.wls",
+      "bytes": 9753,
+      "sha256": "c8acdc3a0b73e5748cb20df618b93029c431d5f07612a6eb6e6a185beedcb423"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/emit_native_mapping_packet.wls",
+      "bytes": 11175,
+      "sha256": "c5ec39e4ee461dd09896506dd36817198590aa9dbd7c894094f20c002294e0c8"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/general_collinear_templates.wls",
+      "bytes": 6471,
+      "sha256": "649ef38a06ebfc0a73820c58b9f13759266f75458f84dea2ab14a7ffc9607bd5"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/import_uu_channels.wls",
+      "bytes": 1862,
+      "sha256": "0878d1c03516beb4fcee0bc153dc5309274a2aa029c10d3b11e5fdab29408abf"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/initial_collinear_templates.wls",
+      "bytes": 6837,
+      "sha256": "81cb0a19385a57c2190ccd4bd39037252f5db1c312d4a8ee20136a7bff32f8fc"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/jet_matching_check.wls",
+      "bytes": 2103,
+      "sha256": "f1cc6a4bf2fe149f65a5464b29922bdb51cfc7451e78cf07741cebe5e7c433ab"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/jet_tmd_rg_check.wls",
+      "bytes": 2999,
+      "sha256": "6db81d32bca8f2ff3b3a7d5b22d9409ae001d32c0344d8e91b840331c09316aa"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/map_collins_linear.wls",
+      "bytes": 6722,
+      "sha256": "8e38f9d02490f789fe94162da310103c71fa4e7be3320b87188f2eac3b97a331"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/map_real_templates.wls",
+      "bytes": 8921,
+      "sha256": "7faeb217eed6db87253630ff9617137e5d743e720bbe090de71d0596c2e7c331"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/map_virtual_templates.wls",
+      "bytes": 4676,
+      "sha256": "1bb3b9335c7a68a350b9947d6718c6284fe8ab48482d9fc27289c48859f102f6"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/native_process.py",
+      "bytes": 1878,
+      "sha256": "05147b2a09c8cbac3fd7a13ca65458567d33b410652779f1e20805c178b7aa8c"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/native_project_spec.py",
+      "bytes": 7279,
+      "sha256": "e9b9bdb100153cb5981ea427bbaa561440ae36a1a70ebf2e19e9c55d76404b3d"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/native_stage_driver.py",
+      "bytes": 15131,
+      "sha256": "24b43709d4a54ea6f2126caacb767af3975ef7e09a2234f5d4973c95b861105b"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/operator_virtual_scheme_check.wls",
+      "bytes": 3567,
+      "sha256": "9472117e536959101300df2f0778b9986ee725c9467e036429b7e30f8ff19bca"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/prepare_native_reduction.py",
+      "bytes": 5621,
+      "sha256": "16660a7be182bee752fe28968e8fea9243d0196dedeaf28d48de7e01d331917c"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/project_collins_pairs.wls",
+      "bytes": 8067,
+      "sha256": "1d584a272c877ab36e7baab2a772e35a20a0756b2e987d10855035f8d5efca9f"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/qgg_amplitude_ward.wls",
+      "bytes": 3973,
+      "sha256": "b1319dbb8950cf37a1ab02dc40f90962399140a93c2e7f0960f1443b01d2341f"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/real_linear_certificates.wls",
+      "bytes": 8294,
+      "sha256": "eb9ad4023682b3aaff31e60723fdb9b99c351efe3ce60f48cfa216a1b1eea593"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/real_template_continuation.wls",
+      "bytes": 3734,
+      "sha256": "0eeb21a15cccbfe220902253deaf1858e17e7c0be580daea0f499000330f194a"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/refactor_native_packet.wls",
+      "bytes": 2416,
+      "sha256": "14544e58921433e4c129f0664a453c6c1fa824338752f6176411fe736e142703"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/reuse_uu_scalar_exports.wls",
+      "bytes": 1812,
+      "sha256": "5f9df890cb6ec4a8ddc4d065933c214cf92f12ab96571775d0fc9ea2403ba20b"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/tagged_collinear_embedding.wls",
+      "bytes": 3379,
+      "sha256": "1cc0adb42d5929a7fe6bb0eb79d4b57fcebdf214491d534203ce365257028bfb"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/transversity_subtractions.wls",
+      "bytes": 5361,
+      "sha256": "31f850a502449a8b1970bbe638fbbe2f9c37faec8fb05da1cb3592c03ba236a0"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/virtual_linear_certificates.wls",
+      "bytes": 5771,
+      "sha256": "37e94954fc22a5fc8e563e42581e2ba7e679017aef280eaa5ee7d57a87b9a8dc"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/virtual_template_continuation.wls",
+      "bytes": 2896,
+      "sha256": "bed5378f351e5601c79673ac28406390e2404fc8e299cae74638f59868a5b532"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/virtual_uv_asymptotics.wls",
+      "bytes": 6219,
+      "sha256": "2d4b91de693d2e6c6a332f083ba2a95f19bd8ec144f9bfd72f50ad745b6f58a3"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/MANIFEST.json",
+      "bytes": 3635,
+      "sha256": "71dd3d1f36d90ac5ca19660d927b1b0f1a62c4481c5436e70903584b5fda9aa6"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/README.md",
+      "bytes": 1403,
+      "sha256": "d79e767f91941f997ea8eccb12204602788580b039a943e37d2652ed28e238f5"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/check_equivalence.py",
+      "bytes": 9536,
+      "sha256": "8b2a61b4becaac759f662481806c954a63052351d565ed653a683a3aebbfca14"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/jet_algebra.py",
+      "bytes": 5901,
+      "sha256": "1ee77e5afc6edbae7a771bdfef6223b17e7e9faf6985c8eb1688c572f7ff4ca9"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/source_manifest.json",
+      "bytes": 3415,
+      "sha256": "d38a8957d3e00ee5bdf3ec9ac75a957fefb7074040c947eac688cea62a85a5a2"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/CONVENTIONS.md",
+      "bytes": 19601,
+      "sha256": "727ee51dfdf07e285025638d3c8b335f04fbef3333029346679d5d015a5fc173"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/r07_assembly.wls",
+      "bytes": 10962,
+      "sha256": "9dc9ceeb3b9ae0d956209b5088698ded76a85916ed7ddd0326d8aed336afba9f"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_hf_projection.wl",
+      "bytes": 11624,
+      "sha256": "20656fddf3fe58af2ad956b2ee0b1058310ed4101f630af2a954072c0636e98f"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_observable_helpers.wl",
+      "bytes": 1305,
+      "sha256": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_soft_assembly.wl",
+      "bytes": 7067,
+      "sha256": "1cba04b5a7586ae012cce84588bd8f1fece39f68dc0460da909b688ce3286f7c"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_soft_generation.wl",
+      "bytes": 11792,
+      "sha256": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_soft_transforms.wl",
+      "bytes": 5770,
+      "sha256": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/provenance/soft/snapshots/d18_jet_derivation.wl",
+      "bytes": 18856,
+      "sha256": "b5b3ab20273dd1be04598588984bc46a0b3d82f2677b2e981ffd4483fec7260a"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/angular_projection.wl",
+      "bytes": 2194,
+      "sha256": "20f8ed1b3b9740654eb3df239e8d718ae7327134ca62e5e37dd528f60c1cd129"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/fragmentation.wl",
+      "bytes": 758,
+      "sha256": "be48c1a33cafe268542cdc4e3e245320676d4750cfbbbe748c47be88eebc436e"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/jet_matching.wl",
+      "bytes": 1611,
+      "sha256": "6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/observable_assembly.wl",
+      "bytes": 4967,
+      "sha256": "ed0f629f8df3ff5719e47d0c3da60ddc01fbd577089e8334c4172cda0dd0b8e8"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/tmd_evolution.wl",
+      "bytes": 703,
+      "sha256": "df5155d6f9c1edb128995547e7fc677375bddda7e8ee71303d1e883039aa435c"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/tools/checks/fragmentation_check.wls",
+      "bytes": 1686,
+      "sha256": "7b009168ef79e5f934f8671503bf1fe3dbe1af7ceb706aab18d295aa92dac556"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/tools/pipeline/jet_tmd_rg_check.wls",
+      "bytes": 2999,
+      "sha256": "6db81d32bca8f2ff3b3a7d5b22d9409ae001d32c0344d8e91b840331c09316aa"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/MANIFEST.json",
+      "bytes": 2294,
+      "sha256": "eb755622f90629b2977ce7451ee8ddce71a5ac6506db846ad34521bbe78cdc5f"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/README.md",
+      "bytes": 1397,
+      "sha256": "978bf8076be614f2fb365f5db0b3b4399aa4a7349c01098b3e226365b21bc53f"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/archived_ep_values.json",
+      "bytes": 10420,
+      "sha256": "2dd3cb0af0f4beca2ea86480c518bad76fa156d65bc454edc5de71c844510a99"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/check_jets.py",
+      "bytes": 14411,
+      "sha256": "71bc09d4997fbadbb9b0f4f9ccfb41a4cb041b8364005318f2f6a94afb7b0ae0"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/source_manifest.json",
+      "bytes": 3350,
+      "sha256": "1a5053adfc5ff8ecb03a30ef126f5c8b366339aea1c780c7bf0492c48e85ea58"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/CONVENTIONS.md",
+      "bytes": 19601,
+      "sha256": "727ee51dfdf07e285025638d3c8b335f04fbef3333029346679d5d015a5fc173"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/r07_assembly.wls",
+      "bytes": 10962,
+      "sha256": "9dc9ceeb3b9ae0d956209b5088698ded76a85916ed7ddd0326d8aed336afba9f"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_observable_helpers.wl",
+      "bytes": 1305,
+      "sha256": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_soft_assembly.wl",
+      "bytes": 7067,
+      "sha256": "1cba04b5a7586ae012cce84588bd8f1fece39f68dc0460da909b688ce3286f7c"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_soft_generation.wl",
+      "bytes": 11792,
+      "sha256": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_soft_transforms.wl",
+      "bytes": 5770,
+      "sha256": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/provenance/soft/snapshots/d18_jet_derivation.wl",
+      "bytes": 18856,
+      "sha256": "b5b3ab20273dd1be04598588984bc46a0b3d82f2677b2e981ffd4483fec7260a"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_sidis_highpt/common/jet_matching.wl",
+      "bytes": 1611,
+      "sha256": "6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/compare-attempt-001.log",
+      "bytes": 153,
+      "sha256": "0353a3e65b011c85dd3300e67bbe02fa91cd323250a9df5563e56309716a4d78"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/compare-attempt-002.log",
+      "bytes": 37573,
+      "sha256": "5f99a1da53fd78378cbbc0f31c1e590b3d83176ff60b8915c2fe87ad98fb7e00"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/compare-attempt-003.log",
+      "bytes": 4789,
+      "sha256": "76ab3a07c4fa0c48fafafbff4ffb67e60e3bb496a4709adbfd0cc606c5486ae6"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/context.json",
+      "bytes": 500,
+      "sha256": "3682826a35a2f7892ddf481eb9f2f1d4cf7338b1034986efea3ecddd747ea5a2"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/debug-adapter-001.log",
+      "bytes": 580,
+      "sha256": "ebaad01566ee6ef7e003b32fc9362cd93290da188b17926d7e0b7bd8ae26a35a"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/debug-adapter-001.wls",
+      "bytes": 4128,
+      "sha256": "d34f4ebf91e6a730ff8ca939512c4d5f7f0035d3159a1f134c6074227ff42233"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/debug-hf-002.log",
+      "bytes": 2145,
+      "sha256": "9a3ceaa54d8fb51c4a247d7c60af40e3b2d526809473badece6bc0e0330bd20c"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/debug-hf-002.wls",
+      "bytes": 3723,
+      "sha256": "bdce63594cf9d8f2b0e37873a50ebc1b8d9bd068ddb9dd6d1e21b5df5d102a71"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/debug-hf-003.log",
+      "bytes": 621,
+      "sha256": "26ee736c6b40952751891b264854f21f056177b849d075b2d5bb28d045ddd540"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/debug-hf-003.wls",
+      "bytes": 3481,
+      "sha256": "2db9a8b6f2c0bd79b37d831931dc82847405542147c7ff56cba1e65c4fb594de"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/debug-hf-analytic.wl",
+      "bytes": 6152,
+      "sha256": "94322ea9cf1170bce1122f8e071cbdffaf390617eabf6a3a3a52b580080610f2"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/debug-ope-001.log",
+      "bytes": 4074,
+      "sha256": "2daf80cf1d4ec988f5dc623f81793d2c28806673844d755f688724e91fc8a38e"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/debug-ope-001.wls",
+      "bytes": 4376,
+      "sha256": "01ebdda46baa9d33ca70ac248e05a325438f52d05fdb0178fae37bb29496c50b"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/debug-ope-inputs.wl",
+      "bytes": 5621,
+      "sha256": "38dd6413b85f5db98407f96042a96bb105a5963aca23aab1c62e9c04016a4b29"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/extract.log",
+      "bytes": 5953,
+      "sha256": "3e3a730501a183c3b7946e74976346af55b3eba411abf66d258bea32ce461977"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/extract_native.log",
+      "bytes": 5953,
+      "sha256": "3e3a730501a183c3b7946e74976346af55b3eba411abf66d258bea32ce461977"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/final/REPORT.md",
+      "bytes": 18095,
+      "sha256": "63b0f92911304374ffa4641192e5c169ec31ba4e8d5b12ee0a103d233f839cc7"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/final/compare_native.log",
+      "bytes": 27793,
+      "sha256": "0e03875eb51ff73b4bba0d94ebcb352e111e216ca9ce17c43586ef185df160ec"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/final/comparison-expressions.wl",
+      "bytes": 129169,
+      "sha256": "d6a265bdef70280057250202d06dae29a404822271f67226fd41fd0da881db4e"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/final/comparison.csv",
+      "bytes": 166284,
+      "sha256": "8e2a75008dfe308a304758cdca6f43c88cfa4eeff17c79ed5cccd58e045d8184"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/final/context.json",
+      "bytes": 512,
+      "sha256": "066159f1702575d4e6a7770dc74e39dae083e9f467c84fe7fb14d3c0f1b5700a"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/final/extract_native.log",
+      "bytes": 5953,
+      "sha256": "3e3a730501a183c3b7946e74976346af55b3eba411abf66d258bea32ce461977"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/final/native-extract.wl",
+      "bytes": 111557,
+      "sha256": "92460f3c8c5bca9dee20ff90631a76fd1c8c5394dd6ccca9dce2a125e373a501"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/final/native-results.json",
+      "bytes": 185334,
+      "sha256": "b52617569a13aa18b9171512eb1822781214b59045e3fa0133a892b7258bb9d3"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/final/provenance.json",
+      "bytes": 34219,
+      "sha256": "ad7c2f58cab3b66051983e248729a6f36f887d24170f54f9cfbd242c49eff0e3"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/final/summary.json",
+      "bytes": 191736,
+      "sha256": "ca4a34ad26e3314329b39fa2fec1c8b13400915efe9ad3e39929d29f462c7112"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/native-extract.wl",
+      "bytes": 111557,
+      "sha256": "92460f3c8c5bca9dee20ff90631a76fd1c8c5394dd6ccca9dce2a125e373a501"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/provenance.json",
+      "bytes": 31229,
+      "sha256": "c5ba4d748ffa5b3568decf84e4b33aed6efd558dddcbc23a6193f4b9d7fa8b88"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/REPORT.md",
+      "bytes": 9501,
+      "sha256": "cf27e7792075be36c15b38ba92e92dd812dadf0dddc8017368a7c58851fb99ff"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/compare_native.log",
+      "bytes": 7786,
+      "sha256": "f1624fb2ee3b7f139d018937740392ba146992ad99f0886aee58f5298dc387cc"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/comparison-expressions.wl",
+      "bytes": 129169,
+      "sha256": "cc9c91d36d967fa224552a35ff014de727b3d5e819879efc8d7dce9fdce3cdc8"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/comparison.csv",
+      "bytes": 132254,
+      "sha256": "b87001988a8524c20d4afdb5e641136cf15f0ffb6c23e801747b34a580f17066"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/context.json",
+      "bytes": 518,
+      "sha256": "7ec270f1e3a936c030d40b23756c6a95f2b7e4a96cd10b3963951be9a4d266e0"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/extract_native.log",
+      "bytes": 5953,
+      "sha256": "3e3a730501a183c3b7946e74976346af55b3eba411abf66d258bea32ce461977"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/native-extract.wl",
+      "bytes": 111557,
+      "sha256": "92460f3c8c5bca9dee20ff90631a76fd1c8c5394dd6ccca9dce2a125e373a501"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/native-results.json",
+      "bytes": 151173,
+      "sha256": "ae2209d811f0e774c9178514bbb8a2062c8ad51c590b50d83668120fb7190d0f"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/provenance.json",
+      "bytes": 34761,
+      "sha256": "2afada45a9af98ab334dda788554eaa6679c4e0113222e4e5c6556c2320c248a"
+    },
+    {
+      "path": "collins_support/reports/jet-native-comparison-001/verified/summary.json",
+      "bytes": 158050,
+      "sha256": "073a897994962abecc945048fdd141d2027567d6833ddb5105849d547eaccc3f"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r00_result/measured_hf_operators.wl",
+      "bytes": 328892,
+      "sha256": "f70e941d6e54319aec75f120220538982f162aa5e31283e3ee1d87c5fb7f4e8b"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r00_result/measured_soft_operators.wl",
+      "bytes": 22936,
+      "sha256": "bc04015e691f4a523e1549c3f1871ded5c22bf2d7b53ba7ee0c04f9b11573388"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r00_result/measured_tmd_operators.wl",
+      "bytes": 26886,
+      "sha256": "03debce50db0c8e82df2cd66bef72e4bad20c902e5a72950de7b38635a4ba09a"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r01_result/jobs/measured/reduction_certificate.wl",
+      "bytes": 378,
+      "sha256": "afaeeab93c1d2b68f05fc068c64d5b18809a985adb8bd313e7150b0d64358b23"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r01_result/measured_integrands.wl",
+      "bytes": 158427,
+      "sha256": "bb24e8fa0e1f7d3b15bb05872931baba4f3a8613d583bf83db59ebea2768a28b"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r02_result/jobs/measured/masters.wl",
+      "bytes": 54,
+      "sha256": "f3170103108a326dcd5f972a4425db0b06e95bab080be66d1a991d633c34cf90"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r02_result/jobs/measured/subtropica_execution.json",
+      "bytes": 116,
+      "sha256": "229fbe98a41a870b0d07434c99e9c87562c7acce9bff07cd8ca8187d473693b8"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r03_result/execution.log",
+      "bytes": 66,
+      "sha256": "79243b1d588e6bec7f2d1343ab988f96f0eadb7f454d0802822a32bf76beec49"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r03_result/measured_coefficients.wl",
+      "bytes": 104595,
+      "sha256": "320a39323c2e57cde45586fe8753352d4ffba43f47b8b4b83a473bff268e810e"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r03_result/packet.wl",
+      "bytes": 49447,
+      "sha256": "bd06dce6d6b9153985b0e88de6facb33578b750bf0bce43b1e83cdaddcb4a0ba"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r07_result/convention_conversion.wl",
+      "bytes": 16068,
+      "sha256": "705bf2b6b6fd86be4eb0ce382a9fadad9c54ba2617769b6bcfafe10bac68abb1"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r07_result/execution.log",
+      "bytes": 73,
+      "sha256": "1bd9342c86168f3f9f51c9f692ceddfcf98b7d7c6e00dcf9ba2c34021a25832e"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r07_result/observable_assembly.wl",
+      "bytes": 13717,
+      "sha256": "4699082cb91d8d655b68a72ebfc9c49568923dc29990881a9e56eb0860faf6d5"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/common/r07_result/packet.wl",
+      "bytes": 71519,
+      "sha256": "d034605473d7215927346a171191088a7dde2f4a60169c3d18f9aaf9669b45ab"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r00.json",
+      "bytes": 6169,
+      "sha256": "950eb4275796ef58a6e116ca8d47b22baa5225481bc5fe6a5f030d67fec22ca1"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r01.json",
+      "bytes": 20039,
+      "sha256": "1eaf42535e0a4ce49549e0a2733c144a0f50d0259e0dd9412b0efd3e1f3fddc5"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r02.json",
+      "bytes": 30851,
+      "sha256": "39fd818bd4d7e5c21fbdfe880b3f5c21fb31e6a9a9d108a909a4d2482a66dbd1"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r03.json",
+      "bytes": 2524,
+      "sha256": "55fd0422ef1672463784bffe3874cc2beecacf48076a2bae564cc7b5664dc4e2"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/receipts/r07.json",
+      "bytes": 2200,
+      "sha256": "ce96b9cbd9ae7f6dbea8dcd83f177ff5257bfee30e6d97ede8b331a471865cb0"
+    },
+    {
+      "path": "collins_support/states/runs/reverse-unitarity-003/20260915T063100Z-b8feba4db8fd/run.json",
+      "bytes": 26737,
+      "sha256": "fddf9e5a16918fd2d48e0920f39c3102c9fbee300bf47bd8fbf2606c31cf95a4"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/execution.log",
+      "bytes": 324,
+      "sha256": "e87b9ee11580c39fcc68339c67d302372d1de004eee1bc2458585fa44b15a32f"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/finite-jet/jet-matching-native.json",
+      "bytes": 4896,
+      "sha256": "a978df801f26923ab123002c897916508b7a46a8bc4a008827c55a6c635c17fd"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/finite-jet/jet-matching-native.wl",
+      "bytes": 1906,
+      "sha256": "6d5d6ba52a752bca6ec361c20ea777501b4313c351a3e34d9f5befa48e681da6"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/finite-jet.log",
+      "bytes": 64,
+      "sha256": "039411f8f552b3f0ea621c36d8bd5f54505ebc3f47e756b86fe159a813d13fd6"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/jet-TMD-RG/rg.wl",
+      "bytes": 3781,
+      "sha256": "9072a3610a39137b67b1993e6b2897ddc334b93882fc2a0db5be0a592d62298d"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/jet-TMD-RG.log",
+      "bytes": 86,
+      "sha256": "f862edf5d80a29292e54720c6f69b7f00c548a12746e2a93fdb0c2875d72fbf6"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/native-driver.json",
+      "bytes": 8825,
+      "sha256": "292659413ee867c4f9276d895132f2715ebde3bb38428a2c8ff778be8db0b044"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/observable/UT_Hqq.wl",
+      "bytes": 42071367,
+      "sha256": "880b4d698445048820322568f8d852385c33f692c267879c37bc421607261c55"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/observable/UU_Hqq.wl",
+      "bytes": 24101915,
+      "sha256": "61f15925c8d49e0fa417bf0ae87e52b61e2fb812f808933238b5d6a5794fc43a"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/observable/hard-banks.wl",
+      "bytes": 8939791,
+      "sha256": "21431e792e287d6cb642d6867a93a8fb4c704517b7f97ab9f6a97f52a56576e8"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/common/r07_result/observable.log",
+      "bytes": 335,
+      "sha256": "44d90ab5ac54ca1d62c7cf4aa6e50ec6ccd7aa3ffcf6bb45025b244e6af63c62"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/receipts/r07.json",
+      "bytes": 95689,
+      "sha256": "027bc58841c1b230d6fa578e478a227d38c0ddd92354e0b049d516f017c72904"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/result.json",
+      "bytes": 2427364,
+      "sha256": "0117d3e4eafc1d9d007b15b2c8bba31d038ae318e21a51d4488ffcf126b2406d"
+    },
+    {
+      "path": "collins_support/states/runs/sidis-highpt-001/continuation-001/native-campaign-002/physical/20260916T095719Z-1584d7f6dd71/run.json",
+      "bytes": 58484,
+      "sha256": "12daaa9c56add15e33f20f42186dc3b7a9c980f28363be4ea741979bf82b482e"
+    },
+    {
+      "path": "collins_support/validators/analytic/MANIFEST.json",
+      "bytes": 2988,
+      "sha256": "c016a289ceb0dbe5019373efcc23fea7d23f5adc5efed8664610f63663e0ecd3"
+    },
+    {
+      "path": "collins_support/validators/analytic/README.md",
+      "bytes": 1495,
+      "sha256": "1525bd02796cb35f6bf78f9926f73402cbb245d784ba398ce60d72e3e00bef0b"
+    },
+    {
+      "path": "collins_support/validators/analytic/SIDIS_REUSE.md",
+      "bytes": 17747,
+      "sha256": "78d6fadc2ce59caa9e476adead4605ef15370948b4f38307cc5ee637c92004d4"
+    },
+    {
+      "path": "collins_support/validators/analytic/algebra.py",
+      "bytes": 7609,
+      "sha256": "d61507c4364d5c665a6782d62f69f0888334386338f107fdf173b474ee1abed8"
+    },
+    {
+      "path": "collins_support/validators/analytic/compare_ru_reports.py",
+      "bytes": 4138,
+      "sha256": "8c3183c76abb5255034ffe3067bb629220d64b3a9128555e35ab7a4ef2f06671"
+    },
+    {
+      "path": "collins_support/validators/analytic/contract.json",
+      "bytes": 3495,
+      "sha256": "b5875a22370bb6227aab925719e92af90b1c76521c1f44e43c948b90dc9abc6a"
+    },
+    {
+      "path": "collins_support/validators/analytic/docs/INTERFACE.md",
+      "bytes": 1519,
+      "sha256": "506700225e5fb66653b02be16f28cb43f55fac88c27ba530fdf66bd5c9ac691b"
+    },
+    {
+      "path": "collins_support/validators/analytic/docs/SCIENTIFIC_REVIEW.md",
+      "bytes": 3301,
+      "sha256": "74a6c7110a3dd86ecfeeca7b095ea473ed0544763417b62b9843f7b05586a18b"
+    },
+    {
+      "path": "collins_support/validators/analytic/literature_inventory.json",
+      "bytes": 20082,
+      "sha256": "7c27d8dc1b304e494de75597fd40b1e7e62bf2bdef07c8e326ebad47dcc25948"
+    },
+    {
+      "path": "collins_support/validators/analytic/native_io.wl",
+      "bytes": 1116,
+      "sha256": "49e992ab8d8bd741bc39cae37ce03bc8b90916ee268a41a8695957f68137080c"
+    },
+    {
+      "path": "collins_support/validators/analytic/native_kira_audit.wls",
+      "bytes": 1796,
+      "sha256": "b46b71342e7936266b1328af974329da81373e3498c402438cb78a0162ed5bee"
+    },
+    {
+      "path": "collins_support/validators/analytic/native_mutate.wls",
+      "bytes": 2139,
+      "sha256": "65038e35aa067448e349b265d47ca476bcc3b82fed341aad354994b8238fd4a7"
+    },
+    {
+      "path": "collins_support/validators/analytic/native_probe_audit.wls",
+      "bytes": 1423,
+      "sha256": "cd129556bec429dca2a029087dbd0b7c0ec89261751cb1094d28799ac096f5ce"
+    },
+    {
+      "path": "collins_support/validators/analytic/native_reexport.wls",
+      "bytes": 955,
+      "sha256": "c570eeb1b915b8a962833c09ced0d0c273f8294776fd747b52c901785da97248"
+    },
+    {
+      "path": "collins_support/validators/analytic/native_regression.py",
+      "bytes": 8238,
+      "sha256": "2bba4e3d31345e2cff59b2ac8f844f8135a90d118c189268712c509f98496ac4"
+    },
+    {
+      "path": "collins_support/validators/analytic/native_regression_checks.wls",
+      "bytes": 1993,
+      "sha256": "b8613fcc5a2f63149e0b9532b2a7fa9d3b3969a2348079a6ebd423ef26487311"
+    },
+    {
+      "path": "collins_support/validators/analytic/native_regression_inputs.wls",
+      "bytes": 1810,
+      "sha256": "fe00869a5aee19d959ac601507c482ea30b5268e47eed80c921318e7815b0baa"
+    },
+    {
+      "path": "collins_support/validators/analytic/native_smoke.py",
+      "bytes": 1454,
+      "sha256": "753fe29814ef177902cbeea83fc69a7e386372fd7b7e1b424a7e192933bfa19f"
+    },
+    {
+      "path": "collins_support/validators/analytic/native_subtropica.wls",
+      "bytes": 3762,
+      "sha256": "16a71288adfbb7cef6f9c112fd92ad91711527404e21b33390fdc81e9a99581f"
+    },
+    {
+      "path": "collins_support/validators/analytic/reference_values.json",
+      "bytes": 35953,
+      "sha256": "2bd3deea176c3ae00413118d3d7fde9f393dfa242650ed24245c0af196477ef6"
+    },
+    {
+      "path": "collins_support/validators/analytic/references.json",
+      "bytes": 8676,
+      "sha256": "80529153384975ee096f9bd659057d81d20c95cd08f1d52c2f1bf967a984483a"
+    },
+    {
+      "path": "collins_support/validators/analytic/requirements.txt",
+      "bytes": 44,
+      "sha256": "33f6b4e4780305a3878ad87a9b40fd506f68f8cf0060edbcd8bd9fa6ed10ad57"
+    },
+    {
+      "path": "collins_support/validators/analytic/ru_support.py",
+      "bytes": 8823,
+      "sha256": "94d40a7f5aaee6a2145809754ba2dc7737c633ee0283e50284bdb04e9793aa8f"
+    },
+    {
+      "path": "collins_support/validators/analytic/selftest.py",
+      "bytes": 685,
+      "sha256": "765d3824cb3d2026643f8527ddc3090152f827df442802d8ad4e260b6378c74e"
+    },
+    {
+      "path": "collins_support/validators/analytic/sidis_reuse.json",
+      "bytes": 3989,
+      "sha256": "de12c9dde06cc534e02d4ed1927a8946590ca9f2246a5b48a81e45d81c3432d1"
+    },
+    {
+      "path": "collins_support/validators/analytic/tests/fixtures/v050/PROVENANCE.json",
+      "bytes": 770,
+      "sha256": "94f820f7c80ca2f490d3c80ff8260c4fd9ff2c79dca9b20311444b36dc4ca415"
+    },
+    {
+      "path": "collins_support/validators/analytic/tests/fixtures/v050/volume-masters.json",
+      "bytes": 763,
+      "sha256": "c489a04979c9bba9e370eee75432068705af4c541df9333f0faf2e109a6e7bd6"
+    },
+    {
+      "path": "collins_support/validators/analytic/tests/test_current_package.py",
+      "bytes": 4255,
+      "sha256": "76dc2d432ac2c6767f12e882d740f981e4dc81f52be0addc369d0372a90866a3"
+    },
+    {
+      "path": "collins_support/validators/analytic/tests/test_execution.py",
+      "bytes": 4191,
+      "sha256": "fbbb586ffd36511f9a5e6a1eed643985c949aa0871d4468142a9aa0459392920"
+    },
+    {
+      "path": "collins_support/validators/analytic/tests/test_repairs.py",
+      "bytes": 8005,
+      "sha256": "abc3f0a7f0b6eb11c89a01059bb47f527f28e365c8483fe5cde019e083839db5"
+    },
+    {
+      "path": "collins_support/validators/analytic/tests/test_validator.py",
+      "bytes": 9321,
+      "sha256": "1a5c82bc09f38938bc2dfcbf8e14e2a3f93c558f8602eb1c00328373d13e46b0"
+    },
+    {
+      "path": "collins_support/validators/analytic/verify_ru.py",
+      "bytes": 16781,
+      "sha256": "eb6848e685a47f39c1f144a604598414e58121e791cb3c4b8675406184cb5cbf"
+    },
+    {
+      "path": "collins_support/validators/analytic/workflow.py",
+      "bytes": 19644,
+      "sha256": "59e675000e78213102efd1a6e5e4c722d93dd9970092410a5073b48dbefa08f1"
+    },
+    {
+      "path": "collins_support/validators/sidis_highpt.py",
+      "bytes": 35202,
+      "sha256": "8cea5069016bd81b4437141024e0cf83dc4d223af7d0d5b1c8b55240c0b8373a"
+    },
+    {
+      "path": "collins_support/validators/sidis_highpt_docs/IMPLEMENTATION_PROMPT.md",
+      "bytes": 12081,
+      "sha256": "6e9f91cbb4287235a92486e66358c90e686f332b52101de93f6ccb125e4e9c08"
+    },
+    {
+      "path": "collins_support/validators/sidis_highpt_docs/INSTALL.md",
+      "bytes": 4408,
+      "sha256": "e2ed5cad47064b2d6a39c40557ba6a88de87cd882e2c657a600d8547c9b512e9"
+    },
+    {
+      "path": "collins_support/validators/sidis_highpt_docs/INTERFACE.md",
+      "bytes": 13732,
+      "sha256": "d645b9bd74b293468b10a0247dee211df6ad32a451ec8e1c3a68bfa9caf260df"
+    },
+    {
+      "path": "collins_support/validators/sidis_highpt_docs/VALIDATION.md",
+      "bytes": 3354,
+      "sha256": "1926c12d71d3d95b4a372bd8409d9680e0dd6d3e0e4a6ef42667526616abe2aa"
+    },
+    {
+      "path": "collins_support/validators/sidis_highpt_extract.wls",
+      "bytes": 1431,
+      "sha256": "50bece498d188a8b4952341f77774c438df6c513befdc94a3f3d17c5d99f1007"
+    },
+    {
+      "path": "collins_support/validators/sidis_highpt_files.json",
+      "bytes": 508,
+      "sha256": "dcc1291a87e4394389e021305e3c2c1ef7b8a361800c452f5ffc91d2e5f59337"
+    },
+    {
+      "path": "collins_support/validators/sidis_highpt_project.example.json",
+      "bytes": 4107,
+      "sha256": "2b138db3065237724d303df296089d7d5e5653ac2e43e2e7648a44f100d705c3"
+    },
+    {
+      "path": "collins_support/validators/tests/test_sidis_highpt.py",
+      "bytes": 24241,
+      "sha256": "9af80b5bfb67e1f4c496fe4584b5b4891ae3df60baa8a660da3a4b038d9a8d1a"
+    }
+  ],
+  "expected_change": "collins_sidis_highpt/common/jet_matching.wl"
+}
