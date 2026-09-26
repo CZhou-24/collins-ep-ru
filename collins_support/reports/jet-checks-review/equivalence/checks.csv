@@ -1,0 +1,15 @@
+check,residual,verdict,meaning
+soft / shifted standard half,0,PASS,"ep derived extra intrinsic jet remainder, poles and finite part"
+soft / cross-workflow nu derivative,0,PASS,ep soft finite expression vs high-pT explicit in-jet rapidity anomalous dimension; coefficient of a
+soft / cancellation with high-pT unsubtracted TMD,0,PASS,one in-jet soft allocation cancels the unsubtracted TMD rapidity dependence
+scale / zetaJ,0,PASS,same local jet transverse momentum and R; no claim of a global frame transformation
+Fourier / high-pT Gaussian round trip n=0,0,PASS,exact transform normalization test from parsed forward/inverse formulas
+Fourier / high-pT Gaussian round trip n=1,0,PASS,exact transform normalization test from parsed forward/inverse formulas
+Fourier / UU forward map,0,PASS,D_ep = zh^2 D_tilde_highpt for the same momentum-space input
+Fourier / UU inverse map,0,PASS,radial integrands coincide after the forward normalization map
+Fourier / native Collins coefficient map,0,PASS,"C_ep(b) = -2 zh^4 Mh H_tilde_highpt^(1)(b), for declared common momentum input"
+Fourier / native tree moment limit,0,PASS,formal Gaussian b->0 limit gives Hhat3=-2 zh Mh HTrento^(1); no UV OPE claim
+Fourier / UT signed inverse map,0,PASS,raw native scalar radial coefficient is minus Trento/analyzer coefficient; conversion is required
+Fourier / UT converted Gaussian action,0,PASS,mapped radial action reproduces the high-pT Collins analyzer magnitude and sign
+full jet / U qq distribution difference action,0,PASS,verify NONZERO semi-inclusive correction on phi=1; it is absent from ep intrinsic jet remainder
+full jet / T qq distribution difference action,0,PASS,verify NONZERO semi-inclusive correction on phi=1; it is absent from ep intrinsic jet remainder

@@ -1,0 +1,86 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.14.0",
+  "verification_scope": "Fresh source-algebra checks in the publication checkout with packaged-input isolation",
+  "checks": [
+    {
+      "package": "jet_literature",
+      "command": [
+        "python3",
+        "-B",
+        "collins_support/checks/jet_literature/check_jets.py",
+        "--out",
+        "collins_support/reports/jet-checks-review/literature"
+      ],
+      "working_directory": "publication checkout root",
+      "started_utc": "2026-09-26T02:54:58.605260+00:00",
+      "finished_utc": "2026-09-26T02:55:07.462533+00:00",
+      "exit_code": 0,
+      "input_guard": "During execution, reads under /bigTMD outside this packaged check and its explicit report output were blocked.",
+      "blocked_attempts": [],
+      "packaged_files_read": [
+        "collins_support/checks/jet_literature/archived_ep_values.json",
+        "collins_support/checks/jet_literature/check_jets.py",
+        "collins_support/checks/jet_literature/source_manifest.json",
+        "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/CONVENTIONS.md",
+        "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/r07_assembly.wls",
+        "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_observable_helpers.wl",
+        "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_soft_assembly.wl",
+        "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_soft_generation.wl",
+        "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_soft_transforms.wl",
+        "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/provenance/soft/snapshots/d18_jet_derivation.wl",
+        "collins_support/checks/jet_literature/sources/collins_sidis_highpt/common/jet_matching.wl"
+      ],
+      "environment_read_roots": "Existing system Python installation and libraries under /usr; no active repository data",
+      "checks": 74,
+      "passed": 74,
+      "failed": 0,
+      "optional_missing_cache_open_attempts": []
+    },
+    {
+      "package": "jet_equivalence",
+      "command": [
+        "python3",
+        "-B",
+        "collins_support/checks/jet_equivalence/check_equivalence.py",
+        "--out",
+        "collins_support/reports/jet-checks-review/equivalence"
+      ],
+      "working_directory": "publication checkout root",
+      "started_utc": "2026-09-26T02:55:28.643014+00:00",
+      "finished_utc": "2026-09-26T02:55:32.277107+00:00",
+      "exit_code": 0,
+      "input_guard": "During execution, reads under /bigTMD outside this packaged check and its explicit report output were blocked.",
+      "blocked_attempts": [],
+      "packaged_files_read": [
+        "collins_support/checks/jet_equivalence/check_equivalence.py",
+        "collins_support/checks/jet_equivalence/jet_algebra.py",
+        "collins_support/checks/jet_equivalence/source_manifest.json",
+        "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/CONVENTIONS.md",
+        "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/r07_assembly.wls",
+        "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_hf_projection.wl",
+        "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_observable_helpers.wl",
+        "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_soft_assembly.wl",
+        "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_soft_generation.wl",
+        "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_soft_transforms.wl",
+        "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/provenance/soft/snapshots/d18_jet_derivation.wl",
+        "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/angular_projection.wl",
+        "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/fragmentation.wl",
+        "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/jet_matching.wl",
+        "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/observable_assembly.wl",
+        "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/tmd_evolution.wl",
+        "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/tools/checks/fragmentation_check.wls",
+        "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/tools/pipeline/jet_tmd_rg_check.wls"
+      ],
+      "environment_read_roots": "Existing system Python installation and libraries under /usr; no active repository data",
+      "checks": 14,
+      "passed": 14,
+      "failed": 0,
+      "optional_missing_cache_open_attempts": [
+        "collins_support/checks/jet_equivalence/__pycache__/jet_algebra.cpython-310.pyc"
+      ]
+    }
+  ],
+  "native_campaign": false,
+  "audit_note": "Python open hooks also see attempted optional .pyc reads. Missing cache attempts are listed separately; the source files were packaged and no cache is required."
+}

@@ -1,0 +1,66 @@
+{
+  "scope": "Source-formula algebra and selected archived values; no Wolfram/native rerun or finite-R certification",
+  "commit": "fd46f4e6b00e4166984faf0fb57bab5369503068",
+  "sympy": "1.14.0",
+  "archived_ep_run": "20260915T063100Z-b8feba4db8fd",
+  "checks": 74,
+  "passed": 74,
+  "failed": 0,
+  "soft": {
+    "injet_Laurent": "-B**2*CF/2 + B*CF*V - B*CF*g - 2*B*CF/eta + CF*V/eps - pi**2*CF/12 - CF*g/eps - 2*CF/(eps*eta) + CF/eps**2",
+    "standard_half_Laurent": "-B**2*CF/2 + B*CF*V - 2*B*CF/eta + CF*V/eps - pi**2*CF/12 - 2*CF/(eps*eta) + CF/eps**2",
+    "injet_finite": "-B**2*CF/2 + B*CF*V - B*CF*g - pi**2*CF/12",
+    "recoil_Laurent": "2*B*CF*Y + B*CF*r + 2*CF*Y/eps - CF*r**2/2 + CF*r/eps",
+    "recoil_finite": "2*B*CF*Y + B*CF*r - CF*r**2/2",
+    "extra_jet_remainder": "0"
+  },
+  "jet_canonical": {
+    "U_q_q": {
+      "delta": "-CF*L**2/2 + pi**2*CF/12",
+      "plus0": "2*CF*L",
+      "plus1": "-4*CF",
+      "regular": "CF*(-L*z - L + 2*z*log(1 - z) + z + 2*log(1 - z) - 1)"
+    },
+    "U_q_g": {
+      "delta": "0",
+      "plus0": "0",
+      "plus1": "0",
+      "regular": "CF*(2*L + z*(L*z - 2*L - 2*z*log(1 - z) - z + 4*log(1 - z)) - 4*log(1 - z))/z"
+    },
+    "U_g_q": {
+      "delta": "0",
+      "plus0": "0",
+      "plus1": "0",
+      "regular": "TF*(2*L*z**2 - 2*L*z + L - 4*z**2*log(1 - z) + 2*z**2 + 4*z*log(1 - z) - 2*z - 2*log(1 - z))"
+    },
+    "U_g_g": {
+      "delta": "-CA*L**2/2 + pi**2*CA/12",
+      "plus0": "2*CA*L",
+      "plus1": "-4*CA",
+      "regular": "2*CA*(L*z*(1 - z) + L*z*(z - 1)*(-z**2 + z - 1) + L*(z - 1) + 2*(z*(z**3 - 2*z**2 + 3*z - 3) + 1)*log(1 - z))/(z*(z - 1))"
+    },
+    "T_q_q": {
+      "delta": "-CF*L**2/2 + pi**2*CF/12",
+      "plus0": "2*CF*L",
+      "plus1": "-4*CF",
+      "regular": "2*CF*(-L + 2*log(1 - z))"
+    }
+  },
+  "distribution_actions": {
+    "U_q_q/z^1": "CF*(-18*L**2 - 102*L - 248 + 3*pi**2)/36",
+    "U_q_q/z^2": "CF*(-36*L**2 - 258*L - 673 + 6*pi**2)/72",
+    "U_q_q/z^3": "CF*(-900*L**2 - 7410*L - 20609 + 150*pi**2)/1800",
+    "U_q_g/z^1": "CF*(12*L + 17)/9",
+    "U_q_g/z^2": "CF*(42*L + 97)/72",
+    "U_q_g/z^3": "CF*(330*L + 967)/900",
+    "U_g_q/z^1": "TF*(12*L + 35)/36",
+    "U_g_q/z^2": "TF*(210*L + 779)/900",
+    "U_g_q/z^3": "TF*(110*L + 469)/600",
+    "U_g_g/z^1": "CA*(-18*L**2 - 66*L - 203 + 3*pi**2)/36",
+    "U_g_g/z^2": "CA*(-450*L**2 - 2910*L - 7769 + 75*pi**2)/900",
+    "U_g_g/z^3": "CA*(-150*L**2 - 1180*L - 3292 + 25*pi**2)/300",
+    "T_q_q/z^1": "CF*(-6*L**2 - 36*L - 84 + pi**2)/12",
+    "T_q_q/z^2": "CF*(-18*L**2 - 132*L - 340 + 3*pi**2)/36",
+    "T_q_q/z^3": "CF*(-18*L**2 - 150*L - 415 + 3*pi**2)/36"
+  }
+}

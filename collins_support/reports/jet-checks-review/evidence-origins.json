@@ -1,0 +1,38 @@
+{
+  "archived_comparison_records": [
+    {
+      "archived_local_record": "collins_support/reports/jet-comparison-cavBkJ/results/summary.json",
+      "sha256": "3de414e0acd2eea8849af19e5033a9f9644224b433b6bee559fb0dd793cd5b0d",
+      "fresh_record": "collins_support/reports/jet-checks-review/literature/summary.json",
+      "fresh_bytes_match_archived": true,
+      "archived_native_run_rerun": false
+    },
+    {
+      "archived_local_record": "collins_support/reports/jet-comparison-cavBkJ/results/comparison.csv",
+      "sha256": "3d8e54dd74fb94fd60f1d315300318918793937ca2877e50fe96f694fa52be42",
+      "fresh_record": "collins_support/reports/jet-checks-review/literature/comparison.csv",
+      "fresh_bytes_match_archived": true,
+      "archived_native_run_rerun": false
+    },
+    {
+      "archived_local_record": "collins_support/reports/jet-equivalence-001/reproduction-001/summary.json",
+      "sha256": "0d7ab4130f9f63a8770cf4f21c84cd14ca7b594814412f19a6d514da9cd6735c",
+      "fresh_record": "collins_support/reports/jet-checks-review/equivalence/summary.json",
+      "fresh_bytes_match_archived": true,
+      "archived_native_run_rerun": false
+    },
+    {
+      "archived_local_record": "collins_support/reports/jet-equivalence-001/reproduction-001/checks.csv",
+      "sha256": "b864f4b9be4dd67c75480e2f4042c91454f5ffae5ae92c3cfa25cc6180453b30",
+      "fresh_record": "collins_support/reports/jet-checks-review/equivalence/checks.csv",
+      "fresh_bytes_match_archived": true,
+      "archived_native_run_rerun": false
+    }
+  ],
+  "convention_note_original": {
+    "path": "collins_support/reports/jet-equivalence-001/JET_EQUIVALENCE_NOTE.md",
+    "sha256": "0808c31df249bd6938e1a90fff7472fdfe888694389ef6d8645450d1b9e352e5",
+    "publication_edit": "Reproduction paths and publication wording only; equations and qualifications preserved"
+  },
+  "fixture_revision": "fd46f4e6b00e4166984faf0fb57bab5369503068"
+}

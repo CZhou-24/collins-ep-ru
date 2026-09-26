@@ -36,3 +36,7 @@ collins_support/reports/
 !/collins_support/reports/
 !/collins_support/reports/sidis-highpt-review/
 !/collins_support/reports/sidis-highpt-review/**
+
+# Publish only the selected compact jet-check review; future replay trees stay ignored.
+!/collins_support/reports/jet-checks-review/
+!/collins_support/reports/jet-checks-review/**

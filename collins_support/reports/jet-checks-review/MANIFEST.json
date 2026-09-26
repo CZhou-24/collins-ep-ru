@@ -1,0 +1,216 @@
+{
+  "scope": "Explicit publication selection: two self-contained jet checks, compact review and its ignore exception. This manifest excludes itself.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 1465,
+      "sha256": "6c44004ec71a7729a73d8686d67afc56bb9cab286ff6bebd508b80ed30decf9a"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/MANIFEST.json",
+      "size": 3635,
+      "sha256": "71dd3d1f36d90ac5ca19660d927b1b0f1a62c4481c5436e70903584b5fda9aa6"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/README.md",
+      "size": 1403,
+      "sha256": "d79e767f91941f997ea8eccb12204602788580b039a943e37d2652ed28e238f5"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/check_equivalence.py",
+      "size": 9536,
+      "sha256": "8b2a61b4becaac759f662481806c954a63052351d565ed653a683a3aebbfca14"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/jet_algebra.py",
+      "size": 5901,
+      "sha256": "1ee77e5afc6edbae7a771bdfef6223b17e7e9faf6985c8eb1688c572f7ff4ca9"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/source_manifest.json",
+      "size": 3415,
+      "sha256": "d38a8957d3e00ee5bdf3ec9ac75a957fefb7074040c947eac688cea62a85a5a2"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/CONVENTIONS.md",
+      "size": 19601,
+      "sha256": "727ee51dfdf07e285025638d3c8b335f04fbef3333029346679d5d015a5fc173"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/r07_assembly.wls",
+      "size": 10962,
+      "sha256": "9dc9ceeb3b9ae0d956209b5088698ded76a85916ed7ddd0326d8aed336afba9f"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_hf_projection.wl",
+      "size": 11624,
+      "sha256": "20656fddf3fe58af2ad956b2ee0b1058310ed4101f630af2a954072c0636e98f"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_observable_helpers.wl",
+      "size": 1305,
+      "sha256": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_soft_assembly.wl",
+      "size": 7067,
+      "sha256": "1cba04b5a7586ae012cce84588bd8f1fece39f68dc0460da909b688ce3286f7c"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_soft_generation.wl",
+      "size": 11792,
+      "sha256": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/common/ru_soft_transforms.wl",
+      "size": 5770,
+      "sha256": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_ep_analytic_SIDIS/provenance/soft/snapshots/d18_jet_derivation.wl",
+      "size": 18856,
+      "sha256": "b5b3ab20273dd1be04598588984bc46a0b3d82f2677b2e981ffd4483fec7260a"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/angular_projection.wl",
+      "size": 2194,
+      "sha256": "20f8ed1b3b9740654eb3df239e8d718ae7327134ca62e5e37dd528f60c1cd129"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/fragmentation.wl",
+      "size": 758,
+      "sha256": "be48c1a33cafe268542cdc4e3e245320676d4750cfbbbe748c47be88eebc436e"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/jet_matching.wl",
+      "size": 1611,
+      "sha256": "6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/observable_assembly.wl",
+      "size": 4967,
+      "sha256": "ed0f629f8df3ff5719e47d0c3da60ddc01fbd577089e8334c4172cda0dd0b8e8"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/common/tmd_evolution.wl",
+      "size": 703,
+      "sha256": "df5155d6f9c1edb128995547e7fc677375bddda7e8ee71303d1e883039aa435c"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/tools/checks/fragmentation_check.wls",
+      "size": 1686,
+      "sha256": "7b009168ef79e5f934f8671503bf1fe3dbe1af7ceb706aab18d295aa92dac556"
+    },
+    {
+      "path": "collins_support/checks/jet_equivalence/sources/collins_sidis_highpt/tools/pipeline/jet_tmd_rg_check.wls",
+      "size": 2999,
+      "sha256": "6db81d32bca8f2ff3b3a7d5b22d9409ae001d32c0344d8e91b840331c09316aa"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/MANIFEST.json",
+      "size": 2294,
+      "sha256": "eb755622f90629b2977ce7451ee8ddce71a5ac6506db846ad34521bbe78cdc5f"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/README.md",
+      "size": 1397,
+      "sha256": "978bf8076be614f2fb365f5db0b3b4399aa4a7349c01098b3e226365b21bc53f"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/archived_ep_values.json",
+      "size": 10420,
+      "sha256": "2dd3cb0af0f4beca2ea86480c518bad76fa156d65bc454edc5de71c844510a99"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/check_jets.py",
+      "size": 14411,
+      "sha256": "71bc09d4997fbadbb9b0f4f9ccfb41a4cb041b8364005318f2f6a94afb7b0ae0"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/source_manifest.json",
+      "size": 3350,
+      "sha256": "1a5053adfc5ff8ecb03a30ef126f5c8b366339aea1c780c7bf0492c48e85ea58"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/CONVENTIONS.md",
+      "size": 19601,
+      "sha256": "727ee51dfdf07e285025638d3c8b335f04fbef3333029346679d5d015a5fc173"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/r07_assembly.wls",
+      "size": 10962,
+      "sha256": "9dc9ceeb3b9ae0d956209b5088698ded76a85916ed7ddd0326d8aed336afba9f"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_observable_helpers.wl",
+      "size": 1305,
+      "sha256": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_soft_assembly.wl",
+      "size": 7067,
+      "sha256": "1cba04b5a7586ae012cce84588bd8f1fece39f68dc0460da909b688ce3286f7c"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_soft_generation.wl",
+      "size": 11792,
+      "sha256": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/common/ru_soft_transforms.wl",
+      "size": 5770,
+      "sha256": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_ep_analytic_SIDIS/provenance/soft/snapshots/d18_jet_derivation.wl",
+      "size": 18856,
+      "sha256": "b5b3ab20273dd1be04598588984bc46a0b3d82f2677b2e981ffd4483fec7260a"
+    },
+    {
+      "path": "collins_support/checks/jet_literature/sources/collins_sidis_highpt/common/jet_matching.wl",
+      "size": 1611,
+      "sha256": "6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829"
+    },
+    {
+      "path": "collins_support/reports/jet-checks-review/JET_EQUIVALENCE_NOTE.md",
+      "size": 6625,
+      "sha256": "4592e77525f71e236cd17ff614feb3dbd9ea026c88bb30ccd1badfaaeaf91164"
+    },
+    {
+      "path": "collins_support/reports/jet-checks-review/README.md",
+      "size": 2941,
+      "sha256": "2aafc8e884a499897e4bbc42bfc0db601671d1f3d89ff7d3ea82e0d83f9add29"
+    },
+    {
+      "path": "collins_support/reports/jet-checks-review/equivalence/checks.csv",
+      "size": 1770,
+      "sha256": "b864f4b9be4dd67c75480e2f4042c91454f5ffae5ae92c3cfa25cc6180453b30"
+    },
+    {
+      "path": "collins_support/reports/jet-checks-review/equivalence/summary.json",
+      "size": 2035,
+      "sha256": "0d7ab4130f9f63a8770cf4f21c84cd14ca7b594814412f19a6d514da9cd6735c"
+    },
+    {
+      "path": "collins_support/reports/jet-checks-review/evidence-origins.json",
+      "size": 1928,
+      "sha256": "3ccfb698f9d14c9ad9338a757d431b9da70ce94e34acf96a232362b976e464cd"
+    },
+    {
+      "path": "collins_support/reports/jet-checks-review/literature/comparison.csv",
+      "size": 6071,
+      "sha256": "3d8e54dd74fb94fd60f1d315300318918793937ca2877e50fe96f694fa52be42"
+    },
+    {
+      "path": "collins_support/reports/jet-checks-review/literature/summary.json",
+      "size": 2622,
+      "sha256": "3de414e0acd2eea8849af19e5033a9f9644224b433b6bee559fb0dd793cd5b0d"
+    },
+    {
+      "path": "collins_support/reports/jet-checks-review/verification.json",
+      "size": 5210,
+      "sha256": "e52ea46a42eaca3dfa71e9eb5caa13018e9daecafa153acc7fd7db7390d7df27"
+    }
+  ],
+  "path_base": "Publication checkout root"
+}

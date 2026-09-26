@@ -1,0 +1,75 @@
+name,kind,reference,residual,verdict
+U_q_q/delta,symbolic equality,2311.00672v2 Eq.114,0,PASS
+U_q_q/plus0,symbolic equality,2311.00672v2 Eq.114,0,PASS
+U_q_q/plus1,symbolic equality,2311.00672v2 Eq.114,0,PASS
+U_q_q/regular,symbolic equality,2311.00672v2 Eq.114,0,PASS
+U_q_g/delta,symbolic equality,2311.00672v2 Eq.115,0,PASS
+U_q_g/plus0,symbolic equality,2311.00672v2 Eq.115,0,PASS
+U_q_g/plus1,symbolic equality,2311.00672v2 Eq.115,0,PASS
+U_q_g/regular,symbolic equality,2311.00672v2 Eq.115,0,PASS
+U_g_q/delta,symbolic equality,2311.00672v2 Eq.117,0,PASS
+U_g_q/plus0,symbolic equality,2311.00672v2 Eq.117,0,PASS
+U_g_q/plus1,symbolic equality,2311.00672v2 Eq.117,0,PASS
+U_g_q/regular,symbolic equality,2311.00672v2 Eq.117,0,PASS
+U_g_g/delta,symbolic equality,2311.00672v2 Eq.116,0,PASS
+U_g_g/plus0,symbolic equality,2311.00672v2 Eq.116,0,PASS
+U_g_g/plus1,symbolic equality,2311.00672v2 Eq.116,0,PASS
+U_g_g/regular,symbolic equality,2311.00672v2 Eq.116,0,PASS
+T_q_q/delta,symbolic equality,2311.00672v2 Eq.126,0,PASS
+T_q_q/plus0,symbolic equality,2311.00672v2 Eq.126,0,PASS
+T_q_q/plus1,symbolic equality,2311.00672v2 Eq.126,0,PASS
+T_q_q/regular,symbolic equality,2311.00672v2 Eq.126,0,PASS
+U_q_q/mu derivative/delta,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_q_q/mu derivative/plus0,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_q_q/mu derivative/plus1,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_q_q/mu derivative/regular,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_q_g/mu derivative/delta,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_q_g/mu derivative/plus0,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_q_g/mu derivative/plus1,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_q_g/mu derivative/regular,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_g_q/mu derivative/delta,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_g_q/mu derivative/plus0,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_g_q/mu derivative/plus1,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_g_q/mu derivative/regular,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_g_g/mu derivative/delta,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_g_g/mu derivative/plus0,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_g_g/mu derivative/plus1,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_g_g/mu derivative/regular,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+T_q_q/mu derivative/delta,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+T_q_q/mu derivative/plus0,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+T_q_q/mu derivative/plus1,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+T_q_q/mu derivative/regular,symbolic equality,"2311.00672v2 Eqs.130-133,138",0,PASS
+U_q_q/test action z^1,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+U_q_q/test action z^2,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+U_q_q/test action z^3,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+U_q_g/test action z^1,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+U_q_g/test action z^2,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+U_q_g/test action z^3,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+U_g_q/test action z^1,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+U_g_q/test action z^2,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+U_g_q/test action z^3,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+U_g_g/test action z^1,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+U_g_g/test action z^2,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+U_g_g/test action z^3,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+T_q_q/test action z^1,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+T_q_q/test action z^2,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+T_q_q/test action z^3,exact distribution action,"2311.00672v2 Eqs.114-117,126",0,PASS
+ep/injet minus shifted standard-soft half,symbolic equality,2311.00672v2 Eq.89,0,PASS
+ep/injet finite including constant,symbolic equality,2311.00672v2 Eq.83; narrow-cone scale map,0,PASS
+ep/standard half finite,symbolic equality,2311.00672v2 Eq.88,0,PASS
+ep/recoil rapidity residue,symbolic equality,2007.07281 Appendix A3,0,PASS
+ep/recoil finite,symbolic equality,2007.07281 Appendix A3,0,PASS
+ep/injet mu anomalous dimension,symbolic equality,2311.00672v2 Eq.86,0,PASS
+ep/injet nu anomalous dimension,symbolic equality,2311.00672v2 Eq.87,0,PASS
+archived/r03/measured_normalization,archived value vs fresh symbolic calculation,20260915T063100Z-b8feba4db8fd,0,PASS
+archived/r03/soft_standard,archived value vs fresh symbolic calculation,20260915T063100Z-b8feba4db8fd,0,PASS
+archived/r03/soft_injet,archived value vs fresh symbolic calculation,20260915T063100Z-b8feba4db8fd,0,PASS
+archived/r03/recoil_soft_finite,archived value vs fresh symbolic calculation,20260915T063100Z-b8feba4db8fd,0,PASS
+archived/r03/jet_UU_bare_remainder,archived value vs fresh symbolic calculation,20260915T063100Z-b8feba4db8fd,0,PASS
+archived/r03/jet_UT_bare_remainder,archived value vs fresh symbolic calculation,20260915T063100Z-b8feba4db8fd,0,PASS
+archived/export/d18/UU/finite,archived final export; common zero remainder,20260915T063100Z-b8feba4db8fd,0,PASS
+archived/export/d18/UT/finite,archived final export; common zero remainder,20260915T063100Z-b8feba4db8fd,0,PASS
+ep/UU/order 0,symbolic equality,source product; 2007.07281 Eq.17 identified-hadron factorization,0,PASS
+ep/UU/order 1,symbolic equality,source product; 2007.07281 Eq.17 identified-hadron factorization,0,PASS
+ep/UT/order 0,symbolic equality,source product; 2007.07281 Eq.17 identified-hadron factorization,0,PASS
+ep/UT/order 1,symbolic equality,source product; 2007.07281 Eq.17 identified-hadron factorization,0,PASS

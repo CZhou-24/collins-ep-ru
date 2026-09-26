@@ -1,0 +1,46 @@
+{
+  "commit": "fd46f4e6b00e4166984faf0fb57bab5369503068",
+  "snapshot_files": 15,
+  "checks": 14,
+  "passed": 14,
+  "failed": 0,
+  "verdict": "Shared soft/Fourier interfaces consistent under the recorded map; full jet operators not equal.",
+  "qualification": "Source algebra with analytic Gaussian inputs, not a native Wolfram campaign, intrinsic Collins OPE comparison, all-b numerical TMD comparison or full cross-section equivalence.",
+  "sympy": "1.14.0",
+  "semiinclusive_minus_intrinsic_qq": {
+    "U": {
+      "delta": "CF*(-6*L**2 + pi**2)/12",
+      "plus0": "2*CF*L",
+      "plus1": "-4*CF",
+      "regular": "CF*(-L*z - L + 2*z*log(1 - z) + z + 2*log(1 - z) - 1)",
+      "action_phi_1": "CF*(-6*L**2 - 18*L - 48 + pi**2)/12",
+      "action_phi_1_at_L_0": "CF*(-48 + pi**2)/12"
+    },
+    "T": {
+      "delta": "CF*(-6*L**2 + pi**2)/12",
+      "plus0": "2*CF*L",
+      "plus1": "-4*CF",
+      "regular": "2*CF*(-L + 2*log(1 - z))",
+      "action_phi_1": "CF*(-6*L**2 - 24*L - 48 + pi**2)/12",
+      "action_phi_1_at_L_0": "CF*(-48 + pi**2)/12"
+    }
+  },
+  "soft": {
+    "injet_Laurent": "-B**2*CF/2 + B*CF*V - B*CF*g - 2*B*CF/eta + CF*V/eps - pi**2*CF/12 - CF*g/eps - 2*CF/(eps*eta) + CF/eps**2",
+    "standard_half_Laurent": "-B**2*CF/2 + B*CF*V - 2*B*CF/eta + CF*V/eps - pi**2*CF/12 - 2*CF/(eps*eta) + CF/eps**2",
+    "injet_finite": "-B**2*CF/2 + B*CF*V - B*CF*g - pi**2*CF/12",
+    "recoil_Laurent": "2*B*CF*Y + B*CF*r + 2*CF*Y/eps - CF*r**2/2 + CF*r/eps",
+    "recoil_finite": "2*B*CF*Y + B*CF*r - CF*r**2/2",
+    "extra_jet_remainder": "0"
+  },
+  "gaussian_forward": {
+    "0": "pi*exp(-b**2/(4*beta*zh**2))/(beta*zh**2)",
+    "1": "pi*exp(-b**2/(4*beta*zh**2))/(2*Mh**2*beta**2*zh**5)"
+  },
+  "native_Collins_gaussian": "-pi*exp(-b**2/(4*beta*zh**2))/(Mh*beta**2*zh)",
+  "convention_map": {
+    "UU": "D_ep = zh^2 D_tilde_highpt",
+    "UT": "C_ep = -2 zh^4 Mh H_tilde_highpt^(1); native scalar radial action = - highpt analyzer radial action",
+    "scale": "zetaJ = pJT^2 R^2 in a common local jet convention"
+  }
+}

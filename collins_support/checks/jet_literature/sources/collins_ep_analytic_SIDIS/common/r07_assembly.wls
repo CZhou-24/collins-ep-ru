@@ -1,0 +1,56 @@
+(* Final certificates and operator formula consume the same native expressions. *)
+Get[FileNameJoin[{DirectoryName[$InputFileName],"ru_stage.wl"}]];
+Get[FileNameJoin[{$RUProduction,"common","ru_observable_helpers.wl"}]];
+required={FileNameJoin[{$RUContext["inputs"]["r03"],"measured_coefficients.wl"}],FileNameJoin[{$RUContext["inputs"]["r06"],"virtual_contraction.wl"}]};
+If[!And@@(FileExistsQ/@required),RUPut[<|"status"->"INCOMPLETE_MEASURED_RU_ROUTE","missing"->Select[required,!FileExistsQ[#]&]|>,"completion_gaps.wl"];Print["INCOMPLETE_MEASURED_RU_ROUTE"];Exit[2]];
+measured=Get[First[required]];
+born=Get[FileNameJoin[{$RUContext["inputs"]["r00"],"born_tensors.wl"}]];
+generated=Get[FileNameJoin[{$RUContext["inputs"]["r00"],"measured_tmd_operators.wl"}]];
+hfGenerated=Get[FileNameJoin[{$RUContext["inputs"]["r00"],"measured_hf_operators.wl"}]];
+allValues=Join@@Table[Get[FileNameJoin[{$RUContext["inputs"][sid],"packet.wl"}]]["values"],{sid,{"r00","r03","r06"}}];
+val[id_]:=allValues[id]["value"]/.RUExact[x_]:>x;
+values=<||>;exports=<||>;sectors=<||>;parts={"delta","D0","D1","regular"};
+add[id_,constant_,terms_,uses_]:=(AssociateTo[values,id->RUCertificate[constant,terms,uses]];AssociateTo[allValues,id->values[id]];id);
+link[name_,id_]:=AssociateTo[exports,name-><|"value"->id,"evidence"->"r07/export"|>];
+copy[name_,upstream_,uses_,factor_:1]:=Module[{id="r07/"<>StringReplace[name,"/"->"_"]},add[id,0,{RURecord[upstream,factor,val[upstream]]},uses];link[name,id];id];
+tree[name_,constant_,uses_]:=Module[{id="r07/"<>StringReplace[name,"/"->"_"]},add[id,constant,{},uses];link[name,id];id];
+canonical=measured["tmd"]["canonical_C11_nodes"];full=measured["tmd"]["full_scale_nodes"];splitting=measured["tmd"]["splitting_node_ids"];
+RUGate["all measured TMD channels actually present",Sort[Keys[canonical]]===Sort[{"fqq","fqg","hqq","dqq","dgq","collins"}]];
+channelSector=<|"fqq"->"beam_fqq","fqg"->"beam_fqg","hqq"->"beam_hqq","dqq"->"fragment_dqq","dgq"->"fragment_dgq","collins"->"fragment_collins"|>;
+Do[sector=channelSector[channel];Do[copy["d13/coefficients/"<>channel<>"/one_loop/"<>part,canonical[channel][part],{sector}];tree["d13/coefficients/"<>channel<>"/tree/"<>part,If[part=="delta"&&!MemberQ[{"fqg","dgq"},channel],1,0],{sector}],{part,parts}];AssociateTo[sectors,sector->Join[Values[canonical[channel]],Values[full[channel]]]],{channel,Keys[canonical]}];
+Do[copy["d13/splitting/"<>channel<>"/"<>part,splitting[channel][part],{Switch[channel,"gq","fragment_dgq","qg","beam_fqg","transversity","beam_hqq",_,"beam_fqq"]}],{channel,Keys[splitting]},{part,parts}];
+(* Definition-level Jacobians and the generated physical Collins moment. *)
+op=hfGenerated["operator"];projection=op["projection"];
+inverseDelta=op["EOM_delta_Jacobian"];
+dz1=FullSimplify[Abs[D[z/v,v]]/(z/v)^2,z>0&&0<v<1];pv=FullSimplify[dz1/(1/z-v/z),z>0&&0<v<1];
+rank0=FullSimplify[1/Abs[Det[-z IdentityMatrix[2]]],z>0];momentUnit=FullSimplify[projection["native_moment_projection"]/HN];rank1=FullSimplify[rank0 momentUnit/(2z),z>0];
+identities=<|"Collins_rank1_relative"->rank1,"EOM_contact"->op["EOM_contact_coefficient"],"Fourier_rank0_relative"->rank0,"PV_combined_measure"->pv,"delta_inverse_fraction"->inverseDelta,"dz1_measure"->dz1|>;
+Do[tree["d16/identities/"<>key,identities[key],{"fragment_HF","fragment_collins"}],{key,Keys[identities]}];
+hfZero="r03/HF_u_delta";
+Do[copy["d17/"<>kind<>"/"<>part,If[part=="regular","r03/HF_"<>kind,"r03/HF_u_"<>part],{"fragment_HF"}],{kind,{"finite","mixing"}},{part,parts}];
+hfKinds=<|"bare"->"bare","counterterm"->"collinear_CT","epsilon_projection"->"epsilon_projection","finite"->"finite","independent_finite"->"independent","mixing"->"mixing"|>;
+Do[copy["d17/"<>contact<>"/"<>kind<>"/"<>part,If[part=="regular","r03/HF_"<>contact<>"_"<>hfKinds[kind],hfZero],{"fragment_HF"}],{contact,{"v_delta","v_derivative"}},{kind,Keys[hfKinds]},{part,parts}];
+AssociateTo[sectors,"fragment_HF"->Keys[measured["HF"]["values"]]];
+(* Both bare/overlap operators remain visible; zero means their proved difference. *)
+Do[sector="jet_"<>spin;copy["d18/"<>spin<>"/bare","r03/jet_comparison_bare",{sector}];copy["d18/"<>spin<>"/overlap","r03/jet_comparison_overlap",{sector}];Do[copy["d18/"<>spin<>"/"<>name,"r03/jet_"<>spin<>"_bare_remainder",{sector}],{name,{"counterterm","epsilon_projection","finite","gamma_G_minus_TMD","independent_finite"}}];AssociateTo[sectors,sector->{"r03/jet_comparison_bare","r03/jet_comparison_overlap","r03/jet_"<>spin<>"_bare_remainder"}],{spin,{"UU","UT"}}];
+AssociateTo[sectors,{"recoil_soft"->{"r03/soft_global","r03/soft_cs_out","r03/soft_standard","r03/recoil_soft_bare","r03/recoil_soft_finite"},"hard_virtual"->{"r06/virtual_bare","r06/virtual_uv_separated","r06/hard_comparison"}}];
+copy["s09/H_UU","r00/BornUU",{"beam_fqq"}];copy["s09/H_UT","r00/BornUT",{"beam_hqq"}];copy["s09/h1","r06/hard_comparison",{"hard_virtual"}];
+hard=val["r06/hard_comparison"];soft=val["r03/recoil_soft_finite"];jetU=val["r03/jet_UU_bare_remainder"];jetT=val["r03/jet_UT_bare_remainder"];
+polynomial=RUObservablePolynomial[hard,soft,jetU,jetT];
+Do[uses=If[spin=="UU",{"beam_fqq","fragment_dqq","recoil_soft","jet_UU","hard_virtual"},{"beam_hqq","fragment_collins","fragment_HF","recoil_soft","jet_UT","hard_virtual"}];pref=If[spin=="UU",HUU f0 D0,HUT h0 C0];treeTerm=If[spin=="UU",HUU(f1 D0+f0 D1),HUT(h1 C0+h0 C1)];tree["d19/observable/"<>spin<>"0",pref,uses];id="r07/d19_observable_"<>spin<>"1";add[id,treeTerm,{RURecord["r06/hard_comparison",pref,hard],RURecord["r03/recoil_soft_finite",pref,soft],RURecord["r03/jet_"<>spin<>"_bare_remainder",pref,If[spin=="UU",jetU,jetT]]},uses];link["d19/observable/"<>spin<>"1",id];RUGate["native strict first-order product equals coefficient recipe",RUZero[val[id]-polynomial[spin<>"1"]]];tree["d19/paper_limit/"<>spin<>"0",pref,uses];id="r07/d19_paper_limit_"<>spin<>"1";add[id,treeTerm,{RURecord["r06/hard_comparison",pref,hard],RURecord["r03/recoil_soft_finite",pref,soft]},uses];link["d19/paper_limit/"<>spin<>"1",id];tree["d19/scheme_variation/"<>spin,pref(kH+kB+kF+kS),uses],{spin,{"UU","UT"}}];
+ratio=Normal[Series[(N0+a N1)/(U0+a U1),{a,0,1}]];Do[tree["d19/ratio/A"<>ToString[i],Coefficient[ratio,a,i],{"beam_hqq","fragment_collins"}],{i,0,1}];
+kernel=<||>;
+Do[key=part;source=If[part=="regular","r03/HF_finite","r03/HF_u_"<>part];AssociateTo[kernel,key->val[source]];copy["d19/HF_integrand/"<>key,source,{"fragment_HF"},HUT h0 HF0];Do[key=contact<>"_"<>part;source=If[part=="regular","r03/HF_"<>contact<>"_finite",hfZero];AssociateTo[kernel,key->val[source]];copy["d19/HF_integrand/"<>key,source,{"fragment_HF"},HUT h0 If[contact=="v_delta",HFend,-HFderiv]],{contact,{"v_delta","v_derivative"}}],{part,parts}];
+(* Bind formal symbols to those same full-scale measured distributions. *)
+convolve[nodes_,function_,fraction_,variable_]:=Module[{test,endpoint,rule},test=function[fraction/variable]/variable;endpoint=function[fraction];rule={z->variable};val[nodes["delta"]]endpoint+Inactive[Integrate][(val[nodes["regular"]]/.rule)test,{variable,fraction,1}]+(val[nodes["D0"]]/.rule)(Inactive[Integrate][(test-endpoint)/(1-variable),{variable,fraction,1}]+endpoint Log[1-fraction])+(val[nodes["D1"]]/.rule)(Inactive[Integrate][Log[1-variable](test-endpoint)/(1-variable),{variable,fraction,1}]+endpoint Log[1-fraction]^2/2)];
+bindings={HUU->born["H_UU"],HUT->born["H_UT"],f0->PDFq[x],h0->Transversityq[x],D0->FFq[zh],C0->Hhatq[zh],f1->convolve[full["fqq"],PDFq,x,xi]+convolve[full["fqg"],PDFg,x,xi],h1->convolve[full["hqq"],Transversityq,x,xi],D1->convolve[full["dqq"],FFq,zh,xi]+convolve[full["dgq"],FFg,zh,xi],C1->convolve[full["collins"],Hhatq,zh,xi]};
+localPolynomial=polynomial/.bindings;hfAction=RUObservableHFAction[kernel/.B->Bh,zh];
+recoilMeasure=bq BesselJ[0,bq qT]/(2Pi);fragmentUU=bh BesselJ[0,bh jT/zh]/(2Pi)(rank0/.z->zh);fragmentUT=bh^2 BesselJ[1,bh jT/zh]/(2Pi)(rank1/.z->zh);
+physical=<|"UU0"->recoilMeasure fragmentUU localPolynomial["UU0"],"UU1"->recoilMeasure fragmentUU localPolynomial["UU1"],"UT0"->recoilMeasure fragmentUT localPolynomial["UT0"],"UT1"->recoilMeasure fragmentUT(localPolynomial["UT1"]+born["H_UT"]Transversityq[x]hfAction)|>;
+RUPut[<|"first_order_coefficients"->polynomial,"physical_local_OPE_integrands"->physical,"native_bindings"->bindings,"HF_full_contact_action"->hfAction,"HF_kernel"->kernel,"ratio_of_common_integrals"->ratio,"ratio_condition"->HoldComplete[U0!=0],"convolution_measures"->HoldComplete[{dxi/xi,du/u,dv/(1-v)}],"Fourier_measures"->{recoilMeasure,fragmentUU,fragmentUT},"electromagnetic_prefactor"->"Born scalar factors strip alpha_em^2 and quark charges. Restore the common coupling/phase-space prefactor outside this coefficient polynomial. Literal paper prefactor discrepancies stay qualified.","scales"->HoldComplete[{L==LQ==Log[mu^2/Q2],Bq==Log[mu^2 bq^2 Exp[2EulerGamma]/4],Bh==Log[mu^2 bh^2 Exp[2EulerGamma]/4],B==Bh,Tq==Log[mu^2/zetaP],Th==Log[mu^2/zetaJ],zetaJ==pT^2 R^2}],"local_domain"->HoldComplete[bq LambdaQCD<rhoOPE&&bh LambdaQCD<rhoOPE],"all_b_operator"->HoldComplete[HUU Hhard TMDf1[x,bq]TMDD1[zh,bh]Soft[bq],HUT Hhard TMDh1[x,bq]TMDCollins[zh,bh]Soft[bq]],"no_double_counting"->"All-b Collins TMD includes HF. Add the separate HF term only in the local small-b expansion, never again to the all-b operator.","order"->"Strict a=alpha_s/(2pi); common linear flavor/Fourier integration before the asymmetry ratio.","scope"->"Shared physical-J0 scalar/rank continuation, physical HF endpoint class and narrow cone. No fit, unrestricted NLO, R=1, full twist-three or Figure6 certification."|>,"observable_assembly.wl"];
+RUPut[<|"identities"->identities,"operator_projection"->projection,"C11_matching"->canonical,"native_full_scale"->full,"hard_log_conversion"->HoldComplete[LQ->L],"HF_log_conversion"->HoldComplete[B==Bh],"jet_rapidity_conversion"->HoldComplete[Vstandard==V-g==0],"physical_contacts"->op["physical_endpoint_class"],"basis_scope"->"Explicit convention conversions; generic HF contacts undetermined."|>,"convention_conversion.wl"];
+RUGate["complete compared scalar inventory",Length[exports]===167];RUGate["all eleven native sectors present",Length[sectors]===11];
+RUPut[<|"exports"->exports,"sectors"->sectors,"native_values"->values,"qualification"->"Automated exact arithmetic is separate from source review and unresolved literature/physics scope."|>,"finite_exports.wl"];
+evidence=<|"r07/assembly"->RUEvidence["observable_assembly.wl","assembly",{"source/r07","r03/coefficients","r03/measured_subtractions","r06/uv_ir_ledger","r00/measured_hf","r00/measured_soft"}],"r07/conversion"->RUEvidence["convention_conversion.wl","conversion",{"r07/assembly","r00/conventions"}],"r07/export"->RUEvidence["finite_exports.wl","finite_export",{"r07/conversion"}]|>;
+RUPut[<|"schema"->5,"stage"->"r07","values"->values,"evidence"->evidence,"jobs"->{},"exports"->exports,"sector_results"->sectors|>,"packet.wl"];
+Print["R07_MEASURED_FIRST_ORDER_ASSEMBLY_EXPORTED; SCIENTIFIC_SCOPE_QUALIFIED"];

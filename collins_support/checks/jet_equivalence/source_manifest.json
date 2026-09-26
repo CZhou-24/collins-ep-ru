@@ -1,0 +1,80 @@
+{
+  "commit": "fd46f4e6b00e4166984faf0fb57bab5369503068",
+  "files": [
+    {
+      "path": "collins_ep_analytic_SIDIS/CONVENTIONS.md",
+      "sha": "0959cca7af1db1ad8a6a4c22057b1fcd6bf4d360",
+      "sha256": "727ee51dfdf07e285025638d3c8b335f04fbef3333029346679d5d015a5fc173"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/r07_assembly.wls",
+      "sha": "ecc59aa30a9077efb43bfc5a678e88c307da2d67",
+      "sha256": "9dc9ceeb3b9ae0d956209b5088698ded76a85916ed7ddd0326d8aed336afba9f"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_observable_helpers.wl",
+      "sha": "7f7d60018dd70e60cbe94c9cb742745b2bb6ca1a",
+      "sha256": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_assembly.wl",
+      "sha": "6520872567613a89df2cbc17e91a68cc016a33b2",
+      "sha256": "1cba04b5a7586ae012cce84588bd8f1fece39f68dc0460da909b688ce3286f7c"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_generation.wl",
+      "sha": "0388bbfd2dfa306427e988a07c4c364a64e4e884",
+      "sha256": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_soft_transforms.wl",
+      "sha": "78156ed5f722b6ee880b1980baa238a22f53ff65",
+      "sha256": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/provenance/soft/snapshots/d18_jet_derivation.wl",
+      "sha": "c0e6f784ce16177062e9abdd746eb23123ff23fb",
+      "sha256": "b5b3ab20273dd1be04598588984bc46a0b3d82f2677b2e981ffd4483fec7260a"
+    },
+    {
+      "path": "collins_sidis_highpt/common/jet_matching.wl",
+      "sha": "97f1de75e8886c64ceaf0c73177a9f43faaa4530",
+      "sha256": "6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829"
+    },
+    {
+      "path": "collins_sidis_highpt/common/fragmentation.wl",
+      "sha": "9a7b7a1aa747fcc51ce1e3bc2249de979a0c034d",
+      "sha256": "be48c1a33cafe268542cdc4e3e245320676d4750cfbbbe748c47be88eebc436e"
+    },
+    {
+      "path": "collins_sidis_highpt/common/tmd_evolution.wl",
+      "sha": "15e4be27146ec5a3ddf8949193e80260ffa49f08",
+      "sha256": "df5155d6f9c1edb128995547e7fc677375bddda7e8ee71303d1e883039aa435c"
+    },
+    {
+      "path": "collins_sidis_highpt/common/observable_assembly.wl",
+      "sha": "7563c8d4c8bd1cc11e0ad23d7f5b44299b5011b3",
+      "sha256": "ed0f629f8df3ff5719e47d0c3da60ddc01fbd577089e8334c4172cda0dd0b8e8"
+    },
+    {
+      "path": "collins_sidis_highpt/common/angular_projection.wl",
+      "sha": "cfd223b63f5c6582757ffee51c2a9e0def13fb8d",
+      "sha256": "20f8ed1b3b9740654eb3df239e8d718ae7327134ca62e5e37dd528f60c1cd129"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/pipeline/jet_tmd_rg_check.wls",
+      "sha": "8af3ac5f0dd71774dd3197b04da9307abc93091b",
+      "sha256": "6db81d32bca8f2ff3b3a7d5b22d9409ae001d32c0344d8e91b840331c09316aa"
+    },
+    {
+      "path": "collins_sidis_highpt/tools/checks/fragmentation_check.wls",
+      "sha": "eb8c1697d51a8aceadd5f40a52190a3864e820d6",
+      "sha256": "7b009168ef79e5f934f8671503bf1fe3dbe1af7ceb706aab18d295aa92dac556"
+    },
+    {
+      "path": "collins_ep_analytic_SIDIS/common/ru_hf_projection.wl",
+      "sha": "944121818e120f4e0c5878220aa8ea6e4bcbeb98",
+      "sha256": "20656fddf3fe58af2ad956b2ee0b1058310ed4101f630af2a954072c0636e98f"
+    }
+  ]
+}

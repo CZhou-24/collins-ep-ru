@@ -1,0 +1,65 @@
+{
+  "scope": "Current reusable layout; distinct from unchanged historical manifests. Excludes this manifest.",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 1397,
+      "sha256": "978bf8076be614f2fb365f5db0b3b4399aa4a7349c01098b3e226365b21bc53f"
+    },
+    {
+      "path": "archived_ep_values.json",
+      "size": 10420,
+      "sha256": "2dd3cb0af0f4beca2ea86480c518bad76fa156d65bc454edc5de71c844510a99"
+    },
+    {
+      "path": "check_jets.py",
+      "size": 14411,
+      "sha256": "71bc09d4997fbadbb9b0f4f9ccfb41a4cb041b8364005318f2f6a94afb7b0ae0"
+    },
+    {
+      "path": "source_manifest.json",
+      "size": 3350,
+      "sha256": "1a5053adfc5ff8ecb03a30ef126f5c8b366339aea1c780c7bf0492c48e85ea58"
+    },
+    {
+      "path": "sources/collins_ep_analytic_SIDIS/CONVENTIONS.md",
+      "size": 19601,
+      "sha256": "727ee51dfdf07e285025638d3c8b335f04fbef3333029346679d5d015a5fc173"
+    },
+    {
+      "path": "sources/collins_ep_analytic_SIDIS/common/r07_assembly.wls",
+      "size": 10962,
+      "sha256": "9dc9ceeb3b9ae0d956209b5088698ded76a85916ed7ddd0326d8aed336afba9f"
+    },
+    {
+      "path": "sources/collins_ep_analytic_SIDIS/common/ru_observable_helpers.wl",
+      "size": 1305,
+      "sha256": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc"
+    },
+    {
+      "path": "sources/collins_ep_analytic_SIDIS/common/ru_soft_assembly.wl",
+      "size": 7067,
+      "sha256": "1cba04b5a7586ae012cce84588bd8f1fece39f68dc0460da909b688ce3286f7c"
+    },
+    {
+      "path": "sources/collins_ep_analytic_SIDIS/common/ru_soft_generation.wl",
+      "size": 11792,
+      "sha256": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20"
+    },
+    {
+      "path": "sources/collins_ep_analytic_SIDIS/common/ru_soft_transforms.wl",
+      "size": 5770,
+      "sha256": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990"
+    },
+    {
+      "path": "sources/collins_ep_analytic_SIDIS/provenance/soft/snapshots/d18_jet_derivation.wl",
+      "size": 18856,
+      "sha256": "b5b3ab20273dd1be04598588984bc46a0b3d82f2677b2e981ffd4483fec7260a"
+    },
+    {
+      "path": "sources/collins_sidis_highpt/common/jet_matching.wl",
+      "size": 1611,
+      "sha256": "6165881fb32282fff5a29005a14cbbd00d355f2ec5da83489af82ef4c1f81829"
+    }
+  ]
+}

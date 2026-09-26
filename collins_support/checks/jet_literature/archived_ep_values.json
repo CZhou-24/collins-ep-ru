@@ -1,0 +1,541 @@
+{
+  "run_id": "20260915T063100Z-b8feba4db8fd",
+  "run_status_as_recorded": "STAGES_PASS",
+  "source_sha256": {
+    "CONVENTIONS.md": "727ee51dfdf07e285025638d3c8b335f04fbef3333029346679d5d015a5fc173",
+    "common/r07_assembly.wls": "9dc9ceeb3b9ae0d956209b5088698ded76a85916ed7ddd0326d8aed336afba9f",
+    "common/ru_observable_helpers.wl": "30cbc09a2881cf389bb410c8374b2b6575a61fcf73fa1a8fc52b275edac080dc",
+    "common/ru_soft_assembly.wl": "1cba04b5a7586ae012cce84588bd8f1fece39f68dc0460da909b688ce3286f7c",
+    "common/ru_soft_generation.wl": "a1c2c7dfb88c48a03a38f5ed9c68d92102fe9656c4676899b83d8a2868b9ac20",
+    "common/ru_soft_transforms.wl": "692d3a040f62c7a31a3e214fd353a1823603d180980b1a04c6146f6051a61990",
+    "provenance/soft/snapshots/d18_jet_derivation.wl": "b5b3ab20273dd1be04598588984bc46a0b3d82f2677b2e981ffd4483fec7260a"
+  },
+  "input_sha256": {
+    "run.json": "fddf9e5a16918fd2d48e0920f39c3102c9fbee300bf47bd8fbf2606c31cf95a4",
+    "common/r03_result/packet.json": "c140994044fafa2edbe126e22b99c85ea7017a6652975718a31aaebc39a97e93",
+    "common/r07_result/packet.json": "b1b73db6c42833ee173fe778e50747344e7b03a08a7d0a3de51566e041db41f9"
+  },
+  "r03": {
+    "r03/measured_normalization": {
+      "constant": 0,
+      "terms": [
+        {
+          "ref": "master/r02/measured/FixedRadiusSphere",
+          "factor": 1
+        }
+      ],
+      "eta_order": 0,
+      "eps_order": 2,
+      "value": [
+        "add",
+        1,
+        [
+          "mul",
+          "-1/12",
+          [
+            "pow",
+            "eps",
+            2
+          ],
+          [
+            "pow",
+            "pi",
+            2
+          ]
+        ]
+      ],
+      "sectors": [
+        "beam_fqq",
+        "beam_fqg",
+        "beam_hqq",
+        "fragment_dqq",
+        "fragment_dgq",
+        "fragment_collins",
+        "fragment_HF",
+        "recoil_soft",
+        "jet_UU",
+        "jet_UT"
+      ]
+    },
+    "r03/soft_standard": {
+      "constant": 0,
+      "terms": [
+        {
+          "ref": "r03/measured_normalization",
+          "factor": [
+            "mul",
+            "CF",
+            [
+              "pow",
+              "eps",
+              -2
+            ],
+            [
+              "pow",
+              "eta",
+              -1
+            ],
+            [
+              "add",
+              [
+                "mul",
+                2,
+                "eta"
+              ],
+              [
+                "mul",
+                "eps",
+                [
+                  "add",
+                  -4,
+                  [
+                    "mul",
+                    -1,
+                    "Bq",
+                    "eps",
+                    [
+                      "add",
+                      4,
+                      [
+                        "mul",
+                        "Bq",
+                        "eta"
+                      ]
+                    ]
+                  ],
+                  [
+                    "mul",
+                    2,
+                    [
+                      "add",
+                      1,
+                      [
+                        "mul",
+                        "Bq",
+                        "eps"
+                      ]
+                    ],
+                    "eta",
+                    "V"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "eta_order": 0,
+      "eps_order": 0,
+      "value": [
+        "add",
+        [
+          "mul",
+          -1,
+          [
+            "pow",
+            "Bq",
+            2
+          ],
+          "CF"
+        ],
+        [
+          "mul",
+          2,
+          "CF",
+          [
+            "pow",
+            "eps",
+            -2
+          ]
+        ],
+        [
+          "mul",
+          -4,
+          "Bq",
+          "CF",
+          [
+            "pow",
+            "eta",
+            -1
+          ]
+        ],
+        [
+          "mul",
+          -4,
+          "CF",
+          [
+            "pow",
+            "eps",
+            -1
+          ],
+          [
+            "pow",
+            "eta",
+            -1
+          ]
+        ],
+        [
+          "mul",
+          "-1/6",
+          "CF",
+          [
+            "pow",
+            "pi",
+            2
+          ]
+        ],
+        [
+          "mul",
+          2,
+          "Bq",
+          "CF",
+          "V"
+        ],
+        [
+          "mul",
+          2,
+          "CF",
+          [
+            "pow",
+            "eps",
+            -1
+          ],
+          "V"
+        ]
+      ],
+      "sectors": [
+        "recoil_soft",
+        "jet_UU",
+        "jet_UT"
+      ]
+    },
+    "r03/soft_injet": {
+      "constant": 0,
+      "terms": [
+        {
+          "ref": "r03/measured_normalization",
+          "factor": [
+            "mul",
+            "1/2",
+            "CF",
+            [
+              "pow",
+              "eps",
+              -2
+            ],
+            [
+              "pow",
+              "eta",
+              -1
+            ],
+            [
+              "add",
+              [
+                "mul",
+                2,
+                "eta"
+              ],
+              [
+                "mul",
+                -1,
+                "eps",
+                [
+                  "add",
+                  4,
+                  [
+                    "mul",
+                    "Bh",
+                    "eps",
+                    [
+                      "add",
+                      4,
+                      [
+                        "mul",
+                        "Bh",
+                        "eta"
+                      ]
+                    ]
+                  ],
+                  [
+                    "mul",
+                    2,
+                    [
+                      "add",
+                      1,
+                      [
+                        "mul",
+                        "Bh",
+                        "eps"
+                      ]
+                    ],
+                    "eta",
+                    "g"
+                  ]
+                ]
+              ],
+              [
+                "mul",
+                2,
+                "eps",
+                [
+                  "add",
+                  1,
+                  [
+                    "mul",
+                    "Bh",
+                    "eps"
+                  ]
+                ],
+                "eta",
+                "V"
+              ]
+            ]
+          ]
+        }
+      ],
+      "eta_order": 0,
+      "eps_order": 0,
+      "value": [
+        "add",
+        [
+          "mul",
+          "-1/2",
+          [
+            "pow",
+            "Bh",
+            2
+          ],
+          "CF"
+        ],
+        [
+          "mul",
+          "CF",
+          [
+            "pow",
+            "eps",
+            -2
+          ]
+        ],
+        [
+          "mul",
+          -2,
+          "Bh",
+          "CF",
+          [
+            "pow",
+            "eta",
+            -1
+          ]
+        ],
+        [
+          "mul",
+          -2,
+          "CF",
+          [
+            "pow",
+            "eps",
+            -1
+          ],
+          [
+            "pow",
+            "eta",
+            -1
+          ]
+        ],
+        [
+          "mul",
+          -1,
+          "Bh",
+          "CF",
+          "g"
+        ],
+        [
+          "mul",
+          -1,
+          "CF",
+          [
+            "pow",
+            "eps",
+            -1
+          ],
+          "g"
+        ],
+        [
+          "mul",
+          "-1/12",
+          "CF",
+          [
+            "pow",
+            "pi",
+            2
+          ]
+        ],
+        [
+          "mul",
+          "Bh",
+          "CF",
+          "V"
+        ],
+        [
+          "mul",
+          "CF",
+          [
+            "pow",
+            "eps",
+            -1
+          ],
+          "V"
+        ]
+      ],
+      "sectors": [
+        "recoil_soft",
+        "jet_UU",
+        "jet_UT"
+      ]
+    },
+    "r03/recoil_soft_finite": {
+      "constant": [
+        "mul",
+        -1,
+        [
+          "pow",
+          "eps",
+          -1
+        ],
+        [
+          "add",
+          [
+            "mul",
+            "CF",
+            "r"
+          ],
+          [
+            "mul",
+            2,
+            "CF",
+            "Y"
+          ]
+        ]
+      ],
+      "terms": [
+        {
+          "ref": "r03/recoil_soft_bare",
+          "factor": 1
+        }
+      ],
+      "eta_order": 0,
+      "eps_order": 0,
+      "value": [
+        "add",
+        [
+          "mul",
+          "Bq",
+          "CF",
+          "r"
+        ],
+        [
+          "mul",
+          "-1/2",
+          "CF",
+          [
+            "pow",
+            "r",
+            2
+          ]
+        ],
+        [
+          "mul",
+          2,
+          "Bq",
+          "CF",
+          "Y"
+        ]
+      ],
+      "sectors": [
+        "recoil_soft"
+      ]
+    },
+    "r03/jet_UU_bare_remainder": {
+      "constant": 0,
+      "terms": [
+        {
+          "ref": "r03/soft_injet",
+          "factor": 1
+        },
+        {
+          "ref": "r03/jet_common_overlap",
+          "factor": -1
+        }
+      ],
+      "eta_order": 0,
+      "eps_order": 0,
+      "value": 0,
+      "sectors": [
+        "jet_UU"
+      ]
+    },
+    "r03/jet_UT_bare_remainder": {
+      "constant": 0,
+      "terms": [
+        {
+          "ref": "r03/soft_injet",
+          "factor": 1
+        },
+        {
+          "ref": "r03/jet_common_overlap",
+          "factor": -1
+        }
+      ],
+      "eta_order": 0,
+      "eps_order": 0,
+      "value": 0,
+      "sectors": [
+        "jet_UT"
+      ]
+    }
+  },
+  "r07": {
+    "d18/UU/finite": {
+      "export": {
+        "value": "r07/d18_UU_finite",
+        "evidence": "r07/export"
+      },
+      "record": {
+        "constant": 0,
+        "terms": [
+          {
+            "ref": "r03/jet_UU_bare_remainder",
+            "factor": 1
+          }
+        ],
+        "eta_order": 0,
+        "eps_order": 0,
+        "value": 0,
+        "sectors": [
+          "jet_UU"
+        ]
+      }
+    },
+    "d18/UT/finite": {
+      "export": {
+        "value": "r07/d18_UT_finite",
+        "evidence": "r07/export"
+      },
+      "record": {
+        "constant": 0,
+        "terms": [
+          {
+            "ref": "r03/jet_UT_bare_remainder",
+            "factor": 1
+          }
+        ],
+        "eta_order": 0,
+        "eps_order": 0,
+        "value": 0,
+        "sectors": [
+          "jet_UT"
+        ]
+      }
+    }
+  }
+}
